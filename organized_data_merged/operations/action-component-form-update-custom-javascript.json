@@ -1,0 +1,19 @@
+{
+  "stem": "action-component-form-update-custom-javascript",
+  "group_members": [
+    "action-component-form-update-custom-javascript"
+  ],
+  "methods": [
+    "PATCH"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/actions/components/forms/{form_id}/custom-javascript"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-update-custom-javascript"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "action-component-form-update-custom-javascript": []
+  }
+}

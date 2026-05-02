@@ -1,0 +1,19 @@
+{
+  "stem": "meeting-actions-skipped",
+  "group_members": [
+    "meeting-actions-skipped-update"
+  ],
+  "methods": [
+    "PATCH"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/meetings/{id}/actions-skipped"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-actions-skipped-update"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "meeting-actions-skipped-update": []
+  }
+}

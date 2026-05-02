@@ -1,0 +1,117 @@
+{
+  "stem": "tax-managers",
+  "group_members": [
+    "tax-managers-list"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/relationship-profiles/tax-managers"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tax-managers-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_external_id",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_relationship_profiles",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_type",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "tax-managers-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "tax-managers-list": [
+      "$schema",
+      "agent_external_id",
+      "agent_id",
+      "agent_relationship_profiles",
+      "external_id",
+      "name",
+      "page",
+      "page_size",
+      "pagination",
+      "relationship_type",
+      "total_pages",
+      "total_records"
+    ]
+  }
+}

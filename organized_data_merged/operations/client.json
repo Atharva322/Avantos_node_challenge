@@ -1,0 +1,578 @@
+{
+  "stem": "client",
+  "group_members": [
+    "client-delete",
+    "client-get",
+    "client-list"
+  ],
+  "methods": [
+    "DELETE",
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/clients",
+    "/api/v1/{tenant_id}/clients/{client_id}",
+    "/api/v1/{tenant_id}/clients/{id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-delete",
+        "client-get",
+        "client-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_line1",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_line2",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_type",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "addresses",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "assets",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "city",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_wealth_advisor_name",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "clients",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "compliance_record",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "contacts",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "country",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "current_employer",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "date_of_birth",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "documentation",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "drivers_license_number",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "employment_status",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "expected_retirement_age",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "client-get",
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "gender",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "client-delete",
+        "client-get",
+        "client-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "investment_goal",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_primary",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "maiden_name",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "marital_status",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "marketing_salutation",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "middle_name",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "nationality",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "occupation",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "officer_or_director",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "organisation_id",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "personal_interests",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preferred_contact_method",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preferred_email",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preferred_name",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preferred_phone",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "retired",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "retirement_date",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "security_restrictions",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ssn",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "state",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "suffix",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "title",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "client-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "value",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "wedding_anniversary",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "zipcode",
+      "in_operations": [
+        "client-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "client-delete": [
+      "$schema",
+      "id"
+    ],
+    "client-get": [
+      "$schema",
+      "additional_attributes",
+      "address_line1",
+      "address_line2",
+      "address_type",
+      "addresses",
+      "assets",
+      "city",
+      "client",
+      "compliance_record",
+      "contacts",
+      "country",
+      "created_at",
+      "current_employer",
+      "date_of_birth",
+      "description",
+      "documentation",
+      "drivers_license_number",
+      "employment_status",
+      "expected_retirement_age",
+      "external_id",
+      "first_name",
+      "gender",
+      "id",
+      "investment_goal",
+      "is_primary",
+      "last_name",
+      "maiden_name",
+      "marital_status",
+      "marketing_salutation",
+      "middle_name",
+      "nationality",
+      "occupation",
+      "officer_or_director",
+      "organisation_id",
+      "personal_interests",
+      "preferred_contact_method",
+      "preferred_name",
+      "property1",
+      "property2",
+      "retired",
+      "retirement_date",
+      "role",
+      "security_restrictions",
+      "ssn",
+      "state",
+      "suffix",
+      "tenant_id",
+      "title",
+      "type",
+      "updated_at",
+      "value",
+      "wedding_anniversary",
+      "zipcode"
+    ],
+    "client-list": [
+      "$schema",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_wealth_advisor_name",
+      "clients",
+      "external_id",
+      "id",
+      "name",
+      "page",
+      "page_size",
+      "pagination",
+      "preferred_email",
+      "preferred_phone",
+      "total_pages",
+      "total_records"
+    ]
+  }
+}

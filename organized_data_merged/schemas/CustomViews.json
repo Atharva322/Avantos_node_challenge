@@ -1,0 +1,456 @@
+{
+  "stem": "CustomViews",
+  "group_members": [
+    "CustomViewsCreateOutputBody",
+    "CustomViewsGetDefaultOutputBody",
+    "CustomViewsGetPinnedOutputBody",
+    "CustomViewsImportInputBody",
+    "CustomViewsListOutputBody",
+    "CustomViewsSetPinnedInputBody",
+    "CustomViewsSetPinnedOutputBody",
+    "CustomViewsUpdateInputBody",
+    "CustomViewsUpdateOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsGetDefaultOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsGetPinnedOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsImportInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsSetPinnedInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsSetPinnedOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsUpdateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsUpdateOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "CustomViewsCreateOutputBody",
+        "CustomViewsGetDefaultOutputBody",
+        "CustomViewsGetPinnedOutputBody",
+        "CustomViewsImportInputBody",
+        "CustomViewsListOutputBody",
+        "CustomViewsSetPinnedInputBody",
+        "CustomViewsSetPinnedOutputBody",
+        "CustomViewsUpdateInputBody",
+        "CustomViewsUpdateOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "Key",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "Type",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "Value",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_id",
+      "in_schemas": [
+        "CustomViewsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "columnFilters",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "columnHeaders",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "column_order",
+      "in_schemas": [
+        "CustomViewsListOutputBody",
+        "CustomViewsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "columns_config",
+      "in_schemas": [
+        "CustomViewsListOutputBody",
+        "CustomViewsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "CustomViewsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_by",
+      "in_schemas": [
+        "CustomViewsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "CustomViewsListOutputBody",
+        "CustomViewsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "filters",
+      "in_schemas": [
+        "CustomViewsListOutputBody",
+        "CustomViewsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "CustomViewsImportInputBody",
+        "CustomViewsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "isDefaultUserView",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "message",
+      "in_schemas": [
+        "CustomViewsSetPinnedOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "modified",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "module",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "CustomViewsListOutputBody",
+        "CustomViewsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "only_assigned",
+      "in_schemas": [
+        "CustomViewsListOutputBody",
+        "CustomViewsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pageSize",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_id",
+      "in_schemas": [
+        "CustomViewsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "promoted",
+      "in_schemas": [
+        "CustomViewsListOutputBody",
+        "CustomViewsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationshipType",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role_names",
+      "in_schemas": [
+        "CustomViewsListOutputBody",
+        "CustomViewsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "scope_type",
+      "in_schemas": [
+        "CustomViewsListOutputBody",
+        "CustomViewsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sortKey",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sortOrder",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sorting",
+      "in_schemas": [
+        "CustomViewsListOutputBody",
+        "CustomViewsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "success",
+      "in_schemas": [
+        "CustomViewsSetPinnedOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "table",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "CustomViewsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "typeId",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "CustomViewsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "userId",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "viewName",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "viewOrder",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "view_id",
+      "in_schemas": [
+        "CustomViewsCreateOutputBody",
+        "CustomViewsGetDefaultOutputBody",
+        "CustomViewsUpdateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "view_ids",
+      "in_schemas": [
+        "CustomViewsGetPinnedOutputBody",
+        "CustomViewsSetPinnedInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "views",
+      "in_schemas": [
+        "CustomViewsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "visibility",
+      "in_schemas": [
+        "CustomViewsImportInputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "CustomViewsCreateOutputBody": [
+      "$schema",
+      "view_id"
+    ],
+    "CustomViewsGetDefaultOutputBody": [
+      "$schema",
+      "view_id"
+    ],
+    "CustomViewsGetPinnedOutputBody": [
+      "$schema",
+      "view_ids"
+    ],
+    "CustomViewsImportInputBody": [
+      "$schema",
+      "Key",
+      "Type",
+      "Value",
+      "columnFilters",
+      "columnHeaders",
+      "created",
+      "id",
+      "isDefaultUserView",
+      "modified",
+      "module",
+      "pageSize",
+      "property1",
+      "property2",
+      "relationshipType",
+      "sortKey",
+      "sortOrder",
+      "table",
+      "type",
+      "typeId",
+      "userId",
+      "viewName",
+      "viewOrder",
+      "visibility"
+    ],
+    "CustomViewsListOutputBody": [
+      "$schema",
+      "agent_id",
+      "column_order",
+      "columns_config",
+      "created_at",
+      "created_by",
+      "description",
+      "filters",
+      "id",
+      "name",
+      "only_assigned",
+      "page_id",
+      "promoted",
+      "role_names",
+      "scope_type",
+      "sorting",
+      "tenant_id",
+      "updated_at",
+      "views"
+    ],
+    "CustomViewsSetPinnedInputBody": [
+      "$schema",
+      "view_ids"
+    ],
+    "CustomViewsSetPinnedOutputBody": [
+      "$schema",
+      "message",
+      "success"
+    ],
+    "CustomViewsUpdateInputBody": [
+      "$schema",
+      "column_order",
+      "columns_config",
+      "description",
+      "filters",
+      "name",
+      "only_assigned",
+      "promoted",
+      "role_names",
+      "scope_type",
+      "sorting"
+    ],
+    "CustomViewsUpdateOutputBody": [
+      "$schema",
+      "view_id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 45,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.2482
+  }
+}

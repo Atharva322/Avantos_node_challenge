@@ -1,0 +1,39 @@
+{
+  "stem": "TaxFiling",
+  "group_members": [
+    "TaxFilingCompletionWindowAggregationOutputBody",
+    "TaxFilingOutput"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TaxFilingCompletionWindowAggregationOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TaxFilingOutput"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "TaxFilingCompletionWindowAggregationOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "completion_windows",
+      "in_schemas": [
+        "TaxFilingCompletionWindowAggregationOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "TaxFilingCompletionWindowAggregationOutputBody": [
+      "$schema",
+      "completion_windows"
+    ],
+    "TaxFilingOutput": []
+  },
+  "overlap_summary": {
+    "union_field_count": 2,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0
+  }
+}

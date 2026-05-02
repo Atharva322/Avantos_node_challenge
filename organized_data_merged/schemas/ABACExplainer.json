@@ -1,0 +1,180 @@
+{
+  "stem": "ABACExplainer",
+  "group_members": [
+    "ABACExplainerOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ABACExplainerOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "abac_disabled",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_org_properties",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "combined_expression",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "effect",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "email",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "explanation",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "expression",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "has_access",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "matched",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "policy_evaluations",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "policy_name",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "reason",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "user_context",
+      "in_schemas": [
+        "ABACExplainerOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "ABACExplainerOutputBody": [
+      "$schema",
+      "abac_disabled",
+      "additional_attributes",
+      "agent_id",
+      "client_org_properties",
+      "combined_expression",
+      "effect",
+      "email",
+      "explanation",
+      "expression",
+      "external_id",
+      "has_access",
+      "matched",
+      "policy_evaluations",
+      "policy_name",
+      "property1",
+      "property2",
+      "reason",
+      "role",
+      "user_context"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 20,
+    "common_field_count": 20,
+    "avg_pairwise_jaccard": 1
+  }
+}

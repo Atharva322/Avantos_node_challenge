@@ -1,0 +1,19 @@
+{
+  "stem": "action-run",
+  "group_members": [
+    "action-run-get"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-get"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "action-run-get": []
+  }
+}

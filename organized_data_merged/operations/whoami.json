@@ -1,0 +1,149 @@
+{
+  "stem": "whoami",
+  "group_members": [
+    "whoami"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/whoami"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/whoami"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "avantos_role",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "email",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "environment",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "feature_list",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "idp_role",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "login_role",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "whoami"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "whoami": [
+      "$schema",
+      "additional_attributes",
+      "agent_id",
+      "avantos_role",
+      "email",
+      "environment",
+      "external_id",
+      "feature_list",
+      "first_name",
+      "idp_role",
+      "last_name",
+      "login_role",
+      "property1",
+      "property2",
+      "role",
+      "tenant_id"
+    ]
+  }
+}

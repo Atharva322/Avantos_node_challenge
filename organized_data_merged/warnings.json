@@ -1,0 +1,435 @@
+[
+  {
+    "stem": "action-blueprint",
+    "group_members": [
+      "action-blueprint-create",
+      "action-blueprint-delete",
+      "action-blueprint-get",
+      "action-blueprint-list"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "operation_ids": [
+          "action-blueprint-delete",
+          "action-blueprint-list"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "action-blueprint-version",
+    "group_members": [
+      "action-blueprint-version-create",
+      "action-blueprint-version-delete"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "action-blueprint-version-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "action-component-branch",
+    "group_members": [
+      "action-component-branch-create",
+      "action-component-branch-update"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "action-component-branch-update"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "action-component-form",
+    "group_members": [
+      "action-component-form-clone",
+      "action-component-form-create",
+      "action-component-form-delete",
+      "action-component-form-get",
+      "action-component-form-list"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "action-component-form-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "action-run-task",
+    "group_members": [
+      "action-run-task-assign",
+      "action-run-task-patch"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "operation_ids": [
+          "action-run-task-assign",
+          "action-run-task-patch"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "agent-client-organisation-relationship",
+    "group_members": [
+      "agent-client-organisation-relationship-delete",
+      "agent-client-organisation-relationship-list"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "agent-client-organisation-relationship-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "agent-oauth-token",
+    "group_members": [
+      "agent-oauth-token-create",
+      "agent-oauth-token-delete",
+      "agent-oauth-token-refresh"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "operation_ids": [
+          "agent-oauth-token-create",
+          "agent-oauth-token-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "array-forms-config",
+    "group_members": [
+      "array-forms-config-get",
+      "array-forms-config-put"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "array-forms-config-put"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "cdc-pipeline-config",
+    "group_members": [
+      "cdc-pipeline-config-delete",
+      "cdc-pipeline-config-get",
+      "cdc-pipeline-config-list"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "cdc-pipeline-config-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "client-address",
+    "group_members": [
+      "client-address-delete",
+      "client-address-list",
+      "client-address-update"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "client-address-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "client-organisation-relationship",
+    "group_members": [
+      "client-organisation-relationship-create",
+      "client-organisation-relationship-delete"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "client-organisation-relationship-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "custodian-forms-config",
+    "group_members": [
+      "custodian-forms-config-get",
+      "custodian-forms-config-put"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "custodian-forms-config-put"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "custom-javascript-functions",
+    "group_members": [
+      "custom-javascript-functions-delete",
+      "custom-javascript-functions-get"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "custom-javascript-functions-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "custom-views",
+    "group_members": [
+      "custom-views-create",
+      "custom-views-delete",
+      "custom-views-list",
+      "custom-views-update"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "custom-views-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "document-storage-integration",
+    "group_members": [
+      "document-storage-integration-delete",
+      "document-storage-integration-get",
+      "document-storage-integration-list"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "document-storage-integration-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "document-storage-integration-environment",
+    "group_members": [
+      "document-storage-integration-environment-delete",
+      "document-storage-integration-environment-get",
+      "document-storage-integration-environment-list"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "document-storage-integration-environment-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "meeting-attendee",
+    "group_members": [
+      "meeting-attendee-create",
+      "meeting-attendee-delete"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "meeting-attendee-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "meeting-prep",
+    "group_members": [
+      "meeting-prep-create",
+      "meeting-prep-delete",
+      "meeting-prep-get"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "meeting-prep-delete"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "meeting-summary",
+    "group_members": [
+      "meeting-summary-create",
+      "meeting-summary-delete",
+      "meeting-summary-update"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "operation_ids": [
+          "meeting-summary-delete",
+          "meeting-summary-update"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "notification",
+    "group_members": [
+      "notification-create",
+      "notification-delete",
+      "notification-get",
+      "notification-list",
+      "notification-update"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "3 member(s) have empty form_fields",
+        "operation_ids": [
+          "notification-create",
+          "notification-delete",
+          "notification-update"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "poc-document-schema",
+    "group_members": [
+      "poc-document-schema-create",
+      "poc-document-schema-delete",
+      "poc-document-schema-list",
+      "poc-document-schema-update"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "operation_ids": [
+          "poc-document-schema-delete",
+          "poc-document-schema-update"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "team-client-organisation",
+    "group_members": [
+      "team-client-organisation-add",
+      "team-client-organisation-list",
+      "team-client-organisation-remove",
+      "team-client-organisation-search"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "team-client-organisation-list"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "trigger-endpoint",
+    "group_members": [
+      "trigger-endpoint-get",
+      "trigger-endpoint-update"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "trigger-endpoint-update"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "trigger-service",
+    "group_members": [
+      "trigger-service-create",
+      "trigger-service-delete",
+      "trigger-service-get",
+      "trigger-service-list",
+      "trigger-service-update"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "operation_ids": [
+          "trigger-service-delete",
+          "trigger-service-update"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "trigger-service-environment",
+    "group_members": [
+      "trigger-service-environment-get",
+      "trigger-service-environment-list",
+      "trigger-service-environment-update"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "operation_ids": [
+          "trigger-service-environment-update"
+        ]
+      }
+    ]
+  }
+]

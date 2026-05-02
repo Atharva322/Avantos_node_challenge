@@ -1,0 +1,21 @@
+{
+  "stem": "TransitionDefinition",
+  "group_members": [
+    "TransitionDefinitionInput",
+    "TransitionDefinitionOutput"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TransitionDefinitionInput",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TransitionDefinitionOutput"
+  ],
+  "fields_union": [],
+  "schema_field_map": {
+    "TransitionDefinitionInput": [],
+    "TransitionDefinitionOutput": []
+  },
+  "overlap_summary": {
+    "union_field_count": 0,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  }
+}

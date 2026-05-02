@@ -1,0 +1,127 @@
+{
+  "stem": "ClientContact",
+  "group_members": [
+    "ClientContactCreateInputBody",
+    "ClientContactListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientContactCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientContactListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_id",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_organisation_id",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_id",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "contacts",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "value",
+      "in_schemas": [
+        "ClientContactListOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ClientContactCreateInputBody": [],
+    "ClientContactListOutputBody": [
+      "$schema",
+      "agent_id",
+      "agent_organisation_id",
+      "client_id",
+      "client_organisation_id",
+      "contacts",
+      "created_at",
+      "id",
+      "role",
+      "tenant_id",
+      "type",
+      "updated_at",
+      "value"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 13,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0
+  }
+}

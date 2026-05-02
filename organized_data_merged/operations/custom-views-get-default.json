@@ -1,0 +1,37 @@
+{
+  "stem": "custom-views-get-default",
+  "group_members": [
+    "custom-views-get-default"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/pages/{page_id}/views/default"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-get-default"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "custom-views-get-default"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "view_id",
+      "in_operations": [
+        "custom-views-get-default"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "custom-views-get-default": [
+      "$schema",
+      "view_id"
+    ]
+  }
+}

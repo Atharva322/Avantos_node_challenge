@@ -1,0 +1,36 @@
+{
+  "stem": "SalesforceCreate",
+  "group_members": [
+    "SalesforceCreateOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SalesforceCreateOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "SalesforceCreateOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "SalesforceCreateOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "SalesforceCreateOutputBody": [
+      "$schema",
+      "id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 2,
+    "common_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  }
+}

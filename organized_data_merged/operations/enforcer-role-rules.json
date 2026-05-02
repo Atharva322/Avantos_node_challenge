@@ -1,0 +1,37 @@
+{
+  "stem": "enforcer-role-rules",
+  "group_members": [
+    "enforcer-role-rules-get"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/roles/enforcer"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/enforcer-role-rules-get"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "enforcer-role-rules-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "rules",
+      "in_operations": [
+        "enforcer-role-rules-get"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "enforcer-role-rules-get": [
+      "$schema",
+      "rules"
+    ]
+  }
+}

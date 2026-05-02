@@ -1,0 +1,19 @@
+{
+  "stem": "action-run-context",
+  "group_members": [
+    "action-run-context-update"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/context"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-context-update"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "action-run-context-update": []
+  }
+}

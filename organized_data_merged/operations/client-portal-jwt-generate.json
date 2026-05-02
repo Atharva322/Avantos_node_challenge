@@ -1,0 +1,45 @@
+{
+  "stem": "client-portal-jwt-generate",
+  "group_members": [
+    "client-portal-jwt-generate"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/client-portal/jwt"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-portal-jwt-generate"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-portal-jwt-generate"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "token",
+      "in_operations": [
+        "client-portal-jwt-generate"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "url",
+      "in_operations": [
+        "client-portal-jwt-generate"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "client-portal-jwt-generate": [
+      "$schema",
+      "token",
+      "url"
+    ]
+  }
+}

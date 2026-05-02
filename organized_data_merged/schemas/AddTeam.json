@@ -1,0 +1,90 @@
+{
+  "stem": "AddTeam",
+  "group_members": [
+    "AddTeamToClientOrganisationInputBody",
+    "AddTeamToClientOrganisationOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddTeamToClientOrganisationInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddTeamToClientOrganisationOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "AddTeamToClientOrganisationInputBody",
+        "AddTeamToClientOrganisationOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_properties",
+      "in_schemas": [
+        "AddTeamToClientOrganisationInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "business_group_id",
+      "in_schemas": [
+        "AddTeamToClientOrganisationInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "AddTeamToClientOrganisationInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "message",
+      "in_schemas": [
+        "AddTeamToClientOrganisationOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "priority",
+      "in_schemas": [
+        "AddTeamToClientOrganisationInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "AddTeamToClientOrganisationInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "success",
+      "in_schemas": [
+        "AddTeamToClientOrganisationOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "AddTeamToClientOrganisationInputBody": [
+      "$schema",
+      "additional_properties",
+      "business_group_id",
+      "description",
+      "priority",
+      "role"
+    ],
+    "AddTeamToClientOrganisationOutputBody": [
+      "$schema",
+      "message",
+      "success"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 8,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.125
+  }
+}

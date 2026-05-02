@@ -1,0 +1,36 @@
+{
+  "stem": "EnforcerRole",
+  "group_members": [
+    "EnforcerRoleRulesGetOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/EnforcerRoleRulesGetOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "EnforcerRoleRulesGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "rules",
+      "in_schemas": [
+        "EnforcerRoleRulesGetOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "EnforcerRoleRulesGetOutputBody": [
+      "$schema",
+      "rules"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 2,
+    "common_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "stem": "action-run-comments",
+  "group_members": [
+    "action-run-comments-get"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/comments"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-comments-get"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "comments",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_by",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "email",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "entity_id",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "entity_type",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "environment",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "middle_name",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tagged_users",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "text",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "action-run-comments-get"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "action-run-comments-get": [
+      "$schema",
+      "comments",
+      "created_at",
+      "created_by",
+      "email",
+      "entity_id",
+      "entity_type",
+      "environment",
+      "external_id",
+      "first_name",
+      "id",
+      "last_name",
+      "middle_name",
+      "tagged_users",
+      "text",
+      "updated_at"
+    ]
+  }
+}

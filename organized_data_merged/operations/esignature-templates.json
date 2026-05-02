@@ -1,0 +1,77 @@
+{
+  "stem": "esignature-templates",
+  "group_members": [
+    "esignature-templates-list"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/esignature/{token_id}/accounts/{account_id}/templates"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-templates-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "esignature-templates-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created",
+      "in_operations": [
+        "esignature-templates-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "esignature-templates-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_modified",
+      "in_operations": [
+        "esignature-templates-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "esignature-templates-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "template_id",
+      "in_operations": [
+        "esignature-templates-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "templates",
+      "in_operations": [
+        "esignature-templates-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "esignature-templates-list": [
+      "$schema",
+      "created",
+      "description",
+      "last_modified",
+      "name",
+      "template_id",
+      "templates"
+    ]
+  }
+}

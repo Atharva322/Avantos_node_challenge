@@ -1,0 +1,156 @@
+{
+  "stem": "agent-address",
+  "group_members": [
+    "agent-address-create",
+    "agent-address-list"
+  ],
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/agents/{agent_id}/addresses"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-address-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-address-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "agent-address-create",
+        "agent-address-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "AddressID",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "AddressLine1",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "AddressLine2",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "AddressType",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "City",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "Country",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "CreatedAt",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "Description",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "EntityID",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "EntityType",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "State",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "UpdatedAt",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "Zipcode",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "addresses",
+      "in_operations": [
+        "agent-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "agent-address-create"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "agent-address-create": [
+      "$schema",
+      "id"
+    ],
+    "agent-address-list": [
+      "$schema",
+      "AddressID",
+      "AddressLine1",
+      "AddressLine2",
+      "AddressType",
+      "City",
+      "Country",
+      "CreatedAt",
+      "Description",
+      "EntityID",
+      "EntityType",
+      "State",
+      "UpdatedAt",
+      "Zipcode",
+      "addresses"
+    ]
+  }
+}

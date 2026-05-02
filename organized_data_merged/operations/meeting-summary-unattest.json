@@ -1,0 +1,19 @@
+{
+  "stem": "meeting-summary-unattest",
+  "group_members": [
+    "meeting-summary-unattest"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/meetings/{meeting_id}/summary/unattest"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-summary-unattest"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "meeting-summary-unattest": []
+  }
+}

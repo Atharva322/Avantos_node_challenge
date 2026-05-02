@@ -1,0 +1,46 @@
+{
+  "stem": "tenant-config",
+  "group_members": [
+    "tenant-config-delete",
+    "tenant-config-update"
+  ],
+  "methods": [
+    "DELETE",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/pages/{page_id}/config"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tenant-config-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tenant-config-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "tenant-config-delete",
+        "tenant-config-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "message",
+      "in_operations": [
+        "tenant-config-delete",
+        "tenant-config-update"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "tenant-config-delete": [
+      "$schema",
+      "message"
+    ],
+    "tenant-config-update": [
+      "$schema",
+      "message"
+    ]
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "stem": "RelationshipDashboard",
+  "group_members": [
+    "RelationshipDashboardListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipDashboardListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "BILLING",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "PRIMARY",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "addresses",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_id",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_name",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_role",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_type",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agents",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "city",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_role",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_relationship_status",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primaryAdvisorFirstName",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationships_mapped",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationships_raw",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "state",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "RelationshipDashboardListOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "RelationshipDashboardListOutputBody": [
+      "$schema",
+      "BILLING",
+      "PRIMARY",
+      "addresses",
+      "agent_organisation_id",
+      "agent_organisation_name",
+      "agent_organisation_role",
+      "agent_organisation_type",
+      "agents",
+      "city",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_role",
+      "client_organisation_type",
+      "client_relationship_status",
+      "first_name",
+      "last_name",
+      "page",
+      "page_size",
+      "pagination",
+      "primaryAdvisorFirstName",
+      "relationships_mapped",
+      "relationships_raw",
+      "state",
+      "total_pages",
+      "total_records"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 26,
+    "common_field_count": 26,
+    "avg_pairwise_jaccard": 1
+  }
+}

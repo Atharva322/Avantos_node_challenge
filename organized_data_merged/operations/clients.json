@@ -1,0 +1,173 @@
+{
+  "stem": "clients",
+  "group_members": [
+    "clients-search"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/clients/search"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/clients-search"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_external_id",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_id",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "clients",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "title",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "clients-search"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "clients-search": [
+      "$schema",
+      "additional_attributes",
+      "client_external_id",
+      "client_id",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "clients",
+      "first_name",
+      "last_name",
+      "page",
+      "page_size",
+      "pagination",
+      "property1",
+      "property2",
+      "role",
+      "tenant_id",
+      "title",
+      "total_pages",
+      "total_records"
+    ]
+  }
+}

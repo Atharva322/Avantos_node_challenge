@@ -1,0 +1,45 @@
+{
+  "stem": "meeting-summary",
+  "group_members": [
+    "meeting-summary-create",
+    "meeting-summary-delete",
+    "meeting-summary-update"
+  ],
+  "methods": [
+    "DELETE",
+    "POST",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/meetings/{meeting_id}/summary"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-summary-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-summary-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-summary-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "meeting-summary-create"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "meeting-summary-create"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "meeting-summary-create": [
+      "$schema",
+      "id"
+    ],
+    "meeting-summary-delete": [],
+    "meeting-summary-update": []
+  }
+}

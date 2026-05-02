@@ -1,0 +1,66 @@
+{
+  "stem": "CreateBusiness",
+  "group_members": [
+    "CreateBusinessGroupCoverageInputBody",
+    "CreateBusinessGroupCoverageOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateBusinessGroupCoverageInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateBusinessGroupCoverageOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "CreateBusinessGroupCoverageInputBody",
+        "CreateBusinessGroupCoverageOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "capacity_limit",
+      "in_schemas": [
+        "CreateBusinessGroupCoverageInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "coverage_lookup_id",
+      "in_schemas": [
+        "CreateBusinessGroupCoverageInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "CreateBusinessGroupCoverageOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "priority",
+      "in_schemas": [
+        "CreateBusinessGroupCoverageInputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "CreateBusinessGroupCoverageInputBody": [
+      "$schema",
+      "capacity_limit",
+      "coverage_lookup_id",
+      "priority"
+    ],
+    "CreateBusinessGroupCoverageOutputBody": [
+      "$schema",
+      "id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 5,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.2
+  }
+}

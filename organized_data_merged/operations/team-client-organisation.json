@@ -1,0 +1,284 @@
+{
+  "stem": "team-client-organisation",
+  "group_members": [
+    "team-client-organisation-add",
+    "team-client-organisation-list",
+    "team-client-organisation-remove",
+    "team-client-organisation-search"
+  ],
+  "methods": [
+    "DELETE",
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/client-organisations/teams/search",
+    "/api/v1/{tenant_id}/client-organisations/{client_organisation_id}/teams",
+    "/api/v1/{tenant_id}/client-organisations/{client_organisation_id}/teams/{business_group_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/team-client-organisation-add",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/team-client-organisation-list",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/team-client-organisation-remove",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/team-client-organisation-search"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "team-client-organisation-add",
+        "team-client-organisation-remove",
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "additional_properties",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_client_count",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_client_segmentation",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_extra_properties",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "department",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "message",
+      "in_operations": [
+        "team-client-organisation-add",
+        "team-client-organisation-remove"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "priority",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "success",
+      "in_operations": [
+        "team-client-organisation-add",
+        "team-client-organisation-remove"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "team_additional_attributes",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "team_description",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "team_group_type",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "team_id",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "team_name",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "team_status",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "teams",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "team-client-organisation-search"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "team-client-organisation-add": [
+      "$schema",
+      "message",
+      "success"
+    ],
+    "team-client-organisation-list": [],
+    "team-client-organisation-remove": [
+      "$schema",
+      "message",
+      "success"
+    ],
+    "team-client-organisation-search": [
+      "$schema",
+      "additional_properties",
+      "client_organisation_client_count",
+      "client_organisation_client_segmentation",
+      "client_organisation_external_id",
+      "client_organisation_extra_properties",
+      "client_organisation_id",
+      "client_organisation_name",
+      "created_at",
+      "department",
+      "description",
+      "id",
+      "page",
+      "page_size",
+      "pagination",
+      "priority",
+      "role",
+      "team_additional_attributes",
+      "team_description",
+      "team_group_type",
+      "team_id",
+      "team_name",
+      "team_status",
+      "teams",
+      "tenant_id",
+      "total_pages",
+      "total_records",
+      "updated_at"
+    ]
+  }
+}

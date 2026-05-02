@@ -1,0 +1,37 @@
+{
+  "stem": "pdf-upload",
+  "group_members": [
+    "pdf-upload"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/pdfs"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/pdf-upload"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "pdf-upload"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "pdf-upload"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "pdf-upload": [
+      "$schema",
+      "id"
+    ]
+  }
+}

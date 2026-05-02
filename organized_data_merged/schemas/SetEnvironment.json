@@ -1,0 +1,44 @@
+{
+  "stem": "SetEnvironment",
+  "group_members": [
+    "SetEnvironmentVersionInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SetEnvironmentVersionInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "SetEnvironmentVersionInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "promotion_notes",
+      "in_schemas": [
+        "SetEnvironmentVersionInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "version_id",
+      "in_schemas": [
+        "SetEnvironmentVersionInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "SetEnvironmentVersionInputBody": [
+      "$schema",
+      "promotion_notes",
+      "version_id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 3,
+    "common_field_count": 3,
+    "avg_pairwise_jaccard": 1
+  }
+}

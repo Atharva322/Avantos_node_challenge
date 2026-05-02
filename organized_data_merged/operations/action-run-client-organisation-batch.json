@@ -1,0 +1,93 @@
+{
+  "stem": "action-run-client-organisation-batch",
+  "group_members": [
+    "action-run-client-organisation-batch-update"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/client-organisation/batch-update"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-client-organisation-batch-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "action-run-client-organisation-batch-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "action_run_id",
+      "in_operations": [
+        "action-run-client-organisation-batch-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "error",
+      "in_operations": [
+        "action-run-client-organisation-batch-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "failed",
+      "in_operations": [
+        "action-run-client-organisation-batch-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "results",
+      "in_operations": [
+        "action-run-client-organisation-batch-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "success",
+      "in_operations": [
+        "action-run-client-organisation-batch-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "successful",
+      "in_operations": [
+        "action-run-client-organisation-batch-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "summary",
+      "in_operations": [
+        "action-run-client-organisation-batch-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_requested",
+      "in_operations": [
+        "action-run-client-organisation-batch-update"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "action-run-client-organisation-batch-update": [
+      "$schema",
+      "action_run_id",
+      "error",
+      "failed",
+      "results",
+      "success",
+      "successful",
+      "summary",
+      "total_requested"
+    ]
+  }
+}

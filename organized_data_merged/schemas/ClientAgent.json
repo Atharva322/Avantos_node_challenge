@@ -1,0 +1,316 @@
+{
+  "stem": "ClientAgent",
+  "group_members": [
+    "ClientAgentListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientAgentListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "active",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "advisor_identification",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agents",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "compliance_record",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "contacts",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "date_of_birth",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "gender",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "idp_subject",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "license",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "manager_id",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "marital_status",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "middle_name",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "nationality",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "organisation_id",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "person_id",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "preferred_contact_method",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "qualification",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "regulatory_status",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_extra_properties",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_type",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "specialization",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ssn",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "suffix",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "title",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "years_of_experience",
+      "in_schemas": [
+        "ClientAgentListOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "ClientAgentListOutputBody": [
+      "$schema",
+      "active",
+      "additional_attributes",
+      "advisor_identification",
+      "agent_id",
+      "agents",
+      "compliance_record",
+      "contacts",
+      "created_at",
+      "date_of_birth",
+      "external_id",
+      "first_name",
+      "gender",
+      "idp_subject",
+      "last_name",
+      "license",
+      "manager_id",
+      "marital_status",
+      "middle_name",
+      "nationality",
+      "organisation_id",
+      "person_id",
+      "preferred_contact_method",
+      "property1",
+      "property2",
+      "qualification",
+      "regulatory_status",
+      "relationship_extra_properties",
+      "relationship_type",
+      "specialization",
+      "ssn",
+      "suffix",
+      "tenant_id",
+      "title",
+      "type",
+      "updated_at",
+      "years_of_experience"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 37,
+    "common_field_count": 37,
+    "avg_pairwise_jaccard": 1
+  }
+}

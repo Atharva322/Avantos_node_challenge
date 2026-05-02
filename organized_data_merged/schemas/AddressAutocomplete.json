@@ -1,0 +1,52 @@
+{
+  "stem": "AddressAutocomplete",
+  "group_members": [
+    "AddressAutocompleteInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressAutocompleteInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "AddressAutocompleteInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "countries",
+      "in_schemas": [
+        "AddressAutocompleteInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "input",
+      "in_schemas": [
+        "AddressAutocompleteInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "session_token",
+      "in_schemas": [
+        "AddressAutocompleteInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "AddressAutocompleteInputBody": [
+      "$schema",
+      "countries",
+      "input",
+      "session_token"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 4,
+    "common_field_count": 4,
+    "avg_pairwise_jaccard": 1
+  }
+}

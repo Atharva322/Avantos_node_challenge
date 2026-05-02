@@ -1,0 +1,352 @@
+{
+  "stem": "AgentOrganisation",
+  "group_members": [
+    "AgentOrganisationAddressListOutputBody",
+    "AgentOrganisationClientOrganisationListOutputBody",
+    "AgentOrganisationContactCreateInputBody",
+    "AgentOrganisationCreateOutputBody",
+    "AgentOrganisationGetOutputBody",
+    "AgentOrganisationListOutputBody",
+    "AgentOrganisationOutputDescription"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationAddressListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationClientOrganisationListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationContactCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationGetOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationOutputDescription"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody",
+        "AgentOrganisationClientOrganisationListOutputBody",
+        "AgentOrganisationCreateOutputBody",
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_id",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_line_1",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_line_2",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_type",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "addresses",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_organisation",
+      "in_schemas": [
+        "AgentOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_organisation_role",
+      "in_schemas": [
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_organisation_type",
+      "in_schemas": [
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "city",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_role",
+      "in_schemas": [
+        "AgentOrganisationClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_schemas": [
+        "AgentOrganisationClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "country",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody",
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody",
+        "AgentOrganisationClientOrganisationListOutputBody",
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "employees",
+      "in_schemas": [
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "entity_id",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "entity_type",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "extra_properties",
+      "in_schemas": [
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "AgentOrganisationClientOrganisationListOutputBody",
+        "AgentOrganisationCreateOutputBody",
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "licenses",
+      "in_schemas": [
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "AgentOrganisationClientOrganisationListOutputBody",
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "organisations",
+      "in_schemas": [
+        "AgentOrganisationClientOrganisationListOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "parent_id",
+      "in_schemas": [
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_status",
+      "in_schemas": [
+        "AgentOrganisationClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "specialty",
+      "in_schemas": [
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "state",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_schemas": [
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody",
+        "AgentOrganisationGetOutputBody",
+        "AgentOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "zipcode",
+      "in_schemas": [
+        "AgentOrganisationAddressListOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "AgentOrganisationAddressListOutputBody": [
+      "$schema",
+      "address_id",
+      "address_line_1",
+      "address_line_2",
+      "address_type",
+      "addresses",
+      "city",
+      "country",
+      "created_at",
+      "description",
+      "entity_id",
+      "entity_type",
+      "state",
+      "updated_at",
+      "zipcode"
+    ],
+    "AgentOrganisationClientOrganisationListOutputBody": [
+      "$schema",
+      "client_organisation_role",
+      "client_organisation_type",
+      "description",
+      "id",
+      "name",
+      "organisations",
+      "relationship_status"
+    ],
+    "AgentOrganisationContactCreateInputBody": [],
+    "AgentOrganisationCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "AgentOrganisationGetOutputBody": [
+      "$schema",
+      "agent_organisation",
+      "agent_organisation_role",
+      "agent_organisation_type",
+      "created_at",
+      "description",
+      "employees",
+      "external_id",
+      "extra_properties",
+      "id",
+      "licenses",
+      "name",
+      "parent_id",
+      "specialty",
+      "status",
+      "tenant_id",
+      "updated_at"
+    ],
+    "AgentOrganisationListOutputBody": [
+      "$schema",
+      "agent_organisation_role",
+      "agent_organisation_type",
+      "created_at",
+      "description",
+      "employees",
+      "external_id",
+      "extra_properties",
+      "id",
+      "licenses",
+      "name",
+      "organisations",
+      "parent_id",
+      "specialty",
+      "status",
+      "tenant_id",
+      "updated_at"
+    ],
+    "AgentOrganisationOutputDescription": []
+  },
+  "overlap_summary": {
+    "union_field_count": 32,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.1551
+  }
+}

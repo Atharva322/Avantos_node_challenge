@@ -1,0 +1,2472 @@
+[
+  {
+    "stem": "ABACDebug",
+    "group_size": 3,
+    "group_members": [
+      "ABACDebugAtomicExpression",
+      "ABACDebugResult",
+      "ABACDebugSummary"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 13,
+    "avg_pairwise_jaccard": 0.3333
+  },
+  {
+    "stem": "ABACExplainer",
+    "group_size": 1,
+    "group_members": [
+      "ABACExplainerOutputBody"
+    ],
+    "common_field_count": 20,
+    "union_field_count": 20,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "APIToken",
+    "group_size": 2,
+    "group_members": [
+      "APITokenCreateOutputBody",
+      "APITokenRoleListOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 14,
+    "avg_pairwise_jaccard": 0.0714
+  },
+  {
+    "stem": "AccountFinancial",
+    "group_size": 2,
+    "group_members": [
+      "AccountFinancialCreateInputBody",
+      "AccountFinancialCreateOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 23,
+    "avg_pairwise_jaccard": 0.0435
+  },
+  {
+    "stem": "AccountRep",
+    "group_size": 1,
+    "group_members": [
+      "AccountRepSplitView"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ActionBlueprint",
+    "group_size": 11,
+    "group_members": [
+      "ActionBlueprintComponentDescription",
+      "ActionBlueprintCreateInputBody",
+      "ActionBlueprintCreateOutputBody",
+      "ActionBlueprintDescription",
+      "ActionBlueprintGraphEdgeDescription",
+      "ActionBlueprintGraphNodeDescription",
+      "ActionBlueprintGraphPutBody",
+      "ActionBlueprintGraphPutOutputBody",
+      "ActionBlueprintUpdateInputBody",
+      "ActionBlueprintVersionCreateInputBody",
+      "ActionBlueprintVersionOverview"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 77,
+    "avg_pairwise_jaccard": 0.1612
+  },
+  {
+    "stem": "ActionBranch",
+    "group_size": 1,
+    "group_members": [
+      "ActionBranchDescription"
+    ],
+    "common_field_count": 16,
+    "union_field_count": 16,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ActionComponent",
+    "group_size": 7,
+    "group_members": [
+      "ActionComponentBranchCreateInputBody",
+      "ActionComponentDataExpression",
+      "ActionComponentFormCloneOutputBody",
+      "ActionComponentFormCreateInputBody",
+      "ActionComponentFormListInputBody",
+      "ActionComponentFormListOutputBody",
+      "ActionComponentFormUpdateDetailsInputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 53,
+    "avg_pairwise_jaccard": 0.0981
+  },
+  {
+    "stem": "ActionForm",
+    "group_size": 2,
+    "group_members": [
+      "ActionFormRenderDescription",
+      "ActionFormTaskRenderDescription"
+    ],
+    "common_field_count": 44,
+    "union_field_count": 49,
+    "avg_pairwise_jaccard": 0.898
+  },
+  {
+    "stem": "ActionRun",
+    "group_size": 32,
+    "group_members": [
+      "ActionRunAcceptRecommendationInputBody",
+      "ActionRunBulkLockInputBody",
+      "ActionRunBulkUnlockInputBody",
+      "ActionRunClientOrganisationBatchUpdateOutputBody",
+      "ActionRunClientOrganisationUpdateRequest",
+      "ActionRunClientOrganisationUpdateResult",
+      "ActionRunCreateInputSchemas",
+      "ActionRunCreateOutputBody",
+      "ActionRunCurrentDataSnapshotGetOutputBody",
+      "ActionRunDeleteOutputBody",
+      "ActionRunListInputBody",
+      "ActionRunListOutputBody",
+      "ActionRunNameUpdateInputBody",
+      "ActionRunPreAssignmentsGetOutputBody",
+      "ActionRunRejectRecommendationInputBody",
+      "ActionRunRequestCancelInputBody",
+      "ActionRunScheduleUpdateInputBody",
+      "ActionRunStateModelAdvanceInputBody",
+      "ActionRunStateModelTransitionItem",
+      "ActionRunStatusLog",
+      "ActionRunTaskAssignInputBody",
+      "ActionRunTaskCronJobQueuedUpdateInputBody",
+      "ActionRunTaskListInputBody",
+      "ActionRunTaskListOutputBody",
+      "ActionRunTaskNextStepDateUpdateInputBody",
+      "ActionRunTaskPatchInputBody",
+      "ActionRunTaskRejectInputBody",
+      "ActionRunTasksBulkAssignInputBody",
+      "ActionRunTasksBulkAssignOutputBody",
+      "ActionRunTaskScheduleUpdateInputBody",
+      "ActionRunTaskSubmitInputBody",
+      "ActionRunTaskUpdateWaitingInputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 145,
+    "avg_pairwise_jaccard": 0.138
+  },
+  {
+    "stem": "AddTeam",
+    "group_size": 2,
+    "group_members": [
+      "AddTeamToClientOrganisationInputBody",
+      "AddTeamToClientOrganisationOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 8,
+    "avg_pairwise_jaccard": 0.125
+  },
+  {
+    "stem": "Address",
+    "group_size": 2,
+    "group_members": [
+      "AddressDescription",
+      "AddressOutput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AddressAutocomplete",
+    "group_size": 1,
+    "group_members": [
+      "AddressAutocompleteInputBody"
+    ],
+    "common_field_count": 4,
+    "union_field_count": 4,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AddressPlace",
+    "group_size": 2,
+    "group_members": [
+      "AddressPlaceDetailsInputBody",
+      "AddressPlaceDetailsOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 10,
+    "avg_pairwise_jaccard": 0.1
+  },
+  {
+    "stem": "AddressSuggestion",
+    "group_size": 1,
+    "group_members": [
+      "AddressSuggestion"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AdvisorRepcode",
+    "group_size": 3,
+    "group_members": [
+      "AdvisorRepcodeCreateInputBody",
+      "AdvisorRepcodeCreateOutputBody",
+      "AdvisorRepcodeGetOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 8,
+    "avg_pairwise_jaccard": 0.2571
+  },
+  {
+    "stem": "Agent",
+    "group_size": 2,
+    "group_members": [
+      "Agent",
+      "AgentDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AgentAddress",
+    "group_size": 1,
+    "group_members": [
+      "AgentAddressListOutputBody"
+    ],
+    "common_field_count": 15,
+    "union_field_count": 15,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AgentBusiness",
+    "group_size": 2,
+    "group_members": [
+      "AgentBusinessGroupRole",
+      "AgentBusinessGroupRoleListInputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 3,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "AgentClient",
+    "group_size": 2,
+    "group_members": [
+      "AgentClientOrganisationRelationshipCreateInputBody",
+      "AgentClientOrganisationRelationshipCreateOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 10,
+    "avg_pairwise_jaccard": 0.1
+  },
+  {
+    "stem": "AgentContact",
+    "group_size": 2,
+    "group_members": [
+      "AgentContactCreateInputBody",
+      "AgentContactListOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 13,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "AgentCreate",
+    "group_size": 1,
+    "group_members": [
+      "AgentCreateOutputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AgentDirectly",
+    "group_size": 2,
+    "group_members": [
+      "AgentDirectlyAssignedExpression",
+      "AgentDirectlyAssignedWithIDExpression"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AgentList",
+    "group_size": 1,
+    "group_members": [
+      "AgentListOutputBody"
+    ],
+    "common_field_count": 16,
+    "union_field_count": 16,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AgentOauth",
+    "group_size": 1,
+    "group_members": [
+      "AgentOauthTokensListOutputBody"
+    ],
+    "common_field_count": 13,
+    "union_field_count": 13,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AgentOrganisation",
+    "group_size": 7,
+    "group_members": [
+      "AgentOrganisationAddressListOutputBody",
+      "AgentOrganisationClientOrganisationListOutputBody",
+      "AgentOrganisationContactCreateInputBody",
+      "AgentOrganisationCreateOutputBody",
+      "AgentOrganisationGetOutputBody",
+      "AgentOrganisationListOutputBody",
+      "AgentOrganisationOutputDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 32,
+    "avg_pairwise_jaccard": 0.1551
+  },
+  {
+    "stem": "AgentRelated",
+    "group_size": 1,
+    "group_members": [
+      "AgentRelatedToExpression"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AgentSearch",
+    "group_size": 2,
+    "group_members": [
+      "AgentSearchInputBody",
+      "AgentSearchOutputBody"
+    ],
+    "common_field_count": 3,
+    "union_field_count": 45,
+    "avg_pairwise_jaccard": 0.0667
+  },
+  {
+    "stem": "AllClients",
+    "group_size": 2,
+    "group_members": [
+      "AllClientsSearchInputBody",
+      "AllClientsSearchOutputBody"
+    ],
+    "common_field_count": 3,
+    "union_field_count": 34,
+    "avg_pairwise_jaccard": 0.0882
+  },
+  {
+    "stem": "And",
+    "group_size": 1,
+    "group_members": [
+      "AndExpression"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ArrayForm",
+    "group_size": 1,
+    "group_members": [
+      "ArrayFormConfig"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ArrayForms",
+    "group_size": 1,
+    "group_members": [
+      "ArrayFormsConfigPutInputBody"
+    ],
+    "common_field_count": 5,
+    "union_field_count": 5,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AssignedAgent",
+    "group_size": 1,
+    "group_members": [
+      "AssignedAgentDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AuditTrail",
+    "group_size": 1,
+    "group_members": [
+      "AuditTrailResponse"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "AutoAssign",
+    "group_size": 1,
+    "group_members": [
+      "AutoAssignConfigInput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "BatchUpdate",
+    "group_size": 1,
+    "group_members": [
+      "BatchUpdateSummary"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Binary",
+    "group_size": 1,
+    "group_members": [
+      "BinaryExpression"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "BlueprintMetadata",
+    "group_size": 1,
+    "group_members": [
+      "BlueprintMetadata"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "BookOf",
+    "group_size": 4,
+    "group_members": [
+      "BookOfBusinessInputBody",
+      "BookOfBusinessProductFiltersInput",
+      "BookOfBusinessSummaryAPI",
+      "BookOfBusinessSummaryInputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 27,
+    "avg_pairwise_jaccard": 0.2593
+  },
+  {
+    "stem": "BusinessGroup",
+    "group_size": 7,
+    "group_members": [
+      "BusinessGroup",
+      "BusinessGroupCoverageDetailSortKey",
+      "BusinessGroupCoverageLookupSummaryTeam",
+      "BusinessGroupCoverageMatch",
+      "BusinessGroupCoverageResponse",
+      "BusinessGroupCreateOutputBody",
+      "BusinessGroupUpdateOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 17,
+    "avg_pairwise_jaccard": 0.3445
+  },
+  {
+    "stem": "CDCPipeline",
+    "group_size": 1,
+    "group_members": [
+      "CDCPipelineConfigUpsertInputBody"
+    ],
+    "common_field_count": 3,
+    "union_field_count": 3,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ChildAction",
+    "group_size": 1,
+    "group_members": [
+      "ChildActionTracker"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ChildForm",
+    "group_size": 1,
+    "group_members": [
+      "ChildFormInput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Client",
+    "group_size": 1,
+    "group_members": [
+      "ClientDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ClientAddress",
+    "group_size": 2,
+    "group_members": [
+      "ClientAddressListOutputBody",
+      "ClientAddressOutput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 15,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "ClientAgent",
+    "group_size": 1,
+    "group_members": [
+      "ClientAgentListOutputBody"
+    ],
+    "common_field_count": 37,
+    "union_field_count": 37,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ClientBatch",
+    "group_size": 2,
+    "group_members": [
+      "ClientBatchMoveInputBody",
+      "ClientBatchMoveOutputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 15,
+    "avg_pairwise_jaccard": 0.1333
+  },
+  {
+    "stem": "ClientClient",
+    "group_size": 1,
+    "group_members": [
+      "ClientClientRelationshipOutput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ClientContact",
+    "group_size": 2,
+    "group_members": [
+      "ClientContactCreateInputBody",
+      "ClientContactListOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 13,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "ClientCreate",
+    "group_size": 1,
+    "group_members": [
+      "ClientCreateOutputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ClientForm",
+    "group_size": 4,
+    "group_members": [
+      "ClientFormRuleCreateOutputBody",
+      "ClientFormRuleResponse",
+      "ClientFormTypeCreateOutputBody",
+      "ClientFormTypeResponse"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 19,
+    "avg_pairwise_jaccard": 0.3655
+  },
+  {
+    "stem": "ClientGet",
+    "group_size": 1,
+    "group_members": [
+      "ClientGetOutputBody"
+    ],
+    "common_field_count": 44,
+    "union_field_count": 44,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ClientList",
+    "group_size": 1,
+    "group_members": [
+      "ClientListByNamePhoneOrEmailOutputBody"
+    ],
+    "common_field_count": 16,
+    "union_field_count": 16,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ClientMove",
+    "group_size": 2,
+    "group_members": [
+      "ClientMoveRequest",
+      "ClientMoveResult"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ClientOrg",
+    "group_size": 7,
+    "group_members": [
+      "ClientOrgDocumentDownloadOutputBody",
+      "ClientOrgDocumentGetOutputBody",
+      "ClientOrgDocumentListItem",
+      "ClientOrgDocumentUploadInitiateBody",
+      "ClientOrgDocumentUploadInitiateOutputBody",
+      "ClientOrgOpportunitiesSummaryInputBody",
+      "ClientOrgOpportunityUpdateOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 26,
+    "avg_pairwise_jaccard": 0.1167
+  },
+  {
+    "stem": "ClientOrganisation",
+    "group_size": 24,
+    "group_members": [
+      "ClientOrganisationAgentListOutputBody",
+      "ClientOrganisationBalanceLineageSummaryAPI",
+      "ClientOrganisationBalancesGetOutputBody",
+      "ClientOrganisationBalanceSummaryAPI",
+      "ClientOrganisationBasic",
+      "ClientOrganisationClientOutput",
+      "ClientOrganisationClientSortKey",
+      "ClientOrganisationContactCreateInputBody",
+      "ClientOrganisationCreateOutputBody",
+      "ClientOrganisationGetOutputBody",
+      "ClientOrganisationGraphAddress",
+      "ClientOrganisationGraphAgentOrganisation",
+      "ClientOrganisationGraphClient",
+      "ClientOrganisationGraphContact",
+      "ClientOrganisationGraphPatchChanges",
+      "ClientOrganisationGraphPatchClientOrganisation",
+      "ClientOrganisationGraphPatchRequestBody",
+      "ClientOrganisationGraphPerson",
+      "ClientOrganisationListOutputBody",
+      "ClientOrganisationListOutputItem",
+      "ClientOrganisationOutputDescription",
+      "ClientOrganisationRelationshipCreateInputBody",
+      "ClientOrganisationTeamSortKey",
+      "ClientOrganisationUpdateInputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 54,
+    "avg_pairwise_jaccard": 0.4551
+  },
+  {
+    "stem": "ClientOrganization",
+    "group_size": 2,
+    "group_members": [
+      "ClientOrganizationBulkAccessCheckOutputBody",
+      "ClientOrganizationOpportunityDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "ClientPortal",
+    "group_size": 2,
+    "group_members": [
+      "ClientPortalJWTInputBody",
+      "ClientPortalJWTOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 19,
+    "avg_pairwise_jaccard": 0.0526
+  },
+  {
+    "stem": "ClientSearch",
+    "group_size": 3,
+    "group_members": [
+      "ClientSearchOutput",
+      "ClientSearchResponseDescription",
+      "ClientSearchSortKey"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ClientUpdate",
+    "group_size": 2,
+    "group_members": [
+      "ClientUpdateInputBody",
+      "ClientUpdateOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 39,
+    "avg_pairwise_jaccard": 0.0256
+  },
+  {
+    "stem": "ClientsSearch",
+    "group_size": 1,
+    "group_members": [
+      "ClientsSearchOutputBody"
+    ],
+    "common_field_count": 17,
+    "union_field_count": 17,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ColumnFilter",
+    "group_size": 1,
+    "group_members": [
+      "ColumnFilter"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Comment",
+    "group_size": 1,
+    "group_members": [
+      "CommentDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "CommentsList",
+    "group_size": 1,
+    "group_members": [
+      "CommentsListAllInputBody"
+    ],
+    "common_field_count": 14,
+    "union_field_count": 14,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ComponentJWT",
+    "group_size": 2,
+    "group_members": [
+      "ComponentJWTInputBody",
+      "ComponentJWTOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 7,
+    "avg_pairwise_jaccard": 0.1429
+  },
+  {
+    "stem": "ComponentValidation",
+    "group_size": 1,
+    "group_members": [
+      "ComponentValidationError"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Contact",
+    "group_size": 1,
+    "group_members": [
+      "ContactDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "CreateAgent",
+    "group_size": 1,
+    "group_members": [
+      "CreateAgentOrganisationAddressOutputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "CreateBusiness",
+    "group_size": 2,
+    "group_members": [
+      "CreateBusinessGroupCoverageInputBody",
+      "CreateBusinessGroupCoverageOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 5,
+    "avg_pairwise_jaccard": 0.2
+  },
+  {
+    "stem": "CreateClient",
+    "group_size": 5,
+    "group_members": [
+      "CreateClientAddressOutputBody",
+      "CreateClientClientConnectionInputBody",
+      "CreateClientClientConnectionOutputBody",
+      "CreateClientOrganisationConnectionInputBody",
+      "CreateClientOrganisationConnectionOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 12,
+    "avg_pairwise_jaccard": 0.2817
+  },
+  {
+    "stem": "CreateDocument",
+    "group_size": 1,
+    "group_members": [
+      "CreateDocumentCatalogEntryInputBody"
+    ],
+    "common_field_count": 20,
+    "union_field_count": 20,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "CreateLookup",
+    "group_size": 1,
+    "group_members": [
+      "CreateLookupBody"
+    ],
+    "common_field_count": 8,
+    "union_field_count": 8,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "CustodianForm",
+    "group_size": 1,
+    "group_members": [
+      "CustodianFormInputEntry"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "CustodianForms",
+    "group_size": 1,
+    "group_members": [
+      "CustodianFormsConfigPutInputBody"
+    ],
+    "common_field_count": 11,
+    "union_field_count": 11,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Custom",
+    "group_size": 1,
+    "group_members": [
+      "CustomView"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "CustomJavascript",
+    "group_size": 6,
+    "group_members": [
+      "CustomJavascriptFunctionsCreateInputBody",
+      "CustomJavascriptFunctionsCreateOutputBody",
+      "CustomJavascriptFunctionsDescription",
+      "CustomJavascriptFunctionsListInputBody",
+      "CustomJavascriptFunctionsListOutputBody",
+      "CustomJavascriptFunctionsUpdateInputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 23,
+    "avg_pairwise_jaccard": 0.329
+  },
+  {
+    "stem": "CustomViews",
+    "group_size": 9,
+    "group_members": [
+      "CustomViewsCreateOutputBody",
+      "CustomViewsGetDefaultOutputBody",
+      "CustomViewsGetPinnedOutputBody",
+      "CustomViewsImportInputBody",
+      "CustomViewsListOutputBody",
+      "CustomViewsSetPinnedInputBody",
+      "CustomViewsSetPinnedOutputBody",
+      "CustomViewsUpdateInputBody",
+      "CustomViewsUpdateOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 45,
+    "avg_pairwise_jaccard": 0.2482
+  },
+  {
+    "stem": "DatadogLogs",
+    "group_size": 1,
+    "group_members": [
+      "DatadogLogsGetOutputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "DateAdd",
+    "group_size": 1,
+    "group_members": [
+      "DateAddExpression"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "DeleteClient",
+    "group_size": 2,
+    "group_members": [
+      "DeleteClientClientConnectionOutputBody",
+      "DeleteClientOrganisationConnectionOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 1,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "DirectIngest",
+    "group_size": 2,
+    "group_members": [
+      "DirectIngestInputRecord",
+      "DirectIngestOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 7,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "DlInput",
+    "group_size": 2,
+    "group_members": [
+      "DlInputMappingRuleInput",
+      "DlInputMappingRuleSourceInput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "DlOutput",
+    "group_size": 3,
+    "group_members": [
+      "DlOutputMappingRuleInput",
+      "DlOutputMappingRuleSourceInput",
+      "DlOutputMappingRuleTargetInput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "DocuSign",
+    "group_size": 7,
+    "group_members": [
+      "DocuSignDateSignedTabDoc",
+      "DocuSignDocumentDoc",
+      "DocuSignEnvelopeResponseDoc",
+      "DocuSignInitialHereTabDoc",
+      "DocuSignSignerDoc",
+      "DocuSignSignerTabsDoc",
+      "DocuSignSignHereTabDoc"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 4,
+    "avg_pairwise_jaccard": 0.7143
+  },
+  {
+    "stem": "DocumentRef",
+    "group_size": 1,
+    "group_members": [
+      "DocumentRef"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "DocumentSchema",
+    "group_size": 5,
+    "group_members": [
+      "DocumentSchemaCreateInputBody",
+      "DocumentSchemaCreateOutputBody",
+      "DocumentSchemaDescription",
+      "DocumentSchemaListInputBody",
+      "DocumentSchemaListOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 18,
+    "avg_pairwise_jaccard": 0.2361
+  },
+  {
+    "stem": "DocumentStorage",
+    "group_size": 4,
+    "group_members": [
+      "DocumentStorageIntegrationEnvironmentResponse",
+      "DocumentStorageIntegrationEnvironmentUpsertInputBody",
+      "DocumentStorageIntegrationResponse",
+      "DocumentStorageIntegrationUpsertInputBody"
+    ],
+    "common_field_count": 4,
+    "union_field_count": 11,
+    "avg_pairwise_jaccard": 0.5694
+  },
+  {
+    "stem": "DocumentVault",
+    "group_size": 1,
+    "group_members": [
+      "DocumentVaultVerifyOutputBody"
+    ],
+    "common_field_count": 3,
+    "union_field_count": 3,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "DynamicField",
+    "group_size": 1,
+    "group_members": [
+      "DynamicFieldConfigInput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ESignature",
+    "group_size": 7,
+    "group_members": [
+      "ESignatureEnvelopeDeleteDocumentsReq",
+      "ESignatureEnvelopeDownloadBody",
+      "ESignatureEnvelopeFromTemplateCreateReq",
+      "ESignatureEnvelopeUpdateDocumentsReq",
+      "ESignatureSignerReq",
+      "ESignatureTabReq",
+      "ESignatureTemplateResponse"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 14,
+    "avg_pairwise_jaccard": 0.2018
+  },
+  {
+    "stem": "EnforcerRole",
+    "group_size": 1,
+    "group_members": [
+      "EnforcerRoleRulesGetOutputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "EnvironmentBlueprint",
+    "group_size": 2,
+    "group_members": [
+      "EnvironmentBlueprintListOutputBody",
+      "EnvironmentBlueprintVersionDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 19,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "ErrorDetail",
+    "group_size": 1,
+    "group_members": [
+      "ErrorDetail"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ErrorMessage",
+    "group_size": 1,
+    "group_members": [
+      "ErrorMessagePatternDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "EvaluateClient",
+    "group_size": 1,
+    "group_members": [
+      "EvaluateClientFormsInputBody"
+    ],
+    "common_field_count": 7,
+    "union_field_count": 7,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ExternalSystem",
+    "group_size": 1,
+    "group_members": [
+      "ExternalSystemIDItemOutput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "FailedRun",
+    "group_size": 1,
+    "group_members": [
+      "FailedRunValidation"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "FeatureFlag",
+    "group_size": 1,
+    "group_members": [
+      "FeatureFlag"
+    ],
+    "common_field_count": 7,
+    "union_field_count": 7,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "FieldMapping",
+    "group_size": 1,
+    "group_members": [
+      "FieldMapping"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "FinancialAccounts",
+    "group_size": 2,
+    "group_members": [
+      "FinancialAccountsByClientOrganisationGetOutputAccount",
+      "FinancialAccountsByClientOrganisationGetOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 39,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "FindBusiness",
+    "group_size": 1,
+    "group_members": [
+      "FindBusinessGroupsByCoverageInputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "FormField",
+    "group_size": 1,
+    "group_members": [
+      "FormFieldExpression"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "FormRule",
+    "group_size": 5,
+    "group_members": [
+      "FormRuleCreateInputBody",
+      "FormRuleCreateOutputBody",
+      "FormRulePatchInputBody",
+      "FormRuleResponse",
+      "FormRuleUpdateInputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 11,
+    "avg_pairwise_jaccard": 0.5466
+  },
+  {
+    "stem": "FormRules",
+    "group_size": 1,
+    "group_members": [
+      "FormRulesByFormTemplatesInputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GPOCAccount",
+    "group_size": 1,
+    "group_members": [
+      "GPOCAccountOpeningDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GPOCStatus",
+    "group_size": 1,
+    "group_members": [
+      "GPOCStatusLogDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GeneratorChild",
+    "group_size": 1,
+    "group_members": [
+      "GeneratorChildRunOutput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GetAction",
+    "group_size": 1,
+    "group_members": [
+      "GetActionRunCommentsOutputBody"
+    ],
+    "common_field_count": 14,
+    "union_field_count": 14,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GetAll",
+    "group_size": 1,
+    "group_members": [
+      "GetAllClientOrganisationRelationshipsOutputBody"
+    ],
+    "common_field_count": 43,
+    "union_field_count": 43,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GetBusiness",
+    "group_size": 1,
+    "group_members": [
+      "GetBusinessGroupCoverageLookupSummaryOutputBody"
+    ],
+    "common_field_count": 13,
+    "union_field_count": 13,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GetClient",
+    "group_size": 1,
+    "group_members": [
+      "GetClientClientRelationshipsOutputBody"
+    ],
+    "common_field_count": 12,
+    "union_field_count": 12,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GetComments",
+    "group_size": 1,
+    "group_members": [
+      "GetCommentsOutputBody"
+    ],
+    "common_field_count": 14,
+    "union_field_count": 14,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GetDocuments",
+    "group_size": 1,
+    "group_members": [
+      "GetDocumentsOutputBody"
+    ],
+    "common_field_count": 30,
+    "union_field_count": 30,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GetExpiring",
+    "group_size": 1,
+    "group_members": [
+      "GetExpiringExternalSystemIDsOutputBody"
+    ],
+    "common_field_count": 8,
+    "union_field_count": 8,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GetExternal",
+    "group_size": 1,
+    "group_members": [
+      "GetExternalSystemIDsOutputBody"
+    ],
+    "common_field_count": 8,
+    "union_field_count": 8,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GetMeeting",
+    "group_size": 1,
+    "group_members": [
+      "GetMeetingIDByExternalIDOutputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GetTax",
+    "group_size": 1,
+    "group_members": [
+      "GetTaxFilingByIDOutputBody"
+    ],
+    "common_field_count": 87,
+    "union_field_count": 87,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GetUnqork",
+    "group_size": 1,
+    "group_members": [
+      "GetUnqorkActionRunCommentsOutputBody"
+    ],
+    "common_field_count": 14,
+    "union_field_count": 14,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "GlobalSearch",
+    "group_size": 1,
+    "group_members": [
+      "GlobalSearchEntityResults"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "IdentityVerification",
+    "group_size": 2,
+    "group_members": [
+      "IdentityVerificationDOB",
+      "IdentityVerificationResponse"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 19,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "JsExecute",
+    "group_size": 2,
+    "group_members": [
+      "JsExecuteInputBody",
+      "JsExecuteOutputBody"
+    ],
+    "common_field_count": 3,
+    "union_field_count": 6,
+    "avg_pairwise_jaccard": 0.5
+  },
+  {
+    "stem": "KPIDefinition",
+    "group_size": 1,
+    "group_members": [
+      "KPIDefinitionListOutputBody"
+    ],
+    "common_field_count": 9,
+    "union_field_count": 9,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "KPIReport",
+    "group_size": 2,
+    "group_members": [
+      "KPIReportInputBody",
+      "KPIReportOutputBody"
+    ],
+    "common_field_count": 8,
+    "union_field_count": 17,
+    "avg_pairwise_jaccard": 0.4706
+  },
+  {
+    "stem": "KPIValue",
+    "group_size": 1,
+    "group_members": [
+      "KPIValueSearchOutputBody"
+    ],
+    "common_field_count": 23,
+    "union_field_count": 23,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "LedgerAggregation",
+    "group_size": 3,
+    "group_members": [
+      "LedgerAggregationRowAPI",
+      "LedgerAggregationSearchInputBody",
+      "LedgerAggregationSortKeyAPI"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 32,
+    "avg_pairwise_jaccard": 0.3333
+  },
+  {
+    "stem": "ListRM",
+    "group_size": 1,
+    "group_members": [
+      "ListRMDsByFinancialAccountIDOutputBody"
+    ],
+    "common_field_count": 39,
+    "union_field_count": 39,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ListTax",
+    "group_size": 1,
+    "group_members": [
+      "ListTaxFilingsInputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Lookup",
+    "group_size": 1,
+    "group_members": [
+      "Lookup"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ManageCash",
+    "group_size": 1,
+    "group_members": [
+      "ManageCashQCResult"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Meeting",
+    "group_size": 1,
+    "group_members": [
+      "MeetingDescription"
+    ],
+    "common_field_count": 31,
+    "union_field_count": 31,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "MeetingAction",
+    "group_size": 4,
+    "group_members": [
+      "MeetingActionRunRelationshipCreateInputBody",
+      "MeetingActionRunRelationshipCreateOutputBody",
+      "MeetingActionRunRelationshipDescription",
+      "MeetingActionRunRelationshipListOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 14,
+    "avg_pairwise_jaccard": 0.0931
+  },
+  {
+    "stem": "MeetingAttendee",
+    "group_size": 1,
+    "group_members": [
+      "MeetingAttendeeCreateInputBody"
+    ],
+    "common_field_count": 3,
+    "union_field_count": 3,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "MeetingEmail",
+    "group_size": 2,
+    "group_members": [
+      "MeetingEmailDraftInput",
+      "MeetingEmailDraftUpsertOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 10,
+    "avg_pairwise_jaccard": 0.1
+  },
+  {
+    "stem": "MeetingList",
+    "group_size": 4,
+    "group_members": [
+      "MeetingListByEmailDraftsInputBody",
+      "MeetingListByEmailDraftsOutputBody",
+      "MeetingListBySummariesInputBody",
+      "MeetingListOutputBody"
+    ],
+    "common_field_count": 4,
+    "union_field_count": 44,
+    "avg_pairwise_jaccard": 0.39
+  },
+  {
+    "stem": "MeetingPrep",
+    "group_size": 4,
+    "group_members": [
+      "MeetingPrepCreateOutputBody",
+      "MeetingPrepDescription",
+      "MeetingPrepInput",
+      "MeetingPrepUpsertOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 9,
+    "avg_pairwise_jaccard": 0.3273
+  },
+  {
+    "stem": "MeetingSummary",
+    "group_size": 3,
+    "group_members": [
+      "MeetingSummaryDescription",
+      "MeetingSummaryInput",
+      "MeetingSummaryUpsertOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 12,
+    "avg_pairwise_jaccard": 0.2131
+  },
+  {
+    "stem": "MeetingTranscript",
+    "group_size": 1,
+    "group_members": [
+      "MeetingTranscriptIDUpdateInputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Move",
+    "group_size": 1,
+    "group_members": [
+      "MoveSummary"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "NestedAction",
+    "group_size": 1,
+    "group_members": [
+      "NestedActionOutputMapping"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Not",
+    "group_size": 1,
+    "group_members": [
+      "NotExpression"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Notification",
+    "group_size": 1,
+    "group_members": [
+      "Notification"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "NotificationList",
+    "group_size": 1,
+    "group_members": [
+      "NotificationListOutputBody"
+    ],
+    "common_field_count": 19,
+    "union_field_count": 19,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ObjectAggregate",
+    "group_size": 1,
+    "group_members": [
+      "ObjectAggregateInputBody"
+    ],
+    "common_field_count": 10,
+    "union_field_count": 10,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "PDF",
+    "group_size": 1,
+    "group_members": [
+      "PDFDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "PDFGet",
+    "group_size": 2,
+    "group_members": [
+      "PDFGetFillMappingOutputBody",
+      "PDFGetOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 11,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "PDFList",
+    "group_size": 2,
+    "group_members": [
+      "PDFListInputBody",
+      "PDFListOutputBody"
+    ],
+    "common_field_count": 3,
+    "union_field_count": 16,
+    "avg_pairwise_jaccard": 0.1875
+  },
+  {
+    "stem": "PDFPreview",
+    "group_size": 1,
+    "group_members": [
+      "PDFPreviewOutputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "PDFSignature",
+    "group_size": 1,
+    "group_members": [
+      "PDFSignatureFieldResponse"
+    ],
+    "common_field_count": 17,
+    "union_field_count": 17,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "PDFUpload",
+    "group_size": 2,
+    "group_members": [
+      "PDFUploadInputBody",
+      "PDFUploadOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 6,
+    "avg_pairwise_jaccard": 0.1667
+  },
+  {
+    "stem": "PageDefault",
+    "group_size": 3,
+    "group_members": [
+      "PageDefaultWidgetOutput",
+      "PageDefaultWidgetUpdateBody",
+      "PageDefaultWidgetUpdateOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 15,
+    "avg_pairwise_jaccard": 0.2593
+  },
+  {
+    "stem": "PageWidget",
+    "group_size": 3,
+    "group_members": [
+      "PageWidgetAvailabilityCreateBody",
+      "PageWidgetAvailabilityDeleteOutputBody",
+      "PageWidgetAvailabilityOutput"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 21,
+    "avg_pairwise_jaccard": 0.1603
+  },
+  {
+    "stem": "Pagination",
+    "group_size": 1,
+    "group_members": [
+      "PaginationParams"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "PaginationParams",
+    "group_size": 1,
+    "group_members": [
+      "PaginationParamsImpl"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Participant",
+    "group_size": 1,
+    "group_members": [
+      "Participant"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "PoliciesBy",
+    "group_size": 1,
+    "group_members": [
+      "PoliciesByClientOrganisationGetOutputBody"
+    ],
+    "common_field_count": 33,
+    "union_field_count": 33,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "PolicyAgent",
+    "group_size": 1,
+    "group_members": [
+      "PolicyAgentInfoAPI"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "PolicyCreate",
+    "group_size": 1,
+    "group_members": [
+      "PolicyCreateInputBody"
+    ],
+    "common_field_count": 4,
+    "union_field_count": 4,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "PolicyGet",
+    "group_size": 1,
+    "group_members": [
+      "PolicyGetOutputBody"
+    ],
+    "common_field_count": 4,
+    "union_field_count": 4,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "PolicyList",
+    "group_size": 1,
+    "group_members": [
+      "PolicyListOutputBody"
+    ],
+    "common_field_count": 5,
+    "union_field_count": 5,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "PolicySearch",
+    "group_size": 2,
+    "group_members": [
+      "PolicySearchInputBody",
+      "PolicySearchOutputBody"
+    ],
+    "common_field_count": 11,
+    "union_field_count": 40,
+    "avg_pairwise_jaccard": 0.275
+  },
+  {
+    "stem": "PolicyValuation",
+    "group_size": 1,
+    "group_members": [
+      "PolicyValuationAPI"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ProductFinancial",
+    "group_size": 3,
+    "group_members": [
+      "ProductFinancialCreateInputBody",
+      "ProductFinancialGetOutputBody",
+      "ProductFinancialGetOutputProduct"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 15,
+    "avg_pairwise_jaccard": 0.2
+  },
+  {
+    "stem": "Property",
+    "group_size": 1,
+    "group_members": [
+      "PropertyExpression"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "QCCheck",
+    "group_size": 1,
+    "group_members": [
+      "QCCheckBulkTaskInput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "RegistrationPatch",
+    "group_size": 1,
+    "group_members": [
+      "RegistrationPatchInputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "RegistrationUpdate",
+    "group_size": 1,
+    "group_members": [
+      "RegistrationUpdateInputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Relationship",
+    "group_size": 1,
+    "group_members": [
+      "RelationshipDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "RelationshipClient",
+    "group_size": 3,
+    "group_members": [
+      "RelationshipClientDescription",
+      "RelationshipClientOrganisationMembersOutputBody",
+      "RelationshipClientOrganisationMembersRelationshipsDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 27,
+    "avg_pairwise_jaccard": 0.3333
+  },
+  {
+    "stem": "RelationshipContact",
+    "group_size": 1,
+    "group_members": [
+      "RelationshipContactDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "RelationshipDashboard",
+    "group_size": 1,
+    "group_members": [
+      "RelationshipDashboardListOutputBody"
+    ],
+    "common_field_count": 26,
+    "union_field_count": 26,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "RelationshipOpportunity",
+    "group_size": 4,
+    "group_members": [
+      "RelationshipOpportunityCreateInputBody",
+      "RelationshipOpportunityCreateOutputBody",
+      "RelationshipOpportunityListOutputBody",
+      "RelationshipOpportunitySummaryDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 54,
+    "avg_pairwise_jaccard": 0.0695
+  },
+  {
+    "stem": "RelationshipValuation",
+    "group_size": 1,
+    "group_members": [
+      "RelationshipValuationSummary"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "RelativeDate",
+    "group_size": 1,
+    "group_members": [
+      "RelativeDateExpression"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "RequestUnqork",
+    "group_size": 2,
+    "group_members": [
+      "RequestUnqorkCashBreakdownBody",
+      "RequestUnqorkIdentifyThirdPartyManagerBody"
+    ],
+    "common_field_count": 4,
+    "union_field_count": 5,
+    "avg_pairwise_jaccard": 0.8
+  },
+  {
+    "stem": "ResponseData",
+    "group_size": 2,
+    "group_members": [
+      "ResponseDataUnqorkCashBreakdown",
+      "ResponseDataUnqorkIdentifyThirdPartyManager"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "ResponseUnqork",
+    "group_size": 1,
+    "group_members": [
+      "ResponseUnqorkIdentifyThirdPartyManager"
+    ],
+    "common_field_count": 10,
+    "union_field_count": 10,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "Role",
+    "group_size": 1,
+    "group_members": [
+      "Role"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "RoleCreate",
+    "group_size": 1,
+    "group_members": [
+      "RoleCreateInputBody"
+    ],
+    "common_field_count": 4,
+    "union_field_count": 4,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "RoleGet",
+    "group_size": 1,
+    "group_members": [
+      "RoleGetOutputBody"
+    ],
+    "common_field_count": 4,
+    "union_field_count": 4,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "RoleGroup",
+    "group_size": 2,
+    "group_members": [
+      "RoleGroup",
+      "RoleGroupListOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 5,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "SLOA",
+    "group_size": 1,
+    "group_members": [
+      "SLOAOutput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "SalesforceCreate",
+    "group_size": 1,
+    "group_members": [
+      "SalesforceCreateOutputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "SearchBusiness",
+    "group_size": 2,
+    "group_members": [
+      "SearchBusinessGroupCoverageDetailsInputBody",
+      "SearchBusinessGroupCoverageDetailsOutputBody"
+    ],
+    "common_field_count": 3,
+    "union_field_count": 51,
+    "avg_pairwise_jaccard": 0.0588
+  },
+  {
+    "stem": "SearchTeams",
+    "group_size": 1,
+    "group_members": [
+      "SearchTeamsForClientOrganisationsOutputBody"
+    ],
+    "common_field_count": 28,
+    "union_field_count": 28,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "SendEmail",
+    "group_size": 1,
+    "group_members": [
+      "SendEmailInputBody"
+    ],
+    "common_field_count": 16,
+    "union_field_count": 16,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "SendMutual",
+    "group_size": 2,
+    "group_members": [
+      "SendMutualFundTradesReportInputBody",
+      "SendMutualFundTradesReportOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 1,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "ServiceAgreement",
+    "group_size": 2,
+    "group_members": [
+      "ServiceAgreementCreateInputBody",
+      "ServiceAgreementGetOutputBody"
+    ],
+    "common_field_count": 11,
+    "union_field_count": 24,
+    "avg_pairwise_jaccard": 0.4583
+  },
+  {
+    "stem": "ServicingTable",
+    "group_size": 1,
+    "group_members": [
+      "ServicingTableConfigBody"
+    ],
+    "common_field_count": 8,
+    "union_field_count": 8,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "SetEnvironment",
+    "group_size": 1,
+    "group_members": [
+      "SetEnvironmentVersionInputBody"
+    ],
+    "common_field_count": 3,
+    "union_field_count": 3,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "StateModel",
+    "group_size": 3,
+    "group_members": [
+      "StateModelSchemaInput",
+      "StateModelSchemaOutput",
+      "StateModelTrackerEntryOutput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "SyncFile",
+    "group_size": 4,
+    "group_members": [
+      "SyncFileErrorLogListOutputBody",
+      "SyncFileListInputBody",
+      "SyncFileListOutputBody",
+      "SyncFileViewDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 44,
+    "avg_pairwise_jaccard": 0.0315
+  },
+  {
+    "stem": "TaskOwner",
+    "group_size": 1,
+    "group_members": [
+      "TaskOwnerExpression"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "TaxFiling",
+    "group_size": 2,
+    "group_members": [
+      "TaxFilingCompletionWindowAggregationOutputBody",
+      "TaxFilingOutput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "TaxManager",
+    "group_size": 2,
+    "group_members": [
+      "TaxManagerAgentRelationshipProfileListDescription",
+      "TaxManagerAgentRelationshipProfileListOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 12,
+    "avg_pairwise_jaccard": 0
+  },
+  {
+    "stem": "TaxReturn",
+    "group_size": 1,
+    "group_members": [
+      "TaxReturnTypeAggregationOutputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "TeamAssignment",
+    "group_size": 1,
+    "group_members": [
+      "TeamAssignment"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "TenantConfig",
+    "group_size": 4,
+    "group_members": [
+      "TenantConfigCreateOutputBody",
+      "TenantConfigDeleteOutputBody",
+      "TenantConfigGetOutputBody",
+      "TenantConfigUpdateBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 9,
+    "avg_pairwise_jaccard": 0.2616
+  },
+  {
+    "stem": "Todo",
+    "group_size": 1,
+    "group_members": [
+      "TodoResponse"
+    ],
+    "common_field_count": 19,
+    "union_field_count": 19,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "TodoCreate",
+    "group_size": 1,
+    "group_members": [
+      "TodoCreateInputBody"
+    ],
+    "common_field_count": 11,
+    "union_field_count": 11,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "TransitionDefinition",
+    "group_size": 2,
+    "group_members": [
+      "TransitionDefinitionInput",
+      "TransitionDefinitionOutput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "TransitionInput",
+    "group_size": 2,
+    "group_members": [
+      "TransitionInputFieldInput",
+      "TransitionInputFieldOutput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "TriggerEndpoint",
+    "group_size": 6,
+    "group_members": [
+      "TriggerEndpointCreateInputBody",
+      "TriggerEndpointCreateOutputBody",
+      "TriggerEndpointDescription",
+      "TriggerEndpointExecuteOutputBody",
+      "TriggerEndpointListOutputBody",
+      "TriggerEndpointUpdateInputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 34,
+    "avg_pairwise_jaccard": 0.3632
+  },
+  {
+    "stem": "TriggerExecution",
+    "group_size": 1,
+    "group_members": [
+      "TriggerExecutionLogsListRequestBody"
+    ],
+    "common_field_count": 12,
+    "union_field_count": 12,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "TriggerGrant",
+    "group_size": 1,
+    "group_members": [
+      "TriggerGrantOutput"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "TriggerService",
+    "group_size": 8,
+    "group_members": [
+      "TriggerServiceCreateOutputBody",
+      "TriggerServiceDescription",
+      "TriggerServiceEnvironmentCreateInputBody",
+      "TriggerServiceEnvironmentCreateOutputBody",
+      "TriggerServiceEnvironmentListOutputBody",
+      "TriggerServiceEnvironmentUpdateInputBody",
+      "TriggerServiceGetOutputBody",
+      "TriggerServiceUpdateInputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 40,
+    "avg_pairwise_jaccard": 0.354
+  },
+  {
+    "stem": "UnifiedComment",
+    "group_size": 1,
+    "group_members": [
+      "UnifiedCommentDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "UnqorkAction",
+    "group_size": 1,
+    "group_members": [
+      "UnqorkActionRunUpsertRequestBody"
+    ],
+    "common_field_count": 6,
+    "union_field_count": 6,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "UnqorkIdentify",
+    "group_size": 1,
+    "group_members": [
+      "UnqorkIdentifyThirdPartyManagerData"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "UnqorkNotification",
+    "group_size": 1,
+    "group_members": [
+      "UnqorkNotificationUpsertRequestBody"
+    ],
+    "common_field_count": 4,
+    "union_field_count": 4,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "UnqorkTask",
+    "group_size": 1,
+    "group_members": [
+      "UnqorkTaskUpsertRequestBody"
+    ],
+    "common_field_count": 7,
+    "union_field_count": 7,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "UpdateAgent",
+    "group_size": 1,
+    "group_members": [
+      "UpdateAgentAddressOutputBody"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "UpdateClient",
+    "group_size": 2,
+    "group_members": [
+      "UpdateClientOrganisationRelationshipInputBody",
+      "UpdateClientOrganisationRelationshipOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 6,
+    "avg_pairwise_jaccard": 0.1667
+  },
+  {
+    "stem": "UpdateFeature",
+    "group_size": 1,
+    "group_members": [
+      "UpdateFeatureFlagBody"
+    ],
+    "common_field_count": 3,
+    "union_field_count": 3,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "User",
+    "group_size": 1,
+    "group_members": [
+      "UserDescription"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "VPOCGet",
+    "group_size": 1,
+    "group_members": [
+      "VPOCGetHouseholdMemberRecommendationsOutputBody"
+    ],
+    "common_field_count": 15,
+    "union_field_count": 15,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "VPOCHousehold",
+    "group_size": 4,
+    "group_members": [
+      "VPOCHouseholdMemberRecommendation",
+      "VPOCHouseholdRankingListInputBody",
+      "VPOCHouseholdRankingListOutputBody",
+      "VPOCHouseholdRankingOutputBody"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 24,
+    "avg_pairwise_jaccard": 0.1875
+  },
+  {
+    "stem": "VPOCOnboarding",
+    "group_size": 4,
+    "group_members": [
+      "VPOCOnboardingCreateInputBody",
+      "VPOCOnboardingDeleteOutputBody",
+      "VPOCOnboardingProgress",
+      "VPOCOnboardingWithProgress"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 21,
+    "avg_pairwise_jaccard": 0.0813
+  },
+  {
+    "stem": "Widget",
+    "group_size": 1,
+    "group_members": [
+      "WidgetOutput"
+    ],
+    "common_field_count": 14,
+    "union_field_count": 14,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "WidgetBatch",
+    "group_size": 1,
+    "group_members": [
+      "WidgetBatchUpdatePositionsBody"
+    ],
+    "common_field_count": 7,
+    "union_field_count": 7,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "WidgetDefinition",
+    "group_size": 2,
+    "group_members": [
+      "WidgetDefinitionCreateOutputBody",
+      "WidgetDefinitionOutput"
+    ],
+    "common_field_count": 2,
+    "union_field_count": 17,
+    "avg_pairwise_jaccard": 0.1176
+  },
+  {
+    "stem": "WidgetList",
+    "group_size": 1,
+    "group_members": [
+      "WidgetListOutputBody"
+    ],
+    "common_field_count": 13,
+    "union_field_count": 13,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "WidgetPosition",
+    "group_size": 1,
+    "group_members": [
+      "WidgetPositionUpdate"
+    ],
+    "common_field_count": 0,
+    "union_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  },
+  {
+    "stem": "WidgetUpdate",
+    "group_size": 2,
+    "group_members": [
+      "WidgetUpdateBody",
+      "WidgetUpdateOutputBody"
+    ],
+    "common_field_count": 1,
+    "union_field_count": 9,
+    "avg_pairwise_jaccard": 0.1111
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "stem": "service-agreement-document",
+  "group_members": [
+    "service-agreement-document-create"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/service-agreements/{service_agreement_id}/document"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/service-agreement-document-create"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "service-agreement-document-create"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "service-agreement-document-create"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "service-agreement-document-create": [
+      "$schema",
+      "id"
+    ]
+  }
+}

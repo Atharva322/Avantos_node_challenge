@@ -1,0 +1,15 @@
+{
+  "stem": "unqork-notification-upsert",
+  "group_members": [
+    "unqork-notification-upsert"
+  ],
+  "methods": [],
+  "paths": [],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/unqork-notification-upsert"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "unqork-notification-upsert": []
+  }
+}

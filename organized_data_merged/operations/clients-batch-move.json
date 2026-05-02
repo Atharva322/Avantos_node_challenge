@@ -1,0 +1,101 @@
+{
+  "stem": "clients-batch-move",
+  "group_members": [
+    "clients-batch-move"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/clients/move"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/clients-batch-move"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "clients-batch-move"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_id",
+      "in_operations": [
+        "clients-batch-move"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "error",
+      "in_operations": [
+        "clients-batch-move"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "failed",
+      "in_operations": [
+        "clients-batch-move"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "new_relationship_id",
+      "in_operations": [
+        "clients-batch-move"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "results",
+      "in_operations": [
+        "clients-batch-move"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "success",
+      "in_operations": [
+        "clients-batch-move"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "successful",
+      "in_operations": [
+        "clients-batch-move"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "summary",
+      "in_operations": [
+        "clients-batch-move"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_requested",
+      "in_operations": [
+        "clients-batch-move"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "clients-batch-move": [
+      "$schema",
+      "client_id",
+      "error",
+      "failed",
+      "new_relationship_id",
+      "results",
+      "success",
+      "successful",
+      "summary",
+      "total_requested"
+    ]
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "stem": "GetExternal",
+  "group_members": [
+    "GetExternalSystemIDsOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetExternalSystemIDsOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "GetExternalSystemIDsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "GetExternalSystemIDsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "items",
+      "in_schemas": [
+        "GetExternalSystemIDsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "key",
+      "in_schemas": [
+        "GetExternalSystemIDsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "system",
+      "in_schemas": [
+        "GetExternalSystemIDsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "GetExternalSystemIDsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "valid_until",
+      "in_schemas": [
+        "GetExternalSystemIDsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "value",
+      "in_schemas": [
+        "GetExternalSystemIDsOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "GetExternalSystemIDsOutputBody": [
+      "$schema",
+      "id",
+      "items",
+      "key",
+      "system",
+      "updated_at",
+      "valid_until",
+      "value"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 8,
+    "common_field_count": 8,
+    "avg_pairwise_jaccard": 1
+  }
+}

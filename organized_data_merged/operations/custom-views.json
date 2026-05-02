@@ -1,0 +1,202 @@
+{
+  "stem": "custom-views",
+  "group_members": [
+    "custom-views-create",
+    "custom-views-delete",
+    "custom-views-list",
+    "custom-views-update"
+  ],
+  "methods": [
+    "DELETE",
+    "GET",
+    "POST",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/pages/{page_id}/views",
+    "/api/v1/{tenant_id}/pages/{page_id}/views/{view_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-list",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "custom-views-create",
+        "custom-views-list",
+        "custom-views-update"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "column_order",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "columns_config",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_by",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "filters",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "only_assigned",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_id",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "promoted",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role_names",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "scope_type",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sorting",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "view_id",
+      "in_operations": [
+        "custom-views-create",
+        "custom-views-update"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "views",
+      "in_operations": [
+        "custom-views-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "custom-views-create": [
+      "$schema",
+      "view_id"
+    ],
+    "custom-views-delete": [],
+    "custom-views-list": [
+      "$schema",
+      "agent_id",
+      "column_order",
+      "columns_config",
+      "created_at",
+      "created_by",
+      "description",
+      "filters",
+      "id",
+      "name",
+      "only_assigned",
+      "page_id",
+      "promoted",
+      "role_names",
+      "scope_type",
+      "sorting",
+      "tenant_id",
+      "updated_at",
+      "views"
+    ],
+    "custom-views-update": [
+      "$schema",
+      "view_id"
+    ]
+  }
+}

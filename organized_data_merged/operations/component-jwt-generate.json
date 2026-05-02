@@ -1,0 +1,45 @@
+{
+  "stem": "component-jwt-generate",
+  "group_members": [
+    "component-jwt-generate"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/component/jwt"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/component-jwt-generate"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "component-jwt-generate"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "token",
+      "in_operations": [
+        "component-jwt-generate"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "url",
+      "in_operations": [
+        "component-jwt-generate"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "component-jwt-generate": [
+      "$schema",
+      "token",
+      "url"
+    ]
+  }
+}

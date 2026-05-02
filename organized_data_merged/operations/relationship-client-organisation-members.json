@@ -1,0 +1,237 @@
+{
+  "stem": "relationship-client-organisation-members",
+  "group_members": [
+    "relationship-client-organisation-members-get"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/relationships/client-organisations/{client_organisation_id}/members"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-client-organisation-members-get"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "BILLING",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "addresses",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "birthdate",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "city",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_id",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "contact_method",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "current_employer",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "email",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "employment_status",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_primary",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "marital_status",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "members",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "notes",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "occupation",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "phone",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "preferences",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "preferred_name",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ssn",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "state",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "subtype",
+      "in_operations": [
+        "relationship-client-organisation-members-get"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "relationship-client-organisation-members-get": [
+      "$schema",
+      "BILLING",
+      "additional_attributes",
+      "addresses",
+      "birthdate",
+      "city",
+      "client_id",
+      "client_organisation_id",
+      "contact_method",
+      "current_employer",
+      "email",
+      "employment_status",
+      "first_name",
+      "is_primary",
+      "last_name",
+      "marital_status",
+      "members",
+      "notes",
+      "occupation",
+      "phone",
+      "preferences",
+      "preferred_name",
+      "role",
+      "ssn",
+      "state",
+      "status",
+      "subtype"
+    ]
+  }
+}

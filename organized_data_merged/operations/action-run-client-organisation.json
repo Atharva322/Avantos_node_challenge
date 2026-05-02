@@ -1,0 +1,19 @@
+{
+  "stem": "action-run-client-organisation",
+  "group_members": [
+    "action-run-client-organisation-update"
+  ],
+  "methods": [
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/client-organisation"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-client-organisation-update"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "action-run-client-organisation-update": []
+  }
+}

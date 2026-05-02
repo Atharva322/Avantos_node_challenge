@@ -1,0 +1,37 @@
+{
+  "stem": "meeting-id-by-external-id",
+  "group_members": [
+    "meeting-id-by-external-id"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/meetings/id-by-external-id"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-id-by-external-id"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "meeting-id-by-external-id"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "meeting_id",
+      "in_operations": [
+        "meeting-id-by-external-id"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "meeting-id-by-external-id": [
+      "$schema",
+      "meeting_id"
+    ]
+  }
+}

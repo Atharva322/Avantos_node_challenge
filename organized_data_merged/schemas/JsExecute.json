@@ -1,0 +1,78 @@
+{
+  "stem": "JsExecute",
+  "group_members": [
+    "JsExecuteInputBody",
+    "JsExecuteOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/JsExecuteInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/JsExecuteOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "JsExecuteInputBody",
+        "JsExecuteOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "initiation_override",
+      "in_schemas": [
+        "JsExecuteInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "JsExecuteInputBody",
+        "JsExecuteOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "JsExecuteInputBody",
+        "JsExecuteOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "request",
+      "in_schemas": [
+        "JsExecuteInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "response",
+      "in_schemas": [
+        "JsExecuteOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "JsExecuteInputBody": [
+      "$schema",
+      "initiation_override",
+      "property1",
+      "property2",
+      "request"
+    ],
+    "JsExecuteOutputBody": [
+      "$schema",
+      "property1",
+      "property2",
+      "response"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 6,
+    "common_field_count": 3,
+    "avg_pairwise_jaccard": 0.5
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "stem": "SyncFile",
+  "group_members": [
+    "SyncFileErrorLogListOutputBody",
+    "SyncFileListInputBody",
+    "SyncFileListOutputBody",
+    "SyncFileViewDescription"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SyncFileErrorLogListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SyncFileListInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SyncFileListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SyncFileViewDescription"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody",
+        "SyncFileListInputBody",
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "additional_metadata",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "avantos_data_type",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "component_key",
+      "in_schemas": [
+        "SyncFileListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "duration",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "end_time",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "error_count",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "error_log_id",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "error_logs",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "error_message",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "error_rate_percent",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "error_type",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "file_size",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "filter",
+      "in_schemas": [
+        "SyncFileListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "incoming_data_type",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_metadata",
+      "in_schemas": [
+        "SyncFileListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_key",
+      "in_schemas": [
+        "SyncFileListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "SyncFileListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "SyncFileListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "SyncFileListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "raw_data",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "record_count",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "record_id",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "s3_bucket",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody",
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "s3_key",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody",
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "salesforce_object",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "salesforce_object_type",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_column",
+      "in_schemas": [
+        "SyncFileListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_keys",
+      "in_schemas": [
+        "SyncFileListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_order",
+      "in_schemas": [
+        "SyncFileListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "start_date",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "start_time",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sync_file_end_time",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sync_file_id",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sync_file_start_time",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sync_file_updated_at",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sync_files",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sync_status",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "SyncFileErrorLogListOutputBody",
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "SyncFileListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "SyncFileListOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "SyncFileErrorLogListOutputBody": [
+      "$schema",
+      "avantos_data_type",
+      "created_at",
+      "error_log_id",
+      "error_logs",
+      "error_message",
+      "error_type",
+      "incoming_data_type",
+      "raw_data",
+      "record_id",
+      "s3_bucket",
+      "s3_key",
+      "salesforce_object_type",
+      "sync_file_end_time",
+      "sync_file_id",
+      "sync_file_start_time",
+      "sync_file_updated_at",
+      "sync_status",
+      "tenant_id"
+    ],
+    "SyncFileListInputBody": [
+      "$schema",
+      "component_key",
+      "filter",
+      "is_metadata",
+      "output_key",
+      "page",
+      "page_size",
+      "pagination",
+      "sort_column",
+      "sort_keys",
+      "sort_order",
+      "type"
+    ],
+    "SyncFileListOutputBody": [
+      "$schema",
+      "additional_metadata",
+      "duration",
+      "end_time",
+      "error_count",
+      "error_rate_percent",
+      "file_size",
+      "id",
+      "record_count",
+      "s3_bucket",
+      "s3_key",
+      "salesforce_object",
+      "start_date",
+      "start_time",
+      "status",
+      "sync_files",
+      "tenant_id",
+      "updated_at"
+    ],
+    "SyncFileViewDescription": []
+  },
+  "overlap_summary": {
+    "union_field_count": 44,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.0315
+  }
+}

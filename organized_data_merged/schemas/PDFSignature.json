@@ -1,0 +1,156 @@
+{
+  "stem": "PDFSignature",
+  "group_members": [
+    "PDFSignatureFieldResponse"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFSignatureFieldResponse"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "height",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "label",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "metadata",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_number",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pdf_id",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "signature_kind",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "width",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "x",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "y",
+      "in_schemas": [
+        "PDFSignatureFieldResponse"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "PDFSignatureFieldResponse": [
+      "$schema",
+      "created_at",
+      "height",
+      "id",
+      "label",
+      "metadata",
+      "page_number",
+      "pdf_id",
+      "property1",
+      "property2",
+      "role",
+      "signature_kind",
+      "tenant_id",
+      "updated_at",
+      "width",
+      "x",
+      "y"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 17,
+    "common_field_count": 17,
+    "avg_pairwise_jaccard": 1
+  }
+}

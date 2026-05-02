@@ -1,0 +1,335 @@
+{
+  "stem": "FinancialAccounts",
+  "group_members": [
+    "FinancialAccountsByClientOrganisationGetOutputAccount",
+    "FinancialAccountsByClientOrganisationGetOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FinancialAccountsByClientOrganisationGetOutputAccount",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FinancialAccountsByClientOrganisationGetOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_created_at",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_id",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_notes",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_number",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_updated_at",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "balance",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "beneficiary_first_name",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "beneficiary_id",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "beneficiary_last_name",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "cash_balance",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_description",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_role",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "closed_date",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "currency_code",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custodian",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "financial_accounts",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "model_portfolio",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "open_date",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_owner_first_name",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_owner_id",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_owner_last_name",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_model",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_name",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_type",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_status",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "secondary_owner_first_name",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "secondary_owner_id",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "secondary_owner_last_name",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tax_status",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "valuations",
+      "in_schemas": [
+        "FinancialAccountsByClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "FinancialAccountsByClientOrganisationGetOutputAccount": [],
+    "FinancialAccountsByClientOrganisationGetOutputBody": [
+      "$schema",
+      "account_created_at",
+      "account_id",
+      "account_notes",
+      "account_number",
+      "account_updated_at",
+      "additional_attributes",
+      "balance",
+      "beneficiary_first_name",
+      "beneficiary_id",
+      "beneficiary_last_name",
+      "cash_balance",
+      "client_organisation_description",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_role",
+      "client_organisation_type",
+      "closed_date",
+      "currency_code",
+      "custodian",
+      "external_id",
+      "financial_accounts",
+      "model_portfolio",
+      "name",
+      "open_date",
+      "primary_owner_first_name",
+      "primary_owner_id",
+      "primary_owner_last_name",
+      "product_model",
+      "product_name",
+      "product_type",
+      "relationship_status",
+      "secondary_owner_first_name",
+      "secondary_owner_id",
+      "secondary_owner_last_name",
+      "status",
+      "tax_status",
+      "valuations"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 39,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "stem": "BookOf",
+  "group_members": [
+    "BookOfBusinessInputBody",
+    "BookOfBusinessProductFiltersInput",
+    "BookOfBusinessSummaryAPI",
+    "BookOfBusinessSummaryInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BookOfBusinessInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BookOfBusinessProductFiltersInput",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BookOfBusinessSummaryAPI",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BookOfBusinessSummaryInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_organisation_external_id",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_organisation_name",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "cast_type",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "collation",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "component_key",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "filter",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "household_filters",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "include_policy_valuations",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "include_wealth_valuation",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_metadata",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "key",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "line_of_business",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "only_assigned",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "order",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_key",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "policy_status",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_filters",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "protection_pagination_params",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "protection_sort_keys",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_status",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "BookOfBusinessInputBody",
+        "BookOfBusinessSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "wealth_pagination_params",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "wealth_sort_keys",
+      "in_schemas": [
+        "BookOfBusinessInputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "BookOfBusinessInputBody": [
+      "$schema",
+      "agent_organisation_external_id",
+      "agent_organisation_name",
+      "cast_type",
+      "client_organisation_name",
+      "collation",
+      "component_key",
+      "filter",
+      "household_filters",
+      "include_policy_valuations",
+      "include_wealth_valuation",
+      "is_metadata",
+      "key",
+      "line_of_business",
+      "only_assigned",
+      "order",
+      "output_key",
+      "page",
+      "page_size",
+      "policy_status",
+      "product_filters",
+      "protection_pagination_params",
+      "protection_sort_keys",
+      "relationship_status",
+      "type",
+      "wealth_pagination_params",
+      "wealth_sort_keys"
+    ],
+    "BookOfBusinessProductFiltersInput": [],
+    "BookOfBusinessSummaryAPI": [],
+    "BookOfBusinessSummaryInputBody": [
+      "$schema",
+      "agent_organisation_external_id",
+      "agent_organisation_name",
+      "client_organisation_name",
+      "component_key",
+      "filter",
+      "household_filters",
+      "is_metadata",
+      "line_of_business",
+      "only_assigned",
+      "output_key",
+      "policy_status",
+      "product_filters",
+      "relationship_status",
+      "type"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 27,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.2593
+  }
+}

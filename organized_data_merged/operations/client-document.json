@@ -1,0 +1,37 @@
+{
+  "stem": "client-document",
+  "group_members": [
+    "client-document-create"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/clients/{client_id}/document"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-document-create"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-document-create"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "client-document-create"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "client-document-create": [
+      "$schema",
+      "id"
+    ]
+  }
+}

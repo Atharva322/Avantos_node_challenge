@@ -1,0 +1,520 @@
+{
+  "stem": "policy",
+  "group_members": [
+    "policy-create",
+    "policy-get",
+    "policy-list",
+    "policy-search"
+  ],
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/policies",
+    "/api/v1/{tenant_id}/policies/search",
+    "/api/v1/{tenant_id}/policies/{policy_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-list",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-search"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "policy-create",
+        "policy-get",
+        "policy-list",
+        "policy-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "actions",
+      "in_operations": [
+        "policy-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_external_id",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_name",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_organisation_external_id",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_organisation_id",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_organisation_name",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agents",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "business_date",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "canonical_valuation_type",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "carrier",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_external_id",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_id",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_name",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "clients",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "currency",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "policy-get",
+        "policy-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "effective_date",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "effective_from",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "effective_to",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "face_amount",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "issue_date",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "line_of_business",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "object",
+      "in_operations": [
+        "policy-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "policies",
+      "in_operations": [
+        "policy-list",
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "policyName",
+      "in_operations": [
+        "policy-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "policy_id",
+      "in_operations": [
+        "policy-create",
+        "policy-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "policy_name",
+      "in_operations": [
+        "policy-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "policy_number",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "premium_amount",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "premium_frequency",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "rules",
+      "in_operations": [
+        "policy-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_measure_code",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_measure_field",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_measure_label",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "subtype",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "termination_date",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "valuation_amount",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "valuation_type",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "valuations",
+      "in_operations": [
+        "policy-search"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "policy-create": [
+      "$schema",
+      "policy_id"
+    ],
+    "policy-get": [
+      "$schema",
+      "description",
+      "policy_id",
+      "policy_name"
+    ],
+    "policy-list": [
+      "$schema",
+      "actions",
+      "description",
+      "object",
+      "policies",
+      "policyName",
+      "rules"
+    ],
+    "policy-search": [
+      "$schema",
+      "additional_attributes",
+      "agent_external_id",
+      "agent_id",
+      "agent_name",
+      "agent_organisation_external_id",
+      "agent_organisation_id",
+      "agent_organisation_name",
+      "agents",
+      "business_date",
+      "canonical_valuation_type",
+      "carrier",
+      "client_external_id",
+      "client_id",
+      "client_name",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "client_organisation_name",
+      "clients",
+      "created_at",
+      "currency",
+      "effective_date",
+      "effective_from",
+      "effective_to",
+      "external_id",
+      "face_amount",
+      "id",
+      "issue_date",
+      "line_of_business",
+      "page",
+      "page_size",
+      "pagination",
+      "policies",
+      "policy_number",
+      "premium_amount",
+      "premium_frequency",
+      "property1",
+      "property2",
+      "role",
+      "source_measure_code",
+      "source_measure_field",
+      "source_measure_label",
+      "status",
+      "subtype",
+      "tenant_id",
+      "termination_date",
+      "total_pages",
+      "total_records",
+      "updated_at",
+      "valuation_amount",
+      "valuation_type",
+      "valuations"
+    ]
+  }
+}

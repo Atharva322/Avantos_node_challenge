@@ -1,0 +1,170 @@
+{
+  "stem": "FormRule",
+  "group_members": [
+    "FormRuleCreateInputBody",
+    "FormRuleCreateOutputBody",
+    "FormRulePatchInputBody",
+    "FormRuleResponse",
+    "FormRuleUpdateInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRuleCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRuleCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRulePatchInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRuleResponse",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRuleUpdateInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "FormRuleCreateInputBody",
+        "FormRuleCreateOutputBody",
+        "FormRulePatchInputBody",
+        "FormRuleResponse",
+        "FormRuleUpdateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "FormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custodian",
+      "in_schemas": [
+        "FormRuleCreateInputBody",
+        "FormRulePatchInputBody",
+        "FormRuleResponse",
+        "FormRuleUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "endpoints",
+      "in_schemas": [
+        "FormRuleCreateInputBody",
+        "FormRulePatchInputBody",
+        "FormRuleResponse",
+        "FormRuleUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "form_template_id",
+      "in_schemas": [
+        "FormRuleCreateInputBody",
+        "FormRulePatchInputBody",
+        "FormRuleResponse",
+        "FormRuleUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "FormRuleCreateOutputBody",
+        "FormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "registration_id",
+      "in_schemas": [
+        "FormRuleCreateInputBody",
+        "FormRulePatchInputBody",
+        "FormRuleResponse",
+        "FormRuleUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "rules",
+      "in_schemas": [
+        "FormRuleCreateInputBody",
+        "FormRulePatchInputBody",
+        "FormRuleResponse",
+        "FormRuleUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "FormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "transaction_type",
+      "in_schemas": [
+        "FormRuleCreateInputBody",
+        "FormRulePatchInputBody",
+        "FormRuleResponse",
+        "FormRuleUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "FormRuleResponse"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "FormRuleCreateInputBody": [
+      "$schema",
+      "custodian",
+      "endpoints",
+      "form_template_id",
+      "registration_id",
+      "rules",
+      "transaction_type"
+    ],
+    "FormRuleCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "FormRulePatchInputBody": [
+      "$schema",
+      "custodian",
+      "endpoints",
+      "form_template_id",
+      "registration_id",
+      "rules",
+      "transaction_type"
+    ],
+    "FormRuleResponse": [
+      "$schema",
+      "created_at",
+      "custodian",
+      "endpoints",
+      "form_template_id",
+      "id",
+      "registration_id",
+      "rules",
+      "tenant_id",
+      "transaction_type",
+      "updated_at"
+    ],
+    "FormRuleUpdateInputBody": [
+      "$schema",
+      "custodian",
+      "endpoints",
+      "form_template_id",
+      "registration_id",
+      "rules",
+      "transaction_type"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 11,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.5466
+  }
+}

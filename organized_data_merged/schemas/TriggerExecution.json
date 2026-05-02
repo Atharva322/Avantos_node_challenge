@@ -1,0 +1,116 @@
+{
+  "stem": "TriggerExecution",
+  "group_members": [
+    "TriggerExecutionLogsListRequestBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerExecutionLogsListRequestBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "action_run_id",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "component_key",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "endpoint_id",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "filter",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_metadata",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "output_key",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination_params",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "run_component",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "TriggerExecutionLogsListRequestBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "TriggerExecutionLogsListRequestBody": [
+      "$schema",
+      "action_run_id",
+      "component_key",
+      "endpoint_id",
+      "filter",
+      "is_metadata",
+      "output_key",
+      "page",
+      "page_size",
+      "pagination_params",
+      "run_component",
+      "type"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 12,
+    "common_field_count": 12,
+    "avg_pairwise_jaccard": 1
+  }
+}

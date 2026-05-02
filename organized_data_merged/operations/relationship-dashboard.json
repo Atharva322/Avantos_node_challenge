@@ -1,0 +1,463 @@
+{
+  "stem": "relationship-dashboard",
+  "group_members": [
+    "relationship-dashboard-get",
+    "relationship-dashboard-list"
+  ],
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/client-organisations/{client_organisation_id}/dashboard",
+    "/api/v1/{tenant_id}/relationships/dashboard"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-dashboard-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-dashboard-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "BILLING",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "PRIMARY",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "addresses",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_id",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_name",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_role",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_type",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agents",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "approx_aum",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "as_of_business_date",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "aum",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "authority",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "city",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_created_at",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_description",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_extra_properties",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_growth_opportunity_next_step",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_role",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_updated_at",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_relationship_status",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_segmentation",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "currency",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "employees",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "industry",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "last_interaction_date",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "next_meeting",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "office",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "relationship-dashboard-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "relationship-dashboard-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "relationship-dashboard-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primaryAdvisorFirstName",
+      "in_operations": [
+        "relationship-dashboard-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "region",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_start_date",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationships_mapped",
+      "in_operations": [
+        "relationship-dashboard-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationships_raw",
+      "in_operations": [
+        "relationship-dashboard-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_kind",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_system",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "state",
+      "in_operations": [
+        "relationship-dashboard-get",
+        "relationship-dashboard-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_amount",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "relationship-dashboard-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "relationship-dashboard-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "valuation",
+      "in_operations": [
+        "relationship-dashboard-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "relationship-dashboard-get": [
+      "$schema",
+      "BILLING",
+      "PRIMARY",
+      "addresses",
+      "agent_organisation_id",
+      "agent_organisation_name",
+      "agent_organisation_role",
+      "agent_organisation_type",
+      "agents",
+      "approx_aum",
+      "as_of_business_date",
+      "aum",
+      "authority",
+      "city",
+      "client_organisation_created_at",
+      "client_organisation_description",
+      "client_organisation_external_id",
+      "client_organisation_extra_properties",
+      "client_organisation_growth_opportunity_next_step",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_role",
+      "client_organisation_type",
+      "client_organisation_updated_at",
+      "client_relationship_status",
+      "client_segmentation",
+      "currency",
+      "employees",
+      "first_name",
+      "industry",
+      "last_interaction_date",
+      "last_name",
+      "next_meeting",
+      "office",
+      "region",
+      "relationship",
+      "relationship_start_date",
+      "source_kind",
+      "source_system",
+      "state",
+      "total_amount",
+      "valuation"
+    ],
+    "relationship-dashboard-list": [
+      "$schema",
+      "BILLING",
+      "PRIMARY",
+      "addresses",
+      "agent_organisation_id",
+      "agent_organisation_name",
+      "agent_organisation_role",
+      "agent_organisation_type",
+      "agents",
+      "city",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_role",
+      "client_organisation_type",
+      "client_relationship_status",
+      "first_name",
+      "last_name",
+      "page",
+      "page_size",
+      "pagination",
+      "primaryAdvisorFirstName",
+      "relationships_mapped",
+      "relationships_raw",
+      "state",
+      "total_pages",
+      "total_records"
+    ]
+  }
+}

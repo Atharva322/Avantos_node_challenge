@@ -1,0 +1,238 @@
+{
+  "stem": "ServiceAgreement",
+  "group_members": [
+    "ServiceAgreementCreateInputBody",
+    "ServiceAgreementGetOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ServiceAgreementCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ServiceAgreementGetOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody",
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_id",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody",
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody",
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "advisor_id",
+      "in_schemas": [
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_id",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agreement_details",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody",
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "allocation",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "allocation_details",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody",
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_id",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody",
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "end_date",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody",
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "fee",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "fee_details",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody",
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_id",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody",
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "repcode_id",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody",
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "service_agreement",
+      "in_schemas": [
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "start_date",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody",
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "terms",
+      "in_schemas": [
+        "ServiceAgreementCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "ServiceAgreementGetOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ServiceAgreementCreateInputBody": [
+      "$schema",
+      "account_id",
+      "additional_attributes",
+      "agent_id",
+      "agreement_details",
+      "allocation",
+      "allocation_details",
+      "client_id",
+      "custom",
+      "end_date",
+      "fee",
+      "fee_details",
+      "product_id",
+      "repcode_id",
+      "start_date",
+      "terms"
+    ],
+    "ServiceAgreementGetOutputBody": [
+      "$schema",
+      "account_id",
+      "additional_attributes",
+      "advisor_id",
+      "agreement_details",
+      "allocation_details",
+      "client_id",
+      "created_at",
+      "end_date",
+      "fee_details",
+      "id",
+      "product_id",
+      "property1",
+      "property2",
+      "repcode_id",
+      "service_agreement",
+      "start_date",
+      "tenant_id",
+      "updated_at"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 24,
+    "common_field_count": 11,
+    "avg_pairwise_jaccard": 0.4583
+  }
+}

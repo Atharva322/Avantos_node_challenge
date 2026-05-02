@@ -1,0 +1,85 @@
+{
+  "stem": "agent-organisation-client-organisation",
+  "group_members": [
+    "agent-organisation-client-organisation-list"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/agent-organisations/{agent_organisation_id}/client-organisations"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-organisation-client-organisation-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "agent-organisation-client-organisation-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_role",
+      "in_operations": [
+        "agent-organisation-client-organisation-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_operations": [
+        "agent-organisation-client-organisation-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "agent-organisation-client-organisation-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "agent-organisation-client-organisation-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "agent-organisation-client-organisation-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "organisations",
+      "in_operations": [
+        "agent-organisation-client-organisation-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_status",
+      "in_operations": [
+        "agent-organisation-client-organisation-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "agent-organisation-client-organisation-list": [
+      "$schema",
+      "client_organisation_role",
+      "client_organisation_type",
+      "description",
+      "id",
+      "name",
+      "organisations",
+      "relationship_status"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "stem": "role-groups",
+  "group_members": [
+    "role-groups-list"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/role-groups"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/role-groups-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "role-groups-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "role-groups-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role_groups",
+      "in_operations": [
+        "role-groups-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "roles",
+      "in_operations": [
+        "role-groups-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "role-groups-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "role-groups-list": [
+      "$schema",
+      "name",
+      "role_groups",
+      "roles",
+      "tenant_id"
+    ]
+  }
+}

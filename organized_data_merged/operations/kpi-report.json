@@ -1,0 +1,133 @@
+{
+  "stem": "kpi-report",
+  "group_members": [
+    "kpi-report"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/kpis/report"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/kpi-report"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "available_dimensions",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "data_points",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "denominator",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "granularity",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "kpi_id",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "kpi_name",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "numerator",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "period_end",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "period_start",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "unit",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "value",
+      "in_operations": [
+        "kpi-report"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "kpi-report": [
+      "$schema",
+      "available_dimensions",
+      "data_points",
+      "denominator",
+      "granularity",
+      "kpi_id",
+      "kpi_name",
+      "numerator",
+      "period_end",
+      "period_start",
+      "property1",
+      "property2",
+      "unit",
+      "value"
+    ]
+  }
+}

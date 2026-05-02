@@ -1,0 +1,431 @@
+{
+  "stem": "relationship-opportunity",
+  "group_members": [
+    "relationship-opportunity-create",
+    "relationship-opportunity-list"
+  ],
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/relationships/client-organisations/{client_organisation_id}/opportunities",
+    "/api/v1/{tenant_id}/relationships/client-organisations/{client_organisation_id}/opportunities-list"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-opportunity-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-opportunity-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "relationship-opportunity-create",
+        "relationship-opportunity-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "amount",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "amount_transferred",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "annual_revenue",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "category",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_extra_properties",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_growth_opportunity_next_step_date",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_status",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "closed_amount",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "employees",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "expected_close_date",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "expected_revenue",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "extra_properties",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "relationship-opportunity-create",
+        "relationship-opportunity-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "import_type",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "industry",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_closed",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "lead_source",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "next_meeting_date",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "next_step",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "next_step_date",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "opportunities",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "opportunity_type",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "owner_id",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "platform",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "probability",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "probability_categorisation",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "prospective_external_id",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "prospective_id",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "prospective_name",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "prospective_type",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "record_type",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "recording_url",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_type",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "stage",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "stage_changed_date",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sub_category",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "wealth_advisor_agent_id",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "wealth_advisor_first_name",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "wealth_advisor_last_name",
+      "in_operations": [
+        "relationship-opportunity-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "relationship-opportunity-create": [
+      "$schema",
+      "id"
+    ],
+    "relationship-opportunity-list": [
+      "$schema",
+      "amount",
+      "amount_transferred",
+      "annual_revenue",
+      "category",
+      "client_organisation_external_id",
+      "client_organisation_extra_properties",
+      "client_organisation_growth_opportunity_next_step_date",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_status",
+      "client_organisation_type",
+      "closed_amount",
+      "created_at",
+      "description",
+      "employees",
+      "expected_close_date",
+      "expected_revenue",
+      "external_id",
+      "extra_properties",
+      "id",
+      "import_type",
+      "industry",
+      "is_closed",
+      "lead_source",
+      "name",
+      "next_meeting_date",
+      "next_step",
+      "next_step_date",
+      "opportunities",
+      "opportunity_type",
+      "owner_id",
+      "platform",
+      "probability",
+      "probability_categorisation",
+      "prospective_external_id",
+      "prospective_id",
+      "prospective_name",
+      "prospective_type",
+      "record_type",
+      "recording_url",
+      "relationship_type",
+      "stage",
+      "stage_changed_date",
+      "status",
+      "sub_category",
+      "updated_at",
+      "wealth_advisor_agent_id",
+      "wealth_advisor_first_name",
+      "wealth_advisor_last_name"
+    ]
+  }
+}

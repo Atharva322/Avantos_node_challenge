@@ -1,0 +1,116 @@
+{
+  "stem": "TenantConfig",
+  "group_members": [
+    "TenantConfigCreateOutputBody",
+    "TenantConfigDeleteOutputBody",
+    "TenantConfigGetOutputBody",
+    "TenantConfigUpdateBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TenantConfigCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TenantConfigDeleteOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TenantConfigGetOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TenantConfigUpdateBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "TenantConfigCreateOutputBody",
+        "TenantConfigDeleteOutputBody",
+        "TenantConfigGetOutputBody",
+        "TenantConfigUpdateBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "createdAt",
+      "in_schemas": [
+        "TenantConfigGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "defaultPinnedViewIds",
+      "in_schemas": [
+        "TenantConfigGetOutputBody",
+        "TenantConfigUpdateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "defaultViewId",
+      "in_schemas": [
+        "TenantConfigGetOutputBody",
+        "TenantConfigUpdateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "TenantConfigCreateOutputBody",
+        "TenantConfigGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "message",
+      "in_schemas": [
+        "TenantConfigDeleteOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pageId",
+      "in_schemas": [
+        "TenantConfigGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenantId",
+      "in_schemas": [
+        "TenantConfigGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updatedAt",
+      "in_schemas": [
+        "TenantConfigGetOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "TenantConfigCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "TenantConfigDeleteOutputBody": [
+      "$schema",
+      "message"
+    ],
+    "TenantConfigGetOutputBody": [
+      "$schema",
+      "createdAt",
+      "defaultPinnedViewIds",
+      "defaultViewId",
+      "id",
+      "pageId",
+      "tenantId",
+      "updatedAt"
+    ],
+    "TenantConfigUpdateBody": [
+      "$schema",
+      "defaultPinnedViewIds",
+      "defaultViewId"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 9,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.2616
+  }
+}

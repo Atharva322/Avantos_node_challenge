@@ -1,0 +1,42 @@
+{
+  "stem": "meeting-attendee",
+  "group_members": [
+    "meeting-attendee-create",
+    "meeting-attendee-delete"
+  ],
+  "methods": [
+    "DELETE",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/meetings/{meeting_id}/attendees",
+    "/api/v1/{tenant_id}/meetings/{meeting_id}/attendees/{attendee_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-attendee-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-attendee-delete"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "meeting-attendee-create"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "meeting-attendee-create"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "meeting-attendee-create": [
+      "$schema",
+      "id"
+    ],
+    "meeting-attendee-delete": []
+  }
+}

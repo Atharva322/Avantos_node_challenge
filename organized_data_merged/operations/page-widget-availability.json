@@ -1,0 +1,258 @@
+{
+  "stem": "page-widget-availability",
+  "group_members": [
+    "page-widget-availability-create",
+    "page-widget-availability-delete",
+    "page-widget-availability-get",
+    "page-widget-availability-list"
+  ],
+  "methods": [
+    "DELETE",
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/pages/{page}/available-widgets",
+    "/api/v1/{tenant_id}/pages/{page}/available-widgets/{availability_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "page-widget-availability-create",
+        "page-widget-availability-delete",
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "availableWidgets",
+      "in_operations": [
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "configSchema",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "createdAt",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "defaultConfig",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "defaultHeight",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "defaultWidth",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "displayName",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "page-widget-availability-create",
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "maxHeight",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "maxWidth",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "message",
+      "in_operations": [
+        "page-widget-availability-delete"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "minHeight",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "minWidth",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updatedAt",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "widgetDefinition",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "widgetDefinitionId",
+      "in_operations": [
+        "page-widget-availability-get",
+        "page-widget-availability-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "page-widget-availability-create": [
+      "$schema",
+      "id"
+    ],
+    "page-widget-availability-delete": [
+      "$schema",
+      "message"
+    ],
+    "page-widget-availability-get": [
+      "$schema",
+      "configSchema",
+      "createdAt",
+      "defaultConfig",
+      "defaultHeight",
+      "defaultWidth",
+      "description",
+      "displayName",
+      "id",
+      "maxHeight",
+      "maxWidth",
+      "minHeight",
+      "minWidth",
+      "name",
+      "page",
+      "property1",
+      "property2",
+      "updatedAt",
+      "widgetDefinition",
+      "widgetDefinitionId"
+    ],
+    "page-widget-availability-list": [
+      "$schema",
+      "availableWidgets",
+      "configSchema",
+      "createdAt",
+      "defaultConfig",
+      "defaultHeight",
+      "defaultWidth",
+      "description",
+      "displayName",
+      "id",
+      "maxHeight",
+      "maxWidth",
+      "minHeight",
+      "minWidth",
+      "name",
+      "page",
+      "property1",
+      "property2",
+      "updatedAt",
+      "widgetDefinition",
+      "widgetDefinitionId"
+    ]
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "stem": "EnvironmentBlueprint",
+  "group_members": [
+    "EnvironmentBlueprintListOutputBody",
+    "EnvironmentBlueprintVersionDescription"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/EnvironmentBlueprintListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/EnvironmentBlueprintVersionDescription"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ai_context_description",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ai_description",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "blueprints",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "category",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_ai_recommendable",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_journey",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "short_description",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "EnvironmentBlueprintListOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "EnvironmentBlueprintListOutputBody": [
+      "$schema",
+      "ai_context_description",
+      "ai_description",
+      "blueprints",
+      "category",
+      "created_at",
+      "description",
+      "id",
+      "is_ai_recommendable",
+      "is_journey",
+      "name",
+      "page",
+      "page_size",
+      "pagination",
+      "short_description",
+      "tenant_id",
+      "total_pages",
+      "total_records",
+      "updated_at"
+    ],
+    "EnvironmentBlueprintVersionDescription": []
+  },
+  "overlap_summary": {
+    "union_field_count": 19,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0
+  }
+}

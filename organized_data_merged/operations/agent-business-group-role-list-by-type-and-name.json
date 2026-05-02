@@ -1,0 +1,19 @@
+{
+  "stem": "agent-business-group-role-list-by-type-and-name",
+  "group_members": [
+    "agent-business-group-role-list-by-type-and-name"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/agent-business-group-roles"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-business-group-role-list-by-type-and-name"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "agent-business-group-role-list-by-type-and-name": []
+  }
+}

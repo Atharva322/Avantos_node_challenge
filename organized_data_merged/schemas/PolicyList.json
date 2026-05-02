@@ -1,0 +1,60 @@
+{
+  "stem": "PolicyList",
+  "group_members": [
+    "PolicyListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicyListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "PolicyListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "PolicyListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "policies",
+      "in_schemas": [
+        "PolicyListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "policyName",
+      "in_schemas": [
+        "PolicyListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "rules",
+      "in_schemas": [
+        "PolicyListOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "PolicyListOutputBody": [
+      "$schema",
+      "description",
+      "policies",
+      "policyName",
+      "rules"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 5,
+    "common_field_count": 5,
+    "avg_pairwise_jaccard": 1
+  }
+}

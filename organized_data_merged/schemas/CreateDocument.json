@@ -1,0 +1,180 @@
+{
+  "stem": "CreateDocument",
+  "group_members": [
+    "CreateDocumentCatalogEntryInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateDocumentCatalogEntryInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "access_level",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "approved_by",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "document_status",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "document_subtype",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "document_type",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "file_name",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "file_type",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "key",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "rejection_reason",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "retention_policy",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "storage_container",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "storage_mode",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "storage_object_key",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "storage_provider",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "upload_date",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "upload_status",
+      "in_schemas": [
+        "CreateDocumentCatalogEntryInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "CreateDocumentCatalogEntryInputBody": [
+      "$schema",
+      "access_level",
+      "additional_attributes",
+      "approved_by",
+      "description",
+      "document_status",
+      "document_subtype",
+      "document_type",
+      "external_id",
+      "file_name",
+      "file_type",
+      "key",
+      "rejection_reason",
+      "retention_policy",
+      "storage_container",
+      "storage_mode",
+      "storage_object_key",
+      "storage_provider",
+      "upload_date",
+      "upload_status"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 20,
+    "common_field_count": 20,
+    "avg_pairwise_jaccard": 1
+  }
+}

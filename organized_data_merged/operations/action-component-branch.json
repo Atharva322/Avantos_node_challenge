@@ -1,0 +1,42 @@
+{
+  "stem": "action-component-branch",
+  "group_members": [
+    "action-component-branch-create",
+    "action-component-branch-update"
+  ],
+  "methods": [
+    "POST",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/actions/components/branches",
+    "/api/v1/{tenant_id}/actions/components/branches/{branch_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-branch-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-branch-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "action-component-branch-create"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "action-component-branch-create"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "action-component-branch-create": [
+      "$schema",
+      "id"
+    ],
+    "action-component-branch-update": []
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "stem": "business-group-coverage-lookup-summary",
+  "group_members": [
+    "business-group-coverage-lookup-summary"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/business-groups/coverage-lookups/summary"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-coverage-lookup-summary"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_count",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_external_id",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_extra_properties",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_id",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_name",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_groups",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "capacity_limit",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "category",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_count",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "coverage_description",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "coverage_summaries",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "coverage_value",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "lookup_id",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "priority",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "team_count",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_agents",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_clients",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_lookups",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_teams",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "totals",
+      "in_operations": [
+        "business-group-coverage-lookup-summary"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "business-group-coverage-lookup-summary": [
+      "$schema",
+      "agent_count",
+      "business_group_external_id",
+      "business_group_extra_properties",
+      "business_group_id",
+      "business_group_name",
+      "business_groups",
+      "capacity_limit",
+      "category",
+      "client_count",
+      "coverage_description",
+      "coverage_summaries",
+      "coverage_value",
+      "lookup_id",
+      "priority",
+      "team_count",
+      "total_agents",
+      "total_clients",
+      "total_lookups",
+      "total_teams",
+      "totals"
+    ]
+  }
+}

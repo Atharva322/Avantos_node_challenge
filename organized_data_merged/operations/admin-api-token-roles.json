@@ -1,0 +1,37 @@
+{
+  "stem": "admin-api-token-roles",
+  "group_members": [
+    "admin-api-token-roles-list"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/admin/api-token-roles"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/admin-api-token-roles-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "admin-api-token-roles-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "roles",
+      "in_operations": [
+        "admin-api-token-roles-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "admin-api-token-roles-list": [
+      "$schema",
+      "roles"
+    ]
+  }
+}

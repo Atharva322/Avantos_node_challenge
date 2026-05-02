@@ -1,0 +1,52 @@
+{
+  "stem": "PolicyCreate",
+  "group_members": [
+    "PolicyCreateInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicyCreateInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "PolicyCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_by",
+      "in_schemas": [
+        "PolicyCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "PolicyCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "policy_name",
+      "in_schemas": [
+        "PolicyCreateInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "PolicyCreateInputBody": [
+      "$schema",
+      "created_by",
+      "description",
+      "policy_name"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 4,
+    "common_field_count": 4,
+    "avg_pairwise_jaccard": 1
+  }
+}

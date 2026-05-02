@@ -1,0 +1,82 @@
+{
+  "stem": "ComponentJWT",
+  "group_members": [
+    "ComponentJWTInputBody",
+    "ComponentJWTOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ComponentJWTInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ComponentJWTOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ComponentJWTInputBody",
+        "ComponentJWTOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "Component",
+      "in_schemas": [
+        "ComponentJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "RelationshipId",
+      "in_schemas": [
+        "ComponentJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "UserId",
+      "in_schemas": [
+        "ComponentJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "UserRole",
+      "in_schemas": [
+        "ComponentJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "token",
+      "in_schemas": [
+        "ComponentJWTOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "url",
+      "in_schemas": [
+        "ComponentJWTOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ComponentJWTInputBody": [
+      "$schema",
+      "Component",
+      "RelationshipId",
+      "UserId",
+      "UserRole"
+    ],
+    "ComponentJWTOutputBody": [
+      "$schema",
+      "token",
+      "url"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 7,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.1429
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "stem": "ActionBranch",
+  "group_members": [
+    "ActionBranchDescription"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBranchDescription"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "condition",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_by",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "left",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "object",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "operator",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "right",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "value",
+      "in_schemas": [
+        "ActionBranchDescription"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "ActionBranchDescription": [
+      "$schema",
+      "condition",
+      "created_at",
+      "created_by",
+      "description",
+      "id",
+      "left",
+      "name",
+      "object",
+      "operator",
+      "property",
+      "right",
+      "tenant_id",
+      "type",
+      "updated_at",
+      "value"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 16,
+    "common_field_count": 16,
+    "avg_pairwise_jaccard": 1
+  }
+}

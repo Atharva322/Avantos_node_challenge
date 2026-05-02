@@ -1,0 +1,117 @@
+{
+  "stem": "action-run-blueprint-version-reassign-bulk",
+  "group_members": [
+    "action-run-blueprint-version-reassign-bulk"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/blueprint-version-reassign"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-blueprint-version-reassign-bulk"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "component_errors",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "component_key",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "error_type",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "failed_runs",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "field_name",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "message",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "prefill_errors",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "reassigned_run_ids",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "referenced_component_key",
+      "in_operations": [
+        "action-run-blueprint-version-reassign-bulk"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "action-run-blueprint-version-reassign-bulk": [
+      "$schema",
+      "component_errors",
+      "component_key",
+      "error_type",
+      "failed_runs",
+      "field_name",
+      "message",
+      "prefill_errors",
+      "property1",
+      "property2",
+      "reassigned_run_ids",
+      "referenced_component_key"
+    ]
+  }
+}

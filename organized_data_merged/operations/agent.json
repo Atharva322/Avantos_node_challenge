@@ -1,0 +1,37 @@
+{
+  "stem": "agent",
+  "group_members": [
+    "agent-create"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/agents"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-create"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "agent-create"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "agent-create"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "agent-create": [
+      "$schema",
+      "id"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "stem": "business-groups-find-by-coverage",
+  "group_members": [
+    "business-groups-find-by-coverage"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/business-groups/find-by-coverage"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-groups-find-by-coverage"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "business-groups-find-by-coverage": []
+  }
+}

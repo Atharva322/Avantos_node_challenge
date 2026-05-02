@@ -1,0 +1,108 @@
+{
+  "stem": "TodoCreate",
+  "group_members": [
+    "TodoCreateInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TodoCreateInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "TodoCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assignee_id",
+      "in_schemas": [
+        "TodoCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "TodoCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "complete",
+      "in_schemas": [
+        "TodoCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "due_date",
+      "in_schemas": [
+        "TodoCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_read",
+      "in_schemas": [
+        "TodoCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "notes",
+      "in_schemas": [
+        "TodoCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role_names",
+      "in_schemas": [
+        "TodoCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "scope_type",
+      "in_schemas": [
+        "TodoCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tags",
+      "in_schemas": [
+        "TodoCreateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "title",
+      "in_schemas": [
+        "TodoCreateInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "TodoCreateInputBody": [
+      "$schema",
+      "assignee_id",
+      "client_organisation_id",
+      "complete",
+      "due_date",
+      "is_read",
+      "notes",
+      "role_names",
+      "scope_type",
+      "tags",
+      "title"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 11,
+    "common_field_count": 11,
+    "avg_pairwise_jaccard": 1
+  }
+}

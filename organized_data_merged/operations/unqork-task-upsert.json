@@ -1,0 +1,19 @@
+{
+  "stem": "unqork-task-upsert",
+  "group_members": [
+    "unqork-task-upsert"
+  ],
+  "methods": [
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/unqork/tasks/{unqork_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/unqork-task-upsert"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "unqork-task-upsert": []
+  }
+}

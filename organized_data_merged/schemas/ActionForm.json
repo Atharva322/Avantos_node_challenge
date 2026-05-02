@@ -1,0 +1,504 @@
+{
+  "stem": "ActionForm",
+  "group_members": [
+    "ActionFormRenderDescription",
+    "ActionFormTaskRenderDescription"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionFormRenderDescription",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionFormTaskRenderDescription"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additionalProperties",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "allOf",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "anyOf",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "child_form_javascript",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_by",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "custom_javascript",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "custom_javascript_execute_on_load",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "custom_javascript_functions",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "custom_javascript_triggering_fields",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "default_input_mapping",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "default_output_mapping",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "dynamic_field_config",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "e_signature_mappings",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "elements",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "else",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "embedded_js",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "endpoint_id",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "field_schema",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "graph_etag",
+      "in_schemas": [
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "if",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "imported_js_function_config",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_reusable",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "no_results_message",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "oneOf",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "options",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "output_key",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "payload_fields",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pdf_preview_payloads",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "prefix",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "properties",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "required",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "resolved_form_id",
+      "in_schemas": [
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "result_data",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "selector_field",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "submission_restricted",
+      "in_schemas": [
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "task_status",
+      "in_schemas": [
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "task_type",
+      "in_schemas": [
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "then",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "triggering_fields",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ui_schema",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "ActionFormRenderDescription",
+        "ActionFormTaskRenderDescription"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "ActionFormRenderDescription": [
+      "$schema",
+      "additionalProperties",
+      "allOf",
+      "anyOf",
+      "child_form_javascript",
+      "created_at",
+      "created_by",
+      "custom_javascript",
+      "custom_javascript_execute_on_load",
+      "custom_javascript_functions",
+      "custom_javascript_triggering_fields",
+      "default_input_mapping",
+      "default_output_mapping",
+      "description",
+      "dynamic_field_config",
+      "e_signature_mappings",
+      "elements",
+      "else",
+      "embedded_js",
+      "endpoint_id",
+      "field_schema",
+      "id",
+      "if",
+      "imported_js_function_config",
+      "is_reusable",
+      "name",
+      "no_results_message",
+      "oneOf",
+      "options",
+      "output_key",
+      "payload_fields",
+      "pdf_preview_payloads",
+      "prefix",
+      "properties",
+      "property1",
+      "property2",
+      "required",
+      "result_data",
+      "selector_field",
+      "then",
+      "triggering_fields",
+      "type",
+      "ui_schema",
+      "updated_at"
+    ],
+    "ActionFormTaskRenderDescription": [
+      "$schema",
+      "additionalProperties",
+      "allOf",
+      "anyOf",
+      "child_form_javascript",
+      "created_at",
+      "created_by",
+      "custom_javascript",
+      "custom_javascript_execute_on_load",
+      "custom_javascript_functions",
+      "custom_javascript_triggering_fields",
+      "default_input_mapping",
+      "default_output_mapping",
+      "description",
+      "dynamic_field_config",
+      "e_signature_mappings",
+      "elements",
+      "else",
+      "embedded_js",
+      "endpoint_id",
+      "field_schema",
+      "graph_etag",
+      "id",
+      "if",
+      "imported_js_function_config",
+      "is_reusable",
+      "name",
+      "no_results_message",
+      "oneOf",
+      "options",
+      "output_key",
+      "payload_fields",
+      "pdf_preview_payloads",
+      "prefix",
+      "properties",
+      "property1",
+      "property2",
+      "required",
+      "resolved_form_id",
+      "result_data",
+      "selector_field",
+      "submission_restricted",
+      "task_status",
+      "task_type",
+      "then",
+      "triggering_fields",
+      "type",
+      "ui_schema",
+      "updated_at"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 49,
+    "common_field_count": 44,
+    "avg_pairwise_jaccard": 0.898
+  }
+}

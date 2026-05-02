@@ -1,0 +1,152 @@
+{
+  "stem": "DocumentStorage",
+  "group_members": [
+    "DocumentStorageIntegrationEnvironmentResponse",
+    "DocumentStorageIntegrationEnvironmentUpsertInputBody",
+    "DocumentStorageIntegrationResponse",
+    "DocumentStorageIntegrationUpsertInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentStorageIntegrationEnvironmentResponse",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentStorageIntegrationEnvironmentUpsertInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentStorageIntegrationResponse",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentStorageIntegrationUpsertInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "DocumentStorageIntegrationEnvironmentResponse",
+        "DocumentStorageIntegrationEnvironmentUpsertInputBody",
+        "DocumentStorageIntegrationResponse",
+        "DocumentStorageIntegrationUpsertInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "config",
+      "in_schemas": [
+        "DocumentStorageIntegrationEnvironmentResponse",
+        "DocumentStorageIntegrationEnvironmentUpsertInputBody",
+        "DocumentStorageIntegrationResponse",
+        "DocumentStorageIntegrationUpsertInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "DocumentStorageIntegrationEnvironmentResponse",
+        "DocumentStorageIntegrationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "credentials",
+      "in_schemas": [
+        "DocumentStorageIntegrationEnvironmentResponse",
+        "DocumentStorageIntegrationEnvironmentUpsertInputBody",
+        "DocumentStorageIntegrationResponse",
+        "DocumentStorageIntegrationUpsertInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "enabled",
+      "in_schemas": [
+        "DocumentStorageIntegrationEnvironmentResponse",
+        "DocumentStorageIntegrationEnvironmentUpsertInputBody",
+        "DocumentStorageIntegrationResponse",
+        "DocumentStorageIntegrationUpsertInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "environment",
+      "in_schemas": [
+        "DocumentStorageIntegrationEnvironmentResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "DocumentStorageIntegrationEnvironmentResponse",
+        "DocumentStorageIntegrationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "integration_id",
+      "in_schemas": [
+        "DocumentStorageIntegrationEnvironmentResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "provider",
+      "in_schemas": [
+        "DocumentStorageIntegrationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "DocumentStorageIntegrationEnvironmentResponse",
+        "DocumentStorageIntegrationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "DocumentStorageIntegrationEnvironmentResponse",
+        "DocumentStorageIntegrationResponse"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "DocumentStorageIntegrationEnvironmentResponse": [
+      "$schema",
+      "config",
+      "created_at",
+      "credentials",
+      "enabled",
+      "environment",
+      "id",
+      "integration_id",
+      "tenant_id",
+      "updated_at"
+    ],
+    "DocumentStorageIntegrationEnvironmentUpsertInputBody": [
+      "$schema",
+      "config",
+      "credentials",
+      "enabled"
+    ],
+    "DocumentStorageIntegrationResponse": [
+      "$schema",
+      "config",
+      "created_at",
+      "credentials",
+      "enabled",
+      "id",
+      "provider",
+      "tenant_id",
+      "updated_at"
+    ],
+    "DocumentStorageIntegrationUpsertInputBody": [
+      "$schema",
+      "config",
+      "credentials",
+      "enabled"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 11,
+    "common_field_count": 4,
+    "avg_pairwise_jaccard": 0.5694
+  }
+}

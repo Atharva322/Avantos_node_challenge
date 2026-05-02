@@ -1,0 +1,101 @@
+{
+  "stem": "trigger-endpoint-execute",
+  "group_members": [
+    "trigger-endpoint-execute"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/triggers/endpoints/{trigger_endpoint_id}/execute"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-endpoint-execute"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "trigger-endpoint-execute"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "age",
+      "in_operations": [
+        "trigger-endpoint-execute"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "execution_time_ms",
+      "in_operations": [
+        "trigger-endpoint-execute"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "mapped",
+      "in_operations": [
+        "trigger-endpoint-execute"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "trigger-endpoint-execute"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "raw",
+      "in_operations": [
+        "trigger-endpoint-execute"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "request_body",
+      "in_operations": [
+        "trigger-endpoint-execute"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "request_route",
+      "in_operations": [
+        "trigger-endpoint-execute"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "response_body",
+      "in_operations": [
+        "trigger-endpoint-execute"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "response_code",
+      "in_operations": [
+        "trigger-endpoint-execute"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "trigger-endpoint-execute": [
+      "$schema",
+      "age",
+      "execution_time_ms",
+      "mapped",
+      "name",
+      "raw",
+      "request_body",
+      "request_route",
+      "response_body",
+      "response_code"
+    ]
+  }
+}

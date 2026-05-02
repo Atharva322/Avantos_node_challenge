@@ -1,0 +1,18 @@
+{
+  "stem": "PolicyValuation",
+  "group_members": [
+    "PolicyValuationAPI"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicyValuationAPI"
+  ],
+  "fields_union": [],
+  "schema_field_map": {
+    "PolicyValuationAPI": []
+  },
+  "overlap_summary": {
+    "union_field_count": 0,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  }
+}

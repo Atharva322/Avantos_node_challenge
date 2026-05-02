@@ -1,0 +1,181 @@
+{
+  "stem": "list-sync-files",
+  "group_members": [
+    "list-sync-files"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/list-sync-file"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/list-sync-files"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_metadata",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "duration",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "end_time",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "error_count",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "error_rate_percent",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "file_size",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "record_count",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "s3_bucket",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "s3_key",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "salesforce_object",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "start_date",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "start_time",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "sync_files",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "list-sync-files"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "list-sync-files": [
+      "$schema",
+      "additional_metadata",
+      "duration",
+      "end_time",
+      "error_count",
+      "error_rate_percent",
+      "file_size",
+      "id",
+      "property1",
+      "property2",
+      "record_count",
+      "s3_bucket",
+      "s3_key",
+      "salesforce_object",
+      "start_date",
+      "start_time",
+      "status",
+      "sync_files",
+      "tenant_id",
+      "updated_at"
+    ]
+  }
+}

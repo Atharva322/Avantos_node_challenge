@@ -1,0 +1,242 @@
+{
+  "stem": "RelationshipClient",
+  "group_members": [
+    "RelationshipClientDescription",
+    "RelationshipClientOrganisationMembersOutputBody",
+    "RelationshipClientOrganisationMembersRelationshipsDescription"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipClientDescription",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipClientOrganisationMembersOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipClientOrganisationMembersRelationshipsDescription"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "BILLING",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "addresses",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "birthdate",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "city",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_id",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "contact_method",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "current_employer",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "email",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "employment_status",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "first_name",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_primary",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "last_name",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "marital_status",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "members",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "notes",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "occupation",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "phone",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preferences",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preferred_name",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ssn",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "state",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "subtype",
+      "in_schemas": [
+        "RelationshipClientOrganisationMembersOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "RelationshipClientDescription": [],
+    "RelationshipClientOrganisationMembersOutputBody": [
+      "$schema",
+      "BILLING",
+      "additional_attributes",
+      "addresses",
+      "birthdate",
+      "city",
+      "client_id",
+      "client_organisation_id",
+      "contact_method",
+      "current_employer",
+      "email",
+      "employment_status",
+      "first_name",
+      "is_primary",
+      "last_name",
+      "marital_status",
+      "members",
+      "notes",
+      "occupation",
+      "phone",
+      "preferences",
+      "preferred_name",
+      "role",
+      "ssn",
+      "state",
+      "status",
+      "subtype"
+    ],
+    "RelationshipClientOrganisationMembersRelationshipsDescription": []
+  },
+  "overlap_summary": {
+    "union_field_count": 27,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.3333
+  }
+}

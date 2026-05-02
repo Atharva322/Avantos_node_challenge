@@ -1,0 +1,826 @@
+{
+  "stem": "client-organisation-graph",
+  "group_members": [
+    "client-organisation-graph-get",
+    "client-organisation-graph-patch"
+  ],
+  "methods": [
+    "GET",
+    "PATCH"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/client-organisations-graph/{client_organisation_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-graph-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-graph-patch"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_created_at",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_id",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_notes",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_number",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_updated_at",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "address_line1",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "address_line2",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_role",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_type",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agents",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "approx_aum",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "balance",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "beneficiary_first_name",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "beneficiary_id",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "beneficiary_last_name",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_date",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "cash_balance",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "city",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_addresses",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_description",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_role",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_segmentation",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "clients",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "closed_date",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "country",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "currency",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "currency_code",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "custodian",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "document_revision",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "extra_properties",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_accounts",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "growth_opportunity_next_step_date",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_mercer_employee",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "model_portfolio",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "national_css_coverage",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "next_meeting",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "office",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "open_date",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "org_address_summary",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "org_contacts",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "person",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primary_owner_first_name",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primary_owner_id",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primary_owner_last_name",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "product_model",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "product_name",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "product_type",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "region",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_status",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "rep_splits",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "schema_version",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "secondary_owner_first_name",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "secondary_owner_id",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "secondary_owner_last_name",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "state",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_status",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "type",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "value",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "writing_code",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "zipcode",
+      "in_operations": [
+        "client-organisation-graph-get",
+        "client-organisation-graph-patch"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "client-organisation-graph-get": [
+      "$schema",
+      "account_created_at",
+      "account_id",
+      "account_notes",
+      "account_number",
+      "account_updated_at",
+      "additional_attributes",
+      "address_line1",
+      "address_line2",
+      "agent_organisation",
+      "agent_organisation_role",
+      "agent_organisation_type",
+      "agents",
+      "approx_aum",
+      "balance",
+      "beneficiary_first_name",
+      "beneficiary_id",
+      "beneficiary_last_name",
+      "business_date",
+      "cash_balance",
+      "city",
+      "client_addresses",
+      "client_organisation",
+      "client_organisation_description",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_role",
+      "client_organisation_type",
+      "client_segmentation",
+      "clients",
+      "closed_date",
+      "country",
+      "currency",
+      "currency_code",
+      "custodian",
+      "description",
+      "document_revision",
+      "external_id",
+      "extra_properties",
+      "financial_accounts",
+      "first_name",
+      "growth_opportunity_next_step_date",
+      "id",
+      "is_mercer_employee",
+      "last_name",
+      "model_portfolio",
+      "name",
+      "national_css_coverage",
+      "next_meeting",
+      "office",
+      "open_date",
+      "org_address_summary",
+      "org_contacts",
+      "person",
+      "primary_owner_first_name",
+      "primary_owner_id",
+      "primary_owner_last_name",
+      "product_model",
+      "product_name",
+      "product_type",
+      "property1",
+      "property2",
+      "region",
+      "relationship_status",
+      "rep_splits",
+      "role",
+      "schema_version",
+      "secondary_owner_first_name",
+      "secondary_owner_id",
+      "secondary_owner_last_name",
+      "state",
+      "status",
+      "tax_status",
+      "tenant_id",
+      "type",
+      "updated_at",
+      "value",
+      "writing_code",
+      "zipcode"
+    ],
+    "client-organisation-graph-patch": [
+      "$schema",
+      "account_created_at",
+      "account_id",
+      "account_notes",
+      "account_number",
+      "account_updated_at",
+      "additional_attributes",
+      "address_line1",
+      "address_line2",
+      "agent_organisation",
+      "agent_organisation_role",
+      "agent_organisation_type",
+      "agents",
+      "approx_aum",
+      "balance",
+      "beneficiary_first_name",
+      "beneficiary_id",
+      "beneficiary_last_name",
+      "business_date",
+      "cash_balance",
+      "city",
+      "client_addresses",
+      "client_organisation",
+      "client_organisation_description",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_role",
+      "client_organisation_type",
+      "client_segmentation",
+      "clients",
+      "closed_date",
+      "country",
+      "currency",
+      "currency_code",
+      "custodian",
+      "description",
+      "document_revision",
+      "external_id",
+      "extra_properties",
+      "financial_accounts",
+      "first_name",
+      "growth_opportunity_next_step_date",
+      "id",
+      "is_mercer_employee",
+      "last_name",
+      "model_portfolio",
+      "name",
+      "national_css_coverage",
+      "next_meeting",
+      "office",
+      "open_date",
+      "org_address_summary",
+      "org_contacts",
+      "person",
+      "primary_owner_first_name",
+      "primary_owner_id",
+      "primary_owner_last_name",
+      "product_model",
+      "product_name",
+      "product_type",
+      "property1",
+      "property2",
+      "region",
+      "relationship_status",
+      "rep_splits",
+      "role",
+      "schema_version",
+      "secondary_owner_first_name",
+      "secondary_owner_id",
+      "secondary_owner_last_name",
+      "state",
+      "status",
+      "tax_status",
+      "tenant_id",
+      "type",
+      "updated_at",
+      "value",
+      "writing_code",
+      "zipcode"
+    ]
+  }
+}

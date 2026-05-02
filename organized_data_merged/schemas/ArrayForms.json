@@ -1,0 +1,60 @@
+{
+  "stem": "ArrayForms",
+  "group_members": [
+    "ArrayFormsConfigPutInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ArrayFormsConfigPutInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ArrayFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "array_child_form_id",
+      "in_schemas": [
+        "ArrayFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "array_property_name",
+      "in_schemas": [
+        "ArrayFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "configs",
+      "in_schemas": [
+        "ArrayFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "parent_task_form_id",
+      "in_schemas": [
+        "ArrayFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "ArrayFormsConfigPutInputBody": [
+      "$schema",
+      "array_child_form_id",
+      "array_property_name",
+      "configs",
+      "parent_task_form_id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 5,
+    "common_field_count": 5,
+    "avg_pairwise_jaccard": 1
+  }
+}

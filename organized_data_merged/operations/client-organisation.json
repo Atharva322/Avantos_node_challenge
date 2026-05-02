@@ -1,0 +1,304 @@
+{
+  "stem": "client-organisation",
+  "group_members": [
+    "client-organisation-create",
+    "client-organisation-list",
+    "client-organisation-update"
+  ],
+  "methods": [
+    "GET",
+    "PATCH",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/client-organisations",
+    "/api/v1/{tenant_id}/client-organisations/{id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-list",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-organisation-create",
+        "client-organisation-list",
+        "client-organisation-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_id",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agents",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "annual_revenue",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "approx_aum",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_role",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_segmentation",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "employees",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "extra_properties",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "growth_opportunity_next_step_date",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "client-organisation-create",
+        "client-organisation-list",
+        "client-organisation-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "industry",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "last_interaction_date",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "next_meeting",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "notes",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "organisations",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "parent_id",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_start_date",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_status",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "client-organisation-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "client-organisation-create": [
+      "$schema",
+      "id"
+    ],
+    "client-organisation-list": [
+      "$schema",
+      "agent_organisation_id",
+      "agents",
+      "annual_revenue",
+      "approx_aum",
+      "client_organisation_role",
+      "client_organisation_type",
+      "client_segmentation",
+      "created_at",
+      "description",
+      "employees",
+      "external_id",
+      "extra_properties",
+      "growth_opportunity_next_step_date",
+      "id",
+      "industry",
+      "last_interaction_date",
+      "name",
+      "next_meeting",
+      "notes",
+      "organisations",
+      "page",
+      "page_size",
+      "pagination",
+      "parent_id",
+      "property1",
+      "property2",
+      "relationship_start_date",
+      "relationship_status",
+      "tenant_id",
+      "total_pages",
+      "total_records",
+      "updated_at"
+    ],
+    "client-organisation-update": [
+      "$schema",
+      "id"
+    ]
+  }
+}

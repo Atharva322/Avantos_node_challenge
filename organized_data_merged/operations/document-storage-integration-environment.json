@@ -1,0 +1,130 @@
+{
+  "stem": "document-storage-integration-environment",
+  "group_members": [
+    "document-storage-integration-environment-delete",
+    "document-storage-integration-environment-get",
+    "document-storage-integration-environment-list"
+  ],
+  "methods": [
+    "DELETE",
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/document-storage/integrations/{provider}/environments",
+    "/api/v1/{tenant_id}/document-storage/integrations/{provider}/environments/{environment}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-storage-integration-environment-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-storage-integration-environment-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-storage-integration-environment-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "document-storage-integration-environment-get",
+        "document-storage-integration-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "config",
+      "in_operations": [
+        "document-storage-integration-environment-get",
+        "document-storage-integration-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "document-storage-integration-environment-get",
+        "document-storage-integration-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "credentials",
+      "in_operations": [
+        "document-storage-integration-environment-get",
+        "document-storage-integration-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "enabled",
+      "in_operations": [
+        "document-storage-integration-environment-get",
+        "document-storage-integration-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "environment",
+      "in_operations": [
+        "document-storage-integration-environment-get",
+        "document-storage-integration-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "document-storage-integration-environment-get",
+        "document-storage-integration-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "integration_id",
+      "in_operations": [
+        "document-storage-integration-environment-get",
+        "document-storage-integration-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "document-storage-integration-environment-get",
+        "document-storage-integration-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "document-storage-integration-environment-get",
+        "document-storage-integration-environment-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "document-storage-integration-environment-delete": [],
+    "document-storage-integration-environment-get": [
+      "$schema",
+      "config",
+      "created_at",
+      "credentials",
+      "enabled",
+      "environment",
+      "id",
+      "integration_id",
+      "tenant_id",
+      "updated_at"
+    ],
+    "document-storage-integration-environment-list": [
+      "$schema",
+      "config",
+      "created_at",
+      "credentials",
+      "enabled",
+      "environment",
+      "id",
+      "integration_id",
+      "tenant_id",
+      "updated_at"
+    ]
+  }
+}

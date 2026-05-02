@@ -1,0 +1,1148 @@
+[
+  {
+    "stem": "ABACDebug",
+    "group_members": [
+      "ABACDebugAtomicExpression",
+      "ABACDebugResult",
+      "ABACDebugSummary"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "ABACDebugAtomicExpression",
+          "ABACDebugSummary"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "APIToken",
+    "group_members": [
+      "APITokenCreateOutputBody",
+      "APITokenRoleListOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0714) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "AccountFinancial",
+    "group_members": [
+      "AccountFinancialCreateInputBody",
+      "AccountFinancialCreateOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0435) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "ActionBlueprint",
+    "group_members": [
+      "ActionBlueprintComponentDescription",
+      "ActionBlueprintCreateInputBody",
+      "ActionBlueprintCreateOutputBody",
+      "ActionBlueprintDescription",
+      "ActionBlueprintGraphEdgeDescription",
+      "ActionBlueprintGraphNodeDescription",
+      "ActionBlueprintGraphPutBody",
+      "ActionBlueprintGraphPutOutputBody",
+      "ActionBlueprintUpdateInputBody",
+      "ActionBlueprintVersionCreateInputBody",
+      "ActionBlueprintVersionOverview"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "4 member(s) have empty form_fields",
+        "schema_names": [
+          "ActionBlueprintComponentDescription",
+          "ActionBlueprintGraphEdgeDescription",
+          "ActionBlueprintGraphNodeDescription",
+          "ActionBlueprintVersionOverview"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "ActionComponent",
+    "group_members": [
+      "ActionComponentBranchCreateInputBody",
+      "ActionComponentDataExpression",
+      "ActionComponentFormCloneOutputBody",
+      "ActionComponentFormCreateInputBody",
+      "ActionComponentFormListInputBody",
+      "ActionComponentFormListOutputBody",
+      "ActionComponentFormUpdateDetailsInputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "ActionComponentDataExpression"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0981) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "ActionRun",
+    "group_members": [
+      "ActionRunAcceptRecommendationInputBody",
+      "ActionRunBulkLockInputBody",
+      "ActionRunBulkUnlockInputBody",
+      "ActionRunClientOrganisationBatchUpdateOutputBody",
+      "ActionRunClientOrganisationUpdateRequest",
+      "ActionRunClientOrganisationUpdateResult",
+      "ActionRunCreateInputSchemas",
+      "ActionRunCreateOutputBody",
+      "ActionRunCurrentDataSnapshotGetOutputBody",
+      "ActionRunDeleteOutputBody",
+      "ActionRunListInputBody",
+      "ActionRunListOutputBody",
+      "ActionRunNameUpdateInputBody",
+      "ActionRunPreAssignmentsGetOutputBody",
+      "ActionRunRejectRecommendationInputBody",
+      "ActionRunRequestCancelInputBody",
+      "ActionRunScheduleUpdateInputBody",
+      "ActionRunStateModelAdvanceInputBody",
+      "ActionRunStateModelTransitionItem",
+      "ActionRunStatusLog",
+      "ActionRunTaskAssignInputBody",
+      "ActionRunTaskCronJobQueuedUpdateInputBody",
+      "ActionRunTaskListInputBody",
+      "ActionRunTaskListOutputBody",
+      "ActionRunTaskNextStepDateUpdateInputBody",
+      "ActionRunTaskPatchInputBody",
+      "ActionRunTaskRejectInputBody",
+      "ActionRunTasksBulkAssignInputBody",
+      "ActionRunTasksBulkAssignOutputBody",
+      "ActionRunTaskScheduleUpdateInputBody",
+      "ActionRunTaskSubmitInputBody",
+      "ActionRunTaskUpdateWaitingInputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "6 member(s) have empty form_fields",
+        "schema_names": [
+          "ActionRunAcceptRecommendationInputBody",
+          "ActionRunClientOrganisationUpdateRequest",
+          "ActionRunClientOrganisationUpdateResult",
+          "ActionRunCreateInputSchemas",
+          "ActionRunStateModelTransitionItem",
+          "ActionRunStatusLog"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.138) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "AddTeam",
+    "group_members": [
+      "AddTeamToClientOrganisationInputBody",
+      "AddTeamToClientOrganisationOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.125) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "Address",
+    "group_members": [
+      "AddressDescription",
+      "AddressOutput"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "AddressDescription",
+          "AddressOutput"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "AddressPlace",
+    "group_members": [
+      "AddressPlaceDetailsInputBody",
+      "AddressPlaceDetailsOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.1) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "Agent",
+    "group_members": [
+      "Agent",
+      "AgentDescription"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "Agent",
+          "AgentDescription"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "AgentBusiness",
+    "group_members": [
+      "AgentBusinessGroupRole",
+      "AgentBusinessGroupRoleListInputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "AgentBusinessGroupRole"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "AgentClient",
+    "group_members": [
+      "AgentClientOrganisationRelationshipCreateInputBody",
+      "AgentClientOrganisationRelationshipCreateOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.1) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "AgentContact",
+    "group_members": [
+      "AgentContactCreateInputBody",
+      "AgentContactListOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "AgentContactCreateInputBody"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "AgentDirectly",
+    "group_members": [
+      "AgentDirectlyAssignedExpression",
+      "AgentDirectlyAssignedWithIDExpression"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "AgentDirectlyAssignedExpression",
+          "AgentDirectlyAssignedWithIDExpression"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "AgentOrganisation",
+    "group_members": [
+      "AgentOrganisationAddressListOutputBody",
+      "AgentOrganisationClientOrganisationListOutputBody",
+      "AgentOrganisationContactCreateInputBody",
+      "AgentOrganisationCreateOutputBody",
+      "AgentOrganisationGetOutputBody",
+      "AgentOrganisationListOutputBody",
+      "AgentOrganisationOutputDescription"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "AgentOrganisationContactCreateInputBody",
+          "AgentOrganisationOutputDescription"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "AgentSearch",
+    "group_members": [
+      "AgentSearchInputBody",
+      "AgentSearchOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0667) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "AllClients",
+    "group_members": [
+      "AllClientsSearchInputBody",
+      "AllClientsSearchOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0882) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "BookOf",
+    "group_members": [
+      "BookOfBusinessInputBody",
+      "BookOfBusinessProductFiltersInput",
+      "BookOfBusinessSummaryAPI",
+      "BookOfBusinessSummaryInputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "BookOfBusinessProductFiltersInput",
+          "BookOfBusinessSummaryAPI"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "BusinessGroup",
+    "group_members": [
+      "BusinessGroup",
+      "BusinessGroupCoverageDetailSortKey",
+      "BusinessGroupCoverageLookupSummaryTeam",
+      "BusinessGroupCoverageMatch",
+      "BusinessGroupCoverageResponse",
+      "BusinessGroupCreateOutputBody",
+      "BusinessGroupUpdateOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "4 member(s) have empty form_fields",
+        "schema_names": [
+          "BusinessGroupCoverageDetailSortKey",
+          "BusinessGroupCoverageLookupSummaryTeam",
+          "BusinessGroupCoverageMatch",
+          "BusinessGroupCoverageResponse"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "ClientAddress",
+    "group_members": [
+      "ClientAddressListOutputBody",
+      "ClientAddressOutput"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "ClientAddressOutput"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "ClientBatch",
+    "group_members": [
+      "ClientBatchMoveInputBody",
+      "ClientBatchMoveOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.1333) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "ClientContact",
+    "group_members": [
+      "ClientContactCreateInputBody",
+      "ClientContactListOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "ClientContactCreateInputBody"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "ClientMove",
+    "group_members": [
+      "ClientMoveRequest",
+      "ClientMoveResult"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "ClientMoveRequest",
+          "ClientMoveResult"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "ClientOrg",
+    "group_members": [
+      "ClientOrgDocumentDownloadOutputBody",
+      "ClientOrgDocumentGetOutputBody",
+      "ClientOrgDocumentListItem",
+      "ClientOrgDocumentUploadInitiateBody",
+      "ClientOrgDocumentUploadInitiateOutputBody",
+      "ClientOrgOpportunitiesSummaryInputBody",
+      "ClientOrgOpportunityUpdateOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "ClientOrgDocumentListItem"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.1167) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "ClientOrganisation",
+    "group_members": [
+      "ClientOrganisationAgentListOutputBody",
+      "ClientOrganisationBalanceLineageSummaryAPI",
+      "ClientOrganisationBalancesGetOutputBody",
+      "ClientOrganisationBalanceSummaryAPI",
+      "ClientOrganisationBasic",
+      "ClientOrganisationClientOutput",
+      "ClientOrganisationClientSortKey",
+      "ClientOrganisationContactCreateInputBody",
+      "ClientOrganisationCreateOutputBody",
+      "ClientOrganisationGetOutputBody",
+      "ClientOrganisationGraphAddress",
+      "ClientOrganisationGraphAgentOrganisation",
+      "ClientOrganisationGraphClient",
+      "ClientOrganisationGraphContact",
+      "ClientOrganisationGraphPatchChanges",
+      "ClientOrganisationGraphPatchClientOrganisation",
+      "ClientOrganisationGraphPatchRequestBody",
+      "ClientOrganisationGraphPerson",
+      "ClientOrganisationListOutputBody",
+      "ClientOrganisationListOutputItem",
+      "ClientOrganisationOutputDescription",
+      "ClientOrganisationRelationshipCreateInputBody",
+      "ClientOrganisationTeamSortKey",
+      "ClientOrganisationUpdateInputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "16 member(s) have empty form_fields",
+        "schema_names": [
+          "ClientOrganisationBalanceLineageSummaryAPI",
+          "ClientOrganisationBalanceSummaryAPI",
+          "ClientOrganisationBasic",
+          "ClientOrganisationClientOutput",
+          "ClientOrganisationClientSortKey",
+          "ClientOrganisationContactCreateInputBody",
+          "ClientOrganisationGraphAddress",
+          "ClientOrganisationGraphAgentOrganisation",
+          "ClientOrganisationGraphClient",
+          "ClientOrganisationGraphContact",
+          "ClientOrganisationGraphPatchChanges",
+          "ClientOrganisationGraphPatchClientOrganisation",
+          "ClientOrganisationGraphPerson",
+          "ClientOrganisationListOutputItem",
+          "ClientOrganisationOutputDescription",
+          "ClientOrganisationTeamSortKey"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "ClientOrganization",
+    "group_members": [
+      "ClientOrganizationBulkAccessCheckOutputBody",
+      "ClientOrganizationOpportunityDescription"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "ClientOrganizationOpportunityDescription"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "ClientPortal",
+    "group_members": [
+      "ClientPortalJWTInputBody",
+      "ClientPortalJWTOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0526) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "ClientSearch",
+    "group_members": [
+      "ClientSearchOutput",
+      "ClientSearchResponseDescription",
+      "ClientSearchSortKey"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "3 member(s) have empty form_fields",
+        "schema_names": [
+          "ClientSearchOutput",
+          "ClientSearchResponseDescription",
+          "ClientSearchSortKey"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "ClientUpdate",
+    "group_members": [
+      "ClientUpdateInputBody",
+      "ClientUpdateOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0256) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "ComponentJWT",
+    "group_members": [
+      "ComponentJWTInputBody",
+      "ComponentJWTOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.1429) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "DirectIngest",
+    "group_members": [
+      "DirectIngestInputRecord",
+      "DirectIngestOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "DirectIngestInputRecord"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "DlInput",
+    "group_members": [
+      "DlInputMappingRuleInput",
+      "DlInputMappingRuleSourceInput"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "DlInputMappingRuleInput",
+          "DlInputMappingRuleSourceInput"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "DlOutput",
+    "group_members": [
+      "DlOutputMappingRuleInput",
+      "DlOutputMappingRuleSourceInput",
+      "DlOutputMappingRuleTargetInput"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "3 member(s) have empty form_fields",
+        "schema_names": [
+          "DlOutputMappingRuleInput",
+          "DlOutputMappingRuleSourceInput",
+          "DlOutputMappingRuleTargetInput"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "DocuSign",
+    "group_members": [
+      "DocuSignDateSignedTabDoc",
+      "DocuSignDocumentDoc",
+      "DocuSignEnvelopeResponseDoc",
+      "DocuSignInitialHereTabDoc",
+      "DocuSignSignerDoc",
+      "DocuSignSignerTabsDoc",
+      "DocuSignSignHereTabDoc"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "6 member(s) have empty form_fields",
+        "schema_names": [
+          "DocuSignDateSignedTabDoc",
+          "DocuSignDocumentDoc",
+          "DocuSignInitialHereTabDoc",
+          "DocuSignSignerDoc",
+          "DocuSignSignerTabsDoc",
+          "DocuSignSignHereTabDoc"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "ESignature",
+    "group_members": [
+      "ESignatureEnvelopeDeleteDocumentsReq",
+      "ESignatureEnvelopeDownloadBody",
+      "ESignatureEnvelopeFromTemplateCreateReq",
+      "ESignatureEnvelopeUpdateDocumentsReq",
+      "ESignatureSignerReq",
+      "ESignatureTabReq",
+      "ESignatureTemplateResponse"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "3 member(s) have empty form_fields",
+        "schema_names": [
+          "ESignatureSignerReq",
+          "ESignatureTabReq",
+          "ESignatureTemplateResponse"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "EnvironmentBlueprint",
+    "group_members": [
+      "EnvironmentBlueprintListOutputBody",
+      "EnvironmentBlueprintVersionDescription"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "EnvironmentBlueprintVersionDescription"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "FinancialAccounts",
+    "group_members": [
+      "FinancialAccountsByClientOrganisationGetOutputAccount",
+      "FinancialAccountsByClientOrganisationGetOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "FinancialAccountsByClientOrganisationGetOutputAccount"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "IdentityVerification",
+    "group_members": [
+      "IdentityVerificationDOB",
+      "IdentityVerificationResponse"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "IdentityVerificationDOB"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "LedgerAggregation",
+    "group_members": [
+      "LedgerAggregationRowAPI",
+      "LedgerAggregationSearchInputBody",
+      "LedgerAggregationSortKeyAPI"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "LedgerAggregationRowAPI",
+          "LedgerAggregationSortKeyAPI"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "MeetingAction",
+    "group_members": [
+      "MeetingActionRunRelationshipCreateInputBody",
+      "MeetingActionRunRelationshipCreateOutputBody",
+      "MeetingActionRunRelationshipDescription",
+      "MeetingActionRunRelationshipListOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "MeetingActionRunRelationshipDescription"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0931) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "MeetingEmail",
+    "group_members": [
+      "MeetingEmailDraftInput",
+      "MeetingEmailDraftUpsertOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.1) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "PDFGet",
+    "group_members": [
+      "PDFGetFillMappingOutputBody",
+      "PDFGetOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "PDFGetFillMappingOutputBody"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "ProductFinancial",
+    "group_members": [
+      "ProductFinancialCreateInputBody",
+      "ProductFinancialGetOutputBody",
+      "ProductFinancialGetOutputProduct"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "ProductFinancialGetOutputProduct"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "RelationshipClient",
+    "group_members": [
+      "RelationshipClientDescription",
+      "RelationshipClientOrganisationMembersOutputBody",
+      "RelationshipClientOrganisationMembersRelationshipsDescription"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "RelationshipClientDescription",
+          "RelationshipClientOrganisationMembersRelationshipsDescription"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "RelationshipOpportunity",
+    "group_members": [
+      "RelationshipOpportunityCreateInputBody",
+      "RelationshipOpportunityCreateOutputBody",
+      "RelationshipOpportunityListOutputBody",
+      "RelationshipOpportunitySummaryDescription"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "RelationshipOpportunitySummaryDescription"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0695) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "ResponseData",
+    "group_members": [
+      "ResponseDataUnqorkCashBreakdown",
+      "ResponseDataUnqorkIdentifyThirdPartyManager"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "ResponseDataUnqorkCashBreakdown",
+          "ResponseDataUnqorkIdentifyThirdPartyManager"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "RoleGroup",
+    "group_members": [
+      "RoleGroup",
+      "RoleGroupListOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "RoleGroup"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "SearchBusiness",
+    "group_members": [
+      "SearchBusinessGroupCoverageDetailsInputBody",
+      "SearchBusinessGroupCoverageDetailsOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0588) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "SendMutual",
+    "group_members": [
+      "SendMutualFundTradesReportInputBody",
+      "SendMutualFundTradesReportOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "SendMutualFundTradesReportInputBody"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "StateModel",
+    "group_members": [
+      "StateModelSchemaInput",
+      "StateModelSchemaOutput",
+      "StateModelTrackerEntryOutput"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "3 member(s) have empty form_fields",
+        "schema_names": [
+          "StateModelSchemaInput",
+          "StateModelSchemaOutput",
+          "StateModelTrackerEntryOutput"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "SyncFile",
+    "group_members": [
+      "SyncFileErrorLogListOutputBody",
+      "SyncFileListInputBody",
+      "SyncFileListOutputBody",
+      "SyncFileViewDescription"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "SyncFileViewDescription"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0315) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "TaxFiling",
+    "group_members": [
+      "TaxFilingCompletionWindowAggregationOutputBody",
+      "TaxFilingOutput"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "TaxFilingOutput"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "TaxManager",
+    "group_members": [
+      "TaxManagerAgentRelationshipProfileListDescription",
+      "TaxManagerAgentRelationshipProfileListOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "TaxManagerAgentRelationshipProfileListDescription"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "TransitionDefinition",
+    "group_members": [
+      "TransitionDefinitionInput",
+      "TransitionDefinitionOutput"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "TransitionDefinitionInput",
+          "TransitionDefinitionOutput"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "TransitionInput",
+    "group_members": [
+      "TransitionInputFieldInput",
+      "TransitionInputFieldOutput"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "TransitionInputFieldInput",
+          "TransitionInputFieldOutput"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "VPOCHousehold",
+    "group_members": [
+      "VPOCHouseholdMemberRecommendation",
+      "VPOCHouseholdRankingListInputBody",
+      "VPOCHouseholdRankingListOutputBody",
+      "VPOCHouseholdRankingOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "2 member(s) have empty form_fields",
+        "schema_names": [
+          "VPOCHouseholdMemberRecommendation",
+          "VPOCHouseholdRankingOutputBody"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "VPOCOnboarding",
+    "group_members": [
+      "VPOCOnboardingCreateInputBody",
+      "VPOCOnboardingDeleteOutputBody",
+      "VPOCOnboardingProgress",
+      "VPOCOnboardingWithProgress"
+    ],
+    "warnings": [
+      {
+        "type": "empty_field_members",
+        "detail": "1 member(s) have empty form_fields",
+        "schema_names": [
+          "VPOCOnboardingProgress"
+        ]
+      },
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.0813) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "WidgetDefinition",
+    "group_members": [
+      "WidgetDefinitionCreateOutputBody",
+      "WidgetDefinitionOutput"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.1176) across grouped schemas"
+      }
+    ]
+  },
+  {
+    "stem": "WidgetUpdate",
+    "group_members": [
+      "WidgetUpdateBody",
+      "WidgetUpdateOutputBody"
+    ],
+    "warnings": [
+      {
+        "type": "low_field_overlap",
+        "detail": "Low average field overlap (0.1111) across grouped schemas"
+      }
+    ]
+  }
+]

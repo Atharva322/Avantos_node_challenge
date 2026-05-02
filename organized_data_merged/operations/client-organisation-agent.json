@@ -1,0 +1,149 @@
+{
+  "stem": "client-organisation-agent",
+  "group_members": [
+    "client-organisation-agent-list"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/clients-organisations/{client_organisation_id}/agents"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-agent-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "annual_revenue",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assigned_agents",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assigned_role",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "employees",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "extra_properties",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "industry",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primary_email",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primary_phone",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "title",
+      "in_operations": [
+        "client-organisation-agent-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "client-organisation-agent-list": [
+      "$schema",
+      "agent",
+      "agent_id",
+      "annual_revenue",
+      "assigned_agents",
+      "assigned_role",
+      "employees",
+      "external_id",
+      "extra_properties",
+      "first_name",
+      "industry",
+      "last_name",
+      "primary_email",
+      "primary_phone",
+      "tenant_id",
+      "title"
+    ]
+  }
+}

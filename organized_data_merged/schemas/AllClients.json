@@ -1,0 +1,302 @@
+{
+  "stem": "AllClients",
+  "group_members": [
+    "AllClientsSearchInputBody",
+    "AllClientsSearchOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AllClientsSearchInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AllClientsSearchOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "AllClientsSearchInputBody",
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "cast_type",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_id",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_name_filter",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_relationship_status",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_wealth_advisor_name",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "clients",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "collation",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "component_key",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id_filter",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "filter",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_metadata",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name_filter",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "organisation_id",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_key",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "AllClientsSearchInputBody",
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "AllClientsSearchInputBody",
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination_params",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preferred_email",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preferred_email_filter",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preferred_phone",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_column",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_keys",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_order",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "AllClientsSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "AllClientsSearchInputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "AllClientsSearchInputBody": [
+      "$schema",
+      "cast_type",
+      "client_organisation_name_filter",
+      "collation",
+      "component_key",
+      "external_id_filter",
+      "filter",
+      "is_metadata",
+      "name_filter",
+      "output_key",
+      "page",
+      "page_size",
+      "pagination_params",
+      "preferred_email_filter",
+      "sort_column",
+      "sort_keys",
+      "sort_order",
+      "type"
+    ],
+    "AllClientsSearchOutputBody": [
+      "$schema",
+      "client_id",
+      "client_organisation_external_id",
+      "client_organisation_name",
+      "client_organisation_relationship_status",
+      "client_organisation_type",
+      "client_organisation_wealth_advisor_name",
+      "clients",
+      "external_id",
+      "name",
+      "organisation_id",
+      "page",
+      "page_size",
+      "pagination",
+      "preferred_email",
+      "preferred_phone",
+      "tenant_id",
+      "total_pages",
+      "total_records"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 34,
+    "common_field_count": 3,
+    "avg_pairwise_jaccard": 0.0882
+  }
+}

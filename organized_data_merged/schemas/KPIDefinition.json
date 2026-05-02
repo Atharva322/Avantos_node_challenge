@@ -1,0 +1,92 @@
+{
+  "stem": "KPIDefinition",
+  "group_members": [
+    "KPIDefinitionListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/KPIDefinitionListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "KPIDefinitionListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "allowed_dimensions",
+      "in_schemas": [
+        "KPIDefinitionListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "definitions",
+      "in_schemas": [
+        "KPIDefinitionListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "KPIDefinitionListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "KPIDefinitionListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "KPIDefinitionListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "period_granularity",
+      "in_schemas": [
+        "KPIDefinitionListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_schemas": [
+        "KPIDefinitionListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "unit",
+      "in_schemas": [
+        "KPIDefinitionListOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "KPIDefinitionListOutputBody": [
+      "$schema",
+      "allowed_dimensions",
+      "definitions",
+      "description",
+      "id",
+      "name",
+      "period_granularity",
+      "status",
+      "unit"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 9,
+    "common_field_count": 9,
+    "avg_pairwise_jaccard": 1
+  }
+}

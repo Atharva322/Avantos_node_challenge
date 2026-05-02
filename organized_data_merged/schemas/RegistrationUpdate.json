@@ -1,0 +1,36 @@
+{
+  "stem": "RegistrationUpdate",
+  "group_members": [
+    "RegistrationUpdateInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RegistrationUpdateInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "RegistrationUpdateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "RegistrationUpdateInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "RegistrationUpdateInputBody": [
+      "$schema",
+      "name"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 2,
+    "common_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  }
+}

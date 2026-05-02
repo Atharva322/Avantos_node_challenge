@@ -1,0 +1,29 @@
+{
+  "stem": "client-connection",
+  "group_members": [
+    "client-connection-delete"
+  ],
+  "methods": [
+    "DELETE"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/clients/{client_id}/client-connections/{connection_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-connection-delete"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-connection-delete"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "client-connection-delete": [
+      "$schema"
+    ]
+  }
+}

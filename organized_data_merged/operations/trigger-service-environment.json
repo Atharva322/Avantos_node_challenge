@@ -1,0 +1,198 @@
+{
+  "stem": "trigger-service-environment",
+  "group_members": [
+    "trigger-service-environment-get",
+    "trigger-service-environment-list",
+    "trigger-service-environment-update"
+  ],
+  "methods": [
+    "GET",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/triggers/services/{trigger_service_id}/environments",
+    "/api/v1/{tenant_id}/triggers/services/{trigger_service_id}/environments/{environment}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-environment-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-environment-list",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-environment-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "audience",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_body",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_body_type",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_config",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_type",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "base_url",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "environment",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "environments",
+      "in_operations": [
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "header_key",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_enabled",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "scope",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "timeout_seconds",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "token",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "trigger-service-environment-get",
+        "trigger-service-environment-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "trigger-service-environment-get": [
+      "$schema",
+      "audience",
+      "auth_body",
+      "auth_body_type",
+      "auth_config",
+      "auth_type",
+      "base_url",
+      "created_at",
+      "environment",
+      "header_key",
+      "id",
+      "is_enabled",
+      "scope",
+      "timeout_seconds",
+      "token",
+      "updated_at"
+    ],
+    "trigger-service-environment-list": [
+      "$schema",
+      "audience",
+      "auth_body",
+      "auth_body_type",
+      "auth_config",
+      "auth_type",
+      "base_url",
+      "created_at",
+      "environment",
+      "environments",
+      "header_key",
+      "id",
+      "is_enabled",
+      "scope",
+      "timeout_seconds",
+      "token",
+      "updated_at"
+    ],
+    "trigger-service-environment-update": []
+  }
+}

@@ -1,0 +1,413 @@
+{
+  "stem": "financial-accounts-by-client-organisation",
+  "group_members": [
+    "financial-accounts-by-client-organisation-get"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/client-organisations/{client_organisation_id}/financial-accounts"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/financial-accounts-by-client-organisation-get"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_created_at",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_id",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_notes",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_number",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_updated_at",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "balance",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "beneficiary_first_name",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "beneficiary_id",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "beneficiary_last_name",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_date",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "canonical_valuation_type",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "cash_balance",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_description",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_role",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "closed_date",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "currency",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "currency_code",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "custodian",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_accounts",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "model_portfolio",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "open_date",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primary_owner_first_name",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primary_owner_id",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primary_owner_last_name",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "product_model",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "product_name",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "product_type",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_status",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "secondary_owner_first_name",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "secondary_owner_id",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "secondary_owner_last_name",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "source_measure_code",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "source_measure_field",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "source_measure_label",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_status",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "valuation_amount",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "valuation_type",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "valuations",
+      "in_operations": [
+        "financial-accounts-by-client-organisation-get"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "financial-accounts-by-client-organisation-get": [
+      "$schema",
+      "account_created_at",
+      "account_id",
+      "account_notes",
+      "account_number",
+      "account_updated_at",
+      "additional_attributes",
+      "balance",
+      "beneficiary_first_name",
+      "beneficiary_id",
+      "beneficiary_last_name",
+      "business_date",
+      "canonical_valuation_type",
+      "cash_balance",
+      "client_organisation_description",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_role",
+      "client_organisation_type",
+      "closed_date",
+      "currency",
+      "currency_code",
+      "custodian",
+      "external_id",
+      "financial_accounts",
+      "model_portfolio",
+      "name",
+      "open_date",
+      "primary_owner_first_name",
+      "primary_owner_id",
+      "primary_owner_last_name",
+      "product_model",
+      "product_name",
+      "product_type",
+      "property1",
+      "property2",
+      "relationship_status",
+      "secondary_owner_first_name",
+      "secondary_owner_id",
+      "secondary_owner_last_name",
+      "source_measure_code",
+      "source_measure_field",
+      "source_measure_label",
+      "status",
+      "tax_status",
+      "valuation_amount",
+      "valuation_type",
+      "valuations"
+    ]
+  }
+}

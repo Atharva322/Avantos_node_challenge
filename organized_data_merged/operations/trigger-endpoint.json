@@ -1,0 +1,225 @@
+{
+  "stem": "trigger-endpoint",
+  "group_members": [
+    "trigger-endpoint-get",
+    "trigger-endpoint-update"
+  ],
+  "methods": [
+    "GET",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/triggers/endpoints/{trigger_endpoint_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-endpoint-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-endpoint-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_headers_template",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_headers_template_variables",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "error_message_template",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "message",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_mapping",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "path_template",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "path_template_variables",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pattern",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_template",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_template_variables",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_type",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "query_parameter_template",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "query_parameter_template_variables",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "request_method",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "subject",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "timeout_seconds",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "to",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "trigger_service_id",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "userId",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "user_id",
+      "in_operations": [
+        "trigger-endpoint-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "trigger-endpoint-get": [
+      "$schema",
+      "created_at",
+      "custom_headers_template",
+      "custom_headers_template_variables",
+      "error_message_template",
+      "id",
+      "message",
+      "name",
+      "output_mapping",
+      "path_template",
+      "path_template_variables",
+      "pattern",
+      "payload_template",
+      "payload_template_variables",
+      "payload_type",
+      "query_parameter_template",
+      "query_parameter_template_variables",
+      "request_method",
+      "subject",
+      "timeout_seconds",
+      "to",
+      "trigger_service_id",
+      "updated_at",
+      "userId",
+      "user_id"
+    ],
+    "trigger-endpoint-update": []
+  }
+}

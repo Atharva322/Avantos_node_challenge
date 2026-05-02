@@ -1,0 +1,113 @@
+{
+  "stem": "custodian-forms-config",
+  "group_members": [
+    "custodian-forms-config-get",
+    "custodian-forms-config-put"
+  ],
+  "methods": [
+    "GET",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/custodian-forms-config"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custodian-forms-config-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custodian-forms-config-put"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "custodian-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "child_forms",
+      "in_operations": [
+        "custodian-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "display_condition",
+      "in_operations": [
+        "custodian-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "e_signature_mapping",
+      "in_operations": [
+        "custodian-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "envelope_metadata_endpoint_id",
+      "in_operations": [
+        "custodian-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "envelope_trigger_endpoint_id",
+      "in_operations": [
+        "custodian-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "form_id",
+      "in_operations": [
+        "custodian-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "l1_config_form_id",
+      "in_operations": [
+        "custodian-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "l2_config_form_id",
+      "in_operations": [
+        "custodian-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_template_override",
+      "in_operations": [
+        "custodian-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preview_trigger_endpoint_id",
+      "in_operations": [
+        "custodian-forms-config-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "custodian-forms-config-get": [
+      "$schema",
+      "child_forms",
+      "display_condition",
+      "e_signature_mapping",
+      "envelope_metadata_endpoint_id",
+      "envelope_trigger_endpoint_id",
+      "form_id",
+      "l1_config_form_id",
+      "l2_config_form_id",
+      "payload_template_override",
+      "preview_trigger_endpoint_id"
+    ],
+    "custodian-forms-config-put": []
+  }
+}

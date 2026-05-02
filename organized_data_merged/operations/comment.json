@@ -1,0 +1,19 @@
+{
+  "stem": "comment",
+  "group_members": [
+    "comment-add"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/comments/{entity}/{entity_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/comment-add"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "comment-add": []
+  }
+}

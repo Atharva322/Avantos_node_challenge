@@ -1,0 +1,37 @@
+{
+  "stem": "custom-views-get-pinned",
+  "group_members": [
+    "custom-views-get-pinned"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/pages/{page_id}/views/pinned"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-get-pinned"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "custom-views-get-pinned"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "view_ids",
+      "in_operations": [
+        "custom-views-get-pinned"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "custom-views-get-pinned": [
+      "$schema",
+      "view_ids"
+    ]
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "stem": "EvaluateClient",
+  "group_members": [
+    "EvaluateClientFormsInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/EvaluateClientFormsInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "EvaluateClientFormsInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "action_run_id",
+      "in_schemas": [
+        "EvaluateClientFormsInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "component_id",
+      "in_schemas": [
+        "EvaluateClientFormsInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "custodian",
+      "in_schemas": [
+        "EvaluateClientFormsInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "custodian_forms",
+      "in_schemas": [
+        "EvaluateClientFormsInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "data",
+      "in_schemas": [
+        "EvaluateClientFormsInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "form_id",
+      "in_schemas": [
+        "EvaluateClientFormsInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "EvaluateClientFormsInputBody": [
+      "$schema",
+      "action_run_id",
+      "component_id",
+      "custodian",
+      "custodian_forms",
+      "data",
+      "form_id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 7,
+    "common_field_count": 7,
+    "avg_pairwise_jaccard": 1
+  }
+}

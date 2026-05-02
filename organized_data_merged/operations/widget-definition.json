@@ -1,0 +1,53 @@
+{
+  "stem": "widget-definition",
+  "group_members": [
+    "widget-definition-create",
+    "widget-definition-update"
+  ],
+  "methods": [
+    "PATCH",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/admin/widget-definitions",
+    "/api/v1/admin/widget-definitions/{definition_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-definition-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-definition-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "widget-definition-create",
+        "widget-definition-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "widget-definition-create"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "message",
+      "in_operations": [
+        "widget-definition-update"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "widget-definition-create": [
+      "$schema",
+      "id"
+    ],
+    "widget-definition-update": [
+      "$schema",
+      "message"
+    ]
+  }
+}

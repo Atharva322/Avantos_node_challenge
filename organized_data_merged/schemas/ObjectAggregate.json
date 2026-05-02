@@ -1,0 +1,100 @@
+{
+  "stem": "ObjectAggregate",
+  "group_members": [
+    "ObjectAggregateInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ObjectAggregateInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ObjectAggregateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "aggregate",
+      "in_schemas": [
+        "ObjectAggregateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "column",
+      "in_schemas": [
+        "ObjectAggregateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "component_key",
+      "in_schemas": [
+        "ObjectAggregateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "filter",
+      "in_schemas": [
+        "ObjectAggregateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_metadata",
+      "in_schemas": [
+        "ObjectAggregateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "object_type",
+      "in_schemas": [
+        "ObjectAggregateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "only_assigned",
+      "in_schemas": [
+        "ObjectAggregateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "output_key",
+      "in_schemas": [
+        "ObjectAggregateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "ObjectAggregateInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "ObjectAggregateInputBody": [
+      "$schema",
+      "aggregate",
+      "column",
+      "component_key",
+      "filter",
+      "is_metadata",
+      "object_type",
+      "only_assigned",
+      "output_key",
+      "type"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 10,
+    "common_field_count": 10,
+    "avg_pairwise_jaccard": 1
+  }
+}

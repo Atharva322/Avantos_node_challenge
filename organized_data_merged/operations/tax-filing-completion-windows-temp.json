@@ -1,0 +1,37 @@
+{
+  "stem": "tax-filing-completion-windows-temp",
+  "group_members": [
+    "tax-filing-completion-windows-temp"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/tax-filings/completion-windows"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tax-filing-completion-windows-temp"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "tax-filing-completion-windows-temp"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "completion_windows",
+      "in_operations": [
+        "tax-filing-completion-windows-temp"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "tax-filing-completion-windows-temp": [
+      "$schema",
+      "completion_windows"
+    ]
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "stem": "PageDefault",
+  "group_members": [
+    "PageDefaultWidgetOutput",
+    "PageDefaultWidgetUpdateBody",
+    "PageDefaultWidgetUpdateOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PageDefaultWidgetOutput",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PageDefaultWidgetUpdateBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PageDefaultWidgetUpdateOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "PageDefaultWidgetOutput",
+        "PageDefaultWidgetUpdateBody",
+        "PageDefaultWidgetUpdateOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "config",
+      "in_schemas": [
+        "PageDefaultWidgetOutput",
+        "PageDefaultWidgetUpdateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "createdAt",
+      "in_schemas": [
+        "PageDefaultWidgetOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "height",
+      "in_schemas": [
+        "PageDefaultWidgetOutput",
+        "PageDefaultWidgetUpdateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "PageDefaultWidgetOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "isVisible",
+      "in_schemas": [
+        "PageDefaultWidgetOutput",
+        "PageDefaultWidgetUpdateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "PageDefaultWidgetOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "PageDefaultWidgetOutput",
+        "PageDefaultWidgetUpdateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "PageDefaultWidgetOutput",
+        "PageDefaultWidgetUpdateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updatedAt",
+      "in_schemas": [
+        "PageDefaultWidgetOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updatedBy",
+      "in_schemas": [
+        "PageDefaultWidgetOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "widgetDefinitionId",
+      "in_schemas": [
+        "PageDefaultWidgetOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "width",
+      "in_schemas": [
+        "PageDefaultWidgetOutput",
+        "PageDefaultWidgetUpdateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "x",
+      "in_schemas": [
+        "PageDefaultWidgetOutput",
+        "PageDefaultWidgetUpdateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "y",
+      "in_schemas": [
+        "PageDefaultWidgetOutput",
+        "PageDefaultWidgetUpdateBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "PageDefaultWidgetOutput": [
+      "$schema",
+      "config",
+      "createdAt",
+      "height",
+      "id",
+      "isVisible",
+      "page",
+      "property1",
+      "property2",
+      "updatedAt",
+      "updatedBy",
+      "widgetDefinitionId",
+      "width",
+      "x",
+      "y"
+    ],
+    "PageDefaultWidgetUpdateBody": [
+      "$schema",
+      "config",
+      "height",
+      "isVisible",
+      "property1",
+      "property2",
+      "width",
+      "x",
+      "y"
+    ],
+    "PageDefaultWidgetUpdateOutputBody": [
+      "$schema"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 15,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.2593
+  }
+}

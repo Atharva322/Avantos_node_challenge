@@ -1,0 +1,36 @@
+{
+  "stem": "DatadogLogs",
+  "group_members": [
+    "DatadogLogsGetOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DatadogLogsGetOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "DatadogLogsGetOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "logs",
+      "in_schemas": [
+        "DatadogLogsGetOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "DatadogLogsGetOutputBody": [
+      "$schema",
+      "logs"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 2,
+    "common_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  }
+}

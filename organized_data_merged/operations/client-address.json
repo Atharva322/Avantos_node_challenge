@@ -1,0 +1,160 @@
+{
+  "stem": "client-address",
+  "group_members": [
+    "client-address-delete",
+    "client-address-list",
+    "client-address-update"
+  ],
+  "methods": [
+    "DELETE",
+    "GET",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/clients/{client_id}/addresses"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-address-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-address-list",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-address-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-address-list",
+        "client-address-update"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_id",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_line1",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_line2",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_type",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "addresses",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "city",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "country",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "entity_id",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "entity_type",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "client-address-update"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "state",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "zipcode",
+      "in_operations": [
+        "client-address-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "client-address-delete": [],
+    "client-address-list": [
+      "$schema",
+      "address_id",
+      "address_line1",
+      "address_line2",
+      "address_type",
+      "addresses",
+      "city",
+      "country",
+      "created_at",
+      "description",
+      "entity_id",
+      "entity_type",
+      "state",
+      "updated_at",
+      "zipcode"
+    ],
+    "client-address-update": [
+      "$schema",
+      "id"
+    ]
+  }
+}

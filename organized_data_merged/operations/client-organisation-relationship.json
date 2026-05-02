@@ -1,0 +1,40 @@
+{
+  "stem": "client-organisation-relationship",
+  "group_members": [
+    "client-organisation-relationship-create",
+    "client-organisation-relationship-delete"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/clients/{client_id}/client-organisation-relationships"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-relationship-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-relationship-delete"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-organisation-relationship-create"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "client-organisation-relationship-create"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "client-organisation-relationship-create": [
+      "$schema",
+      "id"
+    ],
+    "client-organisation-relationship-delete": []
+  }
+}

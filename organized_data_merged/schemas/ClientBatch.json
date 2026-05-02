@@ -1,0 +1,148 @@
+{
+  "stem": "ClientBatch",
+  "group_members": [
+    "ClientBatchMoveInputBody",
+    "ClientBatchMoveOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientBatchMoveInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientBatchMoveOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ClientBatchMoveInputBody",
+        "ClientBatchMoveOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_id",
+      "in_schemas": [
+        "ClientBatchMoveInputBody",
+        "ClientBatchMoveOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "ClientBatchMoveInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "error",
+      "in_schemas": [
+        "ClientBatchMoveOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "failed",
+      "in_schemas": [
+        "ClientBatchMoveOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "moves",
+      "in_schemas": [
+        "ClientBatchMoveInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "new_relationship_id",
+      "in_schemas": [
+        "ClientBatchMoveOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "results",
+      "in_schemas": [
+        "ClientBatchMoveOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "ClientBatchMoveInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_organisation_id",
+      "in_schemas": [
+        "ClientBatchMoveInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "success",
+      "in_schemas": [
+        "ClientBatchMoveOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "successful",
+      "in_schemas": [
+        "ClientBatchMoveOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "summary",
+      "in_schemas": [
+        "ClientBatchMoveOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "target_organisation_id",
+      "in_schemas": [
+        "ClientBatchMoveInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_requested",
+      "in_schemas": [
+        "ClientBatchMoveOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ClientBatchMoveInputBody": [
+      "$schema",
+      "client_id",
+      "description",
+      "moves",
+      "role",
+      "source_organisation_id",
+      "target_organisation_id"
+    ],
+    "ClientBatchMoveOutputBody": [
+      "$schema",
+      "client_id",
+      "error",
+      "failed",
+      "new_relationship_id",
+      "results",
+      "success",
+      "successful",
+      "summary",
+      "total_requested"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 15,
+    "common_field_count": 2,
+    "avg_pairwise_jaccard": 0.1333
+  }
+}

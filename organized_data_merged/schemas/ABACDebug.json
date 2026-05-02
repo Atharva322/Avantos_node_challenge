@@ -1,0 +1,130 @@
+{
+  "stem": "ABACDebug",
+  "group_members": [
+    "ABACDebugAtomicExpression",
+    "ABACDebugResult",
+    "ABACDebugSummary"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ABACDebugAtomicExpression",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ABACDebugResult",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ABACDebugSummary"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "atomic_expressions",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "deny_exclusions",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "effect",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "grant_contributions",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "policy_breakdowns",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "policy_name",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "summary",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_accessible",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_atomic_expressions",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_contribution",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_policies",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "user_context",
+      "in_schemas": [
+        "ABACDebugResult"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ABACDebugAtomicExpression": [],
+    "ABACDebugResult": [
+      "$schema",
+      "atomic_expressions",
+      "deny_exclusions",
+      "effect",
+      "grant_contributions",
+      "policy_breakdowns",
+      "policy_name",
+      "summary",
+      "total_accessible",
+      "total_atomic_expressions",
+      "total_contribution",
+      "total_policies",
+      "user_context"
+    ],
+    "ABACDebugSummary": []
+  },
+  "overlap_summary": {
+    "union_field_count": 13,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.3333
+  }
+}

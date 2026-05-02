@@ -1,0 +1,204 @@
+{
+  "stem": "ClientForm",
+  "group_members": [
+    "ClientFormRuleCreateOutputBody",
+    "ClientFormRuleResponse",
+    "ClientFormTypeCreateOutputBody",
+    "ClientFormTypeResponse"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientFormRuleCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientFormRuleResponse",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientFormTypeCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientFormTypeResponse"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ClientFormRuleCreateOutputBody",
+        "ClientFormRuleResponse",
+        "ClientFormTypeCreateOutputBody",
+        "ClientFormTypeResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "acknowledgement_config",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "active",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_form_type_id",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_form_type_name",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "ClientFormRuleResponse",
+        "ClientFormTypeResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "endpoints",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "esign_eligible",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "ClientFormRuleCreateOutputBody",
+        "ClientFormRuleResponse",
+        "ClientFormTypeCreateOutputBody",
+        "ClientFormTypeResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "ClientFormRuleResponse",
+        "ClientFormTypeResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "optional",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "prerequisite_form_template_ids",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "priority",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "requires_acknowledgement",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "requires_signature",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "rules",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "scope",
+      "in_schemas": [
+        "ClientFormRuleResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "ClientFormRuleResponse",
+        "ClientFormTypeResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "ClientFormRuleResponse",
+        "ClientFormTypeResponse"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ClientFormRuleCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "ClientFormRuleResponse": [
+      "$schema",
+      "acknowledgement_config",
+      "active",
+      "client_form_type_id",
+      "client_form_type_name",
+      "created_at",
+      "endpoints",
+      "esign_eligible",
+      "id",
+      "name",
+      "optional",
+      "prerequisite_form_template_ids",
+      "priority",
+      "requires_acknowledgement",
+      "requires_signature",
+      "rules",
+      "scope",
+      "tenant_id",
+      "updated_at"
+    ],
+    "ClientFormTypeCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "ClientFormTypeResponse": [
+      "$schema",
+      "created_at",
+      "id",
+      "name",
+      "tenant_id",
+      "updated_at"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 19,
+    "common_field_count": 2,
+    "avg_pairwise_jaccard": 0.3655
+  }
+}

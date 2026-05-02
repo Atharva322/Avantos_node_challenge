@@ -1,0 +1,253 @@
+{
+  "stem": "business-group-coverage-details",
+  "group_members": [
+    "business-group-coverage-details-search"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/business-groups/coverage-details/search"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-coverage-details-search"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "advisor",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_count",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agents",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_created_at",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_description",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_extra_properties",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_id",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_name",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_status",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_type",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_group_updated_at",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "capacity_limit",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_count",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "coverage_description",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "coverage_id",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "coverage_value",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "coverages",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "priority",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "results",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "value",
+      "in_operations": [
+        "business-group-coverage-details-search"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "business-group-coverage-details-search": [
+      "$schema",
+      "advisor",
+      "agent_count",
+      "agent_id",
+      "agents",
+      "business_group_created_at",
+      "business_group_description",
+      "business_group_extra_properties",
+      "business_group_id",
+      "business_group_name",
+      "business_group_status",
+      "business_group_type",
+      "business_group_updated_at",
+      "capacity_limit",
+      "client_organisation_count",
+      "coverage_description",
+      "coverage_id",
+      "coverage_value",
+      "coverages",
+      "first_name",
+      "last_name",
+      "page",
+      "page_size",
+      "pagination",
+      "priority",
+      "results",
+      "total_pages",
+      "total_records",
+      "value"
+    ]
+  }
+}

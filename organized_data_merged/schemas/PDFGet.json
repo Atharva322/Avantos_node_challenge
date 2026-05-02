@@ -1,0 +1,111 @@
+{
+  "stem": "PDFGet",
+  "group_members": [
+    "PDFGetFillMappingOutputBody",
+    "PDFGetOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFGetFillMappingOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFGetOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "PDFGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "PDFGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_by",
+      "in_schemas": [
+        "PDFGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "PDFGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "file_name",
+      "in_schemas": [
+        "PDFGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "fill_field_mapping",
+      "in_schemas": [
+        "PDFGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "PDFGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "PDFGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "PDFGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "PDFGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "PDFGetOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "PDFGetFillMappingOutputBody": [],
+    "PDFGetOutputBody": [
+      "$schema",
+      "created_at",
+      "created_by",
+      "description",
+      "file_name",
+      "fill_field_mapping",
+      "id",
+      "name",
+      "property1",
+      "property2",
+      "updated_at"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 11,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0
+  }
+}

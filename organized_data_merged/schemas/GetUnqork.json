@@ -1,0 +1,132 @@
+{
+  "stem": "GetUnqork",
+  "group_members": [
+    "GetUnqorkActionRunCommentsOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetUnqorkActionRunCommentsOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "comments",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_by",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "entity_id",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "entity_type",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "environment",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tagged_users",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "text",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "GetUnqorkActionRunCommentsOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "GetUnqorkActionRunCommentsOutputBody": [
+      "$schema",
+      "comments",
+      "created_at",
+      "created_by",
+      "entity_id",
+      "entity_type",
+      "environment",
+      "external_id",
+      "first_name",
+      "id",
+      "last_name",
+      "tagged_users",
+      "text",
+      "updated_at"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 14,
+    "common_field_count": 14,
+    "avg_pairwise_jaccard": 1
+  }
+}

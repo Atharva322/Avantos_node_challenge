@@ -1,0 +1,148 @@
+{
+  "stem": "ClientList",
+  "group_members": [
+    "ClientListByNamePhoneOrEmailOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientListByNamePhoneOrEmailOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_wealth_advisor_name",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "clients",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "preferred_email",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "preferred_phone",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "ClientListByNamePhoneOrEmailOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "ClientListByNamePhoneOrEmailOutputBody": [
+      "$schema",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_wealth_advisor_name",
+      "clients",
+      "external_id",
+      "id",
+      "name",
+      "page",
+      "page_size",
+      "pagination",
+      "preferred_email",
+      "preferred_phone",
+      "total_pages",
+      "total_records"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 16,
+    "common_field_count": 16,
+    "avg_pairwise_jaccard": 1
+  }
+}

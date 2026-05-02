@@ -1,0 +1,15 @@
+{
+  "stem": "business-group-list-by-role",
+  "group_members": [
+    "business-group-list-by-role"
+  ],
+  "methods": [],
+  "paths": [],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-list-by-role"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "business-group-list-by-role": []
+  }
+}

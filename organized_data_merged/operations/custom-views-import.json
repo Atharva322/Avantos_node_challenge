@@ -1,0 +1,37 @@
+{
+  "stem": "custom-views-import",
+  "group_members": [
+    "custom-views-import"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/views/import"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-import"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "custom-views-import"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "view_id",
+      "in_operations": [
+        "custom-views-import"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "custom-views-import": [
+      "$schema",
+      "view_id"
+    ]
+  }
+}

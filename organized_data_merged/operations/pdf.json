@@ -1,0 +1,19 @@
+{
+  "stem": "pdf",
+  "group_members": [
+    "pdf-delete"
+  ],
+  "methods": [
+    "DELETE"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/pdfs/{pdf_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/pdf-delete"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "pdf-delete": []
+  }
+}

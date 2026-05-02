@@ -1,0 +1,221 @@
+{
+  "stem": "gpoc-account-openings",
+  "group_members": [
+    "gpoc-account-openings-list"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/gpoc-account-openings/list"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/gpoc-account-openings-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_configuration",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_data",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_openings",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "action_run_id",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "action_run_slug",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "changed_by",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "custom_status",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "event_type",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "history",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "metadata",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "old_custom_status",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "started_at",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status_logs",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "task_id",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "time",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "gpoc-account-openings-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "gpoc-account-openings-list": [
+      "$schema",
+      "account_configuration",
+      "account_data",
+      "account_openings",
+      "action_run_id",
+      "action_run_slug",
+      "changed_by",
+      "client_organisation_id",
+      "client_organisation_name",
+      "custom_status",
+      "event_type",
+      "history",
+      "metadata",
+      "old_custom_status",
+      "page",
+      "page_size",
+      "pagination",
+      "started_at",
+      "status",
+      "status_logs",
+      "task_id",
+      "time",
+      "total_pages",
+      "total_records",
+      "updated_at"
+    ]
+  }
+}

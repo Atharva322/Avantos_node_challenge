@@ -1,0 +1,129 @@
+{
+  "stem": "custom-javascript-functions",
+  "group_members": [
+    "custom-javascript-functions-delete",
+    "custom-javascript-functions-get"
+  ],
+  "methods": [
+    "DELETE",
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/custom-javascript-functions/{id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-javascript-functions-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-javascript-functions-get"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "body",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_by",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "execution_role",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "initiation",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "request_keys",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "response_keys",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "server_side_enabled",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "custom-javascript-functions-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "custom-javascript-functions-delete": [],
+    "custom-javascript-functions-get": [
+      "$schema",
+      "body",
+      "created_at",
+      "created_by",
+      "description",
+      "execution_role",
+      "id",
+      "initiation",
+      "name",
+      "request_keys",
+      "response_keys",
+      "server_side_enabled",
+      "updated_at"
+    ]
+  }
+}

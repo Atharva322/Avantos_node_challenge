@@ -1,0 +1,225 @@
+{
+  "stem": "notification",
+  "group_members": [
+    "notification-create",
+    "notification-delete",
+    "notification-get",
+    "notification-list",
+    "notification-update"
+  ],
+  "methods": [
+    "DELETE",
+    "GET",
+    "PATCH",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/notifications/{agent_id}",
+    "/api/v1/{tenant_id}/notifications/{agent_id}/create",
+    "/api/v1/{tenant_id}/notifications/{notification_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/notification-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/notification-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/notification-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/notification-list",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/notification-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "category",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "content",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "environment",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_escalated",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_read",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "notification",
+      "in_operations": [
+        "notification-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "notifications",
+      "in_operations": [
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "user_id",
+      "in_operations": [
+        "notification-get",
+        "notification-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "notification-create": [],
+    "notification-delete": [],
+    "notification-get": [
+      "$schema",
+      "category",
+      "content",
+      "created_at",
+      "environment",
+      "external_id",
+      "id",
+      "is_escalated",
+      "is_read",
+      "name",
+      "notification",
+      "tenant_id",
+      "updated_at",
+      "user_id"
+    ],
+    "notification-list": [
+      "$schema",
+      "category",
+      "content",
+      "created_at",
+      "environment",
+      "external_id",
+      "id",
+      "is_escalated",
+      "is_read",
+      "name",
+      "notifications",
+      "page",
+      "page_size",
+      "pagination",
+      "tenant_id",
+      "total_pages",
+      "total_records",
+      "updated_at",
+      "user_id"
+    ],
+    "notification-update": []
+  }
+}

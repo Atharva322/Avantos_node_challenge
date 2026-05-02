@@ -1,0 +1,84 @@
+{
+  "stem": "CreateLookup",
+  "group_members": [
+    "CreateLookupBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateLookupBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "CreateLookupBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "category",
+      "in_schemas": [
+        "CreateLookupBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "CreateLookupBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "CreateLookupBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "extra_properties",
+      "in_schemas": [
+        "CreateLookupBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_active",
+      "in_schemas": [
+        "CreateLookupBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "region_code",
+      "in_schemas": [
+        "CreateLookupBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "value",
+      "in_schemas": [
+        "CreateLookupBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "CreateLookupBody": [
+      "$schema",
+      "category",
+      "description",
+      "external_id",
+      "extra_properties",
+      "is_active",
+      "region_code",
+      "value"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 8,
+    "common_field_count": 8,
+    "avg_pairwise_jaccard": 1
+  }
+}

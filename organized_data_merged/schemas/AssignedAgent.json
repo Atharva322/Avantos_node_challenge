@@ -1,0 +1,18 @@
+{
+  "stem": "AssignedAgent",
+  "group_members": [
+    "AssignedAgentDescription"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AssignedAgentDescription"
+  ],
+  "fields_union": [],
+  "schema_field_map": {
+    "AssignedAgentDescription": []
+  },
+  "overlap_summary": {
+    "union_field_count": 0,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  }
+}

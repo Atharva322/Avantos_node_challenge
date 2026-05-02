@@ -1,0 +1,237 @@
+{
+  "stem": "unqork-cash-breakdown",
+  "group_members": [
+    "unqork-cash-breakdown"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/unqork-custom-api/cash-breakdown"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/unqork-cash-breakdown"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "cashAccounts",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "cashAvailableForDistribution",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "cashAvailableToInvest",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "contributions",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "data",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "dollarCostAverage",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "excessCashToBeInvested",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "excessCashWithTolerance",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "feeCash",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financialAccountData",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "incomeCash",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "incomingContribution",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "modelCash",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "modelCashMin",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "otherCash",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pendingDistribution",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "potentialCashToBeRaised",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "protectedCash",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "readyForDistribution",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "recurringDistribution",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "reservedCash",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "resolved",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "sleeveAccounts",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "totalCash",
+      "in_operations": [
+        "unqork-cash-breakdown"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "unqork-cash-breakdown": [
+      "$schema",
+      "cashAccounts",
+      "cashAvailableForDistribution",
+      "cashAvailableToInvest",
+      "contributions",
+      "data",
+      "dollarCostAverage",
+      "excessCashToBeInvested",
+      "excessCashWithTolerance",
+      "feeCash",
+      "financialAccountData",
+      "incomeCash",
+      "incomingContribution",
+      "modelCash",
+      "modelCashMin",
+      "otherCash",
+      "pendingDistribution",
+      "potentialCashToBeRaised",
+      "property1",
+      "property2",
+      "protectedCash",
+      "readyForDistribution",
+      "recurringDistribution",
+      "reservedCash",
+      "resolved",
+      "sleeveAccounts",
+      "totalCash"
+    ]
+  }
+}

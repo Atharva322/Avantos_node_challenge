@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-05-02T19:57:41.791Z",
+  "input": {
+    "operations": "organized_data_merged/operations",
+    "schemas": "organized_data_merged/schemas"
+  },
+  "output": "organized_data_linked",
+  "config": {
+    "top_n_links_per_operation": 5,
+    "thresholds": {
+      "high": 0.65,
+      "medium": 0.4
+    },
+    "score_weights": {
+      "field_overlap": 0.6,
+      "name_similarity": 0.25,
+      "semantic_hint": 0.15
+    }
+  },
+  "counts": {
+    "operations": 165,
+    "schemas": 223,
+    "operation_link_groups": 165,
+    "schema_link_groups": 223,
+    "component_groups": 165,
+    "warnings": 182
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "stem": "KPIReport",
+  "group_members": [
+    "KPIReportInputBody",
+    "KPIReportOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/KPIReportInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/KPIReportOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "KPIReportInputBody",
+        "KPIReportOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "available_dimensions",
+      "in_schemas": [
+        "KPIReportOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "KPIReportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "data_points",
+      "in_schemas": [
+        "KPIReportOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "denominator",
+      "in_schemas": [
+        "KPIReportOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "dimensions",
+      "in_schemas": [
+        "KPIReportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "granularity",
+      "in_schemas": [
+        "KPIReportInputBody",
+        "KPIReportOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "kpi_id",
+      "in_schemas": [
+        "KPIReportInputBody",
+        "KPIReportOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "kpi_name",
+      "in_schemas": [
+        "KPIReportInputBody",
+        "KPIReportOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "numerator",
+      "in_schemas": [
+        "KPIReportOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "only_assigned",
+      "in_schemas": [
+        "KPIReportInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "period_end",
+      "in_schemas": [
+        "KPIReportInputBody",
+        "KPIReportOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "period_start",
+      "in_schemas": [
+        "KPIReportInputBody",
+        "KPIReportOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "KPIReportInputBody",
+        "KPIReportOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "KPIReportInputBody",
+        "KPIReportOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "unit",
+      "in_schemas": [
+        "KPIReportOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "value",
+      "in_schemas": [
+        "KPIReportOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "KPIReportInputBody": [
+      "$schema",
+      "client_organisation_id",
+      "dimensions",
+      "granularity",
+      "kpi_id",
+      "kpi_name",
+      "only_assigned",
+      "period_end",
+      "period_start",
+      "property1",
+      "property2"
+    ],
+    "KPIReportOutputBody": [
+      "$schema",
+      "available_dimensions",
+      "data_points",
+      "denominator",
+      "granularity",
+      "kpi_id",
+      "kpi_name",
+      "numerator",
+      "period_end",
+      "period_start",
+      "property1",
+      "property2",
+      "unit",
+      "value"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 17,
+    "common_field_count": 8,
+    "avg_pairwise_jaccard": 0.4706
+  }
+}

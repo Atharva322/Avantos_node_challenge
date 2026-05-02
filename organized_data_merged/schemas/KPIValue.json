@@ -1,0 +1,204 @@
+{
+  "stem": "KPIValue",
+  "group_members": [
+    "KPIValueSearchOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/KPIValueSearchOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "computed_at",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "denominator",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "dimensions",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "kpi_id",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "numerator",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "period_end",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "period_granularity",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "period_start",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "run_id",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status_label",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "value",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "values",
+      "in_schemas": [
+        "KPIValueSearchOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "KPIValueSearchOutputBody": [
+      "$schema",
+      "client_organisation_id",
+      "computed_at",
+      "created_at",
+      "denominator",
+      "dimensions",
+      "id",
+      "kpi_id",
+      "numerator",
+      "page",
+      "page_size",
+      "pagination",
+      "period_end",
+      "period_granularity",
+      "period_start",
+      "run_id",
+      "status_label",
+      "tenant_id",
+      "total_pages",
+      "total_records",
+      "updated_at",
+      "value",
+      "values"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 23,
+    "common_field_count": 23,
+    "avg_pairwise_jaccard": 1
+  }
+}

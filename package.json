@@ -15,7 +15,10 @@
     "scrape:ops:retry-queue": "node scripts/build_retry_queue.mjs --run-dir scrape_runs/ops_missing --kind operation --out-file missing_targets/ops_retry.links.txt",
     "scrape:ops:retry": "node scripts/scrape_docs_batches.mjs --queue-file missing_targets/ops_retry.links.txt --batch-size 20 --max-batches 1 --page-delay-ms 3000 --batch-delay-ms 30000 --retries 4 --run-name ops_retry_1",
     "scrape:organize": "node scripts/organize_extracted_data.mjs",
-    "build:final-structure": "node scripts/build_final_structure.mjs"
+    "build:final-structure": "node scripts/build_final_structure.mjs",
+    "merge:operations": "node scripts/merge_operations_for_export.mjs",
+    "merge:schemas": "node scripts/merge_schemas_for_export.mjs",
+    "link:ops-schemas": "node scripts/build_operation_schema_links.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",

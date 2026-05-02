@@ -1,0 +1,118 @@
+{
+  "stem": "MeetingPrep",
+  "group_members": [
+    "MeetingPrepCreateOutputBody",
+    "MeetingPrepDescription",
+    "MeetingPrepInput",
+    "MeetingPrepUpsertOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingPrepCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingPrepDescription",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingPrepInput",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingPrepUpsertOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "MeetingPrepCreateOutputBody",
+        "MeetingPrepDescription",
+        "MeetingPrepInput",
+        "MeetingPrepUpsertOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "body_content",
+      "in_schemas": [
+        "MeetingPrepDescription",
+        "MeetingPrepInput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created",
+      "in_schemas": [
+        "MeetingPrepUpsertOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "MeetingPrepDescription"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "MeetingPrepCreateOutputBody",
+        "MeetingPrepDescription",
+        "MeetingPrepUpsertOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_ai_enhanced",
+      "in_schemas": [
+        "MeetingPrepDescription",
+        "MeetingPrepInput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "meeting_id",
+      "in_schemas": [
+        "MeetingPrepDescription"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "MeetingPrepDescription"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "MeetingPrepDescription"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "MeetingPrepCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "MeetingPrepDescription": [
+      "$schema",
+      "body_content",
+      "created_at",
+      "id",
+      "is_ai_enhanced",
+      "meeting_id",
+      "tenant_id",
+      "updated_at"
+    ],
+    "MeetingPrepInput": [
+      "$schema",
+      "body_content",
+      "is_ai_enhanced"
+    ],
+    "MeetingPrepUpsertOutputBody": [
+      "$schema",
+      "created",
+      "id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 9,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.3273
+  }
+}

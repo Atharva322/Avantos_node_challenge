@@ -1,0 +1,44 @@
+{
+  "stem": "UpdateFeature",
+  "group_members": [
+    "UpdateFeatureFlagBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UpdateFeatureFlagBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "UpdateFeatureFlagBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_schemas": [
+        "UpdateFeatureFlagBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "enabled",
+      "in_schemas": [
+        "UpdateFeatureFlagBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "UpdateFeatureFlagBody": [
+      "$schema",
+      "agent_id",
+      "enabled"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 3,
+    "common_field_count": 3,
+    "avg_pairwise_jaccard": 1
+  }
+}

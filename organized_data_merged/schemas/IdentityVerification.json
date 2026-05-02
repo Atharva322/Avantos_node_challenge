@@ -1,0 +1,175 @@
+{
+  "stem": "IdentityVerification",
+  "group_members": [
+    "IdentityVerificationDOB",
+    "IdentityVerificationResponse"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/IdentityVerificationDOB",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/IdentityVerificationResponse"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_trust",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_verification",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "correlation_id",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "decision",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "details",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "dob_verification",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "email_trust",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "email_verification",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "identity_resolution",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "identity_risk",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "identity_trust",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "identity_verification",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "phone_trust",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ssn_trust",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ssn_verification",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "timestamp",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "trace_id",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "transaction_id",
+      "in_schemas": [
+        "IdentityVerificationResponse"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "IdentityVerificationDOB": [],
+    "IdentityVerificationResponse": [
+      "$schema",
+      "address_trust",
+      "address_verification",
+      "correlation_id",
+      "decision",
+      "details",
+      "dob_verification",
+      "email_trust",
+      "email_verification",
+      "identity_resolution",
+      "identity_risk",
+      "identity_trust",
+      "identity_verification",
+      "phone_trust",
+      "ssn_trust",
+      "ssn_verification",
+      "timestamp",
+      "trace_id",
+      "transaction_id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 19,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0
+  }
+}

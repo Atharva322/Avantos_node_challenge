@@ -1,0 +1,37 @@
+{
+  "stem": "client-organisation-tax-pods",
+  "group_members": [
+    "client-organisation-tax-pods"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/client-organisations/tax-pods"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-tax-pods"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-organisation-tax-pods"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_pods",
+      "in_operations": [
+        "client-organisation-tax-pods"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "client-organisation-tax-pods": [
+      "$schema",
+      "tax_pods"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "stem": "action-blueprint-graph",
+  "group_members": [
+    "action-blueprint-graph-get"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/actions/blueprints/{action_blueprint_id}/{blueprint_version_id}/graph"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-graph-get"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "action-blueprint-graph-get": []
+  }
+}

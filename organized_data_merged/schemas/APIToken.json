@@ -1,0 +1,138 @@
+{
+  "stem": "APIToken",
+  "group_members": [
+    "APITokenCreateOutputBody",
+    "APITokenRoleListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/APITokenCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/APITokenRoleListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "APITokenCreateOutputBody",
+        "APITokenRoleListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "auth_method",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "expires_at",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "grant_target_id",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "grant_type",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "roles",
+      "in_schemas": [
+        "APITokenRoleListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "scope_type",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "token",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "token_id",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "trigger_grants",
+      "in_schemas": [
+        "APITokenCreateOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "APITokenCreateOutputBody": [
+      "$schema",
+      "auth_method",
+      "created_at",
+      "expires_at",
+      "grant_target_id",
+      "grant_type",
+      "id",
+      "name",
+      "role",
+      "scope_type",
+      "token",
+      "token_id",
+      "trigger_grants"
+    ],
+    "APITokenRoleListOutputBody": [
+      "$schema",
+      "roles"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 14,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.0714
+  }
+}

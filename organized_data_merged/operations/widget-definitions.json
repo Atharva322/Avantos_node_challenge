@@ -1,0 +1,165 @@
+{
+  "stem": "widget-definitions",
+  "group_members": [
+    "widget-definitions-list"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/admin/widget-definitions"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-definitions-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "configSchema",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "createdAt",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "defaultConfig",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "defaultHeight",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "defaultWidth",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "definitions",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "displayName",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "maxHeight",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "maxWidth",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "minHeight",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "minWidth",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updatedAt",
+      "in_operations": [
+        "widget-definitions-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "widget-definitions-list": [
+      "$schema",
+      "configSchema",
+      "createdAt",
+      "defaultConfig",
+      "defaultHeight",
+      "defaultWidth",
+      "definitions",
+      "description",
+      "displayName",
+      "id",
+      "maxHeight",
+      "maxWidth",
+      "minHeight",
+      "minWidth",
+      "name",
+      "property1",
+      "property2",
+      "updatedAt"
+    ]
+  }
+}

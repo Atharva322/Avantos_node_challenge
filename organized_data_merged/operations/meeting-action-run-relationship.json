@@ -1,0 +1,140 @@
+{
+  "stem": "meeting-action-run-relationship",
+  "group_members": [
+    "meeting-action-run-relationship-create",
+    "meeting-action-run-relationship-list"
+  ],
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/meetings/{meeting_id}/action-runs"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-action-run-relationship-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-action-run-relationship-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "meeting-action-run-relationship-create",
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "action_run_created_at",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "action_run_id",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "action_run_name",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "action_run_status",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "blueprint_name",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "meeting-action-run-relationship-create"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "meeting_id",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_created_at",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_id",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_updated_at",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationships",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_system",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "meeting-action-run-relationship-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "meeting-action-run-relationship-create": [
+      "$schema",
+      "id"
+    ],
+    "meeting-action-run-relationship-list": [
+      "$schema",
+      "action_run_created_at",
+      "action_run_id",
+      "action_run_name",
+      "action_run_status",
+      "blueprint_name",
+      "meeting_id",
+      "relationship_created_at",
+      "relationship_id",
+      "relationship_updated_at",
+      "relationships",
+      "source_system",
+      "tenant_id"
+    ]
+  }
+}

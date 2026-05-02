@@ -1,0 +1,158 @@
+{
+  "stem": "agent-oauth-token",
+  "group_members": [
+    "agent-oauth-token-create",
+    "agent-oauth-token-delete",
+    "agent-oauth-token-refresh"
+  ],
+  "methods": [
+    "DELETE",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/agents/oauth-tokens",
+    "/api/v1/{tenant_id}/agents/oauth-tokens/{token_id}/refresh",
+    "/api/v1/{tenant_id}/agents/oauth-tokens/{token_id}/remove"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-oauth-token-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-oauth-token-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-oauth-token-refresh"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "access_token",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_id",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_name",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "accounts",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "base_uri",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "expires_at",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_default",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "provider",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "refresh_token_expires_at",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "agent-oauth-token-refresh"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "agent-oauth-token-create": [],
+    "agent-oauth-token-delete": [],
+    "agent-oauth-token-refresh": [
+      "$schema",
+      "access_token",
+      "account_id",
+      "account_name",
+      "accounts",
+      "agent_id",
+      "base_uri",
+      "created_at",
+      "expires_at",
+      "external_id",
+      "id",
+      "is_default",
+      "provider",
+      "refresh_token_expires_at",
+      "tenant_id",
+      "updated_at"
+    ]
+  }
+}

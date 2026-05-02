@@ -1,0 +1,106 @@
+{
+  "stem": "AgentClient",
+  "group_members": [
+    "AgentClientOrganisationRelationshipCreateInputBody",
+    "AgentClientOrganisationRelationshipCreateOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentClientOrganisationRelationshipCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentClientOrganisationRelationshipCreateOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "AgentClientOrganisationRelationshipCreateInputBody",
+        "AgentClientOrganisationRelationshipCreateOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "annual_revenue",
+      "in_schemas": [
+        "AgentClientOrganisationRelationshipCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "AgentClientOrganisationRelationshipCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "AgentClientOrganisationRelationshipCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "direct_assignment",
+      "in_schemas": [
+        "AgentClientOrganisationRelationshipCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "employees",
+      "in_schemas": [
+        "AgentClientOrganisationRelationshipCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "extra_properties",
+      "in_schemas": [
+        "AgentClientOrganisationRelationshipCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "AgentClientOrganisationRelationshipCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "industry",
+      "in_schemas": [
+        "AgentClientOrganisationRelationshipCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_type",
+      "in_schemas": [
+        "AgentClientOrganisationRelationshipCreateInputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "AgentClientOrganisationRelationshipCreateInputBody": [
+      "$schema",
+      "annual_revenue",
+      "client_organisation_id",
+      "description",
+      "direct_assignment",
+      "employees",
+      "extra_properties",
+      "industry",
+      "relationship_type"
+    ],
+    "AgentClientOrganisationRelationshipCreateOutputBody": [
+      "$schema",
+      "id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 10,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.1
+  }
+}

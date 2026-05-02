@@ -1,0 +1,124 @@
+{
+  "stem": "GetBusiness",
+  "group_members": [
+    "GetBusinessGroupCoverageLookupSummaryOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetBusinessGroupCoverageLookupSummaryOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "business_groups",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "category",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "coverage_description",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "coverage_summaries",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "coverage_value",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "lookup_id",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "team_count",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_agents",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_clients",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_lookups",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_teams",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "totals",
+      "in_schemas": [
+        "GetBusinessGroupCoverageLookupSummaryOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "GetBusinessGroupCoverageLookupSummaryOutputBody": [
+      "$schema",
+      "business_groups",
+      "category",
+      "coverage_description",
+      "coverage_summaries",
+      "coverage_value",
+      "lookup_id",
+      "team_count",
+      "total_agents",
+      "total_clients",
+      "total_lookups",
+      "total_teams",
+      "totals"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 13,
+    "common_field_count": 13,
+    "avg_pairwise_jaccard": 1
+  }
+}

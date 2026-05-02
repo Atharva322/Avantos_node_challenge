@@ -1,0 +1,269 @@
+{
+  "stem": "meeting-list-all",
+  "group_members": [
+    "meeting-list-all"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/meetings"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-list-all"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "actions_skipped",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ai_transcript_id",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "email",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "end_time",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "extra_properties",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "initiating_agent",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_historical",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "location",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "meeting_link",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "meeting_type",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "middle_name",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "my_meeting",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "participants",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primary_client_id",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "record_type",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "start_time",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "subject",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "type",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "meeting-list-all"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "meeting-list-all": [
+      "$schema",
+      "actions_skipped",
+      "ai_transcript_id",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "client_organisation_name",
+      "created_at",
+      "description",
+      "email",
+      "end_time",
+      "external_id",
+      "extra_properties",
+      "first_name",
+      "id",
+      "initiating_agent",
+      "is_historical",
+      "last_name",
+      "location",
+      "meeting_link",
+      "meeting_type",
+      "middle_name",
+      "my_meeting",
+      "participants",
+      "primary_client_id",
+      "record_type",
+      "start_time",
+      "status",
+      "subject",
+      "tenant_id",
+      "type",
+      "updated_at"
+    ]
+  }
+}

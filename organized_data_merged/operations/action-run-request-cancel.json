@@ -1,0 +1,45 @@
+{
+  "stem": "action-run-request-cancel",
+  "group_members": [
+    "action-run-request-cancel"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/request-cancel"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-request-cancel"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "action-run-request-cancel"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_1234",
+      "in_operations": [
+        "action-run-request-cancel"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "user_tasks_map",
+      "in_operations": [
+        "action-run-request-cancel"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "action-run-request-cancel": [
+      "$schema",
+      "agent_1234",
+      "user_tasks_map"
+    ]
+  }
+}

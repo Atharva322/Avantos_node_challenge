@@ -1,0 +1,442 @@
+{
+  "stem": "TriggerEndpoint",
+  "group_members": [
+    "TriggerEndpointCreateInputBody",
+    "TriggerEndpointCreateOutputBody",
+    "TriggerEndpointDescription",
+    "TriggerEndpointExecuteOutputBody",
+    "TriggerEndpointListOutputBody",
+    "TriggerEndpointUpdateInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointDescription",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointExecuteOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointUpdateInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointCreateOutputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointExecuteOutputBody",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "age",
+      "in_schemas": [
+        "TriggerEndpointExecuteOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_headers_template",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_headers_template_variables",
+      "in_schemas": [
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "error_message_template",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "execution_time_ms",
+      "in_schemas": [
+        "TriggerEndpointExecuteOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointCreateOutputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "mapped",
+      "in_schemas": [
+        "TriggerEndpointExecuteOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "message",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointExecuteOutputBody",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_mapping",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "path_template",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "path_template_variables",
+      "in_schemas": [
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pattern",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_template",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_template_variables",
+      "in_schemas": [
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_type",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "query_parameter_template",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "query_parameter_template_variables",
+      "in_schemas": [
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "raw",
+      "in_schemas": [
+        "TriggerEndpointExecuteOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "request_body",
+      "in_schemas": [
+        "TriggerEndpointExecuteOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "request_method",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "request_route",
+      "in_schemas": [
+        "TriggerEndpointExecuteOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "response_body",
+      "in_schemas": [
+        "TriggerEndpointExecuteOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "response_code",
+      "in_schemas": [
+        "TriggerEndpointExecuteOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "subject",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "timeout_seconds",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "to",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "trigger_endpoints",
+      "in_schemas": [
+        "TriggerEndpointListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "trigger_service_id",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "userId",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "user_id",
+      "in_schemas": [
+        "TriggerEndpointCreateInputBody",
+        "TriggerEndpointDescription",
+        "TriggerEndpointListOutputBody",
+        "TriggerEndpointUpdateInputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "TriggerEndpointCreateInputBody": [
+      "$schema",
+      "custom_headers_template",
+      "error_message_template",
+      "id",
+      "message",
+      "name",
+      "output_mapping",
+      "path_template",
+      "pattern",
+      "payload_template",
+      "payload_type",
+      "query_parameter_template",
+      "request_method",
+      "subject",
+      "timeout_seconds",
+      "to",
+      "trigger_service_id",
+      "userId",
+      "user_id"
+    ],
+    "TriggerEndpointCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "TriggerEndpointDescription": [
+      "$schema",
+      "created_at",
+      "custom_headers_template",
+      "custom_headers_template_variables",
+      "error_message_template",
+      "id",
+      "message",
+      "name",
+      "output_mapping",
+      "path_template",
+      "path_template_variables",
+      "pattern",
+      "payload_template",
+      "payload_template_variables",
+      "payload_type",
+      "query_parameter_template",
+      "query_parameter_template_variables",
+      "request_method",
+      "subject",
+      "timeout_seconds",
+      "to",
+      "trigger_service_id",
+      "updated_at",
+      "userId",
+      "user_id"
+    ],
+    "TriggerEndpointExecuteOutputBody": [
+      "$schema",
+      "age",
+      "execution_time_ms",
+      "mapped",
+      "name",
+      "raw",
+      "request_body",
+      "request_route",
+      "response_body",
+      "response_code"
+    ],
+    "TriggerEndpointListOutputBody": [
+      "$schema",
+      "created_at",
+      "custom_headers_template",
+      "custom_headers_template_variables",
+      "error_message_template",
+      "id",
+      "name",
+      "output_mapping",
+      "path_template",
+      "path_template_variables",
+      "payload_template",
+      "payload_template_variables",
+      "payload_type",
+      "query_parameter_template",
+      "query_parameter_template_variables",
+      "request_method",
+      "subject",
+      "timeout_seconds",
+      "to",
+      "trigger_endpoints",
+      "trigger_service_id",
+      "updated_at",
+      "userId",
+      "user_id"
+    ],
+    "TriggerEndpointUpdateInputBody": [
+      "$schema",
+      "custom_headers_template",
+      "error_message_template",
+      "id",
+      "message",
+      "name",
+      "output_mapping",
+      "path_template",
+      "pattern",
+      "payload_template",
+      "payload_type",
+      "query_parameter_template",
+      "request_method",
+      "subject",
+      "timeout_seconds",
+      "to",
+      "trigger_service_id",
+      "userId",
+      "user_id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 34,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.3632
+  }
+}

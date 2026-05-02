@@ -1,0 +1,148 @@
+{
+  "stem": "SendEmail",
+  "group_members": [
+    "SendEmailInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SendEmailInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ccEmail",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ccEmailList",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "content",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "currentUser",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "data",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "emailType",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "fromName",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "replyTo",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "sourceModuleId",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "subject",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "toEmail",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "toEmailList",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tpmEmailFlag",
+      "in_schemas": [
+        "SendEmailInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "SendEmailInputBody": [
+      "$schema",
+      "ccEmail",
+      "ccEmailList",
+      "content",
+      "currentUser",
+      "data",
+      "emailType",
+      "fromName",
+      "property1",
+      "property2",
+      "replyTo",
+      "sourceModuleId",
+      "subject",
+      "toEmail",
+      "toEmailList",
+      "tpmEmailFlag"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 16,
+    "common_field_count": 16,
+    "avg_pairwise_jaccard": 1
+  }
+}

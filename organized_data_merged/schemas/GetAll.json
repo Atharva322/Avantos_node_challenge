@@ -1,0 +1,364 @@
+{
+  "stem": "GetAll",
+  "group_members": [
+    "GetAllClientOrganisationRelationshipsOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetAllClientOrganisationRelationshipsOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "addresses",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "age",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "anniversary_date",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "annual_revenue",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_segmentation",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "connected_clients",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "connected_organisations",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "connection_extra_properties",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "connection_id",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "contacts",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "current_employer",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "dob",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "employees",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "employment_status",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "extra_properties",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "gender",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "industry",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "marital_status",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "member_clients",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "middle_name",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "occupation",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ownership_percentage",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "preferred_name",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "raw_roles",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_category",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_extra_properties",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_id",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "shared_accounts",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ssn",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "subtype",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "suffix",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "title",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "voting_rights",
+      "in_schemas": [
+        "GetAllClientOrganisationRelationshipsOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "GetAllClientOrganisationRelationshipsOutputBody": [
+      "$schema",
+      "addresses",
+      "age",
+      "anniversary_date",
+      "annual_revenue",
+      "client_organisation_id",
+      "client_organisation_type",
+      "client_segmentation",
+      "connected_clients",
+      "connected_organisations",
+      "connection_extra_properties",
+      "connection_id",
+      "contacts",
+      "current_employer",
+      "dob",
+      "employees",
+      "employment_status",
+      "external_id",
+      "extra_properties",
+      "first_name",
+      "gender",
+      "id",
+      "industry",
+      "last_name",
+      "marital_status",
+      "member_clients",
+      "middle_name",
+      "name",
+      "occupation",
+      "ownership_percentage",
+      "preferred_name",
+      "raw_roles",
+      "relationship_category",
+      "relationship_extra_properties",
+      "relationship_id",
+      "role",
+      "shared_accounts",
+      "ssn",
+      "status",
+      "subtype",
+      "suffix",
+      "title",
+      "voting_rights"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 43,
+    "common_field_count": 43,
+    "avg_pairwise_jaccard": 1
+  }
+}

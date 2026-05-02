@@ -1,0 +1,157 @@
+{
+  "stem": "agent-organisation",
+  "group_members": [
+    "agent-organisation-get"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/agent-organisations/{id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-organisation-get"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_role",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_organisation_type",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "employees",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "extra_properties",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "licenses",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "parent_id",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "specialty",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "agent-organisation-get"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "agent-organisation-get": [
+      "$schema",
+      "agent_organisation",
+      "agent_organisation_role",
+      "agent_organisation_type",
+      "created_at",
+      "description",
+      "employees",
+      "external_id",
+      "extra_properties",
+      "id",
+      "licenses",
+      "name",
+      "parent_id",
+      "specialty",
+      "status",
+      "tenant_id",
+      "updated_at"
+    ]
+  }
+}

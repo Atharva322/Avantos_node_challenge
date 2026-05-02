@@ -1,0 +1,85 @@
+{
+  "stem": "cdc-pipeline-config-upsert",
+  "group_members": [
+    "cdc-pipeline-config-upsert"
+  ],
+  "methods": [
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/cdc/pipeline-configs/{pipeline}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/cdc-pipeline-config-upsert"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "cdc-pipeline-config-upsert"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "config",
+      "in_operations": [
+        "cdc-pipeline-config-upsert"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "cdc-pipeline-config-upsert"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "has_credentials",
+      "in_operations": [
+        "cdc-pipeline-config-upsert"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "cdc-pipeline-config-upsert"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pipeline",
+      "in_operations": [
+        "cdc-pipeline-config-upsert"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "cdc-pipeline-config-upsert"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "cdc-pipeline-config-upsert"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "cdc-pipeline-config-upsert": [
+      "$schema",
+      "config",
+      "created_at",
+      "has_credentials",
+      "id",
+      "pipeline",
+      "tenant_id",
+      "updated_at"
+    ]
+  }
+}

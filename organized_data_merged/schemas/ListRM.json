@@ -1,0 +1,332 @@
+{
+  "stem": "ListRM",
+  "group_members": [
+    "ListRMDsByFinancialAccountIDOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ListRMDsByFinancialAccountIDOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assigned_agent_first_name",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assigned_agent_last_name",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assigned_to_id",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_first_name",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_id",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_last_name",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_status",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organization_id",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "details",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "distribution_source",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "extra_properties",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "federal_withholding_pct",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_external_id",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_id",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_name",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_number",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_status",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_year",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "life_expectancy_factor",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "next_step_date",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "outside_account_number",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "prior_year_end_balance",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_status",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "remaining_amount",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "required_amount",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "rmd_year",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "rmds",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "state_withholding_pct",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ten_year_required",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ytd_distributions",
+      "in_schemas": [
+        "ListRMDsByFinancialAccountIDOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "ListRMDsByFinancialAccountIDOutputBody": [
+      "$schema",
+      "assigned_agent_first_name",
+      "assigned_agent_last_name",
+      "assigned_to_id",
+      "client_first_name",
+      "client_id",
+      "client_last_name",
+      "client_organisation_name",
+      "client_organisation_status",
+      "client_organisation_type",
+      "client_organization_id",
+      "created_at",
+      "details",
+      "distribution_source",
+      "external_id",
+      "extra_properties",
+      "federal_withholding_pct",
+      "financial_account_external_id",
+      "financial_account_id",
+      "financial_account_name",
+      "financial_account_number",
+      "financial_account_status",
+      "first_year",
+      "id",
+      "life_expectancy_factor",
+      "next_step_date",
+      "outside_account_number",
+      "prior_year_end_balance",
+      "relationship_status",
+      "remaining_amount",
+      "required_amount",
+      "rmd_year",
+      "rmds",
+      "state_withholding_pct",
+      "status",
+      "ten_year_required",
+      "tenant_id",
+      "updated_at",
+      "ytd_distributions"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 39,
+    "common_field_count": 39,
+    "avg_pairwise_jaccard": 1
+  }
+}

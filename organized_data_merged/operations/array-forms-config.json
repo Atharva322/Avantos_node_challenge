@@ -1,0 +1,65 @@
+{
+  "stem": "array-forms-config",
+  "group_members": [
+    "array-forms-config-get",
+    "array-forms-config-put"
+  ],
+  "methods": [
+    "GET",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/array-forms-config"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/array-forms-config-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/array-forms-config-put"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "array-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "array_child_form_id",
+      "in_operations": [
+        "array-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "array_property_name",
+      "in_operations": [
+        "array-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "configs",
+      "in_operations": [
+        "array-forms-config-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "parent_task_form_id",
+      "in_operations": [
+        "array-forms-config-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "array-forms-config-get": [
+      "$schema",
+      "array_child_form_id",
+      "array_property_name",
+      "configs",
+      "parent_task_form_id"
+    ],
+    "array-forms-config-put": []
+  }
+}

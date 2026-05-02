@@ -1,0 +1,522 @@
+{
+  "stem": "TriggerService",
+  "group_members": [
+    "TriggerServiceCreateOutputBody",
+    "TriggerServiceDescription",
+    "TriggerServiceEnvironmentCreateInputBody",
+    "TriggerServiceEnvironmentCreateOutputBody",
+    "TriggerServiceEnvironmentListOutputBody",
+    "TriggerServiceEnvironmentUpdateInputBody",
+    "TriggerServiceGetOutputBody",
+    "TriggerServiceUpdateInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceDescription",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceEnvironmentCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceEnvironmentCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceEnvironmentListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceEnvironmentUpdateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceGetOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceUpdateInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "TriggerServiceCreateOutputBody",
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentCreateOutputBody",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceEnvironmentUpdateInputBody",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "audience",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_body",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceEnvironmentUpdateInputBody",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_body_type",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceEnvironmentUpdateInputBody",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_config",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceEnvironmentUpdateInputBody",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_type",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceEnvironmentUpdateInputBody",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "base_url",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceEnvironmentUpdateInputBody",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_headers_template",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_headers_template_variables",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "endpoints",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "environment",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "environments",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "error_message_template",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "header_key",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "TriggerServiceCreateOutputBody",
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateOutputBody",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_enabled",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceEnvironmentUpdateInputBody",
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_virtual",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_mapping",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "path_template",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "path_template_variables",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_template",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_template_variables",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_type",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentUpdateInputBody",
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentUpdateInputBody",
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "query_parameter_template",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "query_parameter_template_variables",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "request_method",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "scope",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceEnvironmentUpdateInputBody",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "service",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "subject",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "timeout_seconds",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentCreateInputBody",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceEnvironmentUpdateInputBody",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "to",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "token",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceGetOutputBody",
+        "TriggerServiceUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "trigger_service_id",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "TriggerServiceDescription",
+        "TriggerServiceEnvironmentListOutputBody",
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "userId",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "user_id",
+      "in_schemas": [
+        "TriggerServiceGetOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "TriggerServiceCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "TriggerServiceDescription": [
+      "$schema",
+      "audience",
+      "auth_body",
+      "auth_body_type",
+      "auth_config",
+      "auth_type",
+      "base_url",
+      "created_at",
+      "environment",
+      "environments",
+      "header_key",
+      "id",
+      "is_enabled",
+      "is_virtual",
+      "name",
+      "property1",
+      "property2",
+      "scope",
+      "timeout_seconds",
+      "token",
+      "updated_at"
+    ],
+    "TriggerServiceEnvironmentCreateInputBody": [
+      "$schema",
+      "audience",
+      "auth_body",
+      "auth_body_type",
+      "auth_config",
+      "auth_type",
+      "base_url",
+      "environment",
+      "is_enabled",
+      "property1",
+      "property2",
+      "scope",
+      "timeout_seconds"
+    ],
+    "TriggerServiceEnvironmentCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "TriggerServiceEnvironmentListOutputBody": [
+      "$schema",
+      "audience",
+      "auth_body",
+      "auth_body_type",
+      "auth_config",
+      "auth_type",
+      "base_url",
+      "created_at",
+      "environment",
+      "environments",
+      "header_key",
+      "id",
+      "is_enabled",
+      "scope",
+      "timeout_seconds",
+      "token",
+      "updated_at"
+    ],
+    "TriggerServiceEnvironmentUpdateInputBody": [
+      "$schema",
+      "auth_body",
+      "auth_body_type",
+      "auth_config",
+      "auth_type",
+      "base_url",
+      "is_enabled",
+      "property1",
+      "property2",
+      "scope",
+      "timeout_seconds"
+    ],
+    "TriggerServiceGetOutputBody": [
+      "$schema",
+      "audience",
+      "auth_body",
+      "auth_body_type",
+      "auth_config",
+      "auth_type",
+      "base_url",
+      "created_at",
+      "custom_headers_template",
+      "custom_headers_template_variables",
+      "endpoints",
+      "environments",
+      "error_message_template",
+      "header_key",
+      "id",
+      "is_enabled",
+      "is_virtual",
+      "name",
+      "output_mapping",
+      "path_template",
+      "path_template_variables",
+      "payload_template",
+      "payload_template_variables",
+      "payload_type",
+      "property1",
+      "property2",
+      "query_parameter_template",
+      "query_parameter_template_variables",
+      "request_method",
+      "scope",
+      "service",
+      "subject",
+      "timeout_seconds",
+      "to",
+      "token",
+      "trigger_service_id",
+      "updated_at",
+      "userId",
+      "user_id"
+    ],
+    "TriggerServiceUpdateInputBody": [
+      "$schema",
+      "audience",
+      "auth_body",
+      "auth_body_type",
+      "auth_config",
+      "auth_type",
+      "base_url",
+      "header_key",
+      "name",
+      "scope",
+      "timeout_seconds",
+      "token"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 40,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.354
+  }
+}

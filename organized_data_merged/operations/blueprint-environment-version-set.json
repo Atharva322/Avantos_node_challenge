@@ -1,0 +1,19 @@
+{
+  "stem": "blueprint-environment-version-set",
+  "group_members": [
+    "blueprint-environment-version-set"
+  ],
+  "methods": [
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/actions/blueprints/{action_blueprint_id}/environments/{environment}/version"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/blueprint-environment-version-set"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "blueprint-environment-version-set": []
+  }
+}

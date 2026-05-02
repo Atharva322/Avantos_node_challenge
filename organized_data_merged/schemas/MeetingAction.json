@@ -1,0 +1,149 @@
+{
+  "stem": "MeetingAction",
+  "group_members": [
+    "MeetingActionRunRelationshipCreateInputBody",
+    "MeetingActionRunRelationshipCreateOutputBody",
+    "MeetingActionRunRelationshipDescription",
+    "MeetingActionRunRelationshipListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingActionRunRelationshipCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingActionRunRelationshipCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingActionRunRelationshipDescription",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingActionRunRelationshipListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "MeetingActionRunRelationshipCreateInputBody",
+        "MeetingActionRunRelationshipCreateOutputBody",
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "action_run_created_at",
+      "in_schemas": [
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "action_run_id",
+      "in_schemas": [
+        "MeetingActionRunRelationshipCreateInputBody",
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "action_run_name",
+      "in_schemas": [
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "action_run_status",
+      "in_schemas": [
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "blueprint_name",
+      "in_schemas": [
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "MeetingActionRunRelationshipCreateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "meeting_id",
+      "in_schemas": [
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_created_at",
+      "in_schemas": [
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_id",
+      "in_schemas": [
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_updated_at",
+      "in_schemas": [
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationships",
+      "in_schemas": [
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_system",
+      "in_schemas": [
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "MeetingActionRunRelationshipListOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "MeetingActionRunRelationshipCreateInputBody": [
+      "$schema",
+      "action_run_id"
+    ],
+    "MeetingActionRunRelationshipCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "MeetingActionRunRelationshipDescription": [],
+    "MeetingActionRunRelationshipListOutputBody": [
+      "$schema",
+      "action_run_created_at",
+      "action_run_id",
+      "action_run_name",
+      "action_run_status",
+      "blueprint_name",
+      "meeting_id",
+      "relationship_created_at",
+      "relationship_id",
+      "relationship_updated_at",
+      "relationships",
+      "source_system",
+      "tenant_id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 14,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.0931
+  }
+}

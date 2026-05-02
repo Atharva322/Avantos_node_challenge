@@ -1,0 +1,37 @@
+{
+  "stem": "pdf-fill",
+  "group_members": [
+    "pdf-fill"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/pdfs/{pdf_id}/fill"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/pdf-fill"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "pdf-fill"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "filled_pdf_base64",
+      "in_operations": [
+        "pdf-fill"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "pdf-fill": [
+      "$schema",
+      "filled_pdf_base64"
+    ]
+  }
+}

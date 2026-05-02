@@ -1,0 +1,19 @@
+{
+  "stem": "action-run-schedule",
+  "group_members": [
+    "action-run-schedule-update"
+  ],
+  "methods": [
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/schedule"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-schedule-update"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "action-run-schedule-update": []
+  }
+}

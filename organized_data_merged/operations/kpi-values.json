@@ -1,0 +1,221 @@
+{
+  "stem": "kpi-values",
+  "group_members": [
+    "kpi-values-search"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/kpis/values/search"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/kpi-values-search"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "computed_at",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "denominator",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "dimensions",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "kpi_id",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "numerator",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "period_end",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "period_granularity",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "period_start",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "run_id",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status_label",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "value",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "values",
+      "in_operations": [
+        "kpi-values-search"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "kpi-values-search": [
+      "$schema",
+      "client_organisation_id",
+      "computed_at",
+      "created_at",
+      "denominator",
+      "dimensions",
+      "id",
+      "kpi_id",
+      "numerator",
+      "page",
+      "page_size",
+      "pagination",
+      "period_end",
+      "period_granularity",
+      "period_start",
+      "property1",
+      "property2",
+      "run_id",
+      "status_label",
+      "tenant_id",
+      "total_pages",
+      "total_records",
+      "updated_at",
+      "value",
+      "values"
+    ]
+  }
+}

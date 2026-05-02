@@ -1,0 +1,19 @@
+{
+  "stem": "docusign-envelope-status",
+  "group_members": [
+    "docusign-envelope-status"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/gpoc-docusign/envelopes/{envelope_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/docusign-envelope-status"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "docusign-envelope-status": []
+  }
+}

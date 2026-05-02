@@ -1,0 +1,261 @@
+{
+  "stem": "client-documents",
+  "group_members": [
+    "client-documents-list"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/clients/{client_id}/documents"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-documents-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "access_level",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "approved_by",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_id",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "deleted_at",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "department",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "document_status",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "document_subtype",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "document_type",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "documents",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "file_name",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "file_type",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "priority",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "rejection_reason",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "retention_policy",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "service_agreement_id",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "storage_container",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "storage_mode",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "storage_object_key",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "storage_provider",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "upload_date",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "upload_status",
+      "in_operations": [
+        "client-documents-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "client-documents-list": [
+      "$schema",
+      "access_level",
+      "additional_attributes",
+      "agent_id",
+      "approved_by",
+      "client_id",
+      "created_at",
+      "deleted_at",
+      "department",
+      "description",
+      "document_status",
+      "document_subtype",
+      "document_type",
+      "documents",
+      "external_id",
+      "file_name",
+      "file_type",
+      "id",
+      "priority",
+      "rejection_reason",
+      "retention_policy",
+      "service_agreement_id",
+      "storage_container",
+      "storage_mode",
+      "storage_object_key",
+      "storage_provider",
+      "tenant_id",
+      "updated_at",
+      "upload_date",
+      "upload_status"
+    ]
+  }
+}

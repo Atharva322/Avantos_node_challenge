@@ -1,0 +1,173 @@
+{
+  "stem": "vpoc-all-clients",
+  "group_members": [
+    "vpoc-all-clients-search"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/vpoc-all-clients/search"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/vpoc-all-clients-search"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_id",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_relationship_status",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_wealth_advisor_name",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "clients",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "organisation_id",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "preferred_email",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "preferred_phone",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "vpoc-all-clients-search"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "vpoc-all-clients-search": [
+      "$schema",
+      "client_id",
+      "client_organisation_external_id",
+      "client_organisation_name",
+      "client_organisation_relationship_status",
+      "client_organisation_type",
+      "client_organisation_wealth_advisor_name",
+      "clients",
+      "external_id",
+      "name",
+      "organisation_id",
+      "page",
+      "page_size",
+      "pagination",
+      "preferred_email",
+      "preferred_phone",
+      "tenant_id",
+      "total_pages",
+      "total_records"
+    ]
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "stem": "AgentList",
+  "group_members": [
+    "AgentListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "active",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agents",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "email",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "firstname",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "idp_subject",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "lastname",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "manager_id",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "AgentListOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "AgentListOutputBody": [
+      "$schema",
+      "active",
+      "agent_id",
+      "agents",
+      "email",
+      "external_id",
+      "firstname",
+      "idp_subject",
+      "lastname",
+      "manager_id",
+      "page",
+      "page_size",
+      "pagination",
+      "total_pages",
+      "total_records",
+      "type"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 16,
+    "common_field_count": 16,
+    "avg_pairwise_jaccard": 1
+  }
+}

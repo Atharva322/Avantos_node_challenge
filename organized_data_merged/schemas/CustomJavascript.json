@@ -1,0 +1,298 @@
+{
+  "stem": "CustomJavascript",
+  "group_members": [
+    "CustomJavascriptFunctionsCreateInputBody",
+    "CustomJavascriptFunctionsCreateOutputBody",
+    "CustomJavascriptFunctionsDescription",
+    "CustomJavascriptFunctionsListInputBody",
+    "CustomJavascriptFunctionsListOutputBody",
+    "CustomJavascriptFunctionsUpdateInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsDescription",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsListInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsUpdateInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "CustomJavascriptFunctionsCreateInputBody",
+        "CustomJavascriptFunctionsCreateOutputBody",
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListInputBody",
+        "CustomJavascriptFunctionsListOutputBody",
+        "CustomJavascriptFunctionsUpdateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "body",
+      "in_schemas": [
+        "CustomJavascriptFunctionsCreateInputBody",
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody",
+        "CustomJavascriptFunctionsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_by",
+      "in_schemas": [
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "CustomJavascriptFunctionsCreateInputBody",
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody",
+        "CustomJavascriptFunctionsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "execution_role",
+      "in_schemas": [
+        "CustomJavascriptFunctionsCreateInputBody",
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody",
+        "CustomJavascriptFunctionsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "functions",
+      "in_schemas": [
+        "CustomJavascriptFunctionsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "CustomJavascriptFunctionsCreateOutputBody",
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "initiation",
+      "in_schemas": [
+        "CustomJavascriptFunctionsCreateInputBody",
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody",
+        "CustomJavascriptFunctionsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "CustomJavascriptFunctionsCreateInputBody",
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody",
+        "CustomJavascriptFunctionsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "CustomJavascriptFunctionsListInputBody",
+        "CustomJavascriptFunctionsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "CustomJavascriptFunctionsListInputBody",
+        "CustomJavascriptFunctionsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "CustomJavascriptFunctionsListInputBody",
+        "CustomJavascriptFunctionsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "request_keys",
+      "in_schemas": [
+        "CustomJavascriptFunctionsCreateInputBody",
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody",
+        "CustomJavascriptFunctionsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "response_keys",
+      "in_schemas": [
+        "CustomJavascriptFunctionsCreateInputBody",
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody",
+        "CustomJavascriptFunctionsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "search",
+      "in_schemas": [
+        "CustomJavascriptFunctionsListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "server_side_enabled",
+      "in_schemas": [
+        "CustomJavascriptFunctionsCreateInputBody",
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody",
+        "CustomJavascriptFunctionsUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_column",
+      "in_schemas": [
+        "CustomJavascriptFunctionsListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_keys",
+      "in_schemas": [
+        "CustomJavascriptFunctionsListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_order",
+      "in_schemas": [
+        "CustomJavascriptFunctionsListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "CustomJavascriptFunctionsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "CustomJavascriptFunctionsListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "CustomJavascriptFunctionsDescription",
+        "CustomJavascriptFunctionsListOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "CustomJavascriptFunctionsCreateInputBody": [
+      "$schema",
+      "body",
+      "description",
+      "execution_role",
+      "initiation",
+      "name",
+      "request_keys",
+      "response_keys",
+      "server_side_enabled"
+    ],
+    "CustomJavascriptFunctionsCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "CustomJavascriptFunctionsDescription": [
+      "$schema",
+      "body",
+      "created_at",
+      "created_by",
+      "description",
+      "execution_role",
+      "id",
+      "initiation",
+      "name",
+      "request_keys",
+      "response_keys",
+      "server_side_enabled",
+      "updated_at"
+    ],
+    "CustomJavascriptFunctionsListInputBody": [
+      "$schema",
+      "page",
+      "page_size",
+      "pagination",
+      "search",
+      "sort_column",
+      "sort_keys",
+      "sort_order"
+    ],
+    "CustomJavascriptFunctionsListOutputBody": [
+      "$schema",
+      "body",
+      "created_at",
+      "created_by",
+      "description",
+      "execution_role",
+      "functions",
+      "id",
+      "initiation",
+      "name",
+      "page",
+      "page_size",
+      "pagination",
+      "request_keys",
+      "response_keys",
+      "server_side_enabled",
+      "total_pages",
+      "total_records",
+      "updated_at"
+    ],
+    "CustomJavascriptFunctionsUpdateInputBody": [
+      "$schema",
+      "body",
+      "description",
+      "execution_role",
+      "initiation",
+      "name",
+      "request_keys",
+      "response_keys",
+      "server_side_enabled"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 23,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.329
+  }
+}

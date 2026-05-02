@@ -1,0 +1,117 @@
+{
+  "stem": "client-connections",
+  "group_members": [
+    "client-connections-list"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/clients/{client_id}/client-connections"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-connections-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "initiating_client_external_id",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "initiating_client_first_name",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "initiating_client_id",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "initiating_client_last_name",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "participating_client_external_id",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "participating_client_first_name",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "participating_client_id",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "participating_client_last_name",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_category",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_type",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationships",
+      "in_operations": [
+        "client-connections-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "client-connections-list": [
+      "$schema",
+      "initiating_client_external_id",
+      "initiating_client_first_name",
+      "initiating_client_id",
+      "initiating_client_last_name",
+      "participating_client_external_id",
+      "participating_client_first_name",
+      "participating_client_id",
+      "participating_client_last_name",
+      "relationship_category",
+      "relationship_type",
+      "relationships"
+    ]
+  }
+}

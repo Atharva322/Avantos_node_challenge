@@ -1,0 +1,84 @@
+{
+  "stem": "ServicingTable",
+  "group_members": [
+    "ServicingTableConfigBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ServicingTableConfigBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ServicingTableConfigBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "all_view_filters",
+      "in_schemas": [
+        "ServicingTableConfigBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "columns",
+      "in_schemas": [
+        "ServicingTableConfigBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "default_column_visibility",
+      "in_schemas": [
+        "ServicingTableConfigBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "default_sorting",
+      "in_schemas": [
+        "ServicingTableConfigBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "only_assigned",
+      "in_schemas": [
+        "ServicingTableConfigBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "suggested_filters",
+      "in_schemas": [
+        "ServicingTableConfigBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "table_key",
+      "in_schemas": [
+        "ServicingTableConfigBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "ServicingTableConfigBody": [
+      "$schema",
+      "all_view_filters",
+      "columns",
+      "default_column_visibility",
+      "default_sorting",
+      "only_assigned",
+      "suggested_filters",
+      "table_key"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 8,
+    "common_field_count": 8,
+    "avg_pairwise_jaccard": 1
+  }
+}

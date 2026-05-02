@@ -1,0 +1,45 @@
+{
+  "stem": "meeting-email-draft-upsert",
+  "group_members": [
+    "meeting-email-draft-upsert"
+  ],
+  "methods": [
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/meetings/{meeting_id}/email-draft/upsert"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-email-draft-upsert"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "meeting-email-draft-upsert"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created",
+      "in_operations": [
+        "meeting-email-draft-upsert"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "meeting-email-draft-upsert"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "meeting-email-draft-upsert": [
+      "$schema",
+      "created",
+      "id"
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "stem": "action-run-task-cron-job-queued",
+  "group_members": [
+    "action-run-task-cron-job-queued-update"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/tasks/{task_id}/cron-job-queued"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-cron-job-queued-update"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "action-run-task-cron-job-queued-update": []
+  }
+}

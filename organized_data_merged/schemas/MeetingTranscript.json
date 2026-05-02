@@ -1,0 +1,36 @@
+{
+  "stem": "MeetingTranscript",
+  "group_members": [
+    "MeetingTranscriptIDUpdateInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingTranscriptIDUpdateInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "MeetingTranscriptIDUpdateInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ai_transcript_id",
+      "in_schemas": [
+        "MeetingTranscriptIDUpdateInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "MeetingTranscriptIDUpdateInputBody": [
+      "$schema",
+      "ai_transcript_id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 2,
+    "common_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  }
+}

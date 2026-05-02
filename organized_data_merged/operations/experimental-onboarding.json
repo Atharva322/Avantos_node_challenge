@@ -1,0 +1,285 @@
+{
+  "stem": "experimental-onboarding",
+  "group_members": [
+    "experimental-onboarding-get",
+    "experimental-onboarding-list"
+  ],
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/experimental-onboarding/list",
+    "/api/v1/{tenant_id}/experimental-onboarding/{onboarding_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/experimental-onboarding-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/experimental-onboarding-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "action_ids",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "action_runs",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "completed_tasks",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "end_date",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "onboardings",
+      "in_operations": [
+        "experimental-onboarding-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "experimental-onboarding-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "experimental-onboarding-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "experimental-onboarding-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_client_first_name",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primary_client_id",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "primary_client_last_name",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "progress",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "progress_percentage",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_description",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_id",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_role",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "started_at",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "experimental-onboarding-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "experimental-onboarding-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_tasks",
+      "in_operations": [
+        "experimental-onboarding-get",
+        "experimental-onboarding-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "experimental-onboarding-get": [
+      "$schema",
+      "action_ids",
+      "action_runs",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_type",
+      "completed_tasks",
+      "end_date",
+      "id",
+      "primary_client_first_name",
+      "primary_client_id",
+      "primary_client_last_name",
+      "progress",
+      "progress_percentage",
+      "relationship_description",
+      "relationship_id",
+      "relationship_role",
+      "started_at",
+      "status",
+      "tenant_id",
+      "total_tasks"
+    ],
+    "experimental-onboarding-list": [
+      "$schema",
+      "action_ids",
+      "action_runs",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_type",
+      "completed_tasks",
+      "end_date",
+      "id",
+      "onboardings",
+      "page",
+      "page_size",
+      "pagination",
+      "primary_client_first_name",
+      "primary_client_id",
+      "primary_client_last_name",
+      "progress",
+      "progress_percentage",
+      "relationship_description",
+      "relationship_id",
+      "relationship_role",
+      "started_at",
+      "status",
+      "tenant_id",
+      "total_pages",
+      "total_records",
+      "total_tasks"
+    ]
+  }
+}

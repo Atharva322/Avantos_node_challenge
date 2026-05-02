@@ -1,0 +1,282 @@
+{
+  "stem": "LedgerAggregation",
+  "group_members": [
+    "LedgerAggregationRowAPI",
+    "LedgerAggregationSearchInputBody",
+    "LedgerAggregationSortKeyAPI"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/LedgerAggregationRowAPI",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/LedgerAggregationSearchInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/LedgerAggregationSortKeyAPI"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_ids",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_statuses",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "aggregation",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "authorities",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "balance_scopes",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "balance_types",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "carriers",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_ids",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "currencies",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custodians",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "filters",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "group_by",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "lines_of_business",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "measure",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "only_assigned",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination_params",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "policy_ids",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "policy_statuses",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "policy_subtypes",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_ids",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_types",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_column",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_keys",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_order",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_kinds",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_systems",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tax_statuses",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "valuation_types",
+      "in_schemas": [
+        "LedgerAggregationSearchInputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "LedgerAggregationRowAPI": [],
+    "LedgerAggregationSearchInputBody": [
+      "$schema",
+      "account_ids",
+      "account_statuses",
+      "aggregation",
+      "authorities",
+      "balance_scopes",
+      "balance_types",
+      "carriers",
+      "client_organisation_ids",
+      "currencies",
+      "custodians",
+      "filters",
+      "group_by",
+      "lines_of_business",
+      "measure",
+      "only_assigned",
+      "page",
+      "page_size",
+      "pagination_params",
+      "policy_ids",
+      "policy_statuses",
+      "policy_subtypes",
+      "product_ids",
+      "product_types",
+      "sort_column",
+      "sort_keys",
+      "sort_order",
+      "source",
+      "source_kinds",
+      "source_systems",
+      "tax_statuses",
+      "valuation_types"
+    ],
+    "LedgerAggregationSortKeyAPI": []
+  },
+  "overlap_summary": {
+    "union_field_count": 32,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.3333
+  }
+}

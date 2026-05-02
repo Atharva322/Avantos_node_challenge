@@ -1,0 +1,53 @@
+{
+  "stem": "docusign-envelope",
+  "group_members": [
+    "docusign-envelope-create"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/gpoc-docusign/envelopes"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/docusign-envelope-create"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "docusign-envelope-create"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "envelopeId",
+      "in_operations": [
+        "docusign-envelope-create"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "docusign-envelope-create"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "statusDateTime",
+      "in_operations": [
+        "docusign-envelope-create"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "docusign-envelope-create": [
+      "$schema",
+      "envelopeId",
+      "status",
+      "statusDateTime"
+    ]
+  }
+}

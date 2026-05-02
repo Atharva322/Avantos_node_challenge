@@ -1,0 +1,181 @@
+{
+  "stem": "action-run-state-model-transitions",
+  "group_members": [
+    "action-run-state-model-transitions-get"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/state-model/transitions"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-state-model-transitions-get"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "condition_satisfied",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "current_state",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "current_state_display_color",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "current_state_display_name",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "current_state_is_final",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "display_name",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "enum_values",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "input_schema",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "key",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "label",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "required",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "to_state",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "to_state_display_color",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "to_state_display_name",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "to_state_is_final",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "to_state_is_required",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "transitions",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "type",
+      "in_operations": [
+        "action-run-state-model-transitions-get"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "action-run-state-model-transitions-get": [
+      "$schema",
+      "condition_satisfied",
+      "current_state",
+      "current_state_display_color",
+      "current_state_display_name",
+      "current_state_is_final",
+      "description",
+      "display_name",
+      "enum_values",
+      "input_schema",
+      "key",
+      "label",
+      "required",
+      "to_state",
+      "to_state_display_color",
+      "to_state_display_name",
+      "to_state_is_final",
+      "to_state_is_required",
+      "transitions",
+      "type"
+    ]
+  }
+}

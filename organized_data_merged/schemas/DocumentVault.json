@@ -1,0 +1,44 @@
+{
+  "stem": "DocumentVault",
+  "group_members": [
+    "DocumentVaultVerifyOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentVaultVerifyOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "DocumentVaultVerifyOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "message",
+      "in_schemas": [
+        "DocumentVaultVerifyOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "success",
+      "in_schemas": [
+        "DocumentVaultVerifyOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "DocumentVaultVerifyOutputBody": [
+      "$schema",
+      "message",
+      "success"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 3,
+    "common_field_count": 3,
+    "avg_pairwise_jaccard": 1
+  }
+}

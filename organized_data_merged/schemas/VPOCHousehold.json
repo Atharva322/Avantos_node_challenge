@@ -1,0 +1,228 @@
+{
+  "stem": "VPOCHousehold",
+  "group_members": [
+    "VPOCHouseholdMemberRecommendation",
+    "VPOCHouseholdRankingListInputBody",
+    "VPOCHouseholdRankingListOutputBody",
+    "VPOCHouseholdRankingOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCHouseholdMemberRecommendation",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCHouseholdRankingListInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCHouseholdRankingListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCHouseholdRankingOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody",
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "component_key",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "current_aum",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "filter",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "household_members",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_metadata",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "number_of_days_in_backlog",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_key",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody",
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody",
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination_params",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_client",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "promotion_status",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "rank",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ranked_households",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "score",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_column",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_keys",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_order",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "VPOCHouseholdRankingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "VPOCHouseholdRankingListInputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "VPOCHouseholdMemberRecommendation": [],
+    "VPOCHouseholdRankingListInputBody": [
+      "$schema",
+      "component_key",
+      "filter",
+      "is_metadata",
+      "output_key",
+      "page",
+      "page_size",
+      "pagination_params",
+      "sort_column",
+      "sort_keys",
+      "sort_order",
+      "type"
+    ],
+    "VPOCHouseholdRankingListOutputBody": [
+      "$schema",
+      "additional_attributes",
+      "current_aum",
+      "household_members",
+      "number_of_days_in_backlog",
+      "page",
+      "page_size",
+      "pagination",
+      "primary_client",
+      "promotion_status",
+      "rank",
+      "ranked_households",
+      "score",
+      "total_pages",
+      "total_records"
+    ],
+    "VPOCHouseholdRankingOutputBody": []
+  },
+  "overlap_summary": {
+    "union_field_count": 24,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.1875
+  }
+}

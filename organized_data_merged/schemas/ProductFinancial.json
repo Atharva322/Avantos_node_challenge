@@ -1,0 +1,165 @@
+{
+  "stem": "ProductFinancial",
+  "group_members": [
+    "ProductFinancialCreateInputBody",
+    "ProductFinancialGetOutputBody",
+    "ProductFinancialGetOutputProduct"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ProductFinancialCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ProductFinancialGetOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ProductFinancialGetOutputProduct"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ProductFinancialCreateInputBody",
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "ProductFinancialCreateInputBody",
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "eligibility_criteria",
+      "in_schemas": [
+        "ProductFinancialCreateInputBody",
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "model",
+      "in_schemas": [
+        "ProductFinancialCreateInputBody",
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "model_portfolio",
+      "in_schemas": [
+        "ProductFinancialCreateInputBody",
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product",
+      "in_schemas": [
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_code",
+      "in_schemas": [
+        "ProductFinancialCreateInputBody",
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_name",
+      "in_schemas": [
+        "ProductFinancialCreateInputBody",
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_type",
+      "in_schemas": [
+        "ProductFinancialCreateInputBody",
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "regulatory_compliance",
+      "in_schemas": [
+        "ProductFinancialCreateInputBody",
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "ProductFinancialGetOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ProductFinancialCreateInputBody": [
+      "$schema",
+      "description",
+      "eligibility_criteria",
+      "model",
+      "model_portfolio",
+      "product_code",
+      "product_name",
+      "product_type",
+      "regulatory_compliance"
+    ],
+    "ProductFinancialGetOutputBody": [
+      "$schema",
+      "created_at",
+      "description",
+      "eligibility_criteria",
+      "external_id",
+      "id",
+      "model",
+      "model_portfolio",
+      "product",
+      "product_code",
+      "product_name",
+      "product_type",
+      "regulatory_compliance",
+      "tenant_id",
+      "updated_at"
+    ],
+    "ProductFinancialGetOutputProduct": []
+  },
+  "overlap_summary": {
+    "union_field_count": 15,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.2
+  }
+}

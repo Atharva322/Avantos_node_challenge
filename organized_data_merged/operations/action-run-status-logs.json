@@ -1,0 +1,141 @@
+{
+  "stem": "action-run-status-logs",
+  "group_members": [
+    "action-run-status-logs"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/status-logs"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-status-logs"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "changed_by",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "custom_status",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "event_type",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "logs",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "metadata",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "old_custom_status",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "old_status",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "run_id",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "time",
+      "in_operations": [
+        "action-run-status-logs"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "action-run-status-logs": [
+      "$schema",
+      "changed_by",
+      "custom_status",
+      "event_type",
+      "id",
+      "logs",
+      "metadata",
+      "old_custom_status",
+      "old_status",
+      "property1",
+      "property2",
+      "run_id",
+      "status",
+      "tenant_id",
+      "time"
+    ]
+  }
+}

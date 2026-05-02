@@ -1,0 +1,146 @@
+{
+  "stem": "agent-client-organisation-relationship",
+  "group_members": [
+    "agent-client-organisation-relationship-delete",
+    "agent-client-organisation-relationship-list"
+  ],
+  "methods": [
+    "DELETE",
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/agents/{agent_id}/client-organisations",
+    "/api/v1/{tenant_id}/agents/{agent_id}/client-relationships/{client_organisation_id}/{relationship_type}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-client-organisation-relationship-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-client-organisation-relationship-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "annual_revenue",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_role",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisations",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "employees",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "extra_properties",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "industry",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "parent_id",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_type",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "agent-client-organisation-relationship-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "agent-client-organisation-relationship-delete": [],
+    "agent-client-organisation-relationship-list": [
+      "$schema",
+      "agent_id",
+      "annual_revenue",
+      "client_organisation_id",
+      "client_organisation_role",
+      "client_organisation_type",
+      "client_organisations",
+      "description",
+      "employees",
+      "extra_properties",
+      "industry",
+      "name",
+      "parent_id",
+      "relationship_type",
+      "tenant_id"
+    ]
+  }
+}

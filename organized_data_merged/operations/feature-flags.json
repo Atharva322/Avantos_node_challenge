@@ -1,0 +1,96 @@
+{
+  "stem": "feature-flags",
+  "group_members": [
+    "feature-flags-get",
+    "feature-flags-update"
+  ],
+  "methods": [
+    "GET",
+    "PATCH"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/feature-flags/{flag_key}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/feature-flags-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/feature-flags-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "feature-flags-get",
+        "feature-flags-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "feature-flags-get",
+        "feature-flags-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "enabled",
+      "in_operations": [
+        "feature-flags-get",
+        "feature-flags-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "enabled_agents",
+      "in_operations": [
+        "feature-flags-get",
+        "feature-flags-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "enabled_for_org",
+      "in_operations": [
+        "feature-flags-get",
+        "feature-flags-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "key",
+      "in_operations": [
+        "feature-flags-get",
+        "feature-flags-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "feature-flags-get",
+        "feature-flags-update"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "feature-flags-get": [
+      "$schema",
+      "description",
+      "enabled",
+      "enabled_agents",
+      "enabled_for_org",
+      "key",
+      "name"
+    ],
+    "feature-flags-update": [
+      "$schema",
+      "description",
+      "enabled",
+      "enabled_agents",
+      "enabled_for_org",
+      "key",
+      "name"
+    ]
+  }
+}

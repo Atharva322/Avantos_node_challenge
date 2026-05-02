@@ -1,0 +1,18 @@
+{
+  "stem": "ComponentValidation",
+  "group_members": [
+    "ComponentValidationError"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ComponentValidationError"
+  ],
+  "fields_union": [],
+  "schema_field_map": {
+    "ComponentValidationError": []
+  },
+  "overlap_summary": {
+    "union_field_count": 0,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  }
+}

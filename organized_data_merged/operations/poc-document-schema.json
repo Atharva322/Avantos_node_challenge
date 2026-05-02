@@ -1,0 +1,167 @@
+{
+  "stem": "poc-document-schema",
+  "group_members": [
+    "poc-document-schema-create",
+    "poc-document-schema-delete",
+    "poc-document-schema-list",
+    "poc-document-schema-update"
+  ],
+  "methods": [
+    "DELETE",
+    "POST",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/poc-document-schemas",
+    "/api/v1/{tenant_id}/poc-document-schemas/list",
+    "/api/v1/{tenant_id}/poc-document-schemas/{document_schema_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/poc-document-schema-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/poc-document-schema-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/poc-document-schema-list",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/poc-document-schema-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "poc-document-schema-create",
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_by",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "document_schemas",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "field_description",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "field_name",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "fields",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "poc-document-schema-create",
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "poc-document-schema-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "poc-document-schema-create": [
+      "$schema",
+      "id"
+    ],
+    "poc-document-schema-delete": [],
+    "poc-document-schema-list": [
+      "$schema",
+      "created_at",
+      "created_by",
+      "description",
+      "document_schemas",
+      "field_description",
+      "field_name",
+      "fields",
+      "id",
+      "name",
+      "page",
+      "page_size",
+      "pagination",
+      "total_pages",
+      "total_records",
+      "updated_at"
+    ],
+    "poc-document-schema-update": []
+  }
+}

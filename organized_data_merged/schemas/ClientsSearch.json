@@ -1,0 +1,156 @@
+{
+  "stem": "ClientsSearch",
+  "group_members": [
+    "ClientsSearchOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientsSearchOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_external_id",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_id",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "clients",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "title",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "ClientsSearchOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "ClientsSearchOutputBody": [
+      "$schema",
+      "additional_attributes",
+      "client_external_id",
+      "client_id",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "clients",
+      "first_name",
+      "last_name",
+      "page",
+      "page_size",
+      "pagination",
+      "role",
+      "tenant_id",
+      "title",
+      "total_pages",
+      "total_records"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 17,
+    "common_field_count": 17,
+    "avg_pairwise_jaccard": 1
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "stem": "manager-team",
+  "group_members": [
+    "manager-team-list"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/manager-teams"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/manager-team-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "active",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "direct_reports_count",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "email",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "level",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "manager_email",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "manager_external_id",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "manager_first_name",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "manager_id",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "manager_last_name",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "manager_middle_name",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "manager_role",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "manager_title",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "members",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "middle_name",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "path",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "teams",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "title",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_reports_count",
+      "in_operations": [
+        "manager-team-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "manager-team-list": [
+      "$schema",
+      "active",
+      "agent_id",
+      "direct_reports_count",
+      "email",
+      "external_id",
+      "first_name",
+      "last_name",
+      "level",
+      "manager_email",
+      "manager_external_id",
+      "manager_first_name",
+      "manager_id",
+      "manager_last_name",
+      "manager_middle_name",
+      "manager_role",
+      "manager_title",
+      "members",
+      "middle_name",
+      "page",
+      "page_size",
+      "pagination",
+      "path",
+      "role",
+      "teams",
+      "title",
+      "total_pages",
+      "total_records",
+      "total_reports_count"
+    ]
+  }
+}

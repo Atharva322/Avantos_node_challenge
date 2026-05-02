@@ -1,0 +1,140 @@
+{
+  "stem": "VPOCGet",
+  "group_members": [
+    "VPOCGetHouseholdMemberRecommendationsOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCGetHouseholdMemberRecommendationsOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "address_data",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assets",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_id",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "contacts",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "date_of_birth",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "organisation_id",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "person_id",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "recommendations",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "shared_address",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_count",
+      "in_schemas": [
+        "VPOCGetHouseholdMemberRecommendationsOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "VPOCGetHouseholdMemberRecommendationsOutputBody": [
+      "$schema",
+      "address_data",
+      "assets",
+      "client_id",
+      "contacts",
+      "date_of_birth",
+      "first_name",
+      "last_name",
+      "organisation_id",
+      "person_id",
+      "recommendations",
+      "role",
+      "shared_address",
+      "tenant_id",
+      "total_count"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 15,
+    "common_field_count": 15,
+    "avg_pairwise_jaccard": 1
+  }
+}

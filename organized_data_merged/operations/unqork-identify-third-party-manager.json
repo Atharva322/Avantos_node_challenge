@@ -1,0 +1,173 @@
+{
+  "stem": "unqork-identify-third-party-manager",
+  "group_members": [
+    "unqork-identify-third-party-manager"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/unqork-custom-api/identify-tpm"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/unqork-identify-third-party-manager"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assetType",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "data",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "delivery",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "externalId",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "interactionType",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "newImplementationEmail",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "otherEmail",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "portalLink",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "resolved",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "sortOrder",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "strategistId",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "thirdPartyManager",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "thirdPartyManagerAssetType",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "thirdPartyManagerDetails",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "thirdPartyManagerName",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "thirdPartyManagerType",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tpmRecipients",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "type",
+      "in_operations": [
+        "unqork-identify-third-party-manager"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "unqork-identify-third-party-manager": [
+      "$schema",
+      "assetType",
+      "data",
+      "delivery",
+      "externalId",
+      "interactionType",
+      "newImplementationEmail",
+      "otherEmail",
+      "portalLink",
+      "resolved",
+      "sortOrder",
+      "strategistId",
+      "thirdPartyManager",
+      "thirdPartyManagerAssetType",
+      "thirdPartyManagerDetails",
+      "thirdPartyManagerName",
+      "thirdPartyManagerType",
+      "tpmRecipients",
+      "type"
+    ]
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "stem": "MeetingEmail",
+  "group_members": [
+    "MeetingEmailDraftInput",
+    "MeetingEmailDraftUpsertOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingEmailDraftInput",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingEmailDraftUpsertOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "MeetingEmailDraftInput",
+        "MeetingEmailDraftUpsertOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "body_content",
+      "in_schemas": [
+        "MeetingEmailDraftInput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "cc_addresses",
+      "in_schemas": [
+        "MeetingEmailDraftInput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created",
+      "in_schemas": [
+        "MeetingEmailDraftUpsertOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "MeetingEmailDraftUpsertOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_ai_enhanced",
+      "in_schemas": [
+        "MeetingEmailDraftInput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_skipped",
+      "in_schemas": [
+        "MeetingEmailDraftInput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sent_flag",
+      "in_schemas": [
+        "MeetingEmailDraftInput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "subject",
+      "in_schemas": [
+        "MeetingEmailDraftInput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "to_addresses",
+      "in_schemas": [
+        "MeetingEmailDraftInput"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "MeetingEmailDraftInput": [
+      "$schema",
+      "body_content",
+      "cc_addresses",
+      "is_ai_enhanced",
+      "is_skipped",
+      "sent_flag",
+      "subject",
+      "to_addresses"
+    ],
+    "MeetingEmailDraftUpsertOutputBody": [
+      "$schema",
+      "created",
+      "id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 10,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "stem": "action-run-task",
+  "group_members": [
+    "action-run-task-assign",
+    "action-run-task-patch"
+  ],
+  "methods": [
+    "PATCH",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/tasks/{task_id}/assign",
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/tasks/{task_id}/save"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-assign",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-patch"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "action-run-task-assign": [],
+    "action-run-task-patch": []
+  }
+}

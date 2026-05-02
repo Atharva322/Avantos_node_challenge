@@ -1,0 +1,19 @@
+{
+  "stem": "action-run-blueprint-version-reassign",
+  "group_members": [
+    "action-run-blueprint-version-reassign"
+  ],
+  "methods": [
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/blueprint-version"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-blueprint-version-reassign"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "action-run-blueprint-version-reassign": []
+  }
+}

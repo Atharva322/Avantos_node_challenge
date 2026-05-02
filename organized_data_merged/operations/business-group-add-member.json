@@ -1,0 +1,19 @@
+{
+  "stem": "business-group-add-member",
+  "group_members": [
+    "business-group-add-member"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/business-groups/{business_group_id}/members"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-add-member"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "business-group-add-member": []
+  }
+}

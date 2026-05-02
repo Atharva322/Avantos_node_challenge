@@ -1,0 +1,47 @@
+{
+  "generated_at": "2026-05-02T16:24:03.046Z",
+  "source_dir": "organized_data/schemas",
+  "output_dir": "organized_data_merged/schemas",
+  "totals": {
+    "raw_schemas": 463,
+    "grouped_stems": 223,
+    "singleton_groups": 137,
+    "multi_member_groups": 86
+  },
+  "grouping": {
+    "rule": "name-prefix stem via camel tokens (default first two tokens) with trailing schema suffix trim",
+    "trailing_suffixes": [
+      "InputBody",
+      "OutputBody",
+      "RequestBody",
+      "ResponseBody",
+      "Description",
+      "Request",
+      "Response",
+      "Input",
+      "Output",
+      "Summary",
+      "Config",
+      "Schema",
+      "Model",
+      "Result",
+      "View",
+      "Doc",
+      "API",
+      "Body",
+      "Item",
+      "Data",
+      "Type",
+      "Rule",
+      "Rules",
+      "Expression",
+      "Params",
+      "Param",
+      "Error"
+    ]
+  },
+  "files": {
+    "schemas_index": "organized_data_merged/schemas.index.json",
+    "warnings": "organized_data_merged/schemas.warnings.json"
+  }
+}

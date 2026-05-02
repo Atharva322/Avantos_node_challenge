@@ -1,0 +1,72 @@
+{
+  "stem": "RequestUnqork",
+  "group_members": [
+    "RequestUnqorkCashBreakdownBody",
+    "RequestUnqorkIdentifyThirdPartyManagerBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RequestUnqorkCashBreakdownBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RequestUnqorkIdentifyThirdPartyManagerBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "RequestUnqorkCashBreakdownBody",
+        "RequestUnqorkIdentifyThirdPartyManagerBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "data",
+      "in_schemas": [
+        "RequestUnqorkCashBreakdownBody",
+        "RequestUnqorkIdentifyThirdPartyManagerBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financialAccountId",
+      "in_schemas": [
+        "RequestUnqorkCashBreakdownBody",
+        "RequestUnqorkIdentifyThirdPartyManagerBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "modelAggId",
+      "in_schemas": [
+        "RequestUnqorkIdentifyThirdPartyManagerBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationshipId",
+      "in_schemas": [
+        "RequestUnqorkCashBreakdownBody",
+        "RequestUnqorkIdentifyThirdPartyManagerBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "RequestUnqorkCashBreakdownBody": [
+      "$schema",
+      "data",
+      "financialAccountId",
+      "relationshipId"
+    ],
+    "RequestUnqorkIdentifyThirdPartyManagerBody": [
+      "$schema",
+      "data",
+      "financialAccountId",
+      "modelAggId",
+      "relationshipId"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 5,
+    "common_field_count": 4,
+    "avg_pairwise_jaccard": 0.8
+  }
+}

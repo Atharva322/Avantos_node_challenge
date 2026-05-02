@@ -1,0 +1,18 @@
+{
+  "stem": "User",
+  "group_members": [
+    "UserDescription"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UserDescription"
+  ],
+  "fields_union": [],
+  "schema_field_map": {
+    "UserDescription": []
+  },
+  "overlap_summary": {
+    "union_field_count": 0,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  }
+}

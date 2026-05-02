@@ -1,0 +1,63 @@
+{
+  "stem": "RoleGroup",
+  "group_members": [
+    "RoleGroup",
+    "RoleGroupListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RoleGroup",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RoleGroupListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "RoleGroupListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "RoleGroupListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role_groups",
+      "in_schemas": [
+        "RoleGroupListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "roles",
+      "in_schemas": [
+        "RoleGroupListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "RoleGroupListOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "RoleGroup": [],
+    "RoleGroupListOutputBody": [
+      "$schema",
+      "name",
+      "role_groups",
+      "roles",
+      "tenant_id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 5,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "stem": "TaxReturn",
+  "group_members": [
+    "TaxReturnTypeAggregationOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TaxReturnTypeAggregationOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "TaxReturnTypeAggregationOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_return_types",
+      "in_schemas": [
+        "TaxReturnTypeAggregationOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "TaxReturnTypeAggregationOutputBody": [
+      "$schema",
+      "tax_return_types"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 2,
+    "common_field_count": 2,
+    "avg_pairwise_jaccard": 1
+  }
+}

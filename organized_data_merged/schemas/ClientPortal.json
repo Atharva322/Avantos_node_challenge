@@ -1,0 +1,178 @@
+{
+  "stem": "ClientPortal",
+  "group_members": [
+    "ClientPortalJWTInputBody",
+    "ClientPortalJWTOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientPortalJWTInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientPortalJWTOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ClientPortalJWTInputBody",
+        "ClientPortalJWTOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "BoxFolderId",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "BoxUserId",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ContactId",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "EnvestnetChannelQualifiedId",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "EnvestnetClientId",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "HouseholdId",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "OrionClientId",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "PersonAccountId",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "PersonContactId",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "PortfolioManagementSystem",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "SalesforceAdvisorId",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "SalesforceClientAssociateId",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "email",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "family_name",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "given_name",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "phone_number_verified",
+      "in_schemas": [
+        "ClientPortalJWTInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "token",
+      "in_schemas": [
+        "ClientPortalJWTOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "url",
+      "in_schemas": [
+        "ClientPortalJWTOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ClientPortalJWTInputBody": [
+      "$schema",
+      "BoxFolderId",
+      "BoxUserId",
+      "ContactId",
+      "EnvestnetChannelQualifiedId",
+      "EnvestnetClientId",
+      "HouseholdId",
+      "OrionClientId",
+      "PersonAccountId",
+      "PersonContactId",
+      "PortfolioManagementSystem",
+      "SalesforceAdvisorId",
+      "SalesforceClientAssociateId",
+      "email",
+      "family_name",
+      "given_name",
+      "phone_number_verified"
+    ],
+    "ClientPortalJWTOutputBody": [
+      "$schema",
+      "token",
+      "url"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 19,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.0526
+  }
+}

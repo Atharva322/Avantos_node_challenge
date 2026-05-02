@@ -1,0 +1,18 @@
+{
+  "stem": "TriggerGrant",
+  "group_members": [
+    "TriggerGrantOutput"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerGrantOutput"
+  ],
+  "fields_union": [],
+  "schema_field_map": {
+    "TriggerGrantOutput": []
+  },
+  "overlap_summary": {
+    "union_field_count": 0,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  }
+}

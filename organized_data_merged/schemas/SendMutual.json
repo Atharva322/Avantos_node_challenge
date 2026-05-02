@@ -1,0 +1,31 @@
+{
+  "stem": "SendMutual",
+  "group_members": [
+    "SendMutualFundTradesReportInputBody",
+    "SendMutualFundTradesReportOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SendMutualFundTradesReportInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SendMutualFundTradesReportOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "SendMutualFundTradesReportOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "SendMutualFundTradesReportInputBody": [],
+    "SendMutualFundTradesReportOutputBody": [
+      "$schema"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 1,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "stem": "WidgetDefinition",
+  "group_members": [
+    "WidgetDefinitionCreateOutputBody",
+    "WidgetDefinitionOutput"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetDefinitionCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetDefinitionOutput"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "WidgetDefinitionCreateOutputBody",
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "configSchema",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "createdAt",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "defaultConfig",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "defaultHeight",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "defaultWidth",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "displayName",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "WidgetDefinitionCreateOutputBody",
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "maxHeight",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "maxWidth",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "minHeight",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "minWidth",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updatedAt",
+      "in_schemas": [
+        "WidgetDefinitionOutput"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "WidgetDefinitionCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "WidgetDefinitionOutput": [
+      "$schema",
+      "configSchema",
+      "createdAt",
+      "defaultConfig",
+      "defaultHeight",
+      "defaultWidth",
+      "description",
+      "displayName",
+      "id",
+      "maxHeight",
+      "maxWidth",
+      "minHeight",
+      "minWidth",
+      "name",
+      "property1",
+      "property2",
+      "updatedAt"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 17,
+    "common_field_count": 2,
+    "avg_pairwise_jaccard": 0.1176
+  }
+}

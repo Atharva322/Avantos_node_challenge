@@ -1,0 +1,799 @@
+[
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-blueprint-graph"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-blueprint-graph",
+    "best_score": 0.1275
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-component-form-update-custom-javascript"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-component-form-update-custom-javascript",
+    "best_score": 0.14
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-blueprint-version-reassign-bulk",
+    "best_score": 0.1871
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-blueprint-version-reassign"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-blueprint-version-reassign",
+    "best_score": 0.06
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-bulk-lock"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-bulk-lock",
+    "best_score": 0.075
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-bulk-unlock"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-bulk-unlock",
+    "best_score": 0.075
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-client-organisation"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-client-organisation",
+    "best_score": 0.165
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-context"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-context",
+    "best_score": 0.19
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-request-cancel",
+    "best_score": 0.158
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-schedule"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-schedule",
+    "best_score": 0.19
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-state-model-advance",
+    "best_score": 0.3075
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-state-model-transitions",
+    "best_score": 0.2912
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-status-logs",
+    "best_score": 0.2911
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-task-approve"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-task-approve",
+    "best_score": 0.075
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-task-claim"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-task-claim",
+    "best_score": 0.075
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-task-cron-job-queued"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-task-cron-job-queued",
+    "best_score": 0.14
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-task-next-step-date"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-task-next-step-date",
+    "best_score": 0.14
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-task-reject"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-task-reject",
+    "best_score": 0.075
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-task-start"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-task-start",
+    "best_score": 0.075
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-task-submit",
+    "best_score": 0.228
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run-task"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run-task",
+    "best_score": 0.19
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "action-run"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "action-run",
+    "best_score": 0.24
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "admin-api-token-roles",
+    "best_score": 0.354
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "agent-business-group-role-list-by-type-and-name"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "agent-business-group-role-list-by-type-and-name",
+    "best_score": 0.1233
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "agent-id-by-external-id",
+    "best_score": 0.1953
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "agent-organisation-contact",
+    "best_score": 0.3705
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "authorization-check"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "authorization-check",
+    "best_score": 0
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "blueprint-environment-history"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "blueprint-environment-history",
+    "best_score": 0.1
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "blueprint-environment-version-set"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "blueprint-environment-version-set",
+    "best_score": 0.075
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "book-of-business-summary",
+    "best_score": 0.1538
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "business-group-add-member"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "business-group-add-member",
+    "best_score": 0.075
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "business-group-list-by-role"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "business-group-list-by-role",
+    "best_score": 0.15
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "business-group"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "business-group",
+    "best_score": 0.15
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "business-groups-find-by-coverage"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "business-groups-find-by-coverage",
+    "best_score": 0.06
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "cdc-pipeline-config-upsert",
+    "best_score": 0.3018
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "cdc-pipeline-config",
+    "best_score": 0.3018
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "client-component-jwt-generate",
+    "best_score": 0.359
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "client-organisation-connections",
+    "best_score": 0.3413
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "client-organisation-id-by-external-id",
+    "best_score": 0.2697
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "client-organisation-tax-pods",
+    "best_score": 0.278
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "client-portal-jwt-generate",
+    "best_score": 0.284
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "comment"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "comment",
+    "best_score": 0.105
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "custom-views-get-default",
+    "best_score": 0.358
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "custom-views-get-pinned",
+    "best_score": 0.358
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "custom-views-import",
+    "best_score": 0.228
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "docusign-envelope-status"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "docusign-envelope-status",
+    "best_score": 0
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "esignature-envelope-delete-documents"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "esignature-envelope-delete-documents",
+    "best_score": 0.1275
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "esignature-envelope-delete-recipients"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "esignature-envelope-delete-recipients",
+    "best_score": 0.1275
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "esignature-envelope-status"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "esignature-envelope-status",
+    "best_score": 0.05
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "esignature-envelope-update-documents"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "esignature-envelope-update-documents",
+    "best_score": 0.1275
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "esignature-envelope-update-recipients"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "esignature-envelope-update-recipients",
+    "best_score": 0.1275
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "esignature-envelope",
+    "best_score": 0.3635
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "esignature-template"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "esignature-template",
+    "best_score": 0.09
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "esignature-templates",
+    "best_score": 0.3009
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "global",
+    "best_score": 0.2732
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "meeting-actions-skipped"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "meeting-actions-skipped",
+    "best_score": 0.09
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "meeting-email-draft-upsert",
+    "best_score": 0.316
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "meeting-email-draft"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "meeting-email-draft",
+    "best_score": 0.1
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "meeting-prep-upsert",
+    "best_score": 0.3607
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "meeting-summary-unattest"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "meeting-summary-unattest",
+    "best_score": 0.1
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "pdf-get-fill-mapping",
+    "best_score": 0.306
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "pdf"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "pdf",
+    "best_score": 0.09
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "role-policy",
+    "best_score": 0.3213
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "salesforce"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "salesforce",
+    "best_score": 0.09
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "unqork-cash-breakdown",
+    "best_score": 0.1967
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "unqork-comment"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "unqork-comment",
+    "best_score": 0.09
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "unqork-notification-upsert"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "unqork-notification-upsert",
+    "best_score": 0.1
+  },
+  {
+    "type": "operation_empty_fields",
+    "operation_stem": "unqork-task-upsert"
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "unqork-task-upsert",
+    "best_score": 0.1
+  },
+  {
+    "type": "operation_low_confidence_only",
+    "operation_stem": "whoami",
+    "best_score": 0.264
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "AccountRep"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Address"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "AddressSuggestion"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Agent"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "AgentDirectly"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "AgentRelated"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "And"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ArrayForm"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "AssignedAgent"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "AuditTrail"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "AutoAssign"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "BatchUpdate"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Binary"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "BlueprintMetadata"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ChildAction"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ChildForm"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Client"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ClientClient"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ClientMove"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ClientSearch"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ColumnFilter"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Comment"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ComponentValidation"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Contact"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "CustodianForm"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Custom"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "DateAdd"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "DlInput"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "DlOutput"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "DocumentRef"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "DynamicField"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ErrorDetail"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ErrorMessage"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ExternalSystem"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "FailedRun"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "FieldMapping"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "FormField"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "GPOCAccount"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "GPOCStatus"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "GeneratorChild"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "GlobalSearch"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ListTax"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Lookup"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ManageCash"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Move"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "NestedAction"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Not"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Notification"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "PDF"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Pagination"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "PaginationParams"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Participant"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "PolicyAgent"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "PolicyValuation"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Property"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "QCCheck"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Relationship"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "RelationshipContact"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "RelationshipValuation"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "RelativeDate"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "ResponseData"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "Role"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "SLOA"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "StateModel"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "TaskOwner"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "TeamAssignment"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "TransitionDefinition"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "TransitionInput"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "TriggerGrant"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "UnifiedComment"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "UnqorkIdentify"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "User"
+  },
+  {
+    "type": "schema_empty_fields",
+    "schema_stem": "WidgetPosition"
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "stem": "GetClient",
+  "group_members": [
+    "GetClientClientRelationshipsOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetClientClientRelationshipsOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "initiating_client_external_id",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "initiating_client_first_name",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "initiating_client_id",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "initiating_client_last_name",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "participating_client_external_id",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "participating_client_first_name",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "participating_client_id",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "participating_client_last_name",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_category",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_type",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationships",
+      "in_schemas": [
+        "GetClientClientRelationshipsOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "GetClientClientRelationshipsOutputBody": [
+      "$schema",
+      "initiating_client_external_id",
+      "initiating_client_first_name",
+      "initiating_client_id",
+      "initiating_client_last_name",
+      "participating_client_external_id",
+      "participating_client_first_name",
+      "participating_client_id",
+      "participating_client_last_name",
+      "relationship_category",
+      "relationship_type",
+      "relationships"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 12,
+    "common_field_count": 12,
+    "avg_pairwise_jaccard": 1
+  }
+}

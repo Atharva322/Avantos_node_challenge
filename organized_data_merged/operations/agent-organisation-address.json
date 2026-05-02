@@ -1,0 +1,156 @@
+{
+  "stem": "agent-organisation-address",
+  "group_members": [
+    "agent-organisation-address-create",
+    "agent-organisation-address-list"
+  ],
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/agent-organisations/{agent_organisation_id}/addresses"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-organisation-address-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-organisation-address-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "agent-organisation-address-create",
+        "agent-organisation-address-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "address_id",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_line_1",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_line_2",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_type",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "addresses",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "city",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "country",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "entity_id",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "entity_type",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "agent-organisation-address-create"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "state",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "zipcode",
+      "in_operations": [
+        "agent-organisation-address-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "agent-organisation-address-create": [
+      "$schema",
+      "id"
+    ],
+    "agent-organisation-address-list": [
+      "$schema",
+      "address_id",
+      "address_line_1",
+      "address_line_2",
+      "address_type",
+      "addresses",
+      "city",
+      "country",
+      "created_at",
+      "description",
+      "entity_id",
+      "entity_type",
+      "state",
+      "updated_at",
+      "zipcode"
+    ]
+  }
+}

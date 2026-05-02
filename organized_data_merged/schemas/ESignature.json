@@ -1,0 +1,167 @@
+{
+  "stem": "ESignature",
+  "group_members": [
+    "ESignatureEnvelopeDeleteDocumentsReq",
+    "ESignatureEnvelopeDownloadBody",
+    "ESignatureEnvelopeFromTemplateCreateReq",
+    "ESignatureEnvelopeUpdateDocumentsReq",
+    "ESignatureSignerReq",
+    "ESignatureTabReq",
+    "ESignatureTemplateResponse"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureEnvelopeDeleteDocumentsReq",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureEnvelopeDownloadBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureEnvelopeFromTemplateCreateReq",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureEnvelopeUpdateDocumentsReq",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureSignerReq",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureTabReq",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureTemplateResponse"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ESignatureEnvelopeDeleteDocumentsReq",
+        "ESignatureEnvelopeDownloadBody",
+        "ESignatureEnvelopeFromTemplateCreateReq",
+        "ESignatureEnvelopeUpdateDocumentsReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "document_base64",
+      "in_schemas": [
+        "ESignatureEnvelopeFromTemplateCreateReq",
+        "ESignatureEnvelopeUpdateDocumentsReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "document_id",
+      "in_schemas": [
+        "ESignatureEnvelopeFromTemplateCreateReq",
+        "ESignatureEnvelopeUpdateDocumentsReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "document_ids",
+      "in_schemas": [
+        "ESignatureEnvelopeDeleteDocumentsReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "document_name",
+      "in_schemas": [
+        "ESignatureEnvelopeFromTemplateCreateReq",
+        "ESignatureEnvelopeUpdateDocumentsReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "document_pdf_base64",
+      "in_schemas": [
+        "ESignatureEnvelopeDownloadBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "documents",
+      "in_schemas": [
+        "ESignatureEnvelopeFromTemplateCreateReq",
+        "ESignatureEnvelopeUpdateDocumentsReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "email",
+      "in_schemas": [
+        "ESignatureEnvelopeFromTemplateCreateReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "email_subject",
+      "in_schemas": [
+        "ESignatureEnvelopeFromTemplateCreateReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "ESignatureEnvelopeFromTemplateCreateReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role_name",
+      "in_schemas": [
+        "ESignatureEnvelopeFromTemplateCreateReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_schemas": [
+        "ESignatureEnvelopeFromTemplateCreateReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "template_id",
+      "in_schemas": [
+        "ESignatureEnvelopeFromTemplateCreateReq"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "template_roles",
+      "in_schemas": [
+        "ESignatureEnvelopeFromTemplateCreateReq"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ESignatureEnvelopeDeleteDocumentsReq": [
+      "$schema",
+      "document_ids"
+    ],
+    "ESignatureEnvelopeDownloadBody": [
+      "$schema",
+      "document_pdf_base64"
+    ],
+    "ESignatureEnvelopeFromTemplateCreateReq": [
+      "$schema",
+      "document_base64",
+      "document_id",
+      "document_name",
+      "documents",
+      "email",
+      "email_subject",
+      "name",
+      "role_name",
+      "status",
+      "template_id",
+      "template_roles"
+    ],
+    "ESignatureEnvelopeUpdateDocumentsReq": [
+      "$schema",
+      "document_base64",
+      "document_id",
+      "document_name",
+      "documents"
+    ],
+    "ESignatureSignerReq": [],
+    "ESignatureTabReq": [],
+    "ESignatureTemplateResponse": []
+  },
+  "overlap_summary": {
+    "union_field_count": 14,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.2018
+  }
+}

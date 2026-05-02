@@ -1,0 +1,143 @@
+{
+  "stem": "ClientAddress",
+  "group_members": [
+    "ClientAddressListOutputBody",
+    "ClientAddressOutput"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientAddressListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientAddressOutput"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_id",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_line1",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_line2",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_type",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "addresses",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "city",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "country",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "entity_id",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "entity_type",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "state",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "zipcode",
+      "in_schemas": [
+        "ClientAddressListOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ClientAddressListOutputBody": [
+      "$schema",
+      "address_id",
+      "address_line1",
+      "address_line2",
+      "address_type",
+      "addresses",
+      "city",
+      "country",
+      "created_at",
+      "description",
+      "entity_id",
+      "entity_type",
+      "state",
+      "updated_at",
+      "zipcode"
+    ],
+    "ClientAddressOutput": []
+  },
+  "overlap_summary": {
+    "union_field_count": 15,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0
+  }
+}

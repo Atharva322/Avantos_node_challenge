@@ -1,0 +1,349 @@
+{
+  "stem": "rmd-list-by-client-organisation",
+  "group_members": [
+    "rmd-list-by-client-organisation"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/client-organisations/{client_organisation_id}/rmds"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/rmd-list-by-client-organisation"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assigned_agent_first_name",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assigned_agent_last_name",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assigned_to_id",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_first_name",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_id",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_last_name",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_status",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organization_id",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "details",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "distribution_source",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "extra_properties",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "federal_withholding_pct",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_external_id",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_id",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_name",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_number",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_status",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_year",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "life_expectancy_factor",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "next_step_date",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "outside_account_number",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "prior_year_end_balance",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "relationship_status",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "remaining_amount",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "required_amount",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "rmd_year",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "rmds",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "state_withholding_pct",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ten_year_required",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "ytd_distributions",
+      "in_operations": [
+        "rmd-list-by-client-organisation"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "rmd-list-by-client-organisation": [
+      "$schema",
+      "assigned_agent_first_name",
+      "assigned_agent_last_name",
+      "assigned_to_id",
+      "client_first_name",
+      "client_id",
+      "client_last_name",
+      "client_organisation_name",
+      "client_organisation_status",
+      "client_organisation_type",
+      "client_organization_id",
+      "created_at",
+      "details",
+      "distribution_source",
+      "external_id",
+      "extra_properties",
+      "federal_withholding_pct",
+      "financial_account_external_id",
+      "financial_account_id",
+      "financial_account_name",
+      "financial_account_number",
+      "financial_account_status",
+      "first_year",
+      "id",
+      "life_expectancy_factor",
+      "next_step_date",
+      "outside_account_number",
+      "prior_year_end_balance",
+      "property1",
+      "property2",
+      "relationship_status",
+      "remaining_amount",
+      "required_amount",
+      "rmd_year",
+      "rmds",
+      "state_withholding_pct",
+      "status",
+      "ten_year_required",
+      "tenant_id",
+      "updated_at",
+      "ytd_distributions"
+    ]
+  }
+}

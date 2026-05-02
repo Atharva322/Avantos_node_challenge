@@ -1,0 +1,29 @@
+{
+  "stem": "send-mutual-fund-trades-report",
+  "group_members": [
+    "send-mutual-fund-trades-report"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/reports/manual-mutual-fund-trades"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/send-mutual-fund-trades-report"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "send-mutual-fund-trades-report"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "send-mutual-fund-trades-report": [
+      "$schema"
+    ]
+  }
+}

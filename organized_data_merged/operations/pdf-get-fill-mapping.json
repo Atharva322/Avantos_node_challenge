@@ -1,0 +1,53 @@
+{
+  "stem": "pdf-get-fill-mapping",
+  "group_members": [
+    "pdf-get-fill-mapping"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/pdfs/{pdf_id}/fill-mapping"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/pdf-get-fill-mapping"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "pdf-get-fill-mapping"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "fill_field_mapping",
+      "in_operations": [
+        "pdf-get-fill-mapping"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "pdf-get-fill-mapping"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "pdf-get-fill-mapping"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "pdf-get-fill-mapping": [
+      "$schema",
+      "fill_field_mapping",
+      "property1",
+      "property2"
+    ]
+  }
+}

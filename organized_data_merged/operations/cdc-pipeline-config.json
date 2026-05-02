@@ -1,0 +1,110 @@
+{
+  "stem": "cdc-pipeline-config",
+  "group_members": [
+    "cdc-pipeline-config-delete",
+    "cdc-pipeline-config-get",
+    "cdc-pipeline-config-list"
+  ],
+  "methods": [
+    "DELETE",
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/cdc/pipeline-configs",
+    "/api/v1/{tenant_id}/cdc/pipeline-configs/{pipeline}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/cdc-pipeline-config-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/cdc-pipeline-config-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/cdc-pipeline-config-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "cdc-pipeline-config-get",
+        "cdc-pipeline-config-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "config",
+      "in_operations": [
+        "cdc-pipeline-config-get",
+        "cdc-pipeline-config-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "cdc-pipeline-config-get",
+        "cdc-pipeline-config-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "has_credentials",
+      "in_operations": [
+        "cdc-pipeline-config-get",
+        "cdc-pipeline-config-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "cdc-pipeline-config-get",
+        "cdc-pipeline-config-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pipeline",
+      "in_operations": [
+        "cdc-pipeline-config-get",
+        "cdc-pipeline-config-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "cdc-pipeline-config-get",
+        "cdc-pipeline-config-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "cdc-pipeline-config-get",
+        "cdc-pipeline-config-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "cdc-pipeline-config-delete": [],
+    "cdc-pipeline-config-get": [
+      "$schema",
+      "config",
+      "created_at",
+      "has_credentials",
+      "id",
+      "pipeline",
+      "tenant_id",
+      "updated_at"
+    ],
+    "cdc-pipeline-config-list": [
+      "$schema",
+      "config",
+      "created_at",
+      "has_credentials",
+      "id",
+      "pipeline",
+      "tenant_id",
+      "updated_at"
+    ]
+  }
+}

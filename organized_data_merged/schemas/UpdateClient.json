@@ -1,0 +1,74 @@
+{
+  "stem": "UpdateClient",
+  "group_members": [
+    "UpdateClientOrganisationRelationshipInputBody",
+    "UpdateClientOrganisationRelationshipOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UpdateClientOrganisationRelationshipInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UpdateClientOrganisationRelationshipOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "UpdateClientOrganisationRelationshipInputBody",
+        "UpdateClientOrganisationRelationshipOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "UpdateClientOrganisationRelationshipInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "extra_properties",
+      "in_schemas": [
+        "UpdateClientOrganisationRelationshipInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "priority",
+      "in_schemas": [
+        "UpdateClientOrganisationRelationshipInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "UpdateClientOrganisationRelationshipInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "success",
+      "in_schemas": [
+        "UpdateClientOrganisationRelationshipOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "UpdateClientOrganisationRelationshipInputBody": [
+      "$schema",
+      "description",
+      "extra_properties",
+      "priority",
+      "role"
+    ],
+    "UpdateClientOrganisationRelationshipOutputBody": [
+      "$schema",
+      "success"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 6,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.1667
+  }
+}

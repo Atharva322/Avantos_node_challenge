@@ -1,0 +1,165 @@
+{
+  "stem": "global",
+  "group_members": [
+    "global-search"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/search"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/global-search"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "display_fields",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "display_text",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "entity_type",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "error",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "highlighted_text",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "items",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "results",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "score",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "global-search"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "global-search": [
+      "$schema",
+      "display_fields",
+      "display_text",
+      "entity_type",
+      "error",
+      "highlighted_text",
+      "id",
+      "items",
+      "page",
+      "page_size",
+      "pagination",
+      "property1",
+      "property2",
+      "results",
+      "score",
+      "total_pages",
+      "total_records",
+      "updated_at"
+    ]
+  }
+}

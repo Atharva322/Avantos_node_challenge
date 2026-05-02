@@ -1,0 +1,140 @@
+{
+  "stem": "client-contact",
+  "group_members": [
+    "client-contact-list",
+    "client-contact-update"
+  ],
+  "methods": [
+    "GET",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/clients/{client_id}/contacts"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-contact-list",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-contact-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-contact-list",
+        "client-contact-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_organisation_id",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_id",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "contacts",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ids",
+      "in_operations": [
+        "client-contact-update"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "value",
+      "in_operations": [
+        "client-contact-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "client-contact-list": [
+      "$schema",
+      "agent_id",
+      "agent_organisation_id",
+      "client_id",
+      "client_organisation_id",
+      "contacts",
+      "created_at",
+      "id",
+      "role",
+      "tenant_id",
+      "type",
+      "updated_at",
+      "value"
+    ],
+    "client-contact-update": [
+      "$schema",
+      "ids"
+    ]
+  }
+}

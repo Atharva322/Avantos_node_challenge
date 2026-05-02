@@ -1,0 +1,18 @@
+{
+  "stem": "Pagination",
+  "group_members": [
+    "PaginationParams"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PaginationParams"
+  ],
+  "fields_union": [],
+  "schema_field_map": {
+    "PaginationParams": []
+  },
+  "overlap_summary": {
+    "union_field_count": 0,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  }
+}

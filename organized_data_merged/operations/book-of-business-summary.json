@@ -1,0 +1,125 @@
+{
+  "stem": "book-of-business-summary",
+  "group_members": [
+    "book-of-business-summary"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/book-of-business/summary"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/book-of-business-summary"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "annualized_premium_disability",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "annualized_premium_life",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "annualized_premium_protection_split_adjusted",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "annualized_premium_protection_total",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "disability_household_count",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "fixed_annuity_household_count",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "household_count",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "life_household_count",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pending_annuity_household_count",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_aum_wealth",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "total_clients_count",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "wealth_household_count",
+      "in_operations": [
+        "book-of-business-summary"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "book-of-business-summary": [
+      "$schema",
+      "annualized_premium_disability",
+      "annualized_premium_life",
+      "annualized_premium_protection_split_adjusted",
+      "annualized_premium_protection_total",
+      "disability_household_count",
+      "fixed_annuity_household_count",
+      "household_count",
+      "life_household_count",
+      "pending_annuity_household_count",
+      "total_aum_wealth",
+      "total_clients_count",
+      "wealth_household_count"
+    ]
+  }
+}

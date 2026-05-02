@@ -1,0 +1,18 @@
+{
+  "stem": "RelativeDate",
+  "group_members": [
+    "RelativeDateExpression"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelativeDateExpression"
+  ],
+  "fields_union": [],
+  "schema_field_map": {
+    "RelativeDateExpression": []
+  },
+  "overlap_summary": {
+    "union_field_count": 0,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  }
+}

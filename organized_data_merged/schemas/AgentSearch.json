@@ -1,0 +1,390 @@
+{
+  "stem": "AgentSearch",
+  "group_members": [
+    "AgentSearchInputBody",
+    "AgentSearchOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentSearchInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentSearchOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "AgentSearchInputBody",
+        "AgentSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_external_id",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_external_id_filter",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_first_name_filter",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_id",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_id_filter",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_last_name_filter",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_type",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "all_client_organisations",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "cast_type",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_org_external_id_filter",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id_filter",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_name_filter",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "collation",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "component_key",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "contacts",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_after",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_before",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "filter",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "first_name",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_metadata",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "last_name",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_key",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "AgentSearchInputBody",
+        "AgentSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "AgentSearchInputBody",
+        "AgentSearchOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination_params",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_client_organisation_id",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_client_organisation_name",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_email",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_relationship_type",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_type_filter",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "results",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_column",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_keys",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_order",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "suffix",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "title",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "AgentSearchInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "value",
+      "in_schemas": [
+        "AgentSearchOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "AgentSearchInputBody": [
+      "$schema",
+      "agent_external_id_filter",
+      "agent_first_name_filter",
+      "agent_id_filter",
+      "agent_last_name_filter",
+      "cast_type",
+      "client_org_external_id_filter",
+      "client_organisation_id_filter",
+      "client_organisation_name_filter",
+      "collation",
+      "component_key",
+      "created_after",
+      "created_before",
+      "filter",
+      "is_metadata",
+      "output_key",
+      "page",
+      "page_size",
+      "pagination_params",
+      "relationship_type_filter",
+      "sort_column",
+      "sort_keys",
+      "sort_order",
+      "type"
+    ],
+    "AgentSearchOutputBody": [
+      "$schema",
+      "agent_external_id",
+      "agent_id",
+      "agent_type",
+      "all_client_organisations",
+      "contacts",
+      "created_at",
+      "first_name",
+      "last_name",
+      "page",
+      "page_size",
+      "pagination",
+      "primary_client_organisation_id",
+      "primary_client_organisation_name",
+      "primary_email",
+      "primary_relationship_type",
+      "results",
+      "role",
+      "suffix",
+      "title",
+      "total_pages",
+      "total_records",
+      "updated_at",
+      "value"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 45,
+    "common_field_count": 3,
+    "avg_pairwise_jaccard": 0.0667
+  }
+}

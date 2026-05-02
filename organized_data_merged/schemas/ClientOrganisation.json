@@ -1,0 +1,662 @@
+{
+  "stem": "ClientOrganisation",
+  "group_members": [
+    "ClientOrganisationAgentListOutputBody",
+    "ClientOrganisationBalanceLineageSummaryAPI",
+    "ClientOrganisationBalancesGetOutputBody",
+    "ClientOrganisationBalanceSummaryAPI",
+    "ClientOrganisationBasic",
+    "ClientOrganisationClientOutput",
+    "ClientOrganisationClientSortKey",
+    "ClientOrganisationContactCreateInputBody",
+    "ClientOrganisationCreateOutputBody",
+    "ClientOrganisationGetOutputBody",
+    "ClientOrganisationGraphAddress",
+    "ClientOrganisationGraphAgentOrganisation",
+    "ClientOrganisationGraphClient",
+    "ClientOrganisationGraphContact",
+    "ClientOrganisationGraphPatchChanges",
+    "ClientOrganisationGraphPatchClientOrganisation",
+    "ClientOrganisationGraphPatchRequestBody",
+    "ClientOrganisationGraphPerson",
+    "ClientOrganisationListOutputBody",
+    "ClientOrganisationListOutputItem",
+    "ClientOrganisationOutputDescription",
+    "ClientOrganisationRelationshipCreateInputBody",
+    "ClientOrganisationTeamSortKey",
+    "ClientOrganisationUpdateInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationAgentListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationBalanceLineageSummaryAPI",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationBalanceSummaryAPI",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationBalancesGetOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationBasic",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationClientOutput",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationClientSortKey",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationContactCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGetOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphAddress",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphAgentOrganisation",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphClient",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphContact",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphPatchChanges",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphPatchClientOrganisation",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphPatchRequestBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphPerson",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationListOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationListOutputItem",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationOutputDescription",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationRelationshipCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationTeamSortKey",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationUpdateInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ClientOrganisationAgentListOutputBody",
+        "ClientOrganisationBalancesGetOutputBody",
+        "ClientOrganisationCreateOutputBody",
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationRelationshipCreateInputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "_modified",
+      "in_schemas": [
+        "ClientOrganisationGraphPatchRequestBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent",
+      "in_schemas": [
+        "ClientOrganisationAgentListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_organisation_id",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agents",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "amount",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "annual_revenue",
+      "in_schemas": [
+        "ClientOrganisationAgentListOutputBody",
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationRelationshipCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "approx_aum",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "as_of_business_date",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "assigned_agents",
+      "in_schemas": [
+        "ClientOrganisationAgentListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "assigned_role",
+      "in_schemas": [
+        "ClientOrganisationAgentListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "aum",
+      "in_schemas": [
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "authority",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "balance_scope",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "balance_type",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "balances",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "changes",
+      "in_schemas": [
+        "ClientOrganisationGraphPatchRequestBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody",
+        "ClientOrganisationRelationshipCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_role",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_segmentation",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "currency",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationRelationshipCreateInputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "employees",
+      "in_schemas": [
+        "ClientOrganisationAgentListOutputBody",
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationRelationshipCreateInputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "extra_properties",
+      "in_schemas": [
+        "ClientOrganisationAgentListOutputBody",
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationRelationshipCreateInputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "growth_opportunity_next_step_date",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "ClientOrganisationCreateOutputBody",
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "industry",
+      "in_schemas": [
+        "ClientOrganisationAgentListOutputBody",
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationRelationshipCreateInputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "last_interaction_date",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "next_meeting",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "notes",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody",
+        "ClientOrganisationUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "organisations",
+      "in_schemas": [
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "parent_id",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_start_date",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_status",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationGraphPatchRequestBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "ClientOrganisationRelationshipCreateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "schema_version",
+      "in_schemas": [
+        "ClientOrganisationGraphPatchRequestBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_fact_id",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_fact_table",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_kind",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source_system",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "ClientOrganisationBalancesGetOutputBody",
+        "ClientOrganisationGetOutputBody",
+        "ClientOrganisationListOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ClientOrganisationAgentListOutputBody": [
+      "$schema",
+      "agent",
+      "annual_revenue",
+      "assigned_agents",
+      "assigned_role",
+      "employees",
+      "extra_properties",
+      "industry"
+    ],
+    "ClientOrganisationBalanceLineageSummaryAPI": [],
+    "ClientOrganisationBalancesGetOutputBody": [
+      "$schema",
+      "amount",
+      "as_of_business_date",
+      "authority",
+      "balance_scope",
+      "balance_type",
+      "balances",
+      "client_organisation_id",
+      "currency",
+      "source_fact_id",
+      "source_fact_table",
+      "source_kind",
+      "source_system",
+      "updated_at"
+    ],
+    "ClientOrganisationBalanceSummaryAPI": [],
+    "ClientOrganisationBasic": [],
+    "ClientOrganisationClientOutput": [],
+    "ClientOrganisationClientSortKey": [],
+    "ClientOrganisationContactCreateInputBody": [],
+    "ClientOrganisationCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "ClientOrganisationGetOutputBody": [
+      "$schema",
+      "agent_organisation_id",
+      "agents",
+      "annual_revenue",
+      "approx_aum",
+      "client_organisation",
+      "client_organisation_role",
+      "client_organisation_type",
+      "client_segmentation",
+      "created_at",
+      "description",
+      "employees",
+      "external_id",
+      "extra_properties",
+      "growth_opportunity_next_step_date",
+      "id",
+      "industry",
+      "last_interaction_date",
+      "name",
+      "next_meeting",
+      "notes",
+      "parent_id",
+      "property1",
+      "property2",
+      "relationship_start_date",
+      "relationship_status",
+      "tenant_id",
+      "updated_at"
+    ],
+    "ClientOrganisationGraphAddress": [],
+    "ClientOrganisationGraphAgentOrganisation": [],
+    "ClientOrganisationGraphClient": [],
+    "ClientOrganisationGraphContact": [],
+    "ClientOrganisationGraphPatchChanges": [],
+    "ClientOrganisationGraphPatchClientOrganisation": [],
+    "ClientOrganisationGraphPatchRequestBody": [
+      "$schema",
+      "_modified",
+      "approx_aum",
+      "changes",
+      "client_organisation",
+      "client_organisation_role",
+      "client_organisation_type",
+      "client_segmentation",
+      "description",
+      "external_id",
+      "extra_properties",
+      "growth_opportunity_next_step_date",
+      "id",
+      "name",
+      "next_meeting",
+      "relationship_status",
+      "schema_version"
+    ],
+    "ClientOrganisationGraphPerson": [],
+    "ClientOrganisationListOutputBody": [
+      "$schema",
+      "agent_organisation_id",
+      "agents",
+      "annual_revenue",
+      "approx_aum",
+      "client_organisation_role",
+      "client_organisation_type",
+      "client_segmentation",
+      "created_at",
+      "description",
+      "employees",
+      "external_id",
+      "extra_properties",
+      "growth_opportunity_next_step_date",
+      "id",
+      "industry",
+      "last_interaction_date",
+      "name",
+      "next_meeting",
+      "notes",
+      "organisations",
+      "page",
+      "page_size",
+      "pagination",
+      "parent_id",
+      "relationship_start_date",
+      "relationship_status",
+      "tenant_id",
+      "total_pages",
+      "total_records",
+      "updated_at"
+    ],
+    "ClientOrganisationListOutputItem": [],
+    "ClientOrganisationOutputDescription": [],
+    "ClientOrganisationRelationshipCreateInputBody": [
+      "$schema",
+      "annual_revenue",
+      "client_organisation_id",
+      "description",
+      "employees",
+      "extra_properties",
+      "industry",
+      "role"
+    ],
+    "ClientOrganisationTeamSortKey": [],
+    "ClientOrganisationUpdateInputBody": [
+      "$schema",
+      "approx_aum",
+      "aum",
+      "client_organisation_role",
+      "client_organisation_type",
+      "client_segmentation",
+      "description",
+      "employees",
+      "external_id",
+      "extra_properties",
+      "industry",
+      "name",
+      "notes"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 54,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.4551
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "stem": "ClientOrg",
+  "group_members": [
+    "ClientOrgDocumentDownloadOutputBody",
+    "ClientOrgDocumentGetOutputBody",
+    "ClientOrgDocumentListItem",
+    "ClientOrgDocumentUploadInitiateBody",
+    "ClientOrgDocumentUploadInitiateOutputBody",
+    "ClientOrgOpportunitiesSummaryInputBody",
+    "ClientOrgOpportunityUpdateOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentDownloadOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentGetOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentListItem",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentUploadInitiateBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentUploadInitiateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgOpportunitiesSummaryInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgOpportunityUpdateOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ClientOrgDocumentDownloadOutputBody",
+        "ClientOrgDocumentGetOutputBody",
+        "ClientOrgDocumentUploadInitiateBody",
+        "ClientOrgDocumentUploadInitiateOutputBody",
+        "ClientOrgOpportunitiesSummaryInputBody",
+        "ClientOrgOpportunityUpdateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "action_run_id",
+      "in_schemas": [
+        "ClientOrgDocumentGetOutputBody",
+        "ClientOrgDocumentUploadInitiateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_org_id",
+      "in_schemas": [
+        "ClientOrgDocumentGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "component_key",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "content_type",
+      "in_schemas": [
+        "ClientOrgDocumentGetOutputBody",
+        "ClientOrgDocumentUploadInitiateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "ClientOrgDocumentGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "document_id",
+      "in_schemas": [
+        "ClientOrgDocumentUploadInitiateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "download_url",
+      "in_schemas": [
+        "ClientOrgDocumentDownloadOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "expires_at",
+      "in_schemas": [
+        "ClientOrgDocumentDownloadOutputBody",
+        "ClientOrgDocumentUploadInitiateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "file_size_bytes",
+      "in_schemas": [
+        "ClientOrgDocumentGetOutputBody",
+        "ClientOrgDocumentUploadInitiateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "filename",
+      "in_schemas": [
+        "ClientOrgDocumentGetOutputBody",
+        "ClientOrgDocumentUploadInitiateBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "filter",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "ClientOrgDocumentGetOutputBody",
+        "ClientOrgOpportunityUpdateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_metadata",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "only_assigned",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_key",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination_params",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_column",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_keys",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_order",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "ClientOrgOpportunitiesSummaryInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "upload_status",
+      "in_schemas": [
+        "ClientOrgDocumentGetOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "upload_url",
+      "in_schemas": [
+        "ClientOrgDocumentUploadInitiateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "uploaded_by",
+      "in_schemas": [
+        "ClientOrgDocumentGetOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ClientOrgDocumentDownloadOutputBody": [
+      "$schema",
+      "download_url",
+      "expires_at"
+    ],
+    "ClientOrgDocumentGetOutputBody": [
+      "$schema",
+      "action_run_id",
+      "client_org_id",
+      "content_type",
+      "created_at",
+      "file_size_bytes",
+      "filename",
+      "id",
+      "upload_status",
+      "uploaded_by"
+    ],
+    "ClientOrgDocumentListItem": [],
+    "ClientOrgDocumentUploadInitiateBody": [
+      "$schema",
+      "action_run_id",
+      "content_type",
+      "file_size_bytes",
+      "filename"
+    ],
+    "ClientOrgDocumentUploadInitiateOutputBody": [
+      "$schema",
+      "document_id",
+      "expires_at",
+      "upload_url"
+    ],
+    "ClientOrgOpportunitiesSummaryInputBody": [
+      "$schema",
+      "component_key",
+      "filter",
+      "is_metadata",
+      "only_assigned",
+      "output_key",
+      "page",
+      "page_size",
+      "pagination_params",
+      "sort_column",
+      "sort_keys",
+      "sort_order",
+      "type"
+    ],
+    "ClientOrgOpportunityUpdateOutputBody": [
+      "$schema",
+      "id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 26,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.1167
+  }
+}

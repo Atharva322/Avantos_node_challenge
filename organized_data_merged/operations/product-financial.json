@@ -1,0 +1,151 @@
+{
+  "stem": "product-financial",
+  "group_members": [
+    "product-financial-create",
+    "product-financial-get"
+  ],
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/financial-products",
+    "/api/v1/{tenant_id}/financial-products/{financial_product_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/product-financial-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/product-financial-get"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "product-financial-create",
+        "product-financial-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "eligibility_criteria",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "product-financial-create",
+        "product-financial-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "model",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "model_portfolio",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_code",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_name",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_type",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "regulatory_compliance",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "product-financial-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "product-financial-create": [
+      "$schema",
+      "id"
+    ],
+    "product-financial-get": [
+      "$schema",
+      "created_at",
+      "description",
+      "eligibility_criteria",
+      "external_id",
+      "id",
+      "model",
+      "model_portfolio",
+      "product",
+      "product_code",
+      "product_name",
+      "product_type",
+      "regulatory_compliance",
+      "tenant_id",
+      "updated_at"
+    ]
+  }
+}

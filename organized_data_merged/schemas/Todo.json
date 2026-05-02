@@ -1,0 +1,172 @@
+{
+  "stem": "Todo",
+  "group_members": [
+    "TodoResponse"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TodoResponse"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assignee_first_name",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assignee_id",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "assignee_last_name",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "complete",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "completed_at",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_by",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "due_date",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_read",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "notes",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role_names",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "scope_type",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tags",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "title",
+      "in_schemas": [
+        "TodoResponse"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "TodoResponse": [
+      "$schema",
+      "assignee_first_name",
+      "assignee_id",
+      "assignee_last_name",
+      "client_organisation_id",
+      "client_organisation_name",
+      "complete",
+      "completed_at",
+      "created_at",
+      "created_by",
+      "due_date",
+      "id",
+      "is_read",
+      "notes",
+      "role_names",
+      "scope_type",
+      "tags",
+      "tenant_id",
+      "title"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 19,
+    "common_field_count": 19,
+    "avg_pairwise_jaccard": 1
+  }
+}

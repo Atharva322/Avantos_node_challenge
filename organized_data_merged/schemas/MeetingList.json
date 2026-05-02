@@ -1,0 +1,486 @@
+{
+  "stem": "MeetingList",
+  "group_members": [
+    "MeetingListByEmailDraftsInputBody",
+    "MeetingListByEmailDraftsOutputBody",
+    "MeetingListBySummariesInputBody",
+    "MeetingListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingListByEmailDraftsInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingListByEmailDraftsOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingListBySummariesInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListBySummariesInputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "actions_skipped",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ai_transcript_id",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "component_key",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListBySummariesInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "email_draft_id",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "end_time",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "extra_properties",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "filter",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListBySummariesInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "first_name",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "initiating_agent",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_historical",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_metadata",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListBySummariesInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "last_name",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "location",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "meeting_link",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "meeting_type",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "meetings",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "my_meeting",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_key",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListBySummariesInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListBySummariesInputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListBySummariesInputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination_params",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListBySummariesInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "participants",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_client_id",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "record_type",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_column",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListBySummariesInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_keys",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListBySummariesInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sort_order",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListBySummariesInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "start_time",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "subject",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_schemas": [
+        "MeetingListByEmailDraftsInputBody",
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListBySummariesInputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "MeetingListByEmailDraftsOutputBody",
+        "MeetingListOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "MeetingListByEmailDraftsInputBody": [
+      "$schema",
+      "component_key",
+      "filter",
+      "is_metadata",
+      "output_key",
+      "page",
+      "page_size",
+      "pagination_params",
+      "sort_column",
+      "sort_keys",
+      "sort_order",
+      "type"
+    ],
+    "MeetingListByEmailDraftsOutputBody": [
+      "$schema",
+      "actions_skipped",
+      "ai_transcript_id",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "client_organisation_name",
+      "created_at",
+      "description",
+      "email_draft_id",
+      "end_time",
+      "external_id",
+      "extra_properties",
+      "first_name",
+      "id",
+      "initiating_agent",
+      "is_historical",
+      "last_name",
+      "location",
+      "meeting_link",
+      "meeting_type",
+      "meetings",
+      "my_meeting",
+      "page",
+      "page_size",
+      "pagination",
+      "participants",
+      "primary_client_id",
+      "record_type",
+      "start_time",
+      "status",
+      "subject",
+      "tenant_id",
+      "total_pages",
+      "total_records",
+      "type",
+      "updated_at"
+    ],
+    "MeetingListBySummariesInputBody": [
+      "$schema",
+      "component_key",
+      "filter",
+      "is_metadata",
+      "output_key",
+      "page",
+      "page_size",
+      "pagination_params",
+      "sort_column",
+      "sort_keys",
+      "sort_order",
+      "type"
+    ],
+    "MeetingListOutputBody": [
+      "$schema",
+      "actions_skipped",
+      "ai_transcript_id",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "client_organisation_name",
+      "created_at",
+      "description",
+      "end_time",
+      "external_id",
+      "extra_properties",
+      "first_name",
+      "id",
+      "initiating_agent",
+      "is_historical",
+      "last_name",
+      "location",
+      "meeting_link",
+      "meeting_type",
+      "meetings",
+      "my_meeting",
+      "page",
+      "page_size",
+      "pagination",
+      "participants",
+      "primary_client_id",
+      "record_type",
+      "start_time",
+      "status",
+      "subject",
+      "tenant_id",
+      "total_pages",
+      "total_records",
+      "type",
+      "updated_at"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 44,
+    "common_field_count": 4,
+    "avg_pairwise_jaccard": 0.39
+  }
+}

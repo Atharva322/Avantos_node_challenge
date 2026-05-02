@@ -1,0 +1,47 @@
+{
+  "stem": "AgentBusiness",
+  "group_members": [
+    "AgentBusinessGroupRole",
+    "AgentBusinessGroupRoleListInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentBusinessGroupRole",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentBusinessGroupRoleListInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "AgentBusinessGroupRoleListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "group_type",
+      "in_schemas": [
+        "AgentBusinessGroupRoleListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "AgentBusinessGroupRoleListInputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "AgentBusinessGroupRole": [],
+    "AgentBusinessGroupRoleListInputBody": [
+      "$schema",
+      "group_type",
+      "name"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 3,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0
+  }
+}

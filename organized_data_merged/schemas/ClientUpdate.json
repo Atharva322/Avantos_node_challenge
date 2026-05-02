@@ -1,0 +1,338 @@
+{
+  "stem": "ClientUpdate",
+  "group_members": [
+    "ClientUpdateInputBody",
+    "ClientUpdateOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientUpdateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientUpdateOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ClientUpdateInputBody",
+        "ClientUpdateOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "assets",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "compliance_record",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "current_employer",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "date_of_birth",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "documentation",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "drivers_license_number",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "employment_status",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "expected_retirement_age",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "first_name",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "gender",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "ClientUpdateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "investment_goal",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_primary",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "last_name",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "maiden_name",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "marital_status",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "marketing_salutation",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "middle_name",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "nationality",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "occupation",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "officer_or_director",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "organisation_id",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "person",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "personal_interests",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preferred_contact_method",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "preferred_name",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "retired",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "retirement_date",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "role",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "security_restrictions",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ssn",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "suffix",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "title",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "wedding_anniversary",
+      "in_schemas": [
+        "ClientUpdateInputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "ClientUpdateInputBody": [
+      "$schema",
+      "additional_attributes",
+      "assets",
+      "compliance_record",
+      "current_employer",
+      "date_of_birth",
+      "documentation",
+      "drivers_license_number",
+      "employment_status",
+      "expected_retirement_age",
+      "external_id",
+      "first_name",
+      "gender",
+      "investment_goal",
+      "is_primary",
+      "last_name",
+      "maiden_name",
+      "marital_status",
+      "marketing_salutation",
+      "middle_name",
+      "nationality",
+      "occupation",
+      "officer_or_director",
+      "organisation_id",
+      "person",
+      "personal_interests",
+      "preferred_contact_method",
+      "preferred_name",
+      "property1",
+      "property2",
+      "retired",
+      "retirement_date",
+      "role",
+      "security_restrictions",
+      "ssn",
+      "suffix",
+      "title",
+      "wedding_anniversary"
+    ],
+    "ClientUpdateOutputBody": [
+      "$schema",
+      "id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 39,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.0256
+  }
+}

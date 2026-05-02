@@ -1,0 +1,106 @@
+{
+  "stem": "AddressPlace",
+  "group_members": [
+    "AddressPlaceDetailsInputBody",
+    "AddressPlaceDetailsOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressPlaceDetailsInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressPlaceDetailsOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "AddressPlaceDetailsInputBody",
+        "AddressPlaceDetailsOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "address_line_1",
+      "in_schemas": [
+        "AddressPlaceDetailsOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "address_line_2",
+      "in_schemas": [
+        "AddressPlaceDetailsOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "city",
+      "in_schemas": [
+        "AddressPlaceDetailsOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "country",
+      "in_schemas": [
+        "AddressPlaceDetailsOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "formatted_address",
+      "in_schemas": [
+        "AddressPlaceDetailsOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "place_id",
+      "in_schemas": [
+        "AddressPlaceDetailsInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "postal_code",
+      "in_schemas": [
+        "AddressPlaceDetailsOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "session_token",
+      "in_schemas": [
+        "AddressPlaceDetailsInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "state",
+      "in_schemas": [
+        "AddressPlaceDetailsOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "AddressPlaceDetailsInputBody": [
+      "$schema",
+      "place_id",
+      "session_token"
+    ],
+    "AddressPlaceDetailsOutputBody": [
+      "$schema",
+      "address_line_1",
+      "address_line_2",
+      "city",
+      "country",
+      "formatted_address",
+      "postal_code",
+      "state"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 10,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.1
+  }
+}

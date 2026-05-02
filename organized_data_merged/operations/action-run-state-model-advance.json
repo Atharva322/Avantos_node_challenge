@@ -1,0 +1,293 @@
+{
+  "stem": "action-run-state-model-advance",
+  "group_members": [
+    "action-run-state-model-advance"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/action-runs/{action_run_id}/state-model/advance"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-state-model-advance"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "current_state",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "current_state_display_color",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "current_state_display_name",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "current_state_is_required",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "data",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "display_color",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "display_name",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "email",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "entered_at",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "entered_by",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "enum_values",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "first_name",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "input",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "input_schema",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_final",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_required",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "key",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "label",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "last_name",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "middle_name",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "required",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "schema_id",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "state_name",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tracker",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "transition_key",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "type",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "action-run-state-model-advance"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "action-run-state-model-advance": [
+      "$schema",
+      "created_at",
+      "current_state",
+      "current_state_display_color",
+      "current_state_display_name",
+      "current_state_is_required",
+      "data",
+      "description",
+      "display_color",
+      "display_name",
+      "email",
+      "entered_at",
+      "entered_by",
+      "enum_values",
+      "first_name",
+      "id",
+      "input",
+      "input_schema",
+      "is_final",
+      "is_required",
+      "key",
+      "label",
+      "last_name",
+      "middle_name",
+      "property1",
+      "property2",
+      "required",
+      "schema_id",
+      "state_name",
+      "status",
+      "tracker",
+      "transition_key",
+      "type",
+      "updated_at"
+    ]
+  }
+}

@@ -1,0 +1,830 @@
+{
+  "stem": "action-blueprint",
+  "group_members": [
+    "action-blueprint-create",
+    "action-blueprint-delete",
+    "action-blueprint-get",
+    "action-blueprint-list"
+  ],
+  "methods": [
+    "DELETE",
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/actions/blueprints",
+    "/api/v1/{tenant_id}/actions/blueprints/{action_blueprint_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "action-blueprint-create",
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ai_context_description",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ai_description",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "allowed_submission_states",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "anchor",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "approval_auto_assign_config",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "approval_required",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "approval_roles",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "approval_scheduled_delay",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "approval_sla_duration",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "approval_task_name",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auto_approve_condition",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auto_assign_config",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auto_submit_condition",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "base_version_id",
+      "in_operations": [
+        "action-blueprint-create"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "blueprint_id",
+      "in_operations": [
+        "action-blueprint-create",
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "call_as_config",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "category",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "child_component_key",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "child_components",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "child_output_key",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "column",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "component_id",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "component_key",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "component_type",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "components",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "config",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "config_assignee",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_javascript_function_id",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_status_configuration",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "data_promotion_config",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "db_output_mapping",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "deleted_at",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "dl_input_mapping",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "dl_output_mapping",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "dont_fail_on_non_200",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "environment",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "environments",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "expression",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "field",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "force_draft",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "form_field",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "form_key",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id_field",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "input_mapping",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_ai_recommendable",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_journey",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_metadata",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "item_schema",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "kind",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "number",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_key",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_mapping",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "parent_output_key",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "parent_promotion_fields",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "path",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "permitted_roles",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "prerequisites",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "promotion_notes",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "record_id",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "run_context",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "run_name",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "run_scheduled_at",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "run_started_by_user",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "scheduled_delay",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "section_name",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "short_description",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "skip_completion_wait",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "sla_duration",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "source",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "state_transition_rules",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "state_transition_rules_if",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "state_transition_rules_then",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "synchronous_execution",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "table",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tagged_at",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tagged_by_agent_id",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tags",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "target",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "target_status",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "task_name_override_expression",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "task_tags",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "unit",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "validation",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "value",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "version",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "version_notes",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "version_number",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "versions",
+      "in_operations": [
+        "action-blueprint-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "action-blueprint-create": [
+      "$schema",
+      "base_version_id",
+      "blueprint_id"
+    ],
+    "action-blueprint-delete": [],
+    "action-blueprint-get": [
+      "$schema",
+      "ai_context_description",
+      "ai_description",
+      "allowed_submission_states",
+      "anchor",
+      "approval_auto_assign_config",
+      "approval_required",
+      "approval_roles",
+      "approval_scheduled_delay",
+      "approval_sla_duration",
+      "approval_task_name",
+      "auto_approve_condition",
+      "auto_assign_config",
+      "auto_submit_condition",
+      "blueprint_id",
+      "call_as_config",
+      "category",
+      "child_component_key",
+      "child_components",
+      "child_output_key",
+      "column",
+      "component_id",
+      "component_key",
+      "component_type",
+      "components",
+      "config",
+      "config_assignee",
+      "created_at",
+      "custom_javascript_function_id",
+      "custom_status_configuration",
+      "data_promotion_config",
+      "db_output_mapping",
+      "deleted_at",
+      "description",
+      "dl_input_mapping",
+      "dl_output_mapping",
+      "dont_fail_on_non_200",
+      "environment",
+      "environments",
+      "expression",
+      "field",
+      "force_draft",
+      "form_field",
+      "form_key",
+      "id",
+      "id_field",
+      "input_mapping",
+      "is_ai_recommendable",
+      "is_journey",
+      "is_metadata",
+      "item_schema",
+      "kind",
+      "name",
+      "number",
+      "output_key",
+      "output_mapping",
+      "parent_output_key",
+      "parent_promotion_fields",
+      "path",
+      "permitted_roles",
+      "prerequisites",
+      "promotion_notes",
+      "property1",
+      "property2",
+      "record_id",
+      "run_context",
+      "run_name",
+      "run_scheduled_at",
+      "run_started_by_user",
+      "scheduled_delay",
+      "section_name",
+      "short_description",
+      "skip_completion_wait",
+      "sla_duration",
+      "source",
+      "state_transition_rules",
+      "state_transition_rules_if",
+      "state_transition_rules_then",
+      "status",
+      "synchronous_execution",
+      "table",
+      "tagged_at",
+      "tagged_by_agent_id",
+      "tags",
+      "target",
+      "target_status",
+      "task_name_override_expression",
+      "task_tags",
+      "tenant_id",
+      "type",
+      "unit",
+      "updated_at",
+      "validation",
+      "value",
+      "version",
+      "version_notes",
+      "version_number",
+      "versions"
+    ],
+    "action-blueprint-list": []
+  }
+}

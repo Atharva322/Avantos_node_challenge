@@ -1,0 +1,21 @@
+{
+  "stem": "AgentDirectly",
+  "group_members": [
+    "AgentDirectlyAssignedExpression",
+    "AgentDirectlyAssignedWithIDExpression"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentDirectlyAssignedExpression",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentDirectlyAssignedWithIDExpression"
+  ],
+  "fields_union": [],
+  "schema_field_map": {
+    "AgentDirectlyAssignedExpression": [],
+    "AgentDirectlyAssignedWithIDExpression": []
+  },
+  "overlap_summary": {
+    "union_field_count": 0,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "stem": "client-organisation-id-by-external-id",
+  "group_members": [
+    "client-organisation-id-by-external-id"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/client-organisations/id-by-external-id"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-id-by-external-id"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "client-organisation-id-by-external-id"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "client-organisation-id-by-external-id"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "client-organisation-id-by-external-id": [
+      "$schema",
+      "client_organisation_id"
+    ]
+  }
+}

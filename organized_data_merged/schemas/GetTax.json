@@ -1,0 +1,716 @@
+{
+  "stem": "GetTax",
+  "group_members": [
+    "GetTaxFilingByIDOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetTaxFilingByIDOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "adjusted_gross_income",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "advisor_review_needed",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agi",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "amended_return",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "charitable_donations",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_extra_properties",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_relationship_status",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_assistant_email",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_assistant_external_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_assistant_first_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_assistant_last_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_assistant_title",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_associate_email",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_associate_external_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_associate_first_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_associate_last_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_associate_title",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_manager_email",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_manager_external_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_manager_first_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_manager_last_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_tax_manager_title",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "completion_window",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "complexity_type",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "credits",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "date_filed",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "deductions",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "document_due_date",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "document_received_date",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "e_file_authorization_date",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "e_file_status",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "e_file_status_date",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "effective_tax_rate",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "extension_filed",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "extra_properties",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "filing_due_date",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "filing_method",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "filing_status",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "final_year",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "gifting",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "invoicing_method",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "marginal_tax_rate",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "organizer_sent",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "organizer_sent_date",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "payment_method",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "prepaid_taxes",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "reported_income",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "return_completion_date",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "safe_harbor",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "service_offering",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "signature_preference",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_associate_email",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_associate_external_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_associate_first_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_associate_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_associate_last_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_fee",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_filing",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_filing_type",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_liability",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_manager_email",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_manager_external_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_manager_first_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_manager_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_manager_last_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_professional_category",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_return_status",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_return_type",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_service_type_1040",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_services_final_year",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_support_specialist_email",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_support_specialist_external_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_support_specialist_first_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_support_specialist_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_support_specialist_last_name",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_year",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "GetTaxFilingByIDOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "GetTaxFilingByIDOutputBody": [
+      "$schema",
+      "adjusted_gross_income",
+      "advisor_review_needed",
+      "agi",
+      "amended_return",
+      "charitable_donations",
+      "client_organisation_external_id",
+      "client_organisation_extra_properties",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_relationship_status",
+      "client_organisation_tax_assistant_email",
+      "client_organisation_tax_assistant_external_id",
+      "client_organisation_tax_assistant_first_name",
+      "client_organisation_tax_assistant_last_name",
+      "client_organisation_tax_assistant_title",
+      "client_organisation_tax_associate_email",
+      "client_organisation_tax_associate_external_id",
+      "client_organisation_tax_associate_first_name",
+      "client_organisation_tax_associate_last_name",
+      "client_organisation_tax_associate_title",
+      "client_organisation_tax_manager_email",
+      "client_organisation_tax_manager_external_id",
+      "client_organisation_tax_manager_first_name",
+      "client_organisation_tax_manager_last_name",
+      "client_organisation_tax_manager_title",
+      "completion_window",
+      "complexity_type",
+      "created_at",
+      "credits",
+      "date_filed",
+      "deductions",
+      "document_due_date",
+      "document_received_date",
+      "e_file_authorization_date",
+      "e_file_status",
+      "e_file_status_date",
+      "effective_tax_rate",
+      "extension_filed",
+      "external_id",
+      "extra_properties",
+      "filing_due_date",
+      "filing_method",
+      "filing_status",
+      "final_year",
+      "gifting",
+      "id",
+      "invoicing_method",
+      "marginal_tax_rate",
+      "organizer_sent",
+      "organizer_sent_date",
+      "payment_method",
+      "prepaid_taxes",
+      "property1",
+      "property2",
+      "reported_income",
+      "return_completion_date",
+      "safe_harbor",
+      "service_offering",
+      "signature_preference",
+      "tax_associate_email",
+      "tax_associate_external_id",
+      "tax_associate_first_name",
+      "tax_associate_id",
+      "tax_associate_last_name",
+      "tax_fee",
+      "tax_filing",
+      "tax_filing_type",
+      "tax_liability",
+      "tax_manager_email",
+      "tax_manager_external_id",
+      "tax_manager_first_name",
+      "tax_manager_id",
+      "tax_manager_last_name",
+      "tax_professional_category",
+      "tax_return_status",
+      "tax_return_type",
+      "tax_service_type_1040",
+      "tax_services_final_year",
+      "tax_support_specialist_email",
+      "tax_support_specialist_external_id",
+      "tax_support_specialist_first_name",
+      "tax_support_specialist_id",
+      "tax_support_specialist_last_name",
+      "tax_year",
+      "tenant_id",
+      "updated_at"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 87,
+    "common_field_count": 87,
+    "avg_pairwise_jaccard": 1
+  }
+}

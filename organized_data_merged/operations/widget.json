@@ -1,0 +1,140 @@
+{
+  "stem": "widget",
+  "group_members": [
+    "widget-get",
+    "widget-update"
+  ],
+  "methods": [
+    "GET",
+    "PATCH"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/widgets/{widget_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "widget-get",
+        "widget-update"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "config",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "createdAt",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "height",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "isVisible",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updatedAt",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "widgetDefinitionId",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "width",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "x",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "y",
+      "in_operations": [
+        "widget-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "widget-get": [
+      "$schema",
+      "config",
+      "createdAt",
+      "height",
+      "id",
+      "isVisible",
+      "page",
+      "property1",
+      "property2",
+      "updatedAt",
+      "widgetDefinitionId",
+      "width",
+      "x",
+      "y"
+    ],
+    "widget-update": [
+      "$schema"
+    ]
+  }
+}

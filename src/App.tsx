@@ -4,7 +4,7 @@ import { getGraph, putGraph } from "./api";
 import { extractFormFields } from "./graph";
 import { clearMapping, getEffectiveMappings, getPersistedUiFields, setMapping, setPersistedUiFields } from "./mappings";
 import { providers } from "./providers";
-import { SOURCE_TABS } from "./sourceCatalog";
+import { SOURCE_MODE, SOURCE_TABS } from "./sourceCatalog";
 
 type ConfiguredField = FormField & {
   required: boolean;
@@ -336,6 +336,7 @@ export function App() {
           </button>
 
           <h3>Create Form</h3>
+          <p className="sourceModeLine">Source Mode: {SOURCE_MODE}</p>
           <label className="formRow">
             <span>Form Name</span>
             <input value={newFormName} onChange={(e) => setNewFormName(e.target.value)} placeholder="Form E" />
@@ -354,6 +355,7 @@ export function App() {
               ))}
             </select>
           </label>
+          {selectedTab?.warning ? <p className="warnLine">{selectedTab.warning}</p> : null}
           <div className="toolbar">
             <button
               className="closeBtn"

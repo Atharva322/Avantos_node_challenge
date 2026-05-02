@@ -1,0 +1,108 @@
+{
+  "stem": "CustodianForms",
+  "group_members": [
+    "CustodianFormsConfigPutInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustodianFormsConfigPutInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "CustodianFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "child_forms",
+      "in_schemas": [
+        "CustodianFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "display_condition",
+      "in_schemas": [
+        "CustodianFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "e_signature_mapping",
+      "in_schemas": [
+        "CustodianFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "envelope_metadata_endpoint_id",
+      "in_schemas": [
+        "CustodianFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "envelope_trigger_endpoint_id",
+      "in_schemas": [
+        "CustodianFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "form_id",
+      "in_schemas": [
+        "CustodianFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "l1_config_form_id",
+      "in_schemas": [
+        "CustodianFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "l2_config_form_id",
+      "in_schemas": [
+        "CustodianFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "payload_template_override",
+      "in_schemas": [
+        "CustodianFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "preview_trigger_endpoint_id",
+      "in_schemas": [
+        "CustodianFormsConfigPutInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "CustodianFormsConfigPutInputBody": [
+      "$schema",
+      "child_forms",
+      "display_condition",
+      "e_signature_mapping",
+      "envelope_metadata_endpoint_id",
+      "envelope_trigger_endpoint_id",
+      "form_id",
+      "l1_config_form_id",
+      "l2_config_form_id",
+      "payload_template_override",
+      "preview_trigger_endpoint_id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 11,
+    "common_field_count": 11,
+    "avg_pairwise_jaccard": 1
+  }
+}

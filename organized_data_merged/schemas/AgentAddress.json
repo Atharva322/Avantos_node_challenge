@@ -1,0 +1,140 @@
+{
+  "stem": "AgentAddress",
+  "group_members": [
+    "AgentAddressListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentAddressListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "AddressID",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "AddressLine1",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "AddressLine2",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "AddressType",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "City",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "Country",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "CreatedAt",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "Description",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "EntityID",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "EntityType",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "State",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "UpdatedAt",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "Zipcode",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "addresses",
+      "in_schemas": [
+        "AgentAddressListOutputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "AgentAddressListOutputBody": [
+      "$schema",
+      "AddressID",
+      "AddressLine1",
+      "AddressLine2",
+      "AddressType",
+      "City",
+      "Country",
+      "CreatedAt",
+      "Description",
+      "EntityID",
+      "EntityType",
+      "State",
+      "UpdatedAt",
+      "Zipcode",
+      "addresses"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 15,
+    "common_field_count": 15,
+    "avg_pairwise_jaccard": 1
+  }
+}

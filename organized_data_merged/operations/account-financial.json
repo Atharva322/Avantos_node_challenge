@@ -1,0 +1,365 @@
+{
+  "stem": "account-financial",
+  "group_members": [
+    "account-financial-create",
+    "account-financial-get"
+  ],
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/financial-accounts",
+    "/api/v1/{tenant_id}/financial-accounts/{financial_account_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/account-financial-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/account-financial-get"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "account-financial-create",
+        "account-financial-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_created_at",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_id",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_notes",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_number",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "account_updated_at",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "balance",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "beneficiary_first_name",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "beneficiary_id",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "beneficiary_last_name",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "cash_balance",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_description",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_external_id",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_name",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_role",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_organisation_type",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "closed_date",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "currency_code",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custodian",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "account-financial-create"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "model_portfolio",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "open_date",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_owner_first_name",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_owner_id",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "primary_owner_last_name",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_model",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_name",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "product_type",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_status",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "secondary_owner_first_name",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "secondary_owner_id",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "secondary_owner_last_name",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tax_status",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "account-financial-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "account-financial-create": [
+      "$schema",
+      "id"
+    ],
+    "account-financial-get": [
+      "$schema",
+      "account",
+      "account_created_at",
+      "account_id",
+      "account_notes",
+      "account_number",
+      "account_updated_at",
+      "additional_attributes",
+      "balance",
+      "beneficiary_first_name",
+      "beneficiary_id",
+      "beneficiary_last_name",
+      "cash_balance",
+      "client_organisation_description",
+      "client_organisation_external_id",
+      "client_organisation_id",
+      "client_organisation_name",
+      "client_organisation_role",
+      "client_organisation_type",
+      "closed_date",
+      "currency_code",
+      "custodian",
+      "external_id",
+      "model_portfolio",
+      "name",
+      "open_date",
+      "primary_owner_first_name",
+      "primary_owner_id",
+      "primary_owner_last_name",
+      "product_model",
+      "product_name",
+      "product_type",
+      "property1",
+      "property2",
+      "relationship_status",
+      "secondary_owner_first_name",
+      "secondary_owner_id",
+      "secondary_owner_last_name",
+      "status",
+      "tax_status",
+      "tenant_id"
+    ]
+  }
+}

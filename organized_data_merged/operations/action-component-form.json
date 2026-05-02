@@ -1,0 +1,547 @@
+{
+  "stem": "action-component-form",
+  "group_members": [
+    "action-component-form-clone",
+    "action-component-form-create",
+    "action-component-form-delete",
+    "action-component-form-get",
+    "action-component-form-list"
+  ],
+  "methods": [
+    "DELETE",
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/actions/components/forms",
+    "/api/v1/{tenant_id}/actions/components/forms/list",
+    "/api/v1/{tenant_id}/actions/components/forms/{form_id}",
+    "/api/v1/{tenant_id}/actions/components/forms/{form_id}/clone"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-clone",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "action-component-form-clone",
+        "action-component-form-create",
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "additionalProperties",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "allOf",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "anyOf",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "child_form_javascript",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "component_key",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_by",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_javascript",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_javascript_execute_on_load",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_javascript_functions",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_javascript_triggering_fields",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "default_input_mapping",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "default_output_mapping",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "dynamic_field_config",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "e_signature_mappings",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "elements",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "else",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "embedded_js",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "endpoint_id",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "field_schema",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "forms",
+      "in_operations": [
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "action-component-form-clone",
+        "action-component-form-create",
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "if",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "imported_js_function_config",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_metadata",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_reusable",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "no_results_message",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "oneOf",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "options",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_key",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_operations": [
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_operations": [
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_fields",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pdf_preview_payloads",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "prefix",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "properties",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "required",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "selector_field",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "then",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_operations": [
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_operations": [
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "triggering_fields",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "type",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "ui_schema",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "action-component-form-get",
+        "action-component-form-list"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "action-component-form-clone": [
+      "$schema",
+      "id"
+    ],
+    "action-component-form-create": [
+      "$schema",
+      "id"
+    ],
+    "action-component-form-delete": [],
+    "action-component-form-get": [
+      "$schema",
+      "additionalProperties",
+      "allOf",
+      "anyOf",
+      "child_form_javascript",
+      "component_key",
+      "created_at",
+      "created_by",
+      "custom_javascript",
+      "custom_javascript_execute_on_load",
+      "custom_javascript_functions",
+      "custom_javascript_triggering_fields",
+      "default_input_mapping",
+      "default_output_mapping",
+      "description",
+      "dynamic_field_config",
+      "e_signature_mappings",
+      "elements",
+      "else",
+      "embedded_js",
+      "endpoint_id",
+      "field_schema",
+      "id",
+      "if",
+      "imported_js_function_config",
+      "is_metadata",
+      "is_reusable",
+      "name",
+      "no_results_message",
+      "oneOf",
+      "options",
+      "output_key",
+      "payload_fields",
+      "pdf_preview_payloads",
+      "prefix",
+      "properties",
+      "property1",
+      "property2",
+      "required",
+      "selector_field",
+      "then",
+      "triggering_fields",
+      "type",
+      "ui_schema",
+      "updated_at"
+    ],
+    "action-component-form-list": [
+      "$schema",
+      "additionalProperties",
+      "allOf",
+      "anyOf",
+      "child_form_javascript",
+      "component_key",
+      "created_at",
+      "created_by",
+      "custom_javascript",
+      "custom_javascript_execute_on_load",
+      "custom_javascript_functions",
+      "custom_javascript_triggering_fields",
+      "default_input_mapping",
+      "default_output_mapping",
+      "description",
+      "dynamic_field_config",
+      "e_signature_mappings",
+      "elements",
+      "else",
+      "embedded_js",
+      "endpoint_id",
+      "field_schema",
+      "forms",
+      "id",
+      "if",
+      "imported_js_function_config",
+      "is_metadata",
+      "is_reusable",
+      "name",
+      "no_results_message",
+      "oneOf",
+      "options",
+      "output_key",
+      "page",
+      "page_size",
+      "pagination",
+      "payload_fields",
+      "pdf_preview_payloads",
+      "prefix",
+      "properties",
+      "property1",
+      "property2",
+      "required",
+      "selector_field",
+      "then",
+      "total_pages",
+      "total_records",
+      "triggering_fields",
+      "type",
+      "ui_schema",
+      "updated_at"
+    ]
+  }
+}

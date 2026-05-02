@@ -1,0 +1,19 @@
+{
+  "stem": "blueprint-environment-history",
+  "group_members": [
+    "blueprint-environment-history-get"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/actions/blueprints/{action_blueprint_id}/environments/history"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/blueprint-environment-history-get"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "blueprint-environment-history-get": []
+  }
+}

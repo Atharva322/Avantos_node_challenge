@@ -1,0 +1,277 @@
+{
+  "stem": "sloa-list-by-client-organisation",
+  "group_members": [
+    "sloa-list-by-client-organisation"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/client-organisations/{client_organisation_id}/sloas"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/sloa-list-by-client-organisation"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "bank_account_name",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "bank_account_no",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "bank_name",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "bank_routing_no",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "check_payable_address",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "check_payable_to",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_organisation_id",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "custodian",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "direction",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "extra_properties",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_external_id",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_id",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_name",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "financial_account_number",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "is_active",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "non_related_address_ok",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "sloas",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "status",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "third_party_account_no",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "third_party_address",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "third_party_name",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "third_party_not_affiliated",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "transfer_channel",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "sloa-list-by-client-organisation"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "sloa-list-by-client-organisation": [
+      "$schema",
+      "bank_account_name",
+      "bank_account_no",
+      "bank_name",
+      "bank_routing_no",
+      "check_payable_address",
+      "check_payable_to",
+      "client_organisation_id",
+      "created_at",
+      "custodian",
+      "direction",
+      "external_id",
+      "extra_properties",
+      "financial_account_external_id",
+      "financial_account_id",
+      "financial_account_name",
+      "financial_account_number",
+      "id",
+      "is_active",
+      "name",
+      "non_related_address_ok",
+      "property1",
+      "property2",
+      "sloas",
+      "status",
+      "tenant_id",
+      "third_party_account_no",
+      "third_party_address",
+      "third_party_name",
+      "third_party_not_affiliated",
+      "transfer_channel",
+      "updated_at"
+    ]
+  }
+}

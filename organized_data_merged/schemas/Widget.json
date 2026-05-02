@@ -1,0 +1,132 @@
+{
+  "stem": "Widget",
+  "group_members": [
+    "WidgetOutput"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetOutput"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "config",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "createdAt",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "height",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "isVisible",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updatedAt",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "widgetDefinitionId",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "width",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "x",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "y",
+      "in_schemas": [
+        "WidgetOutput"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "WidgetOutput": [
+      "$schema",
+      "config",
+      "createdAt",
+      "height",
+      "id",
+      "isVisible",
+      "page",
+      "property1",
+      "property2",
+      "updatedAt",
+      "widgetDefinitionId",
+      "width",
+      "x",
+      "y"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 14,
+    "common_field_count": 14,
+    "avg_pairwise_jaccard": 1
+  }
+}

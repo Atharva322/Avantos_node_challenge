@@ -1,0 +1,184 @@
+{
+  "stem": "BusinessGroup",
+  "group_members": [
+    "BusinessGroup",
+    "BusinessGroupCoverageDetailSortKey",
+    "BusinessGroupCoverageLookupSummaryTeam",
+    "BusinessGroupCoverageMatch",
+    "BusinessGroupCoverageResponse",
+    "BusinessGroupCreateOutputBody",
+    "BusinessGroupUpdateOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroup",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupCoverageDetailSortKey",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupCoverageLookupSummaryTeam",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupCoverageMatch",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupCoverageResponse",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupUpdateOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "BusinessGroup",
+        "BusinessGroupCreateOutputBody",
+        "BusinessGroupUpdateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "Director",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agent_id",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agents",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "external_id",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "first_name",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "group_type",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "BusinessGroup",
+        "BusinessGroupCreateOutputBody",
+        "BusinessGroupUpdateOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "key",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "last_name",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "BusinessGroup"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "BusinessGroup": [
+      "$schema",
+      "Director",
+      "additional_attributes",
+      "agent_id",
+      "agents",
+      "created_at",
+      "description",
+      "external_id",
+      "first_name",
+      "group_type",
+      "id",
+      "key",
+      "last_name",
+      "name",
+      "status",
+      "tenant_id",
+      "updated_at"
+    ],
+    "BusinessGroupCoverageDetailSortKey": [],
+    "BusinessGroupCoverageLookupSummaryTeam": [],
+    "BusinessGroupCoverageMatch": [],
+    "BusinessGroupCoverageResponse": [],
+    "BusinessGroupCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "BusinessGroupUpdateOutputBody": [
+      "$schema",
+      "id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 17,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 0.3445
+  }
+}

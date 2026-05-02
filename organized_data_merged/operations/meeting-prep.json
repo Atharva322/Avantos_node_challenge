@@ -1,0 +1,98 @@
+{
+  "stem": "meeting-prep",
+  "group_members": [
+    "meeting-prep-create",
+    "meeting-prep-delete",
+    "meeting-prep-get"
+  ],
+  "methods": [
+    "DELETE",
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/meetings/{meeting_id}/prep"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-prep-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-prep-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-prep-get"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "meeting-prep-create",
+        "meeting-prep-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "body_content",
+      "in_operations": [
+        "meeting-prep-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "meeting-prep-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "meeting-prep-create",
+        "meeting-prep-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_ai_enhanced",
+      "in_operations": [
+        "meeting-prep-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "meeting_id",
+      "in_operations": [
+        "meeting-prep-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "meeting-prep-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "meeting-prep-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "meeting-prep-create": [
+      "$schema",
+      "id"
+    ],
+    "meeting-prep-delete": [],
+    "meeting-prep-get": [
+      "$schema",
+      "body_content",
+      "created_at",
+      "id",
+      "is_ai_enhanced",
+      "meeting_id",
+      "tenant_id",
+      "updated_at"
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "stem": "CDCPipeline",
+  "group_members": [
+    "CDCPipelineConfigUpsertInputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CDCPipelineConfigUpsertInputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "CDCPipelineConfigUpsertInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "config",
+      "in_schemas": [
+        "CDCPipelineConfigUpsertInputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "credentials",
+      "in_schemas": [
+        "CDCPipelineConfigUpsertInputBody"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "CDCPipelineConfigUpsertInputBody": [
+      "$schema",
+      "config",
+      "credentials"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 3,
+    "common_field_count": 3,
+    "avg_pairwise_jaccard": 1
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "stem": "DocumentSchema",
+  "group_members": [
+    "DocumentSchemaCreateInputBody",
+    "DocumentSchemaCreateOutputBody",
+    "DocumentSchemaDescription",
+    "DocumentSchemaListInputBody",
+    "DocumentSchemaListOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaCreateInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaCreateOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaDescription",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaListInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaListOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "DocumentSchemaCreateInputBody",
+        "DocumentSchemaCreateOutputBody",
+        "DocumentSchemaDescription",
+        "DocumentSchemaListInputBody",
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "created_at",
+      "in_schemas": [
+        "DocumentSchemaDescription",
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_by",
+      "in_schemas": [
+        "DocumentSchemaDescription",
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "description",
+      "in_schemas": [
+        "DocumentSchemaCreateInputBody",
+        "DocumentSchemaDescription",
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "document_schemas",
+      "in_schemas": [
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "field_description",
+      "in_schemas": [
+        "DocumentSchemaCreateInputBody",
+        "DocumentSchemaDescription"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "field_name",
+      "in_schemas": [
+        "DocumentSchemaCreateInputBody",
+        "DocumentSchemaDescription"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "fields",
+      "in_schemas": [
+        "DocumentSchemaCreateInputBody",
+        "DocumentSchemaDescription",
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "DocumentSchemaCreateOutputBody",
+        "DocumentSchemaDescription",
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_schemas": [
+        "DocumentSchemaCreateInputBody",
+        "DocumentSchemaDescription",
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page",
+      "in_schemas": [
+        "DocumentSchemaListInputBody",
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "page_size",
+      "in_schemas": [
+        "DocumentSchemaListInputBody",
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination",
+      "in_schemas": [
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pagination_params",
+      "in_schemas": [
+        "DocumentSchemaListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "search",
+      "in_schemas": [
+        "DocumentSchemaListInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_pages",
+      "in_schemas": [
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "total_records",
+      "in_schemas": [
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_schemas": [
+        "DocumentSchemaDescription",
+        "DocumentSchemaListOutputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "DocumentSchemaCreateInputBody": [
+      "$schema",
+      "description",
+      "field_description",
+      "field_name",
+      "fields",
+      "name"
+    ],
+    "DocumentSchemaCreateOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "DocumentSchemaDescription": [
+      "$schema",
+      "created_at",
+      "created_by",
+      "description",
+      "field_description",
+      "field_name",
+      "fields",
+      "id",
+      "name",
+      "updated_at"
+    ],
+    "DocumentSchemaListInputBody": [
+      "$schema",
+      "page",
+      "page_size",
+      "pagination_params",
+      "search"
+    ],
+    "DocumentSchemaListOutputBody": [
+      "$schema",
+      "created_at",
+      "created_by",
+      "description",
+      "document_schemas",
+      "fields",
+      "id",
+      "name",
+      "page",
+      "page_size",
+      "pagination",
+      "total_pages",
+      "total_records",
+      "updated_at"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 18,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.2361
+  }
+}

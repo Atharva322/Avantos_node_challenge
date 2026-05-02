@@ -1,0 +1,19 @@
+{
+  "stem": "unqork-comment",
+  "group_members": [
+    "unqork-comment-create"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/unqork/comments"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/unqork-comment-create"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "unqork-comment-create": []
+  }
+}

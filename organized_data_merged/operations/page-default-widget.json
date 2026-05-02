@@ -1,0 +1,149 @@
+{
+  "stem": "page-default-widget",
+  "group_members": [
+    "page-default-widget-list"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/pages/{page}/default-widgets"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-default-widget-list"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "config",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "createdAt",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "defaultWidgets",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "height",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "isVisible",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "page",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updatedAt",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "updatedBy",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "widgetDefinitionId",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "width",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "x",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "y",
+      "in_operations": [
+        "page-default-widget-list"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "page-default-widget-list": [
+      "$schema",
+      "config",
+      "createdAt",
+      "defaultWidgets",
+      "height",
+      "id",
+      "isVisible",
+      "page",
+      "property1",
+      "property2",
+      "updatedAt",
+      "updatedBy",
+      "widgetDefinitionId",
+      "width",
+      "x",
+      "y"
+    ]
+  }
+}

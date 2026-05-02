@@ -1,0 +1,183 @@
+{
+  "stem": "service-agreement",
+  "group_members": [
+    "service-agreement-create",
+    "service-agreement-get"
+  ],
+  "methods": [
+    "GET",
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/service-agreements",
+    "/api/v1/{tenant_id}/service-agreements/{service_agreement_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/service-agreement-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/service-agreement-get"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "service-agreement-create",
+        "service-agreement-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "account_id",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "advisor_id",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "agreement_details",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "allocation_details",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "client_id",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "end_date",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "fee_details",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "service-agreement-create",
+        "service-agreement-get"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "product_id",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "repcode_id",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "service_agreement",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "start_date",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "tenant_id",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "service-agreement-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "service-agreement-create": [
+      "$schema",
+      "id"
+    ],
+    "service-agreement-get": [
+      "$schema",
+      "account_id",
+      "additional_attributes",
+      "advisor_id",
+      "agreement_details",
+      "allocation_details",
+      "client_id",
+      "created_at",
+      "end_date",
+      "fee_details",
+      "id",
+      "product_id",
+      "property1",
+      "property2",
+      "repcode_id",
+      "service_agreement",
+      "start_date",
+      "tenant_id",
+      "updated_at"
+    ]
+  }
+}

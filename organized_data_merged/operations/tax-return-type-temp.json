@@ -1,0 +1,37 @@
+{
+  "stem": "tax-return-type-temp",
+  "group_members": [
+    "tax-return-type-temp"
+  ],
+  "methods": [
+    "GET"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/tax-filings/tax-return-types"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tax-return-type-temp"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "tax-return-type-temp"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tax_return_types",
+      "in_operations": [
+        "tax-return-type-temp"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "tax-return-type-temp": [
+      "$schema",
+      "tax_return_types"
+    ]
+  }
+}

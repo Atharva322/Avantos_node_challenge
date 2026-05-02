@@ -1,0 +1,100 @@
+{
+  "stem": "ResponseUnqork",
+  "group_members": [
+    "ResponseUnqorkIdentifyThirdPartyManager"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ResponseUnqorkIdentifyThirdPartyManager"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "ResponseUnqorkIdentifyThirdPartyManager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "data",
+      "in_schemas": [
+        "ResponseUnqorkIdentifyThirdPartyManager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "interactionType",
+      "in_schemas": [
+        "ResponseUnqorkIdentifyThirdPartyManager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "resolved",
+      "in_schemas": [
+        "ResponseUnqorkIdentifyThirdPartyManager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "thirdPartyManager",
+      "in_schemas": [
+        "ResponseUnqorkIdentifyThirdPartyManager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "thirdPartyManagerAssetType",
+      "in_schemas": [
+        "ResponseUnqorkIdentifyThirdPartyManager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "thirdPartyManagerDetails",
+      "in_schemas": [
+        "ResponseUnqorkIdentifyThirdPartyManager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "thirdPartyManagerName",
+      "in_schemas": [
+        "ResponseUnqorkIdentifyThirdPartyManager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "thirdPartyManagerType",
+      "in_schemas": [
+        "ResponseUnqorkIdentifyThirdPartyManager"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "tpmRecipients",
+      "in_schemas": [
+        "ResponseUnqorkIdentifyThirdPartyManager"
+      ],
+      "is_common": true
+    }
+  ],
+  "schema_field_map": {
+    "ResponseUnqorkIdentifyThirdPartyManager": [
+      "$schema",
+      "data",
+      "interactionType",
+      "resolved",
+      "thirdPartyManager",
+      "thirdPartyManagerAssetType",
+      "thirdPartyManagerDetails",
+      "thirdPartyManagerName",
+      "thirdPartyManagerType",
+      "tpmRecipients"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 10,
+    "common_field_count": 10,
+    "avg_pairwise_jaccard": 1
+  }
+}

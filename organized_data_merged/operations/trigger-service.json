@@ -1,0 +1,429 @@
+{
+  "stem": "trigger-service",
+  "group_members": [
+    "trigger-service-create",
+    "trigger-service-delete",
+    "trigger-service-get",
+    "trigger-service-list",
+    "trigger-service-update"
+  ],
+  "methods": [
+    "DELETE",
+    "GET",
+    "POST",
+    "PUT"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/triggers/services",
+    "/api/v1/{tenant_id}/triggers/services/{trigger_service_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-create",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-delete",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-get",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-list",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-update"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "trigger-service-create",
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "audience",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_body",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_body_type",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_config",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "auth_type",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "base_url",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "created_at",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_headers_template",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "custom_headers_template_variables",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "endpoints",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "environment",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "environments",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "error_message_template",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "header_key",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_operations": [
+        "trigger-service-create",
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_enabled",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "is_virtual",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "message",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "name",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "output_mapping",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "path_template",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "path_template_variables",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "pattern",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_template",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_template_variables",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "payload_type",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "query_parameter_template",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "query_parameter_template_variables",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "request_method",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "scope",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "service",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "subject",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "timeout_seconds",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "to",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "token",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "trigger_service_id",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "trigger_services",
+      "in_operations": [
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "updated_at",
+      "in_operations": [
+        "trigger-service-get",
+        "trigger-service-list"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "userId",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "user_id",
+      "in_operations": [
+        "trigger-service-get"
+      ],
+      "is_common": false
+    }
+  ],
+  "operation_field_map": {
+    "trigger-service-create": [
+      "$schema",
+      "id"
+    ],
+    "trigger-service-delete": [],
+    "trigger-service-get": [
+      "$schema",
+      "audience",
+      "auth_body",
+      "auth_body_type",
+      "auth_config",
+      "auth_type",
+      "base_url",
+      "created_at",
+      "custom_headers_template",
+      "custom_headers_template_variables",
+      "endpoints",
+      "environment",
+      "environments",
+      "error_message_template",
+      "header_key",
+      "id",
+      "is_enabled",
+      "is_virtual",
+      "message",
+      "name",
+      "output_mapping",
+      "path_template",
+      "path_template_variables",
+      "pattern",
+      "payload_template",
+      "payload_template_variables",
+      "payload_type",
+      "property1",
+      "property2",
+      "query_parameter_template",
+      "query_parameter_template_variables",
+      "request_method",
+      "scope",
+      "service",
+      "subject",
+      "timeout_seconds",
+      "to",
+      "token",
+      "trigger_service_id",
+      "updated_at",
+      "userId",
+      "user_id"
+    ],
+    "trigger-service-list": [
+      "$schema",
+      "audience",
+      "auth_body",
+      "auth_body_type",
+      "auth_config",
+      "auth_type",
+      "base_url",
+      "created_at",
+      "environment",
+      "environments",
+      "header_key",
+      "id",
+      "is_enabled",
+      "is_virtual",
+      "name",
+      "property1",
+      "property2",
+      "scope",
+      "timeout_seconds",
+      "token",
+      "trigger_services",
+      "updated_at"
+    ],
+    "trigger-service-update": []
+  }
+}

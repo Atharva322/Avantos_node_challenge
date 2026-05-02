@@ -1,0 +1,1236 @@
+[
+  {
+    "stem": "abac-access-explainer",
+    "group_size": 1,
+    "group_members": [
+      "abac-access-explainer"
+    ]
+  },
+  {
+    "stem": "account-financial",
+    "group_size": 2,
+    "group_members": [
+      "account-financial-create",
+      "account-financial-get"
+    ]
+  },
+  {
+    "stem": "action-blueprint",
+    "group_size": 4,
+    "group_members": [
+      "action-blueprint-create",
+      "action-blueprint-delete",
+      "action-blueprint-get",
+      "action-blueprint-list"
+    ]
+  },
+  {
+    "stem": "action-blueprint-graph",
+    "group_size": 1,
+    "group_members": [
+      "action-blueprint-graph-get"
+    ]
+  },
+  {
+    "stem": "action-blueprint-version",
+    "group_size": 2,
+    "group_members": [
+      "action-blueprint-version-create",
+      "action-blueprint-version-delete"
+    ]
+  },
+  {
+    "stem": "action-component-branch",
+    "group_size": 2,
+    "group_members": [
+      "action-component-branch-create",
+      "action-component-branch-update"
+    ]
+  },
+  {
+    "stem": "action-component-form",
+    "group_size": 5,
+    "group_members": [
+      "action-component-form-clone",
+      "action-component-form-create",
+      "action-component-form-delete",
+      "action-component-form-get",
+      "action-component-form-list"
+    ]
+  },
+  {
+    "stem": "action-component-form-update-custom-javascript",
+    "group_size": 1,
+    "group_members": [
+      "action-component-form-update-custom-javascript"
+    ]
+  },
+  {
+    "stem": "action-run",
+    "group_size": 1,
+    "group_members": [
+      "action-run-get"
+    ]
+  },
+  {
+    "stem": "action-run-blueprint-version-reassign",
+    "group_size": 1,
+    "group_members": [
+      "action-run-blueprint-version-reassign"
+    ]
+  },
+  {
+    "stem": "action-run-blueprint-version-reassign-bulk",
+    "group_size": 1,
+    "group_members": [
+      "action-run-blueprint-version-reassign-bulk"
+    ]
+  },
+  {
+    "stem": "action-run-bulk-lock",
+    "group_size": 1,
+    "group_members": [
+      "action-run-bulk-lock"
+    ]
+  },
+  {
+    "stem": "action-run-bulk-unlock",
+    "group_size": 1,
+    "group_members": [
+      "action-run-bulk-unlock"
+    ]
+  },
+  {
+    "stem": "action-run-client-organisation",
+    "group_size": 1,
+    "group_members": [
+      "action-run-client-organisation-update"
+    ]
+  },
+  {
+    "stem": "action-run-client-organisation-batch",
+    "group_size": 1,
+    "group_members": [
+      "action-run-client-organisation-batch-update"
+    ]
+  },
+  {
+    "stem": "action-run-comments",
+    "group_size": 1,
+    "group_members": [
+      "action-run-comments-get"
+    ]
+  },
+  {
+    "stem": "action-run-context",
+    "group_size": 1,
+    "group_members": [
+      "action-run-context-update"
+    ]
+  },
+  {
+    "stem": "action-run-request-cancel",
+    "group_size": 1,
+    "group_members": [
+      "action-run-request-cancel"
+    ]
+  },
+  {
+    "stem": "action-run-schedule",
+    "group_size": 1,
+    "group_members": [
+      "action-run-schedule-update"
+    ]
+  },
+  {
+    "stem": "action-run-state-model-advance",
+    "group_size": 1,
+    "group_members": [
+      "action-run-state-model-advance"
+    ]
+  },
+  {
+    "stem": "action-run-state-model-transitions",
+    "group_size": 1,
+    "group_members": [
+      "action-run-state-model-transitions-get"
+    ]
+  },
+  {
+    "stem": "action-run-status-logs",
+    "group_size": 1,
+    "group_members": [
+      "action-run-status-logs"
+    ]
+  },
+  {
+    "stem": "action-run-task",
+    "group_size": 2,
+    "group_members": [
+      "action-run-task-assign",
+      "action-run-task-patch"
+    ]
+  },
+  {
+    "stem": "action-run-task-approve",
+    "group_size": 1,
+    "group_members": [
+      "action-run-task-approve"
+    ]
+  },
+  {
+    "stem": "action-run-task-claim",
+    "group_size": 1,
+    "group_members": [
+      "action-run-task-claim"
+    ]
+  },
+  {
+    "stem": "action-run-task-cron-job-queued",
+    "group_size": 1,
+    "group_members": [
+      "action-run-task-cron-job-queued-update"
+    ]
+  },
+  {
+    "stem": "action-run-task-next-step-date",
+    "group_size": 1,
+    "group_members": [
+      "action-run-task-next-step-date-update"
+    ]
+  },
+  {
+    "stem": "action-run-task-reject",
+    "group_size": 1,
+    "group_members": [
+      "action-run-task-reject"
+    ]
+  },
+  {
+    "stem": "action-run-task-render",
+    "group_size": 1,
+    "group_members": [
+      "action-run-task-render"
+    ]
+  },
+  {
+    "stem": "action-run-task-start",
+    "group_size": 1,
+    "group_members": [
+      "action-run-task-start"
+    ]
+  },
+  {
+    "stem": "action-run-task-submit",
+    "group_size": 1,
+    "group_members": [
+      "action-run-task-submit"
+    ]
+  },
+  {
+    "stem": "admin-api-token-roles",
+    "group_size": 1,
+    "group_members": [
+      "admin-api-token-roles-list"
+    ]
+  },
+  {
+    "stem": "agent",
+    "group_size": 1,
+    "group_members": [
+      "agent-create"
+    ]
+  },
+  {
+    "stem": "agent-address",
+    "group_size": 2,
+    "group_members": [
+      "agent-address-create",
+      "agent-address-list"
+    ]
+  },
+  {
+    "stem": "agent-business-group-role-list-by-type-and-name",
+    "group_size": 1,
+    "group_members": [
+      "agent-business-group-role-list-by-type-and-name"
+    ]
+  },
+  {
+    "stem": "agent-client-organisation-relationship",
+    "group_size": 2,
+    "group_members": [
+      "agent-client-organisation-relationship-delete",
+      "agent-client-organisation-relationship-list"
+    ]
+  },
+  {
+    "stem": "agent-contact",
+    "group_size": 1,
+    "group_members": [
+      "agent-contact-create"
+    ]
+  },
+  {
+    "stem": "agent-id-by-external-id",
+    "group_size": 1,
+    "group_members": [
+      "agent-id-by-external-id"
+    ]
+  },
+  {
+    "stem": "agent-oauth-token",
+    "group_size": 3,
+    "group_members": [
+      "agent-oauth-token-create",
+      "agent-oauth-token-delete",
+      "agent-oauth-token-refresh"
+    ]
+  },
+  {
+    "stem": "agent-organisation",
+    "group_size": 1,
+    "group_members": [
+      "agent-organisation-get"
+    ]
+  },
+  {
+    "stem": "agent-organisation-address",
+    "group_size": 2,
+    "group_members": [
+      "agent-organisation-address-create",
+      "agent-organisation-address-list"
+    ]
+  },
+  {
+    "stem": "agent-organisation-client-organisation",
+    "group_size": 1,
+    "group_members": [
+      "agent-organisation-client-organisation-list"
+    ]
+  },
+  {
+    "stem": "agent-organisation-contact",
+    "group_size": 1,
+    "group_members": [
+      "agent-organisation-contact-create"
+    ]
+  },
+  {
+    "stem": "array-forms-config",
+    "group_size": 2,
+    "group_members": [
+      "array-forms-config-get",
+      "array-forms-config-put"
+    ]
+  },
+  {
+    "stem": "authorization-check",
+    "group_size": 1,
+    "group_members": [
+      "authorization-check"
+    ]
+  },
+  {
+    "stem": "blueprint-environment-history",
+    "group_size": 1,
+    "group_members": [
+      "blueprint-environment-history-get"
+    ]
+  },
+  {
+    "stem": "blueprint-environment-version-set",
+    "group_size": 1,
+    "group_members": [
+      "blueprint-environment-version-set"
+    ]
+  },
+  {
+    "stem": "book-of-business-summary",
+    "group_size": 1,
+    "group_members": [
+      "book-of-business-summary"
+    ]
+  },
+  {
+    "stem": "business-group",
+    "group_size": 1,
+    "group_members": [
+      "business-group-delete"
+    ]
+  },
+  {
+    "stem": "business-group-add-member",
+    "group_size": 1,
+    "group_members": [
+      "business-group-add-member"
+    ]
+  },
+  {
+    "stem": "business-group-coverage-details",
+    "group_size": 1,
+    "group_members": [
+      "business-group-coverage-details-search"
+    ]
+  },
+  {
+    "stem": "business-group-coverage-lookup-summary",
+    "group_size": 1,
+    "group_members": [
+      "business-group-coverage-lookup-summary"
+    ]
+  },
+  {
+    "stem": "business-group-list-by-role",
+    "group_size": 1,
+    "group_members": [
+      "business-group-list-by-role"
+    ]
+  },
+  {
+    "stem": "business-groups-find-by-coverage",
+    "group_size": 1,
+    "group_members": [
+      "business-groups-find-by-coverage"
+    ]
+  },
+  {
+    "stem": "cdc-pipeline-config",
+    "group_size": 3,
+    "group_members": [
+      "cdc-pipeline-config-delete",
+      "cdc-pipeline-config-get",
+      "cdc-pipeline-config-list"
+    ]
+  },
+  {
+    "stem": "cdc-pipeline-config-upsert",
+    "group_size": 1,
+    "group_members": [
+      "cdc-pipeline-config-upsert"
+    ]
+  },
+  {
+    "stem": "client",
+    "group_size": 3,
+    "group_members": [
+      "client-delete",
+      "client-get",
+      "client-list"
+    ]
+  },
+  {
+    "stem": "client-address",
+    "group_size": 3,
+    "group_members": [
+      "client-address-delete",
+      "client-address-list",
+      "client-address-update"
+    ]
+  },
+  {
+    "stem": "client-component-jwt-generate",
+    "group_size": 1,
+    "group_members": [
+      "client-component-jwt-generate"
+    ]
+  },
+  {
+    "stem": "client-connection",
+    "group_size": 1,
+    "group_members": [
+      "client-connection-delete"
+    ]
+  },
+  {
+    "stem": "client-connections",
+    "group_size": 1,
+    "group_members": [
+      "client-connections-list"
+    ]
+  },
+  {
+    "stem": "client-contact",
+    "group_size": 2,
+    "group_members": [
+      "client-contact-list",
+      "client-contact-update"
+    ]
+  },
+  {
+    "stem": "client-document",
+    "group_size": 1,
+    "group_members": [
+      "client-document-create"
+    ]
+  },
+  {
+    "stem": "client-documents",
+    "group_size": 1,
+    "group_members": [
+      "client-documents-list"
+    ]
+  },
+  {
+    "stem": "client-organisation",
+    "group_size": 3,
+    "group_members": [
+      "client-organisation-create",
+      "client-organisation-list",
+      "client-organisation-update"
+    ]
+  },
+  {
+    "stem": "client-organisation-address",
+    "group_size": 2,
+    "group_members": [
+      "client-organisation-address-create",
+      "client-organisation-address-list"
+    ]
+  },
+  {
+    "stem": "client-organisation-agent",
+    "group_size": 1,
+    "group_members": [
+      "client-organisation-agent-list"
+    ]
+  },
+  {
+    "stem": "client-organisation-connection",
+    "group_size": 1,
+    "group_members": [
+      "client-organisation-connection-delete"
+    ]
+  },
+  {
+    "stem": "client-organisation-connections",
+    "group_size": 1,
+    "group_members": [
+      "client-organisation-connections-list"
+    ]
+  },
+  {
+    "stem": "client-organisation-graph",
+    "group_size": 2,
+    "group_members": [
+      "client-organisation-graph-get",
+      "client-organisation-graph-patch"
+    ]
+  },
+  {
+    "stem": "client-organisation-id-by-external-id",
+    "group_size": 1,
+    "group_members": [
+      "client-organisation-id-by-external-id"
+    ]
+  },
+  {
+    "stem": "client-organisation-relationship",
+    "group_size": 2,
+    "group_members": [
+      "client-organisation-relationship-create",
+      "client-organisation-relationship-delete"
+    ]
+  },
+  {
+    "stem": "client-organisation-tax-pods",
+    "group_size": 1,
+    "group_members": [
+      "client-organisation-tax-pods"
+    ]
+  },
+  {
+    "stem": "client-portal-jwt-generate",
+    "group_size": 1,
+    "group_members": [
+      "client-portal-jwt-generate"
+    ]
+  },
+  {
+    "stem": "clients",
+    "group_size": 1,
+    "group_members": [
+      "clients-search"
+    ]
+  },
+  {
+    "stem": "clients-batch-move",
+    "group_size": 1,
+    "group_members": [
+      "clients-batch-move"
+    ]
+  },
+  {
+    "stem": "comment",
+    "group_size": 1,
+    "group_members": [
+      "comment-add"
+    ]
+  },
+  {
+    "stem": "component-jwt-generate",
+    "group_size": 1,
+    "group_members": [
+      "component-jwt-generate"
+    ]
+  },
+  {
+    "stem": "custodian-forms-config",
+    "group_size": 2,
+    "group_members": [
+      "custodian-forms-config-get",
+      "custodian-forms-config-put"
+    ]
+  },
+  {
+    "stem": "custom-javascript-functions",
+    "group_size": 2,
+    "group_members": [
+      "custom-javascript-functions-delete",
+      "custom-javascript-functions-get"
+    ]
+  },
+  {
+    "stem": "custom-views",
+    "group_size": 4,
+    "group_members": [
+      "custom-views-create",
+      "custom-views-delete",
+      "custom-views-list",
+      "custom-views-update"
+    ]
+  },
+  {
+    "stem": "custom-views-get-default",
+    "group_size": 1,
+    "group_members": [
+      "custom-views-get-default"
+    ]
+  },
+  {
+    "stem": "custom-views-get-pinned",
+    "group_size": 1,
+    "group_members": [
+      "custom-views-get-pinned"
+    ]
+  },
+  {
+    "stem": "custom-views-import",
+    "group_size": 1,
+    "group_members": [
+      "custom-views-import"
+    ]
+  },
+  {
+    "stem": "document",
+    "group_size": 1,
+    "group_members": [
+      "document-get"
+    ]
+  },
+  {
+    "stem": "document-storage-integration",
+    "group_size": 3,
+    "group_members": [
+      "document-storage-integration-delete",
+      "document-storage-integration-get",
+      "document-storage-integration-list"
+    ]
+  },
+  {
+    "stem": "document-storage-integration-environment",
+    "group_size": 3,
+    "group_members": [
+      "document-storage-integration-environment-delete",
+      "document-storage-integration-environment-get",
+      "document-storage-integration-environment-list"
+    ]
+  },
+  {
+    "stem": "docusign-envelope",
+    "group_size": 1,
+    "group_members": [
+      "docusign-envelope-create"
+    ]
+  },
+  {
+    "stem": "docusign-envelope-status",
+    "group_size": 1,
+    "group_members": [
+      "docusign-envelope-status"
+    ]
+  },
+  {
+    "stem": "enforcer-role-rules",
+    "group_size": 1,
+    "group_members": [
+      "enforcer-role-rules-get"
+    ]
+  },
+  {
+    "stem": "esignature-envelope",
+    "group_size": 2,
+    "group_members": [
+      "esignature-envelope-create",
+      "esignature-envelope-update"
+    ]
+  },
+  {
+    "stem": "esignature-envelope-delete-documents",
+    "group_size": 1,
+    "group_members": [
+      "esignature-envelope-delete-documents"
+    ]
+  },
+  {
+    "stem": "esignature-envelope-delete-recipients",
+    "group_size": 1,
+    "group_members": [
+      "esignature-envelope-delete-recipients"
+    ]
+  },
+  {
+    "stem": "esignature-envelope-status",
+    "group_size": 1,
+    "group_members": [
+      "esignature-envelope-status"
+    ]
+  },
+  {
+    "stem": "esignature-envelope-update-documents",
+    "group_size": 1,
+    "group_members": [
+      "esignature-envelope-update-documents"
+    ]
+  },
+  {
+    "stem": "esignature-envelope-update-recipients",
+    "group_size": 1,
+    "group_members": [
+      "esignature-envelope-update-recipients"
+    ]
+  },
+  {
+    "stem": "esignature-template",
+    "group_size": 1,
+    "group_members": [
+      "esignature-template-get"
+    ]
+  },
+  {
+    "stem": "esignature-templates",
+    "group_size": 1,
+    "group_members": [
+      "esignature-templates-list"
+    ]
+  },
+  {
+    "stem": "experimental-onboarding",
+    "group_size": 2,
+    "group_members": [
+      "experimental-onboarding-get",
+      "experimental-onboarding-list"
+    ]
+  },
+  {
+    "stem": "feature-flags",
+    "group_size": 2,
+    "group_members": [
+      "feature-flags-get",
+      "feature-flags-update"
+    ]
+  },
+  {
+    "stem": "financial-accounts-by-client-organisation",
+    "group_size": 1,
+    "group_members": [
+      "financial-accounts-by-client-organisation-get"
+    ]
+  },
+  {
+    "stem": "global",
+    "group_size": 1,
+    "group_members": [
+      "global-search"
+    ]
+  },
+  {
+    "stem": "gpoc-account-openings",
+    "group_size": 1,
+    "group_members": [
+      "gpoc-account-openings-list"
+    ]
+  },
+  {
+    "stem": "kpi-report",
+    "group_size": 1,
+    "group_members": [
+      "kpi-report"
+    ]
+  },
+  {
+    "stem": "kpi-values",
+    "group_size": 1,
+    "group_members": [
+      "kpi-values-search"
+    ]
+  },
+  {
+    "stem": "list-sync-files",
+    "group_size": 1,
+    "group_members": [
+      "list-sync-files"
+    ]
+  },
+  {
+    "stem": "manager-team",
+    "group_size": 1,
+    "group_members": [
+      "manager-team-list"
+    ]
+  },
+  {
+    "stem": "meeting",
+    "group_size": 3,
+    "group_members": [
+      "meeting-create",
+      "meeting-get",
+      "meeting-list"
+    ]
+  },
+  {
+    "stem": "meeting-action-run-relationship",
+    "group_size": 2,
+    "group_members": [
+      "meeting-action-run-relationship-create",
+      "meeting-action-run-relationship-list"
+    ]
+  },
+  {
+    "stem": "meeting-actions-skipped",
+    "group_size": 1,
+    "group_members": [
+      "meeting-actions-skipped-update"
+    ]
+  },
+  {
+    "stem": "meeting-attendee",
+    "group_size": 2,
+    "group_members": [
+      "meeting-attendee-create",
+      "meeting-attendee-delete"
+    ]
+  },
+  {
+    "stem": "meeting-email-draft",
+    "group_size": 1,
+    "group_members": [
+      "meeting-email-draft-delete"
+    ]
+  },
+  {
+    "stem": "meeting-email-draft-upsert",
+    "group_size": 1,
+    "group_members": [
+      "meeting-email-draft-upsert"
+    ]
+  },
+  {
+    "stem": "meeting-id-by-external-id",
+    "group_size": 1,
+    "group_members": [
+      "meeting-id-by-external-id"
+    ]
+  },
+  {
+    "stem": "meeting-list-all",
+    "group_size": 1,
+    "group_members": [
+      "meeting-list-all"
+    ]
+  },
+  {
+    "stem": "meeting-prep",
+    "group_size": 3,
+    "group_members": [
+      "meeting-prep-create",
+      "meeting-prep-delete",
+      "meeting-prep-get"
+    ]
+  },
+  {
+    "stem": "meeting-prep-upsert",
+    "group_size": 1,
+    "group_members": [
+      "meeting-prep-upsert"
+    ]
+  },
+  {
+    "stem": "meeting-summary",
+    "group_size": 3,
+    "group_members": [
+      "meeting-summary-create",
+      "meeting-summary-delete",
+      "meeting-summary-update"
+    ]
+  },
+  {
+    "stem": "meeting-summary-unattest",
+    "group_size": 1,
+    "group_members": [
+      "meeting-summary-unattest"
+    ]
+  },
+  {
+    "stem": "notification",
+    "group_size": 5,
+    "group_members": [
+      "notification-create",
+      "notification-delete",
+      "notification-get",
+      "notification-list",
+      "notification-update"
+    ]
+  },
+  {
+    "stem": "opportunity",
+    "group_size": 1,
+    "group_members": [
+      "opportunity-update"
+    ]
+  },
+  {
+    "stem": "page-default-widget",
+    "group_size": 1,
+    "group_members": [
+      "page-default-widget-list"
+    ]
+  },
+  {
+    "stem": "page-widget-availability",
+    "group_size": 4,
+    "group_members": [
+      "page-widget-availability-create",
+      "page-widget-availability-delete",
+      "page-widget-availability-get",
+      "page-widget-availability-list"
+    ]
+  },
+  {
+    "stem": "pdf",
+    "group_size": 1,
+    "group_members": [
+      "pdf-delete"
+    ]
+  },
+  {
+    "stem": "pdf-fill",
+    "group_size": 1,
+    "group_members": [
+      "pdf-fill"
+    ]
+  },
+  {
+    "stem": "pdf-get-fill-mapping",
+    "group_size": 1,
+    "group_members": [
+      "pdf-get-fill-mapping"
+    ]
+  },
+  {
+    "stem": "pdf-upload",
+    "group_size": 1,
+    "group_members": [
+      "pdf-upload"
+    ]
+  },
+  {
+    "stem": "poc-document-schema",
+    "group_size": 4,
+    "group_members": [
+      "poc-document-schema-create",
+      "poc-document-schema-delete",
+      "poc-document-schema-list",
+      "poc-document-schema-update"
+    ]
+  },
+  {
+    "stem": "policies-by-client-organisation",
+    "group_size": 1,
+    "group_members": [
+      "policies-by-client-organisation-get"
+    ]
+  },
+  {
+    "stem": "policy",
+    "group_size": 4,
+    "group_members": [
+      "policy-create",
+      "policy-get",
+      "policy-list",
+      "policy-search"
+    ]
+  },
+  {
+    "stem": "product-financial",
+    "group_size": 2,
+    "group_members": [
+      "product-financial-create",
+      "product-financial-get"
+    ]
+  },
+  {
+    "stem": "relationship-client-organisation-members",
+    "group_size": 1,
+    "group_members": [
+      "relationship-client-organisation-members-get"
+    ]
+  },
+  {
+    "stem": "relationship-dashboard",
+    "group_size": 2,
+    "group_members": [
+      "relationship-dashboard-get",
+      "relationship-dashboard-list"
+    ]
+  },
+  {
+    "stem": "relationship-opportunity",
+    "group_size": 2,
+    "group_members": [
+      "relationship-opportunity-create",
+      "relationship-opportunity-list"
+    ]
+  },
+  {
+    "stem": "rmd-list-by-client-organisation",
+    "group_size": 1,
+    "group_members": [
+      "rmd-list-by-client-organisation"
+    ]
+  },
+  {
+    "stem": "rmd-list-by-financial-account",
+    "group_size": 1,
+    "group_members": [
+      "rmd-list-by-financial-account"
+    ]
+  },
+  {
+    "stem": "role",
+    "group_size": 1,
+    "group_members": [
+      "role-get"
+    ]
+  },
+  {
+    "stem": "role-groups",
+    "group_size": 1,
+    "group_members": [
+      "role-groups-list"
+    ]
+  },
+  {
+    "stem": "role-policy",
+    "group_size": 1,
+    "group_members": [
+      "role-policy-create"
+    ]
+  },
+  {
+    "stem": "salesforce",
+    "group_size": 1,
+    "group_members": [
+      "salesforce-update"
+    ]
+  },
+  {
+    "stem": "send-mutual-fund-trades-report",
+    "group_size": 1,
+    "group_members": [
+      "send-mutual-fund-trades-report"
+    ]
+  },
+  {
+    "stem": "service-agreement",
+    "group_size": 2,
+    "group_members": [
+      "service-agreement-create",
+      "service-agreement-get"
+    ]
+  },
+  {
+    "stem": "service-agreement-document",
+    "group_size": 1,
+    "group_members": [
+      "service-agreement-document-create"
+    ]
+  },
+  {
+    "stem": "service-agreement-documents",
+    "group_size": 1,
+    "group_members": [
+      "service-agreement-documents-list"
+    ]
+  },
+  {
+    "stem": "sloa-list-by-client-organisation",
+    "group_size": 1,
+    "group_members": [
+      "sloa-list-by-client-organisation"
+    ]
+  },
+  {
+    "stem": "tax-filing",
+    "group_size": 1,
+    "group_members": [
+      "tax-filing-list"
+    ]
+  },
+  {
+    "stem": "tax-filing-completion-windows-temp",
+    "group_size": 1,
+    "group_members": [
+      "tax-filing-completion-windows-temp"
+    ]
+  },
+  {
+    "stem": "tax-managers",
+    "group_size": 1,
+    "group_members": [
+      "tax-managers-list"
+    ]
+  },
+  {
+    "stem": "tax-return-type-temp",
+    "group_size": 1,
+    "group_members": [
+      "tax-return-type-temp"
+    ]
+  },
+  {
+    "stem": "team-client-organisation",
+    "group_size": 4,
+    "group_members": [
+      "team-client-organisation-add",
+      "team-client-organisation-list",
+      "team-client-organisation-remove",
+      "team-client-organisation-search"
+    ]
+  },
+  {
+    "stem": "tenant-config",
+    "group_size": 2,
+    "group_members": [
+      "tenant-config-delete",
+      "tenant-config-update"
+    ]
+  },
+  {
+    "stem": "trigger-endpoint",
+    "group_size": 2,
+    "group_members": [
+      "trigger-endpoint-get",
+      "trigger-endpoint-update"
+    ]
+  },
+  {
+    "stem": "trigger-endpoint-execute",
+    "group_size": 1,
+    "group_members": [
+      "trigger-endpoint-execute"
+    ]
+  },
+  {
+    "stem": "trigger-service",
+    "group_size": 5,
+    "group_members": [
+      "trigger-service-create",
+      "trigger-service-delete",
+      "trigger-service-get",
+      "trigger-service-list",
+      "trigger-service-update"
+    ]
+  },
+  {
+    "stem": "trigger-service-environment",
+    "group_size": 3,
+    "group_members": [
+      "trigger-service-environment-get",
+      "trigger-service-environment-list",
+      "trigger-service-environment-update"
+    ]
+  },
+  {
+    "stem": "unqork-cash-breakdown",
+    "group_size": 1,
+    "group_members": [
+      "unqork-cash-breakdown"
+    ]
+  },
+  {
+    "stem": "unqork-comment",
+    "group_size": 1,
+    "group_members": [
+      "unqork-comment-create"
+    ]
+  },
+  {
+    "stem": "unqork-identify-third-party-manager",
+    "group_size": 1,
+    "group_members": [
+      "unqork-identify-third-party-manager"
+    ]
+  },
+  {
+    "stem": "unqork-notification-upsert",
+    "group_size": 1,
+    "group_members": [
+      "unqork-notification-upsert"
+    ]
+  },
+  {
+    "stem": "unqork-task-upsert",
+    "group_size": 1,
+    "group_members": [
+      "unqork-task-upsert"
+    ]
+  },
+  {
+    "stem": "vpoc-all-clients",
+    "group_size": 1,
+    "group_members": [
+      "vpoc-all-clients-search"
+    ]
+  },
+  {
+    "stem": "whoami",
+    "group_size": 1,
+    "group_members": [
+      "whoami"
+    ]
+  },
+  {
+    "stem": "widget",
+    "group_size": 2,
+    "group_members": [
+      "widget-get",
+      "widget-update"
+    ]
+  },
+  {
+    "stem": "widget-definition",
+    "group_size": 2,
+    "group_members": [
+      "widget-definition-create",
+      "widget-definition-update"
+    ]
+  },
+  {
+    "stem": "widget-definitions",
+    "group_size": 1,
+    "group_members": [
+      "widget-definitions-list"
+    ]
+  }
+]

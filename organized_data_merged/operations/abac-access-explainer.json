@@ -1,0 +1,181 @@
+{
+  "stem": "abac-access-explainer",
+  "group_members": [
+    "abac-access-explainer"
+  ],
+  "methods": [
+    "POST"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/abac/explain"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/abac-access-explainer"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "abac_disabled",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "additional_attributes",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "agent_id",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "client_org_properties",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "combined_expression",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "effect",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "email",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "explanation",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "expression",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "external_id",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "has_access",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "matched",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "policy_evaluations",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "policy_name",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property1",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "property2",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "reason",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "role",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "user_context",
+      "in_operations": [
+        "abac-access-explainer"
+      ],
+      "is_common": true
+    }
+  ],
+  "operation_field_map": {
+    "abac-access-explainer": [
+      "$schema",
+      "abac_disabled",
+      "additional_attributes",
+      "agent_id",
+      "client_org_properties",
+      "combined_expression",
+      "effect",
+      "email",
+      "explanation",
+      "expression",
+      "external_id",
+      "has_access",
+      "matched",
+      "policy_evaluations",
+      "policy_name",
+      "property1",
+      "property2",
+      "reason",
+      "role",
+      "user_context"
+    ]
+  }
+}

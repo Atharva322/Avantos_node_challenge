@@ -1,0 +1,19 @@
+{
+  "stem": "business-group",
+  "group_members": [
+    "business-group-delete"
+  ],
+  "methods": [
+    "DELETE"
+  ],
+  "paths": [
+    "/api/v1/{tenant_id}/business-groups/{business_group_id}"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-delete"
+  ],
+  "fields_union": [],
+  "operation_field_map": {
+    "business-group-delete": []
+  }
+}

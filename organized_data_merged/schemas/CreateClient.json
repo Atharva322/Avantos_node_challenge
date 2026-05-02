@@ -1,0 +1,148 @@
+{
+  "stem": "CreateClient",
+  "group_members": [
+    "CreateClientAddressOutputBody",
+    "CreateClientClientConnectionInputBody",
+    "CreateClientClientConnectionOutputBody",
+    "CreateClientOrganisationConnectionInputBody",
+    "CreateClientOrganisationConnectionOutputBody"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateClientAddressOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateClientClientConnectionInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateClientClientConnectionOutputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateClientOrganisationConnectionInputBody",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateClientOrganisationConnectionOutputBody"
+  ],
+  "fields_union": [
+    {
+      "field_name": "$schema",
+      "in_schemas": [
+        "CreateClientAddressOutputBody",
+        "CreateClientClientConnectionInputBody",
+        "CreateClientClientConnectionOutputBody",
+        "CreateClientOrganisationConnectionInputBody",
+        "CreateClientOrganisationConnectionOutputBody"
+      ],
+      "is_common": true
+    },
+    {
+      "field_name": "connection_id",
+      "in_schemas": [
+        "CreateClientClientConnectionOutputBody",
+        "CreateClientOrganisationConnectionOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "extra_properties",
+      "in_schemas": [
+        "CreateClientClientConnectionInputBody",
+        "CreateClientOrganisationConnectionInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "id",
+      "in_schemas": [
+        "CreateClientAddressOutputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "participating_client_id",
+      "in_schemas": [
+        "CreateClientClientConnectionInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "participating_client_organisation_id",
+      "in_schemas": [
+        "CreateClientOrganisationConnectionInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "priority",
+      "in_schemas": [
+        "CreateClientClientConnectionInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property1",
+      "in_schemas": [
+        "CreateClientOrganisationConnectionInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "property2",
+      "in_schemas": [
+        "CreateClientOrganisationConnectionInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_description",
+      "in_schemas": [
+        "CreateClientClientConnectionInputBody",
+        "CreateClientOrganisationConnectionInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "relationship_type",
+      "in_schemas": [
+        "CreateClientClientConnectionInputBody",
+        "CreateClientOrganisationConnectionInputBody"
+      ],
+      "is_common": false
+    },
+    {
+      "field_name": "status",
+      "in_schemas": [
+        "CreateClientClientConnectionInputBody"
+      ],
+      "is_common": false
+    }
+  ],
+  "schema_field_map": {
+    "CreateClientAddressOutputBody": [
+      "$schema",
+      "id"
+    ],
+    "CreateClientClientConnectionInputBody": [
+      "$schema",
+      "extra_properties",
+      "participating_client_id",
+      "priority",
+      "relationship_description",
+      "relationship_type",
+      "status"
+    ],
+    "CreateClientClientConnectionOutputBody": [
+      "$schema",
+      "connection_id"
+    ],
+    "CreateClientOrganisationConnectionInputBody": [
+      "$schema",
+      "extra_properties",
+      "participating_client_organisation_id",
+      "property1",
+      "property2",
+      "relationship_description",
+      "relationship_type"
+    ],
+    "CreateClientOrganisationConnectionOutputBody": [
+      "$schema",
+      "connection_id"
+    ]
+  },
+  "overlap_summary": {
+    "union_field_count": 12,
+    "common_field_count": 1,
+    "avg_pairwise_jaccard": 0.2817
+  }
+}

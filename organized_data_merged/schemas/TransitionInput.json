@@ -1,0 +1,21 @@
+{
+  "stem": "TransitionInput",
+  "group_members": [
+    "TransitionInputFieldInput",
+    "TransitionInputFieldOutput"
+  ],
+  "docs_urls": [
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TransitionInputFieldInput",
+    "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TransitionInputFieldOutput"
+  ],
+  "fields_union": [],
+  "schema_field_map": {
+    "TransitionInputFieldInput": [],
+    "TransitionInputFieldOutput": []
+  },
+  "overlap_summary": {
+    "union_field_count": 0,
+    "common_field_count": 0,
+    "avg_pairwise_jaccard": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T16:00:27.191Z",
+  "source_dir": "organized_data/operations",
+  "output_dir": "organized_data_merged/operations",
+  "totals": {
+    "raw_operations": 244,
+    "grouped_stems": 165,
+    "singleton_groups": 118,
+    "multi_member_groups": 47
+  },
+  "grouping": {
+    "rule": "suffix-based stem",
+    "suffixes": [
+      "add",
+      "assign",
+      "clone",
+      "create",
+      "delete",
+      "get",
+      "list",
+      "patch",
+      "post",
+      "put",
+      "refresh",
+      "remove",
+      "search",
+      "update"
+    ]
+  },
+  "files": {
+    "operations_index": "organized_data_merged/operations.index.json",
+    "warnings": "organized_data_merged/warnings.json"
+  }
+}
