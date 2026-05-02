@@ -1,0 +1,30 @@
+﻿{
+    "name":  "ClientPortalJWTInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientPortalJWTInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientPortalJWTInputBody.json\",3  \"BoxFolderId\": \"242798118007\",4  \"BoxUserId\": \"12345678\",5  \"ContactId\": \"0032F00002xyz123QAA\",6  \"EnvestnetChannelQualifiedId\": \"ENV789012\",7  \"EnvestnetClientId\": \"ENV123456\",8  \"HouseholdId\": \"0012F00002abcdefQAA\",9  \"OrionClientId\": 123456,10  \"PersonAccountId\": \"0012F00002abcdefQAA\",11  \"PersonContactId\": \"0032F00002xyz123QAA\",12  \"PortfolioManagementSystem\": \"Orion\",13  \"SalesforceAdvisorId\": \"0052F00000123456QAA\",14  \"SalesforceClientAssociateId\": \"0052F00000789012QAA\",15  \"email\": \"john.doe@example.com\",16  \"family_name\": \"Doe\",17  \"given_name\": \"John\",18  \"phone_number_verified\": true19}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:33:19.231Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "BoxFolderId",
+                        "BoxUserId",
+                        "ContactId",
+                        "EnvestnetChannelQualifiedId",
+                        "EnvestnetClientId",
+                        "HouseholdId",
+                        "OrionClientId",
+                        "PersonAccountId",
+                        "PersonContactId",
+                        "PortfolioManagementSystem",
+                        "SalesforceAdvisorId",
+                        "SalesforceClientAssociateId",
+                        "email",
+                        "family_name",
+                        "given_name",
+                        "phone_number_verified"
+                    ]
+}

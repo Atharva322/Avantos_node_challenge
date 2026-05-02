@@ -1,0 +1,16 @@
+﻿{
+    "name":  "DocumentVaultVerifyOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentVaultVerifyOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DocumentVaultVerifyOutputBody.json\",3  \"message\": \"Access verified\",4  \"success\": true5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:41:44.385Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "message",
+                        "success"
+                    ]
+}

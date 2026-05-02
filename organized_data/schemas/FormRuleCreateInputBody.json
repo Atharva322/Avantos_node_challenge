@@ -1,0 +1,20 @@
+﻿{
+    "name":  "FormRuleCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRuleCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/FormRuleCreateInputBody.json\",3  \"custodian\": \"Fidelity\",4  \"endpoints\": null,5  \"form_template_id\": \"f_123\",6  \"registration_id\": \"reg_123\",7  \"rules\": null,8  \"transaction_type\": \"New Account\"9}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:43:28.581Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "custodian",
+                        "endpoints",
+                        "form_template_id",
+                        "registration_id",
+                        "rules",
+                        "transaction_type"
+                    ]
+}

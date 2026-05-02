@@ -1,0 +1,32 @@
+﻿{
+    "name":  "SyncFileErrorLogListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SyncFileErrorLogListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/SyncFileErrorLogListOutputBody.json\",3  \"error_logs\": [4    {5      \"avantos_data_type\": \"string\",6      \"created_at\": \"2019-08-24T14:15:22Z\",7      \"error_log_id\": \"string\",8      \"error_message\": \"string\",9      \"error_type\": \"string\",10      \"incoming_data_type\": \"string\",11      \"raw_data\": {},12      \"record_id\": \"string\",13      \"s3_bucket\": \"string\",14      \"s3_key\": \"string\",15      \"salesforce_object_type\": \"string\",16      \"sync_file_end_time\": \"2019-08-24T14:15:22Z\",17      \"sync_file_id\": \"string\",18      \"sync_file_start_time\": \"2019-08-24T14:15:22Z\",19      \"sync_file_updated_at\": \"2019-08-24T14:15:22Z\",20      \"sync_status\": \"string\",21      \"tenant_id\": \"string\"22    }23  ]24}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:13:26.522Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "error_logs",
+                        "avantos_data_type",
+                        "created_at",
+                        "error_log_id",
+                        "error_message",
+                        "error_type",
+                        "incoming_data_type",
+                        "raw_data",
+                        "record_id",
+                        "s3_bucket",
+                        "s3_key",
+                        "salesforce_object_type",
+                        "sync_file_end_time",
+                        "sync_file_id",
+                        "sync_file_start_time",
+                        "sync_file_updated_at",
+                        "sync_status",
+                        "tenant_id"
+                    ]
+}

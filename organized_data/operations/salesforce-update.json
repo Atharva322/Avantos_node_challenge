@@ -1,0 +1,18 @@
+﻿{
+    "id":  "salesforce-update",
+    "name":  "salesforce-update",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/salesforce/{object_type}/{object_id}",
+    "group_key":  "salesforce",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/salesforce-update",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:30:55.803Z",
+    "source_run":  "ops_retry_1",
+    "form_fields":  [
+
+                    ]
+}

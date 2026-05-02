@@ -1,0 +1,15 @@
+﻿{
+    "name":  "ActionRunRequestCancelInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunRequestCancelInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunRequestCancelInputBody.json\",3  \"reason\": \"The action run was cancelled because it was no longer needed\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:18:56.148Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "reason"
+                    ]
+}

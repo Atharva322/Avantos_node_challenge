@@ -1,0 +1,32 @@
+﻿{
+    "name":  "AllClientsSearchOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AllClientsSearchOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AllClientsSearchOutputBody.json\",3  \"clients\": [4    {5      \"client_id\": \"string\",6      \"client_organisation_external_id\": \"string\",7      \"client_organisation_name\": \"string\",8      \"client_organisation_relationship_status\": \"string\",9      \"client_organisation_type\": \"string\",10      \"client_organisation_wealth_advisor_name\": \"string\",11      \"external_id\": \"string\",12      \"name\": \"string\",13      \"organisation_id\": \"string\",14      \"preferred_email\": \"string\",15      \"preferred_phone\": \"string\",16      \"tenant_id\": \"string\"17    }18  ],19  \"pagination\": {20    \"page\": 0,21    \"page_size\": 0,22    \"total_pages\": 0,23    \"total_records\": 024  }25}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:26:11.579Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "clients",
+                        "client_id",
+                        "client_organisation_external_id",
+                        "client_organisation_name",
+                        "client_organisation_relationship_status",
+                        "client_organisation_type",
+                        "client_organisation_wealth_advisor_name",
+                        "external_id",
+                        "name",
+                        "organisation_id",
+                        "preferred_email",
+                        "preferred_phone",
+                        "tenant_id",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records"
+                    ]
+}

@@ -1,0 +1,8 @@
+{
+  "expected_operations": 411,
+  "found_operations": 165,
+  "missing_operations": 246,
+  "expected_schemas": 797,
+  "found_schemas": 334,
+  "missing_schemas": 463
+}

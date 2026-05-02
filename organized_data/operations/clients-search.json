@@ -1,0 +1,36 @@
+﻿{
+    "id":  "clients-search",
+    "name":  "clients-search",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/clients/search",
+    "group_key":  "clients",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/clients-search",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientsSearchOutputBody.json\",3  \"clients\": [4    {5      \"additional_attributes\": {6        \"property1\": \"string\",7        \"property2\": \"string\"8      },9      \"client_external_id\": \"string\",10      \"client_id\": \"string\",11      \"client_organisation_external_id\": \"string\",12      \"client_organisation_id\": \"string\",13      \"first_name\": \"string\",14      \"last_name\": \"string\",15      \"role\": \"string\",16      \"tenant_id\": \"string\",17      \"title\": \"string\"18    }19  ],20  \"pagination\": {21    \"page\": 0,22    \"page_size\": 0,23    \"total_pages\": 0,24    \"total_records\": 025  }26}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:10:37.995Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "clients",
+                        "additional_attributes",
+                        "property1",
+                        "property2",
+                        "client_external_id",
+                        "client_id",
+                        "client_organisation_external_id",
+                        "client_organisation_id",
+                        "first_name",
+                        "last_name",
+                        "role",
+                        "tenant_id",
+                        "title",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records"
+                    ]
+}

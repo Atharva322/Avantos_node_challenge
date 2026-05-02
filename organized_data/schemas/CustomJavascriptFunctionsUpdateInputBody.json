@@ -1,0 +1,22 @@
+﻿{
+    "name":  "CustomJavascriptFunctionsUpdateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsUpdateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CustomJavascriptFunctionsUpdateInputBody.json\",3  \"body\": \"console.log(\u0027Hello World\u0027);\",4  \"description\": \"A utility function for form validation\",5  \"execution_role\": \"Advisor\",6  \"initiation\": \"const threshold = 0.5;\",7  \"name\": \"Global Functions\",8  \"request_keys\": [9    \"email\",10    \"name\"11  ],12  \"response_keys\": [13    \"userId\",14    \"status\"15  ],16  \"server_side_enabled\": false17}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:37:39.463Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "body",
+                        "description",
+                        "execution_role",
+                        "initiation",
+                        "name",
+                        "request_keys",
+                        "response_keys",
+                        "server_side_enabled"
+                    ]
+}

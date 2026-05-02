@@ -1,0 +1,20 @@
+﻿{
+    "name":  "CreateClientClientConnectionInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateClientClientConnectionInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CreateClientClientConnectionInputBody.json\",3  \"extra_properties\": {4    \"priority\": \"high\",5    \"status\": \"active\"6  },7  \"participating_client_id\": \"cli_789\",8  \"relationship_description\": \"Spouse relationship\",9  \"relationship_type\": \"Spouse\"10}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:36:41.631Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "extra_properties",
+                        "priority",
+                        "status",
+                        "participating_client_id",
+                        "relationship_description",
+                        "relationship_type"
+                    ]
+}

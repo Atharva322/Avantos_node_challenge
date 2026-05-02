@@ -1,0 +1,29 @@
+﻿{
+    "id":  "tax-managers-list",
+    "name":  "tax-managers-list",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/relationship-profiles/tax-managers",
+    "group_key":  "relationship-profiles",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tax-managers-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/TaxManagerAgentRelationshipProfileListOutputBody.json\",3  \"agent_relationship_profiles\": [4    {5      \"agent_external_id\": \"ext_123456\",6      \"agent_id\": \"ag_123456\",7      \"external_id\": \"ext_789\",8      \"name\": \"John Doe\",9      \"relationship_type\": \"Tax Manager\"10    }11  ],12  \"pagination\": {13    \"page\": 0,14    \"page_size\": 0,15    \"total_pages\": 0,16    \"total_records\": 017  }18}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:22:15.682Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "agent_relationship_profiles",
+                        "agent_external_id",
+                        "agent_id",
+                        "external_id",
+                        "name",
+                        "relationship_type",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records"
+                    ]
+}

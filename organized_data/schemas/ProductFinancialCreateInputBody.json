@@ -1,0 +1,22 @@
+﻿{
+    "name":  "ProductFinancialCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ProductFinancialCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ProductFinancialCreateInputBody.json\",3  \"description\": \"This product is designed for long-term investors.\",4  \"eligibility_criteria\": \"Must be 18+ years old\",5  \"model\": \"Model-X\",6  \"model_portfolio\": \"Balanced Growth Portfolio\",7  \"product_code\": \"INV123\",8  \"product_name\": \"High Yield Investment\",9  \"product_type\": \"investment\",10  \"regulatory_compliance\": \"Complies with SEC regulations\"11}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:09:03.147Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "description",
+                        "eligibility_criteria",
+                        "model",
+                        "model_portfolio",
+                        "product_code",
+                        "product_name",
+                        "product_type",
+                        "regulatory_compliance"
+                    ]
+}

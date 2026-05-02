@@ -1,0 +1,19 @@
+﻿{
+    "id":  "relationship-opportunity-create",
+    "name":  "relationship-opportunity-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/relationships/client-organisations/{client_organisation_id}/opportunities",
+    "group_key":  "relationships",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-opportunity-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RelationshipOpportunityCreateOutputBody.json\",3  \"id\": \"opp_123abc\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:30:18.622Z",
+    "source_run":  "ops_retry_1",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

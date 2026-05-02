@@ -1,0 +1,15 @@
+﻿{
+    "name":  "PDFUploadOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFUploadOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PDFUploadOutputBody.json\",3  \"id\": \"string\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:07:42.803Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

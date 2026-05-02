@@ -1,0 +1,33 @@
+﻿{
+    "id":  "whoami",
+    "name":  "whoami",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/whoami",
+    "group_key":  "whoami",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/whoami",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/WhoAmIOutputBody.json\",3  \"additional_attributes\": {4    \"property1\": \"string\",5    \"property2\": \"string\"6  },7  \"agent_id\": \"123\",8  \"avantos_role\": \"SuperAdmin\",9  \"email\": \"john.doe@example.com\",10  \"environment\": \"uat\",11  \"external_id\": \"1234567890\",12  \"feature_list\": [13    \"string\"14  ],15  \"first_name\": \"John\",16  \"idp_role\": \"SuperAdmin\",17  \"last_name\": \"Doe\",18  \"login_role\": \"advisor\",19  \"role\": \"AvantosSuperAdmin\",20  \"tenant_id\": \"123\"21}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:24:55.810Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "additional_attributes",
+                        "property1",
+                        "property2",
+                        "agent_id",
+                        "avantos_role",
+                        "email",
+                        "environment",
+                        "external_id",
+                        "feature_list",
+                        "first_name",
+                        "idp_role",
+                        "last_name",
+                        "login_role",
+                        "role",
+                        "tenant_id"
+                    ]
+}

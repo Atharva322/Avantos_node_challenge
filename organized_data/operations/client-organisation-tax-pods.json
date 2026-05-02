@@ -1,0 +1,19 @@
+﻿{
+    "id":  "client-organisation-tax-pods",
+    "name":  "client-organisation-tax-pods",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/client-organisations/tax-pods",
+    "group_key":  "client-organisations",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-tax-pods",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientOrganisationTaxPodAggregationOutputBody.json\",3  \"tax_pods\": [4    \"string\"5  ]6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:10:17.184Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "tax_pods"
+                    ]
+}

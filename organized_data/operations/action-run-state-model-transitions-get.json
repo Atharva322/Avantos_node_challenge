@@ -1,0 +1,37 @@
+﻿{
+    "id":  "action-run-state-model-transitions-get",
+    "name":  "action-run-state-model-transitions-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/action-runs/{action_run_id}/state-model/transitions",
+    "group_key":  "action-runs",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-state-model-transitions-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunStateModelTransitionsGetOutputBody.json\",3  \"current_state\": \"draft\",4  \"current_state_display_color\": \"Neutral\",5  \"current_state_display_name\": \"Draft\",6  \"current_state_is_final\": false,7  \"transitions\": [8    {9      \"condition_satisfied\": true,10      \"display_name\": \"Accept\",11      \"input_schema\": [12        {13          \"description\": \"string\",14          \"enum_values\": [15            \"string\"16          ],17          \"key\": \"reason\",18          \"label\": \"Reason\",19          \"required\": true,20          \"type\": \"string\"21        }22      ],23      \"key\": \"approve\",24      \"to_state\": \"approved\",25      \"to_state_display_color\": \"Neutral\",26      \"to_state_display_name\": \"Approved\",27      \"to_state_is_final\": true,28      \"to_state_is_required\": false29    }30  ]31}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:58:46.415Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "current_state",
+                        "current_state_display_color",
+                        "current_state_display_name",
+                        "current_state_is_final",
+                        "transitions",
+                        "condition_satisfied",
+                        "display_name",
+                        "input_schema",
+                        "description",
+                        "enum_values",
+                        "key",
+                        "label",
+                        "required",
+                        "type",
+                        "to_state",
+                        "to_state_display_color",
+                        "to_state_display_name",
+                        "to_state_is_final",
+                        "to_state_is_required"
+                    ]
+}

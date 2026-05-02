@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-05-02T13:21:47.436Z",
+  "runs": [
+    {
+      "run": "ops_missing",
+      "run_dir": "C:\\Users\\athar\\Desktop\\Avantos_Node_Challenge\\scrape_runs\\ops_missing",
+      "processed_in_this_run": 11,
+      "total_queue": 246,
+      "completed_total": 231,
+      "failed_total": 15,
+      "remaining_total": 0,
+      "last_index": 246,
+      "batches_done": 8,
+      "generated_at": "2026-05-02T04:25:30.138Z"
+    },
+    {
+      "run": "ops_retry_1",
+      "run_dir": "C:\\Users\\athar\\Desktop\\Avantos_Node_Challenge\\scrape_runs\\ops_retry_1",
+      "processed_in_this_run": 15,
+      "total_queue": 15,
+      "completed_total": 15,
+      "failed_total": 0,
+      "remaining_total": 0,
+      "last_index": 15,
+      "batches_done": 1,
+      "generated_at": "2026-05-02T04:30:59.146Z"
+    },
+    {
+      "run": "schemas_missing",
+      "run_dir": "C:\\Users\\athar\\Desktop\\Avantos_Node_Challenge\\scrape_runs\\schemas_missing",
+      "processed_in_this_run": 13,
+      "total_queue": 463,
+      "completed_total": 463,
+      "failed_total": 0,
+      "remaining_total": 0,
+      "last_index": 463,
+      "batches_done": 16,
+      "generated_at": "2026-05-02T13:19:20.816Z"
+    }
+  ],
+  "deduped_records": 709,
+  "operations_found": 244,
+  "schemas_found": 463,
+  "expected_missing_operations_list_size": 246,
+  "expected_missing_schemas_list_size": 463,
+  "unresolved_operations": 0,
+  "unresolved_schemas": 0,
+  "unresolved_operation_names": [],
+  "unresolved_schema_names": []
+}

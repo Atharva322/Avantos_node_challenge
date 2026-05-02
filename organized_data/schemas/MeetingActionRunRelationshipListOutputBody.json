@@ -1,0 +1,26 @@
+﻿{
+    "name":  "MeetingActionRunRelationshipListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingActionRunRelationshipListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/MeetingActionRunRelationshipListOutputBody.json\",3  \"relationships\": [4    {5      \"action_run_created_at\": \"2024-03-10T09:00:00Z\",6      \"action_run_id\": \"ar_123\",7      \"action_run_name\": \"Send Follow-up Email\",8      \"action_run_status\": \"completed\",9      \"blueprint_name\": \"Email Blueprint\",10      \"meeting_id\": \"mt_123\",11      \"relationship_created_at\": \"2024-03-10T09:00:00Z\",12      \"relationship_id\": \"mar_123\",13      \"relationship_updated_at\": \"2024-03-10T09:00:00Z\",14      \"source_system\": \"avantos\",15      \"tenant_id\": \"123\"16    }17  ]18}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:50:23.728Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "relationships",
+                        "action_run_created_at",
+                        "action_run_id",
+                        "action_run_name",
+                        "action_run_status",
+                        "blueprint_name",
+                        "meeting_id",
+                        "relationship_created_at",
+                        "relationship_id",
+                        "relationship_updated_at",
+                        "source_system",
+                        "tenant_id"
+                    ]
+}

@@ -1,0 +1,22 @@
+﻿{
+    "name":  "ActionRunPreAssignmentsGetOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunPreAssignmentsGetOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunPreAssignmentsGetOutputBody.json\",3  \"pre_assignments\": [4    {5      \"$schema\": \"https://example.com/schemas/PreAssignmentResponse.json\",6      \"assigned_agent_id\": \"ag_456\",7      \"can_assign\": true,8      \"count\": 15,9      \"created_at\": \"2019-08-24T14:15:22Z\",10      \"id\": \"pa_123\",11      \"roles\": [12        \"Admin\",13        \"Advisor\"14      ],15      \"updated_at\": \"2019-08-24T14:15:22Z\"16    }17  ]18}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:18:47.235Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "pre_assignments",
+                        "assigned_agent_id",
+                        "can_assign",
+                        "count",
+                        "created_at",
+                        "id",
+                        "roles",
+                        "updated_at"
+                    ]
+}

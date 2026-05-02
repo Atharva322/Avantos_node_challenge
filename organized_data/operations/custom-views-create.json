@@ -1,0 +1,19 @@
+﻿{
+    "id":  "custom-views-create",
+    "name":  "custom-views-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/pages/{page_id}/views",
+    "group_key":  "pages",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CustomViewsCreateOutputBody.json\",3  \"view_id\": \"string\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:11:09.679Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "view_id"
+                    ]
+}

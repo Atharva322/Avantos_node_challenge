@@ -1,0 +1,29 @@
+﻿{
+    "name":  "ServiceAgreementCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ServiceAgreementCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ServiceAgreementCreateInputBody.json\",3  \"account_id\": \"account_123\",4  \"additional_attributes\": {5    \"custom\": \"value\"6  },7  \"agent_id\": \"advisor_123\",8  \"agreement_details\": {9    \"terms\": \"standard\"10  },11  \"allocation_details\": {12    \"allocation\": \"50%\"13  },14  \"client_id\": \"client_123\",15  \"end_date\": \"2019-08-24T14:15:22Z\",16  \"fee_details\": {17    \"fee\": \"2%\"18  },19  \"product_id\": \"product_123\",20  \"repcode_id\": \"repcode_123\",21  \"start_date\": \"2019-08-24T14:15:22Z\"22}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:12:53.581Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "account_id",
+                        "additional_attributes",
+                        "custom",
+                        "agent_id",
+                        "agreement_details",
+                        "terms",
+                        "allocation_details",
+                        "allocation",
+                        "client_id",
+                        "end_date",
+                        "fee_details",
+                        "fee",
+                        "product_id",
+                        "repcode_id",
+                        "start_date"
+                    ]
+}

@@ -1,0 +1,25 @@
+﻿{
+    "name":  "ESignatureEnvelopeFromTemplateCreateReq",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureEnvelopeFromTemplateCreateReq",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ESignatureEnvelopeFromTemplateCreateReq.json\",3  \"documents\": [4    {5      \"document_base64\": \"JVBERi0xLjQKJeLjz9MKN...\",6      \"document_id\": \"1\",7      \"document_name\": \"Contract.pdf\"8    }9  ],10  \"email_subject\": \"Please sign this document\",11  \"status\": \"sent\",12  \"template_id\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",13  \"template_roles\": [14    {15      \"email\": \"signer@example.com\",16      \"name\": \"John Doe\",17      \"role_name\": \"Signer\"18    }19  ]20}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:42:03.699Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "documents",
+                        "document_base64",
+                        "document_id",
+                        "document_name",
+                        "email_subject",
+                        "status",
+                        "template_id",
+                        "template_roles",
+                        "email",
+                        "name",
+                        "role_name"
+                    ]
+}

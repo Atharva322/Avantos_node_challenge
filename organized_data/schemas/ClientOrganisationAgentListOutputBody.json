@@ -1,0 +1,21 @@
+﻿{
+    "name":  "ClientOrganisationAgentListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationAgentListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientOrganisationAgentListOutputBody.json\",3  \"assigned_agents\": [4    {5      \"agent\": {},6      \"assigned_role\": \"Primary Advisor\",7      \"extra_properties\": {8        \"annual_revenue\": \"$500M\",9        \"employees\": \"5000\",10        \"industry\": \"Technology\"11      }12    }13  ]14}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:31:12.854Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "assigned_agents",
+                        "agent",
+                        "assigned_role",
+                        "extra_properties",
+                        "annual_revenue",
+                        "employees",
+                        "industry"
+                    ]
+}

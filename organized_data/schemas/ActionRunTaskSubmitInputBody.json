@@ -1,0 +1,22 @@
+﻿{
+    "name":  "ActionRunTaskSubmitInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskSubmitInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunTaskSubmitInputBody.json\",3  \"data\": {4    \"property1\": null,5    \"property2\": null6  },7  \"graph_etag\": \"string\",8  \"prevent_status_change\": true,9  \"schemas\": {10    \"form_data_schema\": {11      \"property1\": null,12      \"property2\": null13    },14    \"ui_schema\": {15      \"property1\": null,16      \"property2\": null17    }18  }19}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:19:54.414Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "data",
+                        "property1",
+                        "property2",
+                        "graph_etag",
+                        "prevent_status_change",
+                        "schemas",
+                        "form_data_schema",
+                        "ui_schema"
+                    ]
+}

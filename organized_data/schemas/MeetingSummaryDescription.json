@@ -1,0 +1,24 @@
+﻿{
+    "name":  "MeetingSummaryDescription",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingSummaryDescription",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/MeetingSummaryDescription.json\",3  \"attested_at\": \"2024-03-10T10:00:00Z\",4  \"attesting_agent_id\": \"ag_456\",5  \"created_at\": \"2024-03-10T09:00:00Z\",6  \"id\": \"ms_123\",7  \"is_ai_enhanced\": false,8  \"is_attested\": false,9  \"meeting_id\": \"mt_123\",10  \"summary_content\": \"Meeting summary content\",11  \"tenant_id\": \"123\",12  \"updated_at\": \"2024-03-10T09:00:00Z\"13}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:51:22.369Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "attested_at",
+                        "attesting_agent_id",
+                        "created_at",
+                        "id",
+                        "is_ai_enhanced",
+                        "is_attested",
+                        "meeting_id",
+                        "summary_content",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

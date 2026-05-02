@@ -1,0 +1,3551 @@
+{
+  "operations": [
+    {
+      "title": "abac-access-explainer",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/abac-access-explainer",
+      "file": "operations/abac-access-explainer.md"
+    },
+    {
+      "title": "account-financial-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/account-financial-create",
+      "file": "operations/account-financial-create.md"
+    },
+    {
+      "title": "account-financial-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/account-financial-get",
+      "file": "operations/account-financial-get.md"
+    },
+    {
+      "title": "action-blueprint-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-create",
+      "file": "operations/action-blueprint-create.md"
+    },
+    {
+      "title": "action-blueprint-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-delete",
+      "file": "operations/action-blueprint-delete.md"
+    },
+    {
+      "title": "action-blueprint-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-get",
+      "file": "operations/action-blueprint-get.md"
+    },
+    {
+      "title": "action-blueprint-graph-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-graph-get",
+      "file": "operations/action-blueprint-graph-get.md"
+    },
+    {
+      "title": "action-blueprint-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-list",
+      "file": "operations/action-blueprint-list.md"
+    },
+    {
+      "title": "action-blueprint-version-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-version-create",
+      "file": "operations/action-blueprint-version-create.md"
+    },
+    {
+      "title": "action-blueprint-version-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-version-delete",
+      "file": "operations/action-blueprint-version-delete.md"
+    },
+    {
+      "title": "action-component-branch-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-branch-create",
+      "file": "operations/action-component-branch-create.md"
+    },
+    {
+      "title": "action-component-branch-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-branch-update",
+      "file": "operations/action-component-branch-update.md"
+    },
+    {
+      "title": "action-component-form-clone",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-clone",
+      "file": "operations/action-component-form-clone.md"
+    },
+    {
+      "title": "action-component-form-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-create",
+      "file": "operations/action-component-form-create.md"
+    },
+    {
+      "title": "action-component-form-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-delete",
+      "file": "operations/action-component-form-delete.md"
+    },
+    {
+      "title": "action-component-form-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-get",
+      "file": "operations/action-component-form-get.md"
+    },
+    {
+      "title": "action-component-form-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-list",
+      "file": "operations/action-component-form-list.md"
+    },
+    {
+      "title": "action-component-form-update-custom-javascript",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-update-custom-javascript",
+      "file": "operations/action-component-form-update-custom-javascript.md"
+    },
+    {
+      "title": "action-run-blueprint-version-reassign",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-blueprint-version-reassign",
+      "file": "operations/action-run-blueprint-version-reassign.md"
+    },
+    {
+      "title": "action-run-blueprint-version-reassign-bulk",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-blueprint-version-reassign-bulk",
+      "file": "operations/action-run-blueprint-version-reassign-bulk.md"
+    },
+    {
+      "title": "action-run-bulk-lock",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-bulk-lock",
+      "file": "operations/action-run-bulk-lock.md"
+    },
+    {
+      "title": "action-run-bulk-unlock",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-bulk-unlock",
+      "file": "operations/action-run-bulk-unlock.md"
+    },
+    {
+      "title": "action-run-client-organisation-batch-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-client-organisation-batch-update",
+      "file": "operations/action-run-client-organisation-batch-update.md"
+    },
+    {
+      "title": "action-run-client-organisation-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-client-organisation-update",
+      "file": "operations/action-run-client-organisation-update.md"
+    },
+    {
+      "title": "action-run-comments-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-comments-get",
+      "file": "operations/action-run-comments-get.md"
+    },
+    {
+      "title": "action-run-context-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-context-update",
+      "file": "operations/action-run-context-update.md"
+    },
+    {
+      "title": "action-run-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-get",
+      "file": "operations/action-run-get.md"
+    },
+    {
+      "title": "action-run-request-cancel",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-request-cancel",
+      "file": "operations/action-run-request-cancel.md"
+    },
+    {
+      "title": "action-run-schedule-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-schedule-update",
+      "file": "operations/action-run-schedule-update.md"
+    },
+    {
+      "title": "action-run-state-model-advance",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-state-model-advance",
+      "file": "operations/action-run-state-model-advance.md"
+    },
+    {
+      "title": "action-run-state-model-transitions-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-state-model-transitions-get",
+      "file": "operations/action-run-state-model-transitions-get.md"
+    },
+    {
+      "title": "action-run-status-logs",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-status-logs",
+      "file": "operations/action-run-status-logs.md"
+    },
+    {
+      "title": "action-run-task-approve",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-approve",
+      "file": "operations/action-run-task-approve.md"
+    },
+    {
+      "title": "action-run-task-assign",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-assign",
+      "file": "operations/action-run-task-assign.md"
+    },
+    {
+      "title": "action-run-task-claim",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-claim",
+      "file": "operations/action-run-task-claim.md"
+    },
+    {
+      "title": "action-run-task-cron-job-queued-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-cron-job-queued-update",
+      "file": "operations/action-run-task-cron-job-queued-update.md"
+    },
+    {
+      "title": "action-run-task-next-step-date-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-next-step-date-update",
+      "file": "operations/action-run-task-next-step-date-update.md"
+    },
+    {
+      "title": "action-run-task-patch",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-patch",
+      "file": "operations/action-run-task-patch.md"
+    },
+    {
+      "title": "action-run-task-reject",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-reject",
+      "file": "operations/action-run-task-reject.md"
+    },
+    {
+      "title": "action-run-task-render",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-render",
+      "file": "operations/action-run-task-render.md"
+    },
+    {
+      "title": "action-run-task-start",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-start",
+      "file": "operations/action-run-task-start.md"
+    },
+    {
+      "title": "action-run-task-submit",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-submit",
+      "file": "operations/action-run-task-submit.md"
+    },
+    {
+      "title": "admin-api-token-roles-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/admin-api-token-roles-list",
+      "file": "operations/admin-api-token-roles-list.md"
+    },
+    {
+      "title": "agent-address-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-address-create",
+      "file": "operations/agent-address-create.md"
+    },
+    {
+      "title": "agent-address-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-address-list",
+      "file": "operations/agent-address-list.md"
+    },
+    {
+      "title": "agent-business-group-role-list-by-type-and-name",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-business-group-role-list-by-type-and-name",
+      "file": "operations/agent-business-group-role-list-by-type-and-name.md"
+    },
+    {
+      "title": "agent-client-organisation-relationship-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-client-organisation-relationship-delete",
+      "file": "operations/agent-client-organisation-relationship-delete.md"
+    },
+    {
+      "title": "agent-client-organisation-relationship-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-client-organisation-relationship-list",
+      "file": "operations/agent-client-organisation-relationship-list.md"
+    },
+    {
+      "title": "agent-contact-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-contact-create",
+      "file": "operations/agent-contact-create.md"
+    },
+    {
+      "title": "agent-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-create",
+      "file": "operations/agent-create.md"
+    },
+    {
+      "title": "agent-id-by-external-id",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-id-by-external-id",
+      "file": "operations/agent-id-by-external-id.md"
+    },
+    {
+      "title": "agent-oauth-token-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-oauth-token-create",
+      "file": "operations/agent-oauth-token-create.md"
+    },
+    {
+      "title": "agent-oauth-token-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-oauth-token-delete",
+      "file": "operations/agent-oauth-token-delete.md"
+    },
+    {
+      "title": "agent-oauth-token-refresh",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-oauth-token-refresh",
+      "file": "operations/agent-oauth-token-refresh.md"
+    },
+    {
+      "title": "agent-organisation-address-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-organisation-address-create",
+      "file": "operations/agent-organisation-address-create.md"
+    },
+    {
+      "title": "agent-organisation-address-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-organisation-address-list",
+      "file": "operations/agent-organisation-address-list.md"
+    },
+    {
+      "title": "agent-organisation-client-organisation-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-organisation-client-organisation-list",
+      "file": "operations/agent-organisation-client-organisation-list.md"
+    },
+    {
+      "title": "agent-organisation-contact-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-organisation-contact-create",
+      "file": "operations/agent-organisation-contact-create.md"
+    },
+    {
+      "title": "agent-organisation-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-organisation-get",
+      "file": "operations/agent-organisation-get.md"
+    },
+    {
+      "title": "array-forms-config-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/array-forms-config-get",
+      "file": "operations/array-forms-config-get.md"
+    },
+    {
+      "title": "array-forms-config-put",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/array-forms-config-put",
+      "file": "operations/array-forms-config-put.md"
+    },
+    {
+      "title": "authorization-check",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/authorization-check",
+      "file": "operations/authorization-check.md"
+    },
+    {
+      "title": "blueprint-environment-history-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/blueprint-environment-history-get",
+      "file": "operations/blueprint-environment-history-get.md"
+    },
+    {
+      "title": "blueprint-environment-version-set",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/blueprint-environment-version-set",
+      "file": "operations/blueprint-environment-version-set.md"
+    },
+    {
+      "title": "book-of-business-summary",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/book-of-business-summary",
+      "file": "operations/book-of-business-summary.md"
+    },
+    {
+      "title": "business-group-add-member",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-add-member",
+      "file": "operations/business-group-add-member.md"
+    },
+    {
+      "title": "business-group-coverage-details-search",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-coverage-details-search",
+      "file": "operations/business-group-coverage-details-search.md"
+    },
+    {
+      "title": "business-group-coverage-lookup-summary",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-coverage-lookup-summary",
+      "file": "operations/business-group-coverage-lookup-summary.md"
+    },
+    {
+      "title": "business-group-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-delete",
+      "file": "operations/business-group-delete.md"
+    },
+    {
+      "title": "business-group-list-by-role",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-list-by-role",
+      "file": "operations/business-group-list-by-role.md"
+    },
+    {
+      "title": "business-groups-find-by-coverage",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-groups-find-by-coverage",
+      "file": "operations/business-groups-find-by-coverage.md"
+    },
+    {
+      "title": "cdc-pipeline-config-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/cdc-pipeline-config-delete",
+      "file": "operations/cdc-pipeline-config-delete.md"
+    },
+    {
+      "title": "cdc-pipeline-config-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/cdc-pipeline-config-get",
+      "file": "operations/cdc-pipeline-config-get.md"
+    },
+    {
+      "title": "cdc-pipeline-config-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/cdc-pipeline-config-list",
+      "file": "operations/cdc-pipeline-config-list.md"
+    },
+    {
+      "title": "cdc-pipeline-config-upsert",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/cdc-pipeline-config-upsert",
+      "file": "operations/cdc-pipeline-config-upsert.md"
+    },
+    {
+      "title": "client-address-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-address-delete",
+      "file": "operations/client-address-delete.md"
+    },
+    {
+      "title": "client-address-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-address-list",
+      "file": "operations/client-address-list.md"
+    },
+    {
+      "title": "client-address-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-address-update",
+      "file": "operations/client-address-update.md"
+    },
+    {
+      "title": "client-component-jwt-generate",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-component-jwt-generate",
+      "file": "operations/client-component-jwt-generate.md"
+    },
+    {
+      "title": "client-connection-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-connection-delete",
+      "file": "operations/client-connection-delete.md"
+    },
+    {
+      "title": "client-connections-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-connections-list",
+      "file": "operations/client-connections-list.md"
+    },
+    {
+      "title": "client-contact-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-contact-list",
+      "file": "operations/client-contact-list.md"
+    },
+    {
+      "title": "client-contact-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-contact-update",
+      "file": "operations/client-contact-update.md"
+    },
+    {
+      "title": "client-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-delete",
+      "file": "operations/client-delete.md"
+    },
+    {
+      "title": "client-document-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-document-create",
+      "file": "operations/client-document-create.md"
+    },
+    {
+      "title": "client-documents-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-documents-list",
+      "file": "operations/client-documents-list.md"
+    },
+    {
+      "title": "client-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-get",
+      "file": "operations/client-get.md"
+    },
+    {
+      "title": "client-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-list",
+      "file": "operations/client-list.md"
+    },
+    {
+      "title": "client-organisation-address-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-address-create",
+      "file": "operations/client-organisation-address-create.md"
+    },
+    {
+      "title": "client-organisation-address-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-address-list",
+      "file": "operations/client-organisation-address-list.md"
+    },
+    {
+      "title": "client-organisation-agent-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-agent-list",
+      "file": "operations/client-organisation-agent-list.md"
+    },
+    {
+      "title": "client-organisation-connection-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-connection-delete",
+      "file": "operations/client-organisation-connection-delete.md"
+    },
+    {
+      "title": "client-organisation-connections-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-connections-list",
+      "file": "operations/client-organisation-connections-list.md"
+    },
+    {
+      "title": "client-organisation-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-create",
+      "file": "operations/client-organisation-create.md"
+    },
+    {
+      "title": "client-organisation-graph-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-graph-get",
+      "file": "operations/client-organisation-graph-get.md"
+    },
+    {
+      "title": "client-organisation-graph-patch",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-graph-patch",
+      "file": "operations/client-organisation-graph-patch.md"
+    },
+    {
+      "title": "client-organisation-id-by-external-id",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-id-by-external-id",
+      "file": "operations/client-organisation-id-by-external-id.md"
+    },
+    {
+      "title": "client-organisation-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-list",
+      "file": "operations/client-organisation-list.md"
+    },
+    {
+      "title": "client-organisation-relationship-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-relationship-create",
+      "file": "operations/client-organisation-relationship-create.md"
+    },
+    {
+      "title": "client-organisation-relationship-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-relationship-delete",
+      "file": "operations/client-organisation-relationship-delete.md"
+    },
+    {
+      "title": "client-organisation-tax-pods",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-tax-pods",
+      "file": "operations/client-organisation-tax-pods.md"
+    },
+    {
+      "title": "client-organisation-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-update",
+      "file": "operations/client-organisation-update.md"
+    },
+    {
+      "title": "client-portal-jwt-generate",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-portal-jwt-generate",
+      "file": "operations/client-portal-jwt-generate.md"
+    },
+    {
+      "title": "clients-batch-move",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/clients-batch-move",
+      "file": "operations/clients-batch-move.md"
+    },
+    {
+      "title": "clients-search",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/clients-search",
+      "file": "operations/clients-search.md"
+    },
+    {
+      "title": "comment-add",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/comment-add",
+      "file": "operations/comment-add.md"
+    },
+    {
+      "title": "component-jwt-generate",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/component-jwt-generate",
+      "file": "operations/component-jwt-generate.md"
+    },
+    {
+      "title": "custodian-forms-config-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custodian-forms-config-get",
+      "file": "operations/custodian-forms-config-get.md"
+    },
+    {
+      "title": "custodian-forms-config-put",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custodian-forms-config-put",
+      "file": "operations/custodian-forms-config-put.md"
+    },
+    {
+      "title": "custom-javascript-functions-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-javascript-functions-delete",
+      "file": "operations/custom-javascript-functions-delete.md"
+    },
+    {
+      "title": "custom-javascript-functions-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-javascript-functions-get",
+      "file": "operations/custom-javascript-functions-get.md"
+    },
+    {
+      "title": "custom-views-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-create",
+      "file": "operations/custom-views-create.md"
+    },
+    {
+      "title": "custom-views-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-delete",
+      "file": "operations/custom-views-delete.md"
+    },
+    {
+      "title": "custom-views-get-default",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-get-default",
+      "file": "operations/custom-views-get-default.md"
+    },
+    {
+      "title": "custom-views-get-pinned",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-get-pinned",
+      "file": "operations/custom-views-get-pinned.md"
+    },
+    {
+      "title": "custom-views-import",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-import",
+      "file": "operations/custom-views-import.md"
+    },
+    {
+      "title": "custom-views-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-list",
+      "file": "operations/custom-views-list.md"
+    },
+    {
+      "title": "custom-views-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-update",
+      "file": "operations/custom-views-update.md"
+    },
+    {
+      "title": "document-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-get",
+      "file": "operations/document-get.md"
+    },
+    {
+      "title": "document-storage-integration-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-storage-integration-delete",
+      "file": "operations/document-storage-integration-delete.md"
+    },
+    {
+      "title": "document-storage-integration-environment-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-storage-integration-environment-delete",
+      "file": "operations/document-storage-integration-environment-delete.md"
+    },
+    {
+      "title": "document-storage-integration-environment-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-storage-integration-environment-get",
+      "file": "operations/document-storage-integration-environment-get.md"
+    },
+    {
+      "title": "document-storage-integration-environment-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-storage-integration-environment-list",
+      "file": "operations/document-storage-integration-environment-list.md"
+    },
+    {
+      "title": "document-storage-integration-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-storage-integration-get",
+      "file": "operations/document-storage-integration-get.md"
+    },
+    {
+      "title": "document-storage-integration-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-storage-integration-list",
+      "file": "operations/document-storage-integration-list.md"
+    },
+    {
+      "title": "docusign-envelope-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/docusign-envelope-create",
+      "file": "operations/docusign-envelope-create.md"
+    },
+    {
+      "title": "docusign-envelope-status",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/docusign-envelope-status",
+      "file": "operations/docusign-envelope-status.md"
+    },
+    {
+      "title": "enforcer-role-rules-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/enforcer-role-rules-get",
+      "file": "operations/enforcer-role-rules-get.md"
+    },
+    {
+      "title": "esignature-envelope-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-envelope-create",
+      "file": "operations/esignature-envelope-create.md"
+    },
+    {
+      "title": "esignature-envelope-delete-documents",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-envelope-delete-documents",
+      "file": "operations/esignature-envelope-delete-documents.md"
+    },
+    {
+      "title": "esignature-envelope-delete-recipients",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-envelope-delete-recipients",
+      "file": "operations/esignature-envelope-delete-recipients.md"
+    },
+    {
+      "title": "esignature-envelope-status",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-envelope-status",
+      "file": "operations/esignature-envelope-status.md"
+    },
+    {
+      "title": "esignature-envelope-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-envelope-update",
+      "file": "operations/esignature-envelope-update.md"
+    },
+    {
+      "title": "esignature-envelope-update-documents",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-envelope-update-documents",
+      "file": "operations/esignature-envelope-update-documents.md"
+    },
+    {
+      "title": "esignature-envelope-update-recipients",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-envelope-update-recipients",
+      "file": "operations/esignature-envelope-update-recipients.md"
+    },
+    {
+      "title": "esignature-template-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-template-get",
+      "file": "operations/esignature-template-get.md"
+    },
+    {
+      "title": "esignature-templates-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-templates-list",
+      "file": "operations/esignature-templates-list.md"
+    },
+    {
+      "title": "experimental-onboarding-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/experimental-onboarding-get",
+      "file": "operations/experimental-onboarding-get.md"
+    },
+    {
+      "title": "experimental-onboarding-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/experimental-onboarding-list",
+      "file": "operations/experimental-onboarding-list.md"
+    },
+    {
+      "title": "feature-flags-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/feature-flags-get",
+      "file": "operations/feature-flags-get.md"
+    },
+    {
+      "title": "feature-flags-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/feature-flags-update",
+      "file": "operations/feature-flags-update.md"
+    },
+    {
+      "title": "financial-accounts-by-client-organisation-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/financial-accounts-by-client-organisation-get",
+      "file": "operations/financial-accounts-by-client-organisation-get.md"
+    },
+    {
+      "title": "global-search",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/global-search",
+      "file": "operations/global-search.md"
+    },
+    {
+      "title": "gpoc-account-openings-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/gpoc-account-openings-list",
+      "file": "operations/gpoc-account-openings-list.md"
+    },
+    {
+      "title": "kpi-report",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/kpi-report",
+      "file": "operations/kpi-report.md"
+    },
+    {
+      "title": "kpi-values-search",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/kpi-values-search",
+      "file": "operations/kpi-values-search.md"
+    },
+    {
+      "title": "list-sync-files",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/list-sync-files",
+      "file": "operations/list-sync-files.md"
+    },
+    {
+      "title": "manager-team-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/manager-team-list",
+      "file": "operations/manager-team-list.md"
+    },
+    {
+      "title": "meeting-action-run-relationship-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-action-run-relationship-create",
+      "file": "operations/meeting-action-run-relationship-create.md"
+    },
+    {
+      "title": "meeting-action-run-relationship-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-action-run-relationship-list",
+      "file": "operations/meeting-action-run-relationship-list.md"
+    },
+    {
+      "title": "meeting-actions-skipped-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-actions-skipped-update",
+      "file": "operations/meeting-actions-skipped-update.md"
+    },
+    {
+      "title": "meeting-attendee-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-attendee-create",
+      "file": "operations/meeting-attendee-create.md"
+    },
+    {
+      "title": "meeting-attendee-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-attendee-delete",
+      "file": "operations/meeting-attendee-delete.md"
+    },
+    {
+      "title": "meeting-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-create",
+      "file": "operations/meeting-create.md"
+    },
+    {
+      "title": "meeting-email-draft-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-email-draft-delete",
+      "file": "operations/meeting-email-draft-delete.md"
+    },
+    {
+      "title": "meeting-email-draft-upsert",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-email-draft-upsert",
+      "file": "operations/meeting-email-draft-upsert.md"
+    },
+    {
+      "title": "meeting-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-get",
+      "file": "operations/meeting-get.md"
+    },
+    {
+      "title": "meeting-id-by-external-id",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-id-by-external-id",
+      "file": "operations/meeting-id-by-external-id.md"
+    },
+    {
+      "title": "meeting-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-list",
+      "file": "operations/meeting-list.md"
+    },
+    {
+      "title": "meeting-list-all",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-list-all",
+      "file": "operations/meeting-list-all.md"
+    },
+    {
+      "title": "meeting-prep-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-prep-create",
+      "file": "operations/meeting-prep-create.md"
+    },
+    {
+      "title": "meeting-prep-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-prep-delete",
+      "file": "operations/meeting-prep-delete.md"
+    },
+    {
+      "title": "meeting-prep-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-prep-get",
+      "file": "operations/meeting-prep-get.md"
+    },
+    {
+      "title": "meeting-prep-upsert",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-prep-upsert",
+      "file": "operations/meeting-prep-upsert.md"
+    },
+    {
+      "title": "meeting-summary-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-summary-create",
+      "file": "operations/meeting-summary-create.md"
+    },
+    {
+      "title": "meeting-summary-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-summary-delete",
+      "file": "operations/meeting-summary-delete.md"
+    },
+    {
+      "title": "meeting-summary-unattest",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-summary-unattest",
+      "file": "operations/meeting-summary-unattest.md"
+    },
+    {
+      "title": "meeting-summary-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-summary-update",
+      "file": "operations/meeting-summary-update.md"
+    },
+    {
+      "title": "notification-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/notification-create",
+      "file": "operations/notification-create.md"
+    },
+    {
+      "title": "notification-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/notification-delete",
+      "file": "operations/notification-delete.md"
+    },
+    {
+      "title": "notification-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/notification-get",
+      "file": "operations/notification-get.md"
+    },
+    {
+      "title": "notification-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/notification-list",
+      "file": "operations/notification-list.md"
+    },
+    {
+      "title": "notification-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/notification-update",
+      "file": "operations/notification-update.md"
+    },
+    {
+      "title": "opportunity-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/opportunity-update",
+      "file": "operations/opportunity-update.md"
+    },
+    {
+      "title": "page-default-widget-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-default-widget-list",
+      "file": "operations/page-default-widget-list.md"
+    },
+    {
+      "title": "page-widget-availability-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-create",
+      "file": "operations/page-widget-availability-create.md"
+    },
+    {
+      "title": "page-widget-availability-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-delete",
+      "file": "operations/page-widget-availability-delete.md"
+    },
+    {
+      "title": "page-widget-availability-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-get",
+      "file": "operations/page-widget-availability-get.md"
+    },
+    {
+      "title": "page-widget-availability-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-list",
+      "file": "operations/page-widget-availability-list.md"
+    },
+    {
+      "title": "pdf-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/pdf-delete",
+      "file": "operations/pdf-delete.md"
+    },
+    {
+      "title": "pdf-fill",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/pdf-fill",
+      "file": "operations/pdf-fill.md"
+    },
+    {
+      "title": "pdf-get-fill-mapping",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/pdf-get-fill-mapping",
+      "file": "operations/pdf-get-fill-mapping.md"
+    },
+    {
+      "title": "pdf-upload",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/pdf-upload",
+      "file": "operations/pdf-upload.md"
+    },
+    {
+      "title": "poc-document-schema-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/poc-document-schema-create",
+      "file": "operations/poc-document-schema-create.md"
+    },
+    {
+      "title": "poc-document-schema-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/poc-document-schema-delete",
+      "file": "operations/poc-document-schema-delete.md"
+    },
+    {
+      "title": "poc-document-schema-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/poc-document-schema-list",
+      "file": "operations/poc-document-schema-list.md"
+    },
+    {
+      "title": "poc-document-schema-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/poc-document-schema-update",
+      "file": "operations/poc-document-schema-update.md"
+    },
+    {
+      "title": "policies-by-client-organisation-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policies-by-client-organisation-get",
+      "file": "operations/policies-by-client-organisation-get.md"
+    },
+    {
+      "title": "policy-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-create",
+      "file": "operations/policy-create.md"
+    },
+    {
+      "title": "policy-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-get",
+      "file": "operations/policy-get.md"
+    },
+    {
+      "title": "policy-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-list",
+      "file": "operations/policy-list.md"
+    },
+    {
+      "title": "policy-search",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-search",
+      "file": "operations/policy-search.md"
+    },
+    {
+      "title": "product-financial-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/product-financial-create",
+      "file": "operations/product-financial-create.md"
+    },
+    {
+      "title": "product-financial-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/product-financial-get",
+      "file": "operations/product-financial-get.md"
+    },
+    {
+      "title": "relationship-client-organisation-members-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-client-organisation-members-get",
+      "file": "operations/relationship-client-organisation-members-get.md"
+    },
+    {
+      "title": "relationship-dashboard-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-dashboard-get",
+      "file": "operations/relationship-dashboard-get.md"
+    },
+    {
+      "title": "relationship-dashboard-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-dashboard-list",
+      "file": "operations/relationship-dashboard-list.md"
+    },
+    {
+      "title": "relationship-opportunity-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-opportunity-create",
+      "file": "operations/relationship-opportunity-create.md"
+    },
+    {
+      "title": "relationship-opportunity-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-opportunity-list",
+      "file": "operations/relationship-opportunity-list.md"
+    },
+    {
+      "title": "rmd-list-by-client-organisation",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/rmd-list-by-client-organisation",
+      "file": "operations/rmd-list-by-client-organisation.md"
+    },
+    {
+      "title": "rmd-list-by-financial-account",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/rmd-list-by-financial-account",
+      "file": "operations/rmd-list-by-financial-account.md"
+    },
+    {
+      "title": "role-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/role-get",
+      "file": "operations/role-get.md"
+    },
+    {
+      "title": "role-groups-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/role-groups-list",
+      "file": "operations/role-groups-list.md"
+    },
+    {
+      "title": "role-policy-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/role-policy-create",
+      "file": "operations/role-policy-create.md"
+    },
+    {
+      "title": "salesforce-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/salesforce-update",
+      "file": "operations/salesforce-update.md"
+    },
+    {
+      "title": "send-mutual-fund-trades-report",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/send-mutual-fund-trades-report",
+      "file": "operations/send-mutual-fund-trades-report.md"
+    },
+    {
+      "title": "service-agreement-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/service-agreement-create",
+      "file": "operations/service-agreement-create.md"
+    },
+    {
+      "title": "service-agreement-document-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/service-agreement-document-create",
+      "file": "operations/service-agreement-document-create.md"
+    },
+    {
+      "title": "service-agreement-documents-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/service-agreement-documents-list",
+      "file": "operations/service-agreement-documents-list.md"
+    },
+    {
+      "title": "service-agreement-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/service-agreement-get",
+      "file": "operations/service-agreement-get.md"
+    },
+    {
+      "title": "sloa-list-by-client-organisation",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/sloa-list-by-client-organisation",
+      "file": "operations/sloa-list-by-client-organisation.md"
+    },
+    {
+      "title": "tax-filing-completion-windows-temp",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tax-filing-completion-windows-temp",
+      "file": "operations/tax-filing-completion-windows-temp.md"
+    },
+    {
+      "title": "tax-filing-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tax-filing-list",
+      "file": "operations/tax-filing-list.md"
+    },
+    {
+      "title": "tax-managers-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tax-managers-list",
+      "file": "operations/tax-managers-list.md"
+    },
+    {
+      "title": "tax-return-type-temp",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tax-return-type-temp",
+      "file": "operations/tax-return-type-temp.md"
+    },
+    {
+      "title": "team-client-organisation-add",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/team-client-organisation-add",
+      "file": "operations/team-client-organisation-add.md"
+    },
+    {
+      "title": "team-client-organisation-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/team-client-organisation-list",
+      "file": "operations/team-client-organisation-list.md"
+    },
+    {
+      "title": "team-client-organisation-remove",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/team-client-organisation-remove",
+      "file": "operations/team-client-organisation-remove.md"
+    },
+    {
+      "title": "team-client-organisation-search",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/team-client-organisation-search",
+      "file": "operations/team-client-organisation-search.md"
+    },
+    {
+      "title": "tenant-config-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tenant-config-delete",
+      "file": "operations/tenant-config-delete.md"
+    },
+    {
+      "title": "tenant-config-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tenant-config-update",
+      "file": "operations/tenant-config-update.md"
+    },
+    {
+      "title": "trigger-endpoint-execute",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-endpoint-execute",
+      "file": "operations/trigger-endpoint-execute.md"
+    },
+    {
+      "title": "trigger-endpoint-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-endpoint-get",
+      "file": "operations/trigger-endpoint-get.md"
+    },
+    {
+      "title": "trigger-endpoint-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-endpoint-update",
+      "file": "operations/trigger-endpoint-update.md"
+    },
+    {
+      "title": "trigger-service-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-create",
+      "file": "operations/trigger-service-create.md"
+    },
+    {
+      "title": "trigger-service-delete",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-delete",
+      "file": "operations/trigger-service-delete.md"
+    },
+    {
+      "title": "trigger-service-environment-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-environment-get",
+      "file": "operations/trigger-service-environment-get.md"
+    },
+    {
+      "title": "trigger-service-environment-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-environment-list",
+      "file": "operations/trigger-service-environment-list.md"
+    },
+    {
+      "title": "trigger-service-environment-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-environment-update",
+      "file": "operations/trigger-service-environment-update.md"
+    },
+    {
+      "title": "trigger-service-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-get",
+      "file": "operations/trigger-service-get.md"
+    },
+    {
+      "title": "trigger-service-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-list",
+      "file": "operations/trigger-service-list.md"
+    },
+    {
+      "title": "trigger-service-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-update",
+      "file": "operations/trigger-service-update.md"
+    },
+    {
+      "title": "unqork-cash-breakdown",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/unqork-cash-breakdown",
+      "file": "operations/unqork-cash-breakdown.md"
+    },
+    {
+      "title": "unqork-comment-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/unqork-comment-create",
+      "file": "operations/unqork-comment-create.md"
+    },
+    {
+      "title": "unqork-identify-third-party-manager",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/unqork-identify-third-party-manager",
+      "file": "operations/unqork-identify-third-party-manager.md"
+    },
+    {
+      "title": "unqork-notification-upsert",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/unqork-notification-upsert",
+      "file": "operations/unqork-notification-upsert.md"
+    },
+    {
+      "title": "unqork-task-upsert",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/unqork-task-upsert",
+      "file": "operations/unqork-task-upsert.md"
+    },
+    {
+      "title": "vpoc-all-clients-search",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/vpoc-all-clients-search",
+      "file": "operations/vpoc-all-clients-search.md"
+    },
+    {
+      "title": "whoami",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/whoami",
+      "file": "operations/whoami.md"
+    },
+    {
+      "title": "widget-definition-create",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-definition-create",
+      "file": "operations/widget-definition-create.md"
+    },
+    {
+      "title": "widget-definition-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-definition-update",
+      "file": "operations/widget-definition-update.md"
+    },
+    {
+      "title": "widget-definitions-list",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-definitions-list",
+      "file": "operations/widget-definitions-list.md"
+    },
+    {
+      "title": "widget-definitions-list#Responses",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-definitions-list#Responses",
+      "file": "operations/widget-definitions-list-Responses.md"
+    },
+    {
+      "title": "widget-definitions-list#response-body",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-definitions-list#response-body",
+      "file": "operations/widget-definitions-list-response-body.md"
+    },
+    {
+      "title": "widget-get",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-get",
+      "file": "operations/widget-get.md"
+    },
+    {
+      "title": "widget-update",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-update",
+      "file": "operations/widget-update.md"
+    }
+  ],
+  "schemas": [
+    {
+      "title": "ABACDebugAtomicExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ABACDebugAtomicExpression",
+      "file": "schemas/ABACDebugAtomicExpression.md"
+    },
+    {
+      "title": "ABACDebugResult",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ABACDebugResult",
+      "file": "schemas/ABACDebugResult.md"
+    },
+    {
+      "title": "ABACDebugSummary",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ABACDebugSummary",
+      "file": "schemas/ABACDebugSummary.md"
+    },
+    {
+      "title": "ABACExplainerOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ABACExplainerOutputBody",
+      "file": "schemas/ABACExplainerOutputBody.md"
+    },
+    {
+      "title": "APITokenCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/APITokenCreateOutputBody",
+      "file": "schemas/APITokenCreateOutputBody.md"
+    },
+    {
+      "title": "APITokenRoleListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/APITokenRoleListOutputBody",
+      "file": "schemas/APITokenRoleListOutputBody.md"
+    },
+    {
+      "title": "AccountFinancialCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AccountFinancialCreateInputBody",
+      "file": "schemas/AccountFinancialCreateInputBody.md"
+    },
+    {
+      "title": "AccountFinancialCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AccountFinancialCreateOutputBody",
+      "file": "schemas/AccountFinancialCreateOutputBody.md"
+    },
+    {
+      "title": "AccountRepSplitView",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AccountRepSplitView",
+      "file": "schemas/AccountRepSplitView.md"
+    },
+    {
+      "title": "ActionBlueprintComponentDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintComponentDescription",
+      "file": "schemas/ActionBlueprintComponentDescription.md"
+    },
+    {
+      "title": "ActionBlueprintCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintCreateInputBody",
+      "file": "schemas/ActionBlueprintCreateInputBody.md"
+    },
+    {
+      "title": "ActionBlueprintCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintCreateOutputBody",
+      "file": "schemas/ActionBlueprintCreateOutputBody.md"
+    },
+    {
+      "title": "ActionBlueprintDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintDescription",
+      "file": "schemas/ActionBlueprintDescription.md"
+    },
+    {
+      "title": "ActionBlueprintGraphEdgeDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintGraphEdgeDescription",
+      "file": "schemas/ActionBlueprintGraphEdgeDescription.md"
+    },
+    {
+      "title": "ActionBlueprintGraphNodeDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintGraphNodeDescription",
+      "file": "schemas/ActionBlueprintGraphNodeDescription.md"
+    },
+    {
+      "title": "ActionBlueprintGraphPutBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintGraphPutBody",
+      "file": "schemas/ActionBlueprintGraphPutBody.md"
+    },
+    {
+      "title": "ActionBlueprintGraphPutOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintGraphPutOutputBody",
+      "file": "schemas/ActionBlueprintGraphPutOutputBody.md"
+    },
+    {
+      "title": "ActionBlueprintUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintUpdateInputBody",
+      "file": "schemas/ActionBlueprintUpdateInputBody.md"
+    },
+    {
+      "title": "ActionBlueprintVersionCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintVersionCreateInputBody",
+      "file": "schemas/ActionBlueprintVersionCreateInputBody.md"
+    },
+    {
+      "title": "ActionBlueprintVersionOverview",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintVersionOverview",
+      "file": "schemas/ActionBlueprintVersionOverview.md"
+    },
+    {
+      "title": "ActionBranchDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBranchDescription",
+      "file": "schemas/ActionBranchDescription.md"
+    },
+    {
+      "title": "ActionComponentBranchCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionComponentBranchCreateInputBody",
+      "file": "schemas/ActionComponentBranchCreateInputBody.md"
+    },
+    {
+      "title": "ActionComponentDataExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionComponentDataExpression",
+      "file": "schemas/ActionComponentDataExpression.md"
+    },
+    {
+      "title": "ActionComponentFormCloneOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionComponentFormCloneOutputBody",
+      "file": "schemas/ActionComponentFormCloneOutputBody.md"
+    },
+    {
+      "title": "ActionComponentFormCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionComponentFormCreateInputBody",
+      "file": "schemas/ActionComponentFormCreateInputBody.md"
+    },
+    {
+      "title": "ActionComponentFormListInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionComponentFormListInputBody",
+      "file": "schemas/ActionComponentFormListInputBody.md"
+    },
+    {
+      "title": "ActionComponentFormListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionComponentFormListOutputBody",
+      "file": "schemas/ActionComponentFormListOutputBody.md"
+    },
+    {
+      "title": "ActionComponentFormUpdateDetailsInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionComponentFormUpdateDetailsInputBody",
+      "file": "schemas/ActionComponentFormUpdateDetailsInputBody.md"
+    },
+    {
+      "title": "ActionFormRenderDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionFormRenderDescription",
+      "file": "schemas/ActionFormRenderDescription.md"
+    },
+    {
+      "title": "ActionFormTaskRenderDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionFormTaskRenderDescription",
+      "file": "schemas/ActionFormTaskRenderDescription.md"
+    },
+    {
+      "title": "ActionRunAcceptRecommendationInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunAcceptRecommendationInputBody",
+      "file": "schemas/ActionRunAcceptRecommendationInputBody.md"
+    },
+    {
+      "title": "ActionRunBulkLockInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunBulkLockInputBody",
+      "file": "schemas/ActionRunBulkLockInputBody.md"
+    },
+    {
+      "title": "ActionRunBulkUnlockInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunBulkUnlockInputBody",
+      "file": "schemas/ActionRunBulkUnlockInputBody.md"
+    },
+    {
+      "title": "ActionRunClientOrganisationBatchUpdateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunClientOrganisationBatchUpdateOutputBody",
+      "file": "schemas/ActionRunClientOrganisationBatchUpdateOutputBody.md"
+    },
+    {
+      "title": "ActionRunClientOrganisationUpdateRequest",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunClientOrganisationUpdateRequest",
+      "file": "schemas/ActionRunClientOrganisationUpdateRequest.md"
+    },
+    {
+      "title": "ActionRunClientOrganisationUpdateResult",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunClientOrganisationUpdateResult",
+      "file": "schemas/ActionRunClientOrganisationUpdateResult.md"
+    },
+    {
+      "title": "ActionRunCreateInputSchemas",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunCreateInputSchemas",
+      "file": "schemas/ActionRunCreateInputSchemas.md"
+    },
+    {
+      "title": "ActionRunCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunCreateOutputBody",
+      "file": "schemas/ActionRunCreateOutputBody.md"
+    },
+    {
+      "title": "ActionRunCurrentDataSnapshotGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunCurrentDataSnapshotGetOutputBody",
+      "file": "schemas/ActionRunCurrentDataSnapshotGetOutputBody.md"
+    },
+    {
+      "title": "ActionRunDeleteOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunDeleteOutputBody",
+      "file": "schemas/ActionRunDeleteOutputBody.md"
+    },
+    {
+      "title": "ActionRunListInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunListInputBody",
+      "file": "schemas/ActionRunListInputBody.md"
+    },
+    {
+      "title": "ActionRunListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunListOutputBody",
+      "file": "schemas/ActionRunListOutputBody.md"
+    },
+    {
+      "title": "ActionRunNameUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunNameUpdateInputBody",
+      "file": "schemas/ActionRunNameUpdateInputBody.md"
+    },
+    {
+      "title": "ActionRunPreAssignmentsGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunPreAssignmentsGetOutputBody",
+      "file": "schemas/ActionRunPreAssignmentsGetOutputBody.md"
+    },
+    {
+      "title": "ActionRunRejectRecommendationInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunRejectRecommendationInputBody",
+      "file": "schemas/ActionRunRejectRecommendationInputBody.md"
+    },
+    {
+      "title": "ActionRunRequestCancelInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunRequestCancelInputBody",
+      "file": "schemas/ActionRunRequestCancelInputBody.md"
+    },
+    {
+      "title": "ActionRunScheduleUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunScheduleUpdateInputBody",
+      "file": "schemas/ActionRunScheduleUpdateInputBody.md"
+    },
+    {
+      "title": "ActionRunStateModelAdvanceInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunStateModelAdvanceInputBody",
+      "file": "schemas/ActionRunStateModelAdvanceInputBody.md"
+    },
+    {
+      "title": "ActionRunStateModelTransitionItem",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunStateModelTransitionItem",
+      "file": "schemas/ActionRunStateModelTransitionItem.md"
+    },
+    {
+      "title": "ActionRunStatusLog",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunStatusLog",
+      "file": "schemas/ActionRunStatusLog.md"
+    },
+    {
+      "title": "ActionRunTaskAssignInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskAssignInputBody",
+      "file": "schemas/ActionRunTaskAssignInputBody.md"
+    },
+    {
+      "title": "ActionRunTaskCronJobQueuedUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskCronJobQueuedUpdateInputBody",
+      "file": "schemas/ActionRunTaskCronJobQueuedUpdateInputBody.md"
+    },
+    {
+      "title": "ActionRunTaskListInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskListInputBody",
+      "file": "schemas/ActionRunTaskListInputBody.md"
+    },
+    {
+      "title": "ActionRunTaskListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskListOutputBody",
+      "file": "schemas/ActionRunTaskListOutputBody.md"
+    },
+    {
+      "title": "ActionRunTaskNextStepDateUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskNextStepDateUpdateInputBody",
+      "file": "schemas/ActionRunTaskNextStepDateUpdateInputBody.md"
+    },
+    {
+      "title": "ActionRunTaskPatchInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskPatchInputBody",
+      "file": "schemas/ActionRunTaskPatchInputBody.md"
+    },
+    {
+      "title": "ActionRunTaskRejectInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskRejectInputBody",
+      "file": "schemas/ActionRunTaskRejectInputBody.md"
+    },
+    {
+      "title": "ActionRunTaskScheduleUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskScheduleUpdateInputBody",
+      "file": "schemas/ActionRunTaskScheduleUpdateInputBody.md"
+    },
+    {
+      "title": "ActionRunTaskSubmitInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskSubmitInputBody",
+      "file": "schemas/ActionRunTaskSubmitInputBody.md"
+    },
+    {
+      "title": "ActionRunTaskUpdateWaitingInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskUpdateWaitingInputBody",
+      "file": "schemas/ActionRunTaskUpdateWaitingInputBody.md"
+    },
+    {
+      "title": "ActionRunTasksBulkAssignInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTasksBulkAssignInputBody",
+      "file": "schemas/ActionRunTasksBulkAssignInputBody.md"
+    },
+    {
+      "title": "ActionRunTasksBulkAssignOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTasksBulkAssignOutputBody",
+      "file": "schemas/ActionRunTasksBulkAssignOutputBody.md"
+    },
+    {
+      "title": "AddTeamToClientOrganisationInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddTeamToClientOrganisationInputBody",
+      "file": "schemas/AddTeamToClientOrganisationInputBody.md"
+    },
+    {
+      "title": "AddTeamToClientOrganisationOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddTeamToClientOrganisationOutputBody",
+      "file": "schemas/AddTeamToClientOrganisationOutputBody.md"
+    },
+    {
+      "title": "AddressAutocompleteInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressAutocompleteInputBody",
+      "file": "schemas/AddressAutocompleteInputBody.md"
+    },
+    {
+      "title": "AddressDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressDescription",
+      "file": "schemas/AddressDescription.md"
+    },
+    {
+      "title": "AddressOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressOutput",
+      "file": "schemas/AddressOutput.md"
+    },
+    {
+      "title": "AddressPlaceDetailsInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressPlaceDetailsInputBody",
+      "file": "schemas/AddressPlaceDetailsInputBody.md"
+    },
+    {
+      "title": "AddressPlaceDetailsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressPlaceDetailsOutputBody",
+      "file": "schemas/AddressPlaceDetailsOutputBody.md"
+    },
+    {
+      "title": "AddressSuggestion",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressSuggestion",
+      "file": "schemas/AddressSuggestion.md"
+    },
+    {
+      "title": "AdvisorRepcodeCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AdvisorRepcodeCreateInputBody",
+      "file": "schemas/AdvisorRepcodeCreateInputBody.md"
+    },
+    {
+      "title": "AdvisorRepcodeCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AdvisorRepcodeCreateOutputBody",
+      "file": "schemas/AdvisorRepcodeCreateOutputBody.md"
+    },
+    {
+      "title": "AdvisorRepcodeGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AdvisorRepcodeGetOutputBody",
+      "file": "schemas/AdvisorRepcodeGetOutputBody.md"
+    },
+    {
+      "title": "Agent",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/Agent",
+      "file": "schemas/Agent.md"
+    },
+    {
+      "title": "AgentAddressListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentAddressListOutputBody",
+      "file": "schemas/AgentAddressListOutputBody.md"
+    },
+    {
+      "title": "AgentBusinessGroupRole",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentBusinessGroupRole",
+      "file": "schemas/AgentBusinessGroupRole.md"
+    },
+    {
+      "title": "AgentBusinessGroupRoleListInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentBusinessGroupRoleListInputBody",
+      "file": "schemas/AgentBusinessGroupRoleListInputBody.md"
+    },
+    {
+      "title": "AgentClientOrganisationRelationshipCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentClientOrganisationRelationshipCreateInputBody",
+      "file": "schemas/AgentClientOrganisationRelationshipCreateInputBody.md"
+    },
+    {
+      "title": "AgentClientOrganisationRelationshipCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentClientOrganisationRelationshipCreateOutputBody",
+      "file": "schemas/AgentClientOrganisationRelationshipCreateOutputBody.md"
+    },
+    {
+      "title": "AgentContactCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentContactCreateInputBody",
+      "file": "schemas/AgentContactCreateInputBody.md"
+    },
+    {
+      "title": "AgentContactListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentContactListOutputBody",
+      "file": "schemas/AgentContactListOutputBody.md"
+    },
+    {
+      "title": "AgentCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentCreateOutputBody",
+      "file": "schemas/AgentCreateOutputBody.md"
+    },
+    {
+      "title": "AgentDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentDescription",
+      "file": "schemas/AgentDescription.md"
+    },
+    {
+      "title": "AgentDirectlyAssignedExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentDirectlyAssignedExpression",
+      "file": "schemas/AgentDirectlyAssignedExpression.md"
+    },
+    {
+      "title": "AgentDirectlyAssignedWithIDExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentDirectlyAssignedWithIDExpression",
+      "file": "schemas/AgentDirectlyAssignedWithIDExpression.md"
+    },
+    {
+      "title": "AgentListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentListOutputBody",
+      "file": "schemas/AgentListOutputBody.md"
+    },
+    {
+      "title": "AgentOauthTokensListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOauthTokensListOutputBody",
+      "file": "schemas/AgentOauthTokensListOutputBody.md"
+    },
+    {
+      "title": "AgentOrganisationAddressListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationAddressListOutputBody",
+      "file": "schemas/AgentOrganisationAddressListOutputBody.md"
+    },
+    {
+      "title": "AgentOrganisationClientOrganisationListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationClientOrganisationListOutputBody",
+      "file": "schemas/AgentOrganisationClientOrganisationListOutputBody.md"
+    },
+    {
+      "title": "AgentOrganisationContactCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationContactCreateInputBody",
+      "file": "schemas/AgentOrganisationContactCreateInputBody.md"
+    },
+    {
+      "title": "AgentOrganisationCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationCreateOutputBody",
+      "file": "schemas/AgentOrganisationCreateOutputBody.md"
+    },
+    {
+      "title": "AgentOrganisationGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationGetOutputBody",
+      "file": "schemas/AgentOrganisationGetOutputBody.md"
+    },
+    {
+      "title": "AgentOrganisationListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationListOutputBody",
+      "file": "schemas/AgentOrganisationListOutputBody.md"
+    },
+    {
+      "title": "AgentOrganisationOutputDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationOutputDescription",
+      "file": "schemas/AgentOrganisationOutputDescription.md"
+    },
+    {
+      "title": "AgentRelatedToExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentRelatedToExpression",
+      "file": "schemas/AgentRelatedToExpression.md"
+    },
+    {
+      "title": "AgentSearchInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentSearchInputBody",
+      "file": "schemas/AgentSearchInputBody.md"
+    },
+    {
+      "title": "AgentSearchOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentSearchOutputBody",
+      "file": "schemas/AgentSearchOutputBody.md"
+    },
+    {
+      "title": "AllClientsSearchInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AllClientsSearchInputBody",
+      "file": "schemas/AllClientsSearchInputBody.md"
+    },
+    {
+      "title": "AllClientsSearchOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AllClientsSearchOutputBody",
+      "file": "schemas/AllClientsSearchOutputBody.md"
+    },
+    {
+      "title": "AndExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AndExpression",
+      "file": "schemas/AndExpression.md"
+    },
+    {
+      "title": "ArrayFormConfig",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ArrayFormConfig",
+      "file": "schemas/ArrayFormConfig.md"
+    },
+    {
+      "title": "ArrayFormsConfigPutInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ArrayFormsConfigPutInputBody",
+      "file": "schemas/ArrayFormsConfigPutInputBody.md"
+    },
+    {
+      "title": "AssignedAgentDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AssignedAgentDescription",
+      "file": "schemas/AssignedAgentDescription.md"
+    },
+    {
+      "title": "AuditTrailResponse",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AuditTrailResponse",
+      "file": "schemas/AuditTrailResponse.md"
+    },
+    {
+      "title": "AutoAssignConfigInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AutoAssignConfigInput",
+      "file": "schemas/AutoAssignConfigInput.md"
+    },
+    {
+      "title": "BatchUpdateSummary",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BatchUpdateSummary",
+      "file": "schemas/BatchUpdateSummary.md"
+    },
+    {
+      "title": "BinaryExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BinaryExpression",
+      "file": "schemas/BinaryExpression.md"
+    },
+    {
+      "title": "BlueprintMetadata",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BlueprintMetadata",
+      "file": "schemas/BlueprintMetadata.md"
+    },
+    {
+      "title": "BookOfBusinessInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BookOfBusinessInputBody",
+      "file": "schemas/BookOfBusinessInputBody.md"
+    },
+    {
+      "title": "BookOfBusinessProductFiltersInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BookOfBusinessProductFiltersInput",
+      "file": "schemas/BookOfBusinessProductFiltersInput.md"
+    },
+    {
+      "title": "BookOfBusinessSummaryAPI",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BookOfBusinessSummaryAPI",
+      "file": "schemas/BookOfBusinessSummaryAPI.md"
+    },
+    {
+      "title": "BookOfBusinessSummaryInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BookOfBusinessSummaryInputBody",
+      "file": "schemas/BookOfBusinessSummaryInputBody.md"
+    },
+    {
+      "title": "BusinessGroup",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroup",
+      "file": "schemas/BusinessGroup.md"
+    },
+    {
+      "title": "BusinessGroupCoverageDetailSortKey",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupCoverageDetailSortKey",
+      "file": "schemas/BusinessGroupCoverageDetailSortKey.md"
+    },
+    {
+      "title": "BusinessGroupCoverageLookupSummaryTeam",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupCoverageLookupSummaryTeam",
+      "file": "schemas/BusinessGroupCoverageLookupSummaryTeam.md"
+    },
+    {
+      "title": "BusinessGroupCoverageMatch",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupCoverageMatch",
+      "file": "schemas/BusinessGroupCoverageMatch.md"
+    },
+    {
+      "title": "BusinessGroupCoverageResponse",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupCoverageResponse",
+      "file": "schemas/BusinessGroupCoverageResponse.md"
+    },
+    {
+      "title": "BusinessGroupCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupCreateOutputBody",
+      "file": "schemas/BusinessGroupCreateOutputBody.md"
+    },
+    {
+      "title": "BusinessGroupUpdateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroupUpdateOutputBody",
+      "file": "schemas/BusinessGroupUpdateOutputBody.md"
+    },
+    {
+      "title": "CDCPipelineConfigUpsertInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CDCPipelineConfigUpsertInputBody",
+      "file": "schemas/CDCPipelineConfigUpsertInputBody.md"
+    },
+    {
+      "title": "ChildActionTracker",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ChildActionTracker",
+      "file": "schemas/ChildActionTracker.md"
+    },
+    {
+      "title": "ChildFormInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ChildFormInput",
+      "file": "schemas/ChildFormInput.md"
+    },
+    {
+      "title": "ClientAddressListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientAddressListOutputBody",
+      "file": "schemas/ClientAddressListOutputBody.md"
+    },
+    {
+      "title": "ClientAddressOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientAddressOutput",
+      "file": "schemas/ClientAddressOutput.md"
+    },
+    {
+      "title": "ClientAgentListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientAgentListOutputBody",
+      "file": "schemas/ClientAgentListOutputBody.md"
+    },
+    {
+      "title": "ClientBatchMoveInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientBatchMoveInputBody",
+      "file": "schemas/ClientBatchMoveInputBody.md"
+    },
+    {
+      "title": "ClientBatchMoveOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientBatchMoveOutputBody",
+      "file": "schemas/ClientBatchMoveOutputBody.md"
+    },
+    {
+      "title": "ClientClientRelationshipOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientClientRelationshipOutput",
+      "file": "schemas/ClientClientRelationshipOutput.md"
+    },
+    {
+      "title": "ClientContactCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientContactCreateInputBody",
+      "file": "schemas/ClientContactCreateInputBody.md"
+    },
+    {
+      "title": "ClientContactListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientContactListOutputBody",
+      "file": "schemas/ClientContactListOutputBody.md"
+    },
+    {
+      "title": "ClientCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientCreateOutputBody",
+      "file": "schemas/ClientCreateOutputBody.md"
+    },
+    {
+      "title": "ClientDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientDescription",
+      "file": "schemas/ClientDescription.md"
+    },
+    {
+      "title": "ClientFormRuleCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientFormRuleCreateOutputBody",
+      "file": "schemas/ClientFormRuleCreateOutputBody.md"
+    },
+    {
+      "title": "ClientFormRuleResponse",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientFormRuleResponse",
+      "file": "schemas/ClientFormRuleResponse.md"
+    },
+    {
+      "title": "ClientFormTypeCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientFormTypeCreateOutputBody",
+      "file": "schemas/ClientFormTypeCreateOutputBody.md"
+    },
+    {
+      "title": "ClientFormTypeResponse",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientFormTypeResponse",
+      "file": "schemas/ClientFormTypeResponse.md"
+    },
+    {
+      "title": "ClientGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientGetOutputBody",
+      "file": "schemas/ClientGetOutputBody.md"
+    },
+    {
+      "title": "ClientListByNamePhoneOrEmailOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientListByNamePhoneOrEmailOutputBody",
+      "file": "schemas/ClientListByNamePhoneOrEmailOutputBody.md"
+    },
+    {
+      "title": "ClientMoveRequest",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientMoveRequest",
+      "file": "schemas/ClientMoveRequest.md"
+    },
+    {
+      "title": "ClientMoveResult",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientMoveResult",
+      "file": "schemas/ClientMoveResult.md"
+    },
+    {
+      "title": "ClientOrgDocumentDownloadOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentDownloadOutputBody",
+      "file": "schemas/ClientOrgDocumentDownloadOutputBody.md"
+    },
+    {
+      "title": "ClientOrgDocumentGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentGetOutputBody",
+      "file": "schemas/ClientOrgDocumentGetOutputBody.md"
+    },
+    {
+      "title": "ClientOrgDocumentListItem",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentListItem",
+      "file": "schemas/ClientOrgDocumentListItem.md"
+    },
+    {
+      "title": "ClientOrgDocumentUploadInitiateBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentUploadInitiateBody",
+      "file": "schemas/ClientOrgDocumentUploadInitiateBody.md"
+    },
+    {
+      "title": "ClientOrgDocumentUploadInitiateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentUploadInitiateOutputBody",
+      "file": "schemas/ClientOrgDocumentUploadInitiateOutputBody.md"
+    },
+    {
+      "title": "ClientOrgOpportunitiesSummaryInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgOpportunitiesSummaryInputBody",
+      "file": "schemas/ClientOrgOpportunitiesSummaryInputBody.md"
+    },
+    {
+      "title": "ClientOrgOpportunityUpdateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgOpportunityUpdateOutputBody",
+      "file": "schemas/ClientOrgOpportunityUpdateOutputBody.md"
+    },
+    {
+      "title": "ClientOrganisationAgentListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationAgentListOutputBody",
+      "file": "schemas/ClientOrganisationAgentListOutputBody.md"
+    },
+    {
+      "title": "ClientOrganisationBalanceLineageSummaryAPI",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationBalanceLineageSummaryAPI",
+      "file": "schemas/ClientOrganisationBalanceLineageSummaryAPI.md"
+    },
+    {
+      "title": "ClientOrganisationBalanceSummaryAPI",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationBalanceSummaryAPI",
+      "file": "schemas/ClientOrganisationBalanceSummaryAPI.md"
+    },
+    {
+      "title": "ClientOrganisationBalancesGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationBalancesGetOutputBody",
+      "file": "schemas/ClientOrganisationBalancesGetOutputBody.md"
+    },
+    {
+      "title": "ClientOrganisationBasic",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationBasic",
+      "file": "schemas/ClientOrganisationBasic.md"
+    },
+    {
+      "title": "ClientOrganisationClientOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationClientOutput",
+      "file": "schemas/ClientOrganisationClientOutput.md"
+    },
+    {
+      "title": "ClientOrganisationClientSortKey",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationClientSortKey",
+      "file": "schemas/ClientOrganisationClientSortKey.md"
+    },
+    {
+      "title": "ClientOrganisationContactCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationContactCreateInputBody",
+      "file": "schemas/ClientOrganisationContactCreateInputBody.md"
+    },
+    {
+      "title": "ClientOrganisationCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationCreateOutputBody",
+      "file": "schemas/ClientOrganisationCreateOutputBody.md"
+    },
+    {
+      "title": "ClientOrganisationGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGetOutputBody",
+      "file": "schemas/ClientOrganisationGetOutputBody.md"
+    },
+    {
+      "title": "ClientOrganisationGraphAddress",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphAddress",
+      "file": "schemas/ClientOrganisationGraphAddress.md"
+    },
+    {
+      "title": "ClientOrganisationGraphAgentOrganisation",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphAgentOrganisation",
+      "file": "schemas/ClientOrganisationGraphAgentOrganisation.md"
+    },
+    {
+      "title": "ClientOrganisationGraphClient",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphClient",
+      "file": "schemas/ClientOrganisationGraphClient.md"
+    },
+    {
+      "title": "ClientOrganisationGraphContact",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphContact",
+      "file": "schemas/ClientOrganisationGraphContact.md"
+    },
+    {
+      "title": "ClientOrganisationGraphPatchChanges",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphPatchChanges",
+      "file": "schemas/ClientOrganisationGraphPatchChanges.md"
+    },
+    {
+      "title": "ClientOrganisationGraphPatchClientOrganisation",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphPatchClientOrganisation",
+      "file": "schemas/ClientOrganisationGraphPatchClientOrganisation.md"
+    },
+    {
+      "title": "ClientOrganisationGraphPatchRequestBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphPatchRequestBody",
+      "file": "schemas/ClientOrganisationGraphPatchRequestBody.md"
+    },
+    {
+      "title": "ClientOrganisationGraphPerson",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphPerson",
+      "file": "schemas/ClientOrganisationGraphPerson.md"
+    },
+    {
+      "title": "ClientOrganisationListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationListOutputBody",
+      "file": "schemas/ClientOrganisationListOutputBody.md"
+    },
+    {
+      "title": "ClientOrganisationListOutputItem",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationListOutputItem",
+      "file": "schemas/ClientOrganisationListOutputItem.md"
+    },
+    {
+      "title": "ClientOrganisationOutputDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationOutputDescription",
+      "file": "schemas/ClientOrganisationOutputDescription.md"
+    },
+    {
+      "title": "ClientOrganisationRelationshipCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationRelationshipCreateInputBody",
+      "file": "schemas/ClientOrganisationRelationshipCreateInputBody.md"
+    },
+    {
+      "title": "ClientOrganisationTeamSortKey",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationTeamSortKey",
+      "file": "schemas/ClientOrganisationTeamSortKey.md"
+    },
+    {
+      "title": "ClientOrganisationUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationUpdateInputBody",
+      "file": "schemas/ClientOrganisationUpdateInputBody.md"
+    },
+    {
+      "title": "ClientOrganizationBulkAccessCheckOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganizationBulkAccessCheckOutputBody",
+      "file": "schemas/ClientOrganizationBulkAccessCheckOutputBody.md"
+    },
+    {
+      "title": "ClientOrganizationOpportunityDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganizationOpportunityDescription",
+      "file": "schemas/ClientOrganizationOpportunityDescription.md"
+    },
+    {
+      "title": "ClientPortalJWTInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientPortalJWTInputBody",
+      "file": "schemas/ClientPortalJWTInputBody.md"
+    },
+    {
+      "title": "ClientPortalJWTOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientPortalJWTOutputBody",
+      "file": "schemas/ClientPortalJWTOutputBody.md"
+    },
+    {
+      "title": "ClientSearchOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientSearchOutput",
+      "file": "schemas/ClientSearchOutput.md"
+    },
+    {
+      "title": "ClientSearchResponseDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientSearchResponseDescription",
+      "file": "schemas/ClientSearchResponseDescription.md"
+    },
+    {
+      "title": "ClientSearchSortKey",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientSearchSortKey",
+      "file": "schemas/ClientSearchSortKey.md"
+    },
+    {
+      "title": "ClientUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientUpdateInputBody",
+      "file": "schemas/ClientUpdateInputBody.md"
+    },
+    {
+      "title": "ClientUpdateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientUpdateOutputBody",
+      "file": "schemas/ClientUpdateOutputBody.md"
+    },
+    {
+      "title": "ClientsSearchOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientsSearchOutputBody",
+      "file": "schemas/ClientsSearchOutputBody.md"
+    },
+    {
+      "title": "ColumnFilter",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ColumnFilter",
+      "file": "schemas/ColumnFilter.md"
+    },
+    {
+      "title": "CommentDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CommentDescription",
+      "file": "schemas/CommentDescription.md"
+    },
+    {
+      "title": "CommentsListAllInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CommentsListAllInputBody",
+      "file": "schemas/CommentsListAllInputBody.md"
+    },
+    {
+      "title": "ComponentJWTInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ComponentJWTInputBody",
+      "file": "schemas/ComponentJWTInputBody.md"
+    },
+    {
+      "title": "ComponentJWTOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ComponentJWTOutputBody",
+      "file": "schemas/ComponentJWTOutputBody.md"
+    },
+    {
+      "title": "ComponentValidationError",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ComponentValidationError",
+      "file": "schemas/ComponentValidationError.md"
+    },
+    {
+      "title": "ContactDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ContactDescription",
+      "file": "schemas/ContactDescription.md"
+    },
+    {
+      "title": "CreateAgentOrganisationAddressOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateAgentOrganisationAddressOutputBody",
+      "file": "schemas/CreateAgentOrganisationAddressOutputBody.md"
+    },
+    {
+      "title": "CreateBusinessGroupCoverageInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateBusinessGroupCoverageInputBody",
+      "file": "schemas/CreateBusinessGroupCoverageInputBody.md"
+    },
+    {
+      "title": "CreateBusinessGroupCoverageOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateBusinessGroupCoverageOutputBody",
+      "file": "schemas/CreateBusinessGroupCoverageOutputBody.md"
+    },
+    {
+      "title": "CreateClientAddressOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateClientAddressOutputBody",
+      "file": "schemas/CreateClientAddressOutputBody.md"
+    },
+    {
+      "title": "CreateClientClientConnectionInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateClientClientConnectionInputBody",
+      "file": "schemas/CreateClientClientConnectionInputBody.md"
+    },
+    {
+      "title": "CreateClientClientConnectionOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateClientClientConnectionOutputBody",
+      "file": "schemas/CreateClientClientConnectionOutputBody.md"
+    },
+    {
+      "title": "CreateClientOrganisationConnectionInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateClientOrganisationConnectionInputBody",
+      "file": "schemas/CreateClientOrganisationConnectionInputBody.md"
+    },
+    {
+      "title": "CreateClientOrganisationConnectionOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateClientOrganisationConnectionOutputBody",
+      "file": "schemas/CreateClientOrganisationConnectionOutputBody.md"
+    },
+    {
+      "title": "CreateDocumentCatalogEntryInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateDocumentCatalogEntryInputBody",
+      "file": "schemas/CreateDocumentCatalogEntryInputBody.md"
+    },
+    {
+      "title": "CreateLookupBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateLookupBody",
+      "file": "schemas/CreateLookupBody.md"
+    },
+    {
+      "title": "CustodianFormInputEntry",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustodianFormInputEntry",
+      "file": "schemas/CustodianFormInputEntry.md"
+    },
+    {
+      "title": "CustodianFormsConfigPutInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustodianFormsConfigPutInputBody",
+      "file": "schemas/CustodianFormsConfigPutInputBody.md"
+    },
+    {
+      "title": "CustomJavascriptFunctionsCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsCreateInputBody",
+      "file": "schemas/CustomJavascriptFunctionsCreateInputBody.md"
+    },
+    {
+      "title": "CustomJavascriptFunctionsCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsCreateOutputBody",
+      "file": "schemas/CustomJavascriptFunctionsCreateOutputBody.md"
+    },
+    {
+      "title": "CustomJavascriptFunctionsDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsDescription",
+      "file": "schemas/CustomJavascriptFunctionsDescription.md"
+    },
+    {
+      "title": "CustomJavascriptFunctionsListInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsListInputBody",
+      "file": "schemas/CustomJavascriptFunctionsListInputBody.md"
+    },
+    {
+      "title": "CustomJavascriptFunctionsListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsListOutputBody",
+      "file": "schemas/CustomJavascriptFunctionsListOutputBody.md"
+    },
+    {
+      "title": "CustomJavascriptFunctionsUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsUpdateInputBody",
+      "file": "schemas/CustomJavascriptFunctionsUpdateInputBody.md"
+    },
+    {
+      "title": "CustomView",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomView",
+      "file": "schemas/CustomView.md"
+    },
+    {
+      "title": "CustomViewsCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsCreateOutputBody",
+      "file": "schemas/CustomViewsCreateOutputBody.md"
+    },
+    {
+      "title": "CustomViewsGetDefaultOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsGetDefaultOutputBody",
+      "file": "schemas/CustomViewsGetDefaultOutputBody.md"
+    },
+    {
+      "title": "CustomViewsGetPinnedOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsGetPinnedOutputBody",
+      "file": "schemas/CustomViewsGetPinnedOutputBody.md"
+    },
+    {
+      "title": "CustomViewsImportInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsImportInputBody",
+      "file": "schemas/CustomViewsImportInputBody.md"
+    },
+    {
+      "title": "CustomViewsListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsListOutputBody",
+      "file": "schemas/CustomViewsListOutputBody.md"
+    },
+    {
+      "title": "CustomViewsSetPinnedInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsSetPinnedInputBody",
+      "file": "schemas/CustomViewsSetPinnedInputBody.md"
+    },
+    {
+      "title": "CustomViewsSetPinnedOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsSetPinnedOutputBody",
+      "file": "schemas/CustomViewsSetPinnedOutputBody.md"
+    },
+    {
+      "title": "CustomViewsUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsUpdateInputBody",
+      "file": "schemas/CustomViewsUpdateInputBody.md"
+    },
+    {
+      "title": "CustomViewsUpdateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsUpdateOutputBody",
+      "file": "schemas/CustomViewsUpdateOutputBody.md"
+    },
+    {
+      "title": "DatadogLogsGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DatadogLogsGetOutputBody",
+      "file": "schemas/DatadogLogsGetOutputBody.md"
+    },
+    {
+      "title": "DateAddExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DateAddExpression",
+      "file": "schemas/DateAddExpression.md"
+    },
+    {
+      "title": "DeleteClientClientConnectionOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DeleteClientClientConnectionOutputBody",
+      "file": "schemas/DeleteClientClientConnectionOutputBody.md"
+    },
+    {
+      "title": "DeleteClientOrganisationConnectionOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DeleteClientOrganisationConnectionOutputBody",
+      "file": "schemas/DeleteClientOrganisationConnectionOutputBody.md"
+    },
+    {
+      "title": "DirectIngestInputRecord",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DirectIngestInputRecord",
+      "file": "schemas/DirectIngestInputRecord.md"
+    },
+    {
+      "title": "DirectIngestOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DirectIngestOutputBody",
+      "file": "schemas/DirectIngestOutputBody.md"
+    },
+    {
+      "title": "DlInputMappingRuleInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DlInputMappingRuleInput",
+      "file": "schemas/DlInputMappingRuleInput.md"
+    },
+    {
+      "title": "DlInputMappingRuleSourceInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DlInputMappingRuleSourceInput",
+      "file": "schemas/DlInputMappingRuleSourceInput.md"
+    },
+    {
+      "title": "DlOutputMappingRuleInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DlOutputMappingRuleInput",
+      "file": "schemas/DlOutputMappingRuleInput.md"
+    },
+    {
+      "title": "DlOutputMappingRuleSourceInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DlOutputMappingRuleSourceInput",
+      "file": "schemas/DlOutputMappingRuleSourceInput.md"
+    },
+    {
+      "title": "DlOutputMappingRuleTargetInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DlOutputMappingRuleTargetInput",
+      "file": "schemas/DlOutputMappingRuleTargetInput.md"
+    },
+    {
+      "title": "DocuSignDateSignedTabDoc",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocuSignDateSignedTabDoc",
+      "file": "schemas/DocuSignDateSignedTabDoc.md"
+    },
+    {
+      "title": "DocuSignDocumentDoc",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocuSignDocumentDoc",
+      "file": "schemas/DocuSignDocumentDoc.md"
+    },
+    {
+      "title": "DocuSignEnvelopeResponseDoc",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocuSignEnvelopeResponseDoc",
+      "file": "schemas/DocuSignEnvelopeResponseDoc.md"
+    },
+    {
+      "title": "DocuSignInitialHereTabDoc",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocuSignInitialHereTabDoc",
+      "file": "schemas/DocuSignInitialHereTabDoc.md"
+    },
+    {
+      "title": "DocuSignSignHereTabDoc",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocuSignSignHereTabDoc",
+      "file": "schemas/DocuSignSignHereTabDoc.md"
+    },
+    {
+      "title": "DocuSignSignerDoc",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocuSignSignerDoc",
+      "file": "schemas/DocuSignSignerDoc.md"
+    },
+    {
+      "title": "DocuSignSignerTabsDoc",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocuSignSignerTabsDoc",
+      "file": "schemas/DocuSignSignerTabsDoc.md"
+    },
+    {
+      "title": "DocumentRef",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentRef",
+      "file": "schemas/DocumentRef.md"
+    },
+    {
+      "title": "DocumentSchemaCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaCreateInputBody",
+      "file": "schemas/DocumentSchemaCreateInputBody.md"
+    },
+    {
+      "title": "DocumentSchemaCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaCreateOutputBody",
+      "file": "schemas/DocumentSchemaCreateOutputBody.md"
+    },
+    {
+      "title": "DocumentSchemaDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaDescription",
+      "file": "schemas/DocumentSchemaDescription.md"
+    },
+    {
+      "title": "DocumentSchemaListInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaListInputBody",
+      "file": "schemas/DocumentSchemaListInputBody.md"
+    },
+    {
+      "title": "DocumentSchemaListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaListOutputBody",
+      "file": "schemas/DocumentSchemaListOutputBody.md"
+    },
+    {
+      "title": "DocumentStorageIntegrationEnvironmentResponse",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentStorageIntegrationEnvironmentResponse",
+      "file": "schemas/DocumentStorageIntegrationEnvironmentResponse.md"
+    },
+    {
+      "title": "DocumentStorageIntegrationEnvironmentUpsertInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentStorageIntegrationEnvironmentUpsertInputBody",
+      "file": "schemas/DocumentStorageIntegrationEnvironmentUpsertInputBody.md"
+    },
+    {
+      "title": "DocumentStorageIntegrationResponse",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentStorageIntegrationResponse",
+      "file": "schemas/DocumentStorageIntegrationResponse.md"
+    },
+    {
+      "title": "DocumentStorageIntegrationUpsertInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentStorageIntegrationUpsertInputBody",
+      "file": "schemas/DocumentStorageIntegrationUpsertInputBody.md"
+    },
+    {
+      "title": "DocumentVaultVerifyOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentVaultVerifyOutputBody",
+      "file": "schemas/DocumentVaultVerifyOutputBody.md"
+    },
+    {
+      "title": "DynamicFieldConfigInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DynamicFieldConfigInput",
+      "file": "schemas/DynamicFieldConfigInput.md"
+    },
+    {
+      "title": "ESignatureEnvelopeDeleteDocumentsReq",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureEnvelopeDeleteDocumentsReq",
+      "file": "schemas/ESignatureEnvelopeDeleteDocumentsReq.md"
+    },
+    {
+      "title": "ESignatureEnvelopeDownloadBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureEnvelopeDownloadBody",
+      "file": "schemas/ESignatureEnvelopeDownloadBody.md"
+    },
+    {
+      "title": "ESignatureEnvelopeFromTemplateCreateReq",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureEnvelopeFromTemplateCreateReq",
+      "file": "schemas/ESignatureEnvelopeFromTemplateCreateReq.md"
+    },
+    {
+      "title": "ESignatureEnvelopeUpdateDocumentsReq",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureEnvelopeUpdateDocumentsReq",
+      "file": "schemas/ESignatureEnvelopeUpdateDocumentsReq.md"
+    },
+    {
+      "title": "ESignatureSignerReq",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureSignerReq",
+      "file": "schemas/ESignatureSignerReq.md"
+    },
+    {
+      "title": "ESignatureTabReq",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureTabReq",
+      "file": "schemas/ESignatureTabReq.md"
+    },
+    {
+      "title": "ESignatureTemplateResponse",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureTemplateResponse",
+      "file": "schemas/ESignatureTemplateResponse.md"
+    },
+    {
+      "title": "EnforcerRoleRulesGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/EnforcerRoleRulesGetOutputBody",
+      "file": "schemas/EnforcerRoleRulesGetOutputBody.md"
+    },
+    {
+      "title": "EnvironmentBlueprintListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/EnvironmentBlueprintListOutputBody",
+      "file": "schemas/EnvironmentBlueprintListOutputBody.md"
+    },
+    {
+      "title": "EnvironmentBlueprintVersionDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/EnvironmentBlueprintVersionDescription",
+      "file": "schemas/EnvironmentBlueprintVersionDescription.md"
+    },
+    {
+      "title": "ErrorDetail",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ErrorDetail",
+      "file": "schemas/ErrorDetail.md"
+    },
+    {
+      "title": "ErrorMessagePatternDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ErrorMessagePatternDescription",
+      "file": "schemas/ErrorMessagePatternDescription.md"
+    },
+    {
+      "title": "EvaluateClientFormsInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/EvaluateClientFormsInputBody",
+      "file": "schemas/EvaluateClientFormsInputBody.md"
+    },
+    {
+      "title": "ExternalSystemIDItemOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ExternalSystemIDItemOutput",
+      "file": "schemas/ExternalSystemIDItemOutput.md"
+    },
+    {
+      "title": "FailedRunValidation",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FailedRunValidation",
+      "file": "schemas/FailedRunValidation.md"
+    },
+    {
+      "title": "FeatureFlag",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FeatureFlag",
+      "file": "schemas/FeatureFlag.md"
+    },
+    {
+      "title": "FieldMapping",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FieldMapping",
+      "file": "schemas/FieldMapping.md"
+    },
+    {
+      "title": "FinancialAccountsByClientOrganisationGetOutputAccount",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FinancialAccountsByClientOrganisationGetOutputAccount",
+      "file": "schemas/FinancialAccountsByClientOrganisationGetOutputAccount.md"
+    },
+    {
+      "title": "FinancialAccountsByClientOrganisationGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FinancialAccountsByClientOrganisationGetOutputBody",
+      "file": "schemas/FinancialAccountsByClientOrganisationGetOutputBody.md"
+    },
+    {
+      "title": "FindBusinessGroupsByCoverageInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FindBusinessGroupsByCoverageInputBody",
+      "file": "schemas/FindBusinessGroupsByCoverageInputBody.md"
+    },
+    {
+      "title": "FormFieldExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormFieldExpression",
+      "file": "schemas/FormFieldExpression.md"
+    },
+    {
+      "title": "FormRuleCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRuleCreateInputBody",
+      "file": "schemas/FormRuleCreateInputBody.md"
+    },
+    {
+      "title": "FormRuleCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRuleCreateOutputBody",
+      "file": "schemas/FormRuleCreateOutputBody.md"
+    },
+    {
+      "title": "FormRulePatchInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRulePatchInputBody",
+      "file": "schemas/FormRulePatchInputBody.md"
+    },
+    {
+      "title": "FormRuleResponse",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRuleResponse",
+      "file": "schemas/FormRuleResponse.md"
+    },
+    {
+      "title": "FormRuleUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRuleUpdateInputBody",
+      "file": "schemas/FormRuleUpdateInputBody.md"
+    },
+    {
+      "title": "FormRulesByFormTemplatesInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRulesByFormTemplatesInputBody",
+      "file": "schemas/FormRulesByFormTemplatesInputBody.md"
+    },
+    {
+      "title": "GPOCAccountOpeningDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GPOCAccountOpeningDescription",
+      "file": "schemas/GPOCAccountOpeningDescription.md"
+    },
+    {
+      "title": "GPOCStatusLogDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GPOCStatusLogDescription",
+      "file": "schemas/GPOCStatusLogDescription.md"
+    },
+    {
+      "title": "GeneratorChildRunOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GeneratorChildRunOutput",
+      "file": "schemas/GeneratorChildRunOutput.md"
+    },
+    {
+      "title": "GetActionRunCommentsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetActionRunCommentsOutputBody",
+      "file": "schemas/GetActionRunCommentsOutputBody.md"
+    },
+    {
+      "title": "GetAllClientOrganisationRelationshipsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetAllClientOrganisationRelationshipsOutputBody",
+      "file": "schemas/GetAllClientOrganisationRelationshipsOutputBody.md"
+    },
+    {
+      "title": "GetBusinessGroupCoverageLookupSummaryOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetBusinessGroupCoverageLookupSummaryOutputBody",
+      "file": "schemas/GetBusinessGroupCoverageLookupSummaryOutputBody.md"
+    },
+    {
+      "title": "GetClientClientRelationshipsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetClientClientRelationshipsOutputBody",
+      "file": "schemas/GetClientClientRelationshipsOutputBody.md"
+    },
+    {
+      "title": "GetCommentsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetCommentsOutputBody",
+      "file": "schemas/GetCommentsOutputBody.md"
+    },
+    {
+      "title": "GetDocumentsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetDocumentsOutputBody",
+      "file": "schemas/GetDocumentsOutputBody.md"
+    },
+    {
+      "title": "GetExpiringExternalSystemIDsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetExpiringExternalSystemIDsOutputBody",
+      "file": "schemas/GetExpiringExternalSystemIDsOutputBody.md"
+    },
+    {
+      "title": "GetExternalSystemIDsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetExternalSystemIDsOutputBody",
+      "file": "schemas/GetExternalSystemIDsOutputBody.md"
+    },
+    {
+      "title": "GetMeetingIDByExternalIDOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetMeetingIDByExternalIDOutputBody",
+      "file": "schemas/GetMeetingIDByExternalIDOutputBody.md"
+    },
+    {
+      "title": "GetTaxFilingByIDOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetTaxFilingByIDOutputBody",
+      "file": "schemas/GetTaxFilingByIDOutputBody.md"
+    },
+    {
+      "title": "GetUnqorkActionRunCommentsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetUnqorkActionRunCommentsOutputBody",
+      "file": "schemas/GetUnqorkActionRunCommentsOutputBody.md"
+    },
+    {
+      "title": "GlobalSearchEntityResults",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GlobalSearchEntityResults",
+      "file": "schemas/GlobalSearchEntityResults.md"
+    },
+    {
+      "title": "IdentityVerificationDOB",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/IdentityVerificationDOB",
+      "file": "schemas/IdentityVerificationDOB.md"
+    },
+    {
+      "title": "IdentityVerificationResponse",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/IdentityVerificationResponse",
+      "file": "schemas/IdentityVerificationResponse.md"
+    },
+    {
+      "title": "JsExecuteInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/JsExecuteInputBody",
+      "file": "schemas/JsExecuteInputBody.md"
+    },
+    {
+      "title": "JsExecuteOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/JsExecuteOutputBody",
+      "file": "schemas/JsExecuteOutputBody.md"
+    },
+    {
+      "title": "KPIDefinitionListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/KPIDefinitionListOutputBody",
+      "file": "schemas/KPIDefinitionListOutputBody.md"
+    },
+    {
+      "title": "KPIReportInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/KPIReportInputBody",
+      "file": "schemas/KPIReportInputBody.md"
+    },
+    {
+      "title": "KPIReportOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/KPIReportOutputBody",
+      "file": "schemas/KPIReportOutputBody.md"
+    },
+    {
+      "title": "KPIValueSearchOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/KPIValueSearchOutputBody",
+      "file": "schemas/KPIValueSearchOutputBody.md"
+    },
+    {
+      "title": "LedgerAggregationRowAPI",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/LedgerAggregationRowAPI",
+      "file": "schemas/LedgerAggregationRowAPI.md"
+    },
+    {
+      "title": "LedgerAggregationSearchInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/LedgerAggregationSearchInputBody",
+      "file": "schemas/LedgerAggregationSearchInputBody.md"
+    },
+    {
+      "title": "LedgerAggregationSortKeyAPI",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/LedgerAggregationSortKeyAPI",
+      "file": "schemas/LedgerAggregationSortKeyAPI.md"
+    },
+    {
+      "title": "ListRMDsByFinancialAccountIDOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ListRMDsByFinancialAccountIDOutputBody",
+      "file": "schemas/ListRMDsByFinancialAccountIDOutputBody.md"
+    },
+    {
+      "title": "ListTaxFilingsInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ListTaxFilingsInputBody",
+      "file": "schemas/ListTaxFilingsInputBody.md"
+    },
+    {
+      "title": "Lookup",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/Lookup",
+      "file": "schemas/Lookup.md"
+    },
+    {
+      "title": "ManageCashQCResult",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ManageCashQCResult",
+      "file": "schemas/ManageCashQCResult.md"
+    },
+    {
+      "title": "MeetingActionRunRelationshipCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingActionRunRelationshipCreateInputBody",
+      "file": "schemas/MeetingActionRunRelationshipCreateInputBody.md"
+    },
+    {
+      "title": "MeetingActionRunRelationshipCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingActionRunRelationshipCreateOutputBody",
+      "file": "schemas/MeetingActionRunRelationshipCreateOutputBody.md"
+    },
+    {
+      "title": "MeetingActionRunRelationshipDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingActionRunRelationshipDescription",
+      "file": "schemas/MeetingActionRunRelationshipDescription.md"
+    },
+    {
+      "title": "MeetingActionRunRelationshipListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingActionRunRelationshipListOutputBody",
+      "file": "schemas/MeetingActionRunRelationshipListOutputBody.md"
+    },
+    {
+      "title": "MeetingAttendeeCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingAttendeeCreateInputBody",
+      "file": "schemas/MeetingAttendeeCreateInputBody.md"
+    },
+    {
+      "title": "MeetingDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingDescription",
+      "file": "schemas/MeetingDescription.md"
+    },
+    {
+      "title": "MeetingEmailDraftInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingEmailDraftInput",
+      "file": "schemas/MeetingEmailDraftInput.md"
+    },
+    {
+      "title": "MeetingEmailDraftUpsertOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingEmailDraftUpsertOutputBody",
+      "file": "schemas/MeetingEmailDraftUpsertOutputBody.md"
+    },
+    {
+      "title": "MeetingListByEmailDraftsInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingListByEmailDraftsInputBody",
+      "file": "schemas/MeetingListByEmailDraftsInputBody.md"
+    },
+    {
+      "title": "MeetingListByEmailDraftsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingListByEmailDraftsOutputBody",
+      "file": "schemas/MeetingListByEmailDraftsOutputBody.md"
+    },
+    {
+      "title": "MeetingListBySummariesInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingListBySummariesInputBody",
+      "file": "schemas/MeetingListBySummariesInputBody.md"
+    },
+    {
+      "title": "MeetingListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingListOutputBody",
+      "file": "schemas/MeetingListOutputBody.md"
+    },
+    {
+      "title": "MeetingPrepCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingPrepCreateOutputBody",
+      "file": "schemas/MeetingPrepCreateOutputBody.md"
+    },
+    {
+      "title": "MeetingPrepDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingPrepDescription",
+      "file": "schemas/MeetingPrepDescription.md"
+    },
+    {
+      "title": "MeetingPrepInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingPrepInput",
+      "file": "schemas/MeetingPrepInput.md"
+    },
+    {
+      "title": "MeetingPrepUpsertOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingPrepUpsertOutputBody",
+      "file": "schemas/MeetingPrepUpsertOutputBody.md"
+    },
+    {
+      "title": "MeetingSummaryDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingSummaryDescription",
+      "file": "schemas/MeetingSummaryDescription.md"
+    },
+    {
+      "title": "MeetingSummaryInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingSummaryInput",
+      "file": "schemas/MeetingSummaryInput.md"
+    },
+    {
+      "title": "MeetingSummaryUpsertOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingSummaryUpsertOutputBody",
+      "file": "schemas/MeetingSummaryUpsertOutputBody.md"
+    },
+    {
+      "title": "MeetingTranscriptIDUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingTranscriptIDUpdateInputBody",
+      "file": "schemas/MeetingTranscriptIDUpdateInputBody.md"
+    },
+    {
+      "title": "MoveSummary",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MoveSummary",
+      "file": "schemas/MoveSummary.md"
+    },
+    {
+      "title": "NestedActionOutputMapping",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/NestedActionOutputMapping",
+      "file": "schemas/NestedActionOutputMapping.md"
+    },
+    {
+      "title": "NotExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/NotExpression",
+      "file": "schemas/NotExpression.md"
+    },
+    {
+      "title": "Notification",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/Notification",
+      "file": "schemas/Notification.md"
+    },
+    {
+      "title": "NotificationListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/NotificationListOutputBody",
+      "file": "schemas/NotificationListOutputBody.md"
+    },
+    {
+      "title": "ObjectAggregateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ObjectAggregateInputBody",
+      "file": "schemas/ObjectAggregateInputBody.md"
+    },
+    {
+      "title": "PDFDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFDescription",
+      "file": "schemas/PDFDescription.md"
+    },
+    {
+      "title": "PDFGetFillMappingOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFGetFillMappingOutputBody",
+      "file": "schemas/PDFGetFillMappingOutputBody.md"
+    },
+    {
+      "title": "PDFGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFGetOutputBody",
+      "file": "schemas/PDFGetOutputBody.md"
+    },
+    {
+      "title": "PDFListInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFListInputBody",
+      "file": "schemas/PDFListInputBody.md"
+    },
+    {
+      "title": "PDFListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFListOutputBody",
+      "file": "schemas/PDFListOutputBody.md"
+    },
+    {
+      "title": "PDFPreviewOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFPreviewOutputBody",
+      "file": "schemas/PDFPreviewOutputBody.md"
+    },
+    {
+      "title": "PDFSignatureFieldResponse",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFSignatureFieldResponse",
+      "file": "schemas/PDFSignatureFieldResponse.md"
+    },
+    {
+      "title": "PDFUploadInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFUploadInputBody",
+      "file": "schemas/PDFUploadInputBody.md"
+    },
+    {
+      "title": "PDFUploadOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFUploadOutputBody",
+      "file": "schemas/PDFUploadOutputBody.md"
+    },
+    {
+      "title": "PageDefaultWidgetOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PageDefaultWidgetOutput",
+      "file": "schemas/PageDefaultWidgetOutput.md"
+    },
+    {
+      "title": "PageDefaultWidgetUpdateBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PageDefaultWidgetUpdateBody",
+      "file": "schemas/PageDefaultWidgetUpdateBody.md"
+    },
+    {
+      "title": "PageDefaultWidgetUpdateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PageDefaultWidgetUpdateOutputBody",
+      "file": "schemas/PageDefaultWidgetUpdateOutputBody.md"
+    },
+    {
+      "title": "PageWidgetAvailabilityCreateBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PageWidgetAvailabilityCreateBody",
+      "file": "schemas/PageWidgetAvailabilityCreateBody.md"
+    },
+    {
+      "title": "PageWidgetAvailabilityDeleteOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PageWidgetAvailabilityDeleteOutputBody",
+      "file": "schemas/PageWidgetAvailabilityDeleteOutputBody.md"
+    },
+    {
+      "title": "PageWidgetAvailabilityOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PageWidgetAvailabilityOutput",
+      "file": "schemas/PageWidgetAvailabilityOutput.md"
+    },
+    {
+      "title": "PaginationParams",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PaginationParams",
+      "file": "schemas/PaginationParams.md"
+    },
+    {
+      "title": "PaginationParamsImpl",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PaginationParamsImpl",
+      "file": "schemas/PaginationParamsImpl.md"
+    },
+    {
+      "title": "Participant",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/Participant",
+      "file": "schemas/Participant.md"
+    },
+    {
+      "title": "PoliciesByClientOrganisationGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PoliciesByClientOrganisationGetOutputBody",
+      "file": "schemas/PoliciesByClientOrganisationGetOutputBody.md"
+    },
+    {
+      "title": "PolicyAgentInfoAPI",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicyAgentInfoAPI",
+      "file": "schemas/PolicyAgentInfoAPI.md"
+    },
+    {
+      "title": "PolicyCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicyCreateInputBody",
+      "file": "schemas/PolicyCreateInputBody.md"
+    },
+    {
+      "title": "PolicyGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicyGetOutputBody",
+      "file": "schemas/PolicyGetOutputBody.md"
+    },
+    {
+      "title": "PolicyListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicyListOutputBody",
+      "file": "schemas/PolicyListOutputBody.md"
+    },
+    {
+      "title": "PolicySearchInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicySearchInputBody",
+      "file": "schemas/PolicySearchInputBody.md"
+    },
+    {
+      "title": "PolicySearchOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicySearchOutputBody",
+      "file": "schemas/PolicySearchOutputBody.md"
+    },
+    {
+      "title": "PolicyValuationAPI",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicyValuationAPI",
+      "file": "schemas/PolicyValuationAPI.md"
+    },
+    {
+      "title": "ProductFinancialCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ProductFinancialCreateInputBody",
+      "file": "schemas/ProductFinancialCreateInputBody.md"
+    },
+    {
+      "title": "ProductFinancialGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ProductFinancialGetOutputBody",
+      "file": "schemas/ProductFinancialGetOutputBody.md"
+    },
+    {
+      "title": "ProductFinancialGetOutputProduct",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ProductFinancialGetOutputProduct",
+      "file": "schemas/ProductFinancialGetOutputProduct.md"
+    },
+    {
+      "title": "PropertyExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PropertyExpression",
+      "file": "schemas/PropertyExpression.md"
+    },
+    {
+      "title": "QCCheckBulkTaskInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/QCCheckBulkTaskInput",
+      "file": "schemas/QCCheckBulkTaskInput.md"
+    },
+    {
+      "title": "RegistrationPatchInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RegistrationPatchInputBody",
+      "file": "schemas/RegistrationPatchInputBody.md"
+    },
+    {
+      "title": "RegistrationUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RegistrationUpdateInputBody",
+      "file": "schemas/RegistrationUpdateInputBody.md"
+    },
+    {
+      "title": "RelationshipClientDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipClientDescription",
+      "file": "schemas/RelationshipClientDescription.md"
+    },
+    {
+      "title": "RelationshipClientOrganisationMembersOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipClientOrganisationMembersOutputBody",
+      "file": "schemas/RelationshipClientOrganisationMembersOutputBody.md"
+    },
+    {
+      "title": "RelationshipClientOrganisationMembersRelationshipsDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipClientOrganisationMembersRelationshipsDescription",
+      "file": "schemas/RelationshipClientOrganisationMembersRelationshipsDescription.md"
+    },
+    {
+      "title": "RelationshipContactDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipContactDescription",
+      "file": "schemas/RelationshipContactDescription.md"
+    },
+    {
+      "title": "RelationshipDashboardListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipDashboardListOutputBody",
+      "file": "schemas/RelationshipDashboardListOutputBody.md"
+    },
+    {
+      "title": "RelationshipDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipDescription",
+      "file": "schemas/RelationshipDescription.md"
+    },
+    {
+      "title": "RelationshipOpportunityCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipOpportunityCreateInputBody",
+      "file": "schemas/RelationshipOpportunityCreateInputBody.md"
+    },
+    {
+      "title": "RelationshipOpportunityCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipOpportunityCreateOutputBody",
+      "file": "schemas/RelationshipOpportunityCreateOutputBody.md"
+    },
+    {
+      "title": "RelationshipOpportunityListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipOpportunityListOutputBody",
+      "file": "schemas/RelationshipOpportunityListOutputBody.md"
+    },
+    {
+      "title": "RelationshipOpportunitySummaryDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipOpportunitySummaryDescription",
+      "file": "schemas/RelationshipOpportunitySummaryDescription.md"
+    },
+    {
+      "title": "RelationshipValuationSummary",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipValuationSummary",
+      "file": "schemas/RelationshipValuationSummary.md"
+    },
+    {
+      "title": "RelativeDateExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelativeDateExpression",
+      "file": "schemas/RelativeDateExpression.md"
+    },
+    {
+      "title": "RequestUnqorkCashBreakdownBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RequestUnqorkCashBreakdownBody",
+      "file": "schemas/RequestUnqorkCashBreakdownBody.md"
+    },
+    {
+      "title": "RequestUnqorkIdentifyThirdPartyManagerBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RequestUnqorkIdentifyThirdPartyManagerBody",
+      "file": "schemas/RequestUnqorkIdentifyThirdPartyManagerBody.md"
+    },
+    {
+      "title": "ResponseDataUnqorkCashBreakdown",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ResponseDataUnqorkCashBreakdown",
+      "file": "schemas/ResponseDataUnqorkCashBreakdown.md"
+    },
+    {
+      "title": "ResponseDataUnqorkIdentifyThirdPartyManager",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ResponseDataUnqorkIdentifyThirdPartyManager",
+      "file": "schemas/ResponseDataUnqorkIdentifyThirdPartyManager.md"
+    },
+    {
+      "title": "ResponseUnqorkIdentifyThirdPartyManager",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ResponseUnqorkIdentifyThirdPartyManager",
+      "file": "schemas/ResponseUnqorkIdentifyThirdPartyManager.md"
+    },
+    {
+      "title": "Role",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/Role",
+      "file": "schemas/Role.md"
+    },
+    {
+      "title": "RoleCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RoleCreateInputBody",
+      "file": "schemas/RoleCreateInputBody.md"
+    },
+    {
+      "title": "RoleGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RoleGetOutputBody",
+      "file": "schemas/RoleGetOutputBody.md"
+    },
+    {
+      "title": "RoleGroup",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RoleGroup",
+      "file": "schemas/RoleGroup.md"
+    },
+    {
+      "title": "RoleGroupListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RoleGroupListOutputBody",
+      "file": "schemas/RoleGroupListOutputBody.md"
+    },
+    {
+      "title": "SLOAOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SLOAOutput",
+      "file": "schemas/SLOAOutput.md"
+    },
+    {
+      "title": "SalesforceCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SalesforceCreateOutputBody",
+      "file": "schemas/SalesforceCreateOutputBody.md"
+    },
+    {
+      "title": "SearchBusinessGroupCoverageDetailsInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SearchBusinessGroupCoverageDetailsInputBody",
+      "file": "schemas/SearchBusinessGroupCoverageDetailsInputBody.md"
+    },
+    {
+      "title": "SearchBusinessGroupCoverageDetailsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SearchBusinessGroupCoverageDetailsOutputBody",
+      "file": "schemas/SearchBusinessGroupCoverageDetailsOutputBody.md"
+    },
+    {
+      "title": "SearchTeamsForClientOrganisationsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SearchTeamsForClientOrganisationsOutputBody",
+      "file": "schemas/SearchTeamsForClientOrganisationsOutputBody.md"
+    },
+    {
+      "title": "SendEmailInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SendEmailInputBody",
+      "file": "schemas/SendEmailInputBody.md"
+    },
+    {
+      "title": "SendMutualFundTradesReportInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SendMutualFundTradesReportInputBody",
+      "file": "schemas/SendMutualFundTradesReportInputBody.md"
+    },
+    {
+      "title": "SendMutualFundTradesReportOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SendMutualFundTradesReportOutputBody",
+      "file": "schemas/SendMutualFundTradesReportOutputBody.md"
+    },
+    {
+      "title": "ServiceAgreementCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ServiceAgreementCreateInputBody",
+      "file": "schemas/ServiceAgreementCreateInputBody.md"
+    },
+    {
+      "title": "ServiceAgreementGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ServiceAgreementGetOutputBody",
+      "file": "schemas/ServiceAgreementGetOutputBody.md"
+    },
+    {
+      "title": "ServicingTableConfigBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ServicingTableConfigBody",
+      "file": "schemas/ServicingTableConfigBody.md"
+    },
+    {
+      "title": "SetEnvironmentVersionInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SetEnvironmentVersionInputBody",
+      "file": "schemas/SetEnvironmentVersionInputBody.md"
+    },
+    {
+      "title": "StateModelSchemaInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/StateModelSchemaInput",
+      "file": "schemas/StateModelSchemaInput.md"
+    },
+    {
+      "title": "StateModelSchemaOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/StateModelSchemaOutput",
+      "file": "schemas/StateModelSchemaOutput.md"
+    },
+    {
+      "title": "StateModelTrackerEntryOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/StateModelTrackerEntryOutput",
+      "file": "schemas/StateModelTrackerEntryOutput.md"
+    },
+    {
+      "title": "SyncFileErrorLogListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SyncFileErrorLogListOutputBody",
+      "file": "schemas/SyncFileErrorLogListOutputBody.md"
+    },
+    {
+      "title": "SyncFileListInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SyncFileListInputBody",
+      "file": "schemas/SyncFileListInputBody.md"
+    },
+    {
+      "title": "SyncFileListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SyncFileListOutputBody",
+      "file": "schemas/SyncFileListOutputBody.md"
+    },
+    {
+      "title": "SyncFileViewDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SyncFileViewDescription",
+      "file": "schemas/SyncFileViewDescription.md"
+    },
+    {
+      "title": "TaskOwnerExpression",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TaskOwnerExpression",
+      "file": "schemas/TaskOwnerExpression.md"
+    },
+    {
+      "title": "TaxFilingCompletionWindowAggregationOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TaxFilingCompletionWindowAggregationOutputBody",
+      "file": "schemas/TaxFilingCompletionWindowAggregationOutputBody.md"
+    },
+    {
+      "title": "TaxFilingOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TaxFilingOutput",
+      "file": "schemas/TaxFilingOutput.md"
+    },
+    {
+      "title": "TaxManagerAgentRelationshipProfileListDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TaxManagerAgentRelationshipProfileListDescription",
+      "file": "schemas/TaxManagerAgentRelationshipProfileListDescription.md"
+    },
+    {
+      "title": "TaxManagerAgentRelationshipProfileListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TaxManagerAgentRelationshipProfileListOutputBody",
+      "file": "schemas/TaxManagerAgentRelationshipProfileListOutputBody.md"
+    },
+    {
+      "title": "TaxReturnTypeAggregationOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TaxReturnTypeAggregationOutputBody",
+      "file": "schemas/TaxReturnTypeAggregationOutputBody.md"
+    },
+    {
+      "title": "TeamAssignment",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TeamAssignment",
+      "file": "schemas/TeamAssignment.md"
+    },
+    {
+      "title": "TenantConfigCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TenantConfigCreateOutputBody",
+      "file": "schemas/TenantConfigCreateOutputBody.md"
+    },
+    {
+      "title": "TenantConfigDeleteOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TenantConfigDeleteOutputBody",
+      "file": "schemas/TenantConfigDeleteOutputBody.md"
+    },
+    {
+      "title": "TenantConfigGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TenantConfigGetOutputBody",
+      "file": "schemas/TenantConfigGetOutputBody.md"
+    },
+    {
+      "title": "TenantConfigUpdateBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TenantConfigUpdateBody",
+      "file": "schemas/TenantConfigUpdateBody.md"
+    },
+    {
+      "title": "TodoCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TodoCreateInputBody",
+      "file": "schemas/TodoCreateInputBody.md"
+    },
+    {
+      "title": "TodoResponse",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TodoResponse",
+      "file": "schemas/TodoResponse.md"
+    },
+    {
+      "title": "TransitionDefinitionInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TransitionDefinitionInput",
+      "file": "schemas/TransitionDefinitionInput.md"
+    },
+    {
+      "title": "TransitionDefinitionOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TransitionDefinitionOutput",
+      "file": "schemas/TransitionDefinitionOutput.md"
+    },
+    {
+      "title": "TransitionInputFieldInput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TransitionInputFieldInput",
+      "file": "schemas/TransitionInputFieldInput.md"
+    },
+    {
+      "title": "TransitionInputFieldOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TransitionInputFieldOutput",
+      "file": "schemas/TransitionInputFieldOutput.md"
+    },
+    {
+      "title": "TriggerEndpointCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointCreateInputBody",
+      "file": "schemas/TriggerEndpointCreateInputBody.md"
+    },
+    {
+      "title": "TriggerEndpointCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointCreateOutputBody",
+      "file": "schemas/TriggerEndpointCreateOutputBody.md"
+    },
+    {
+      "title": "TriggerEndpointDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointDescription",
+      "file": "schemas/TriggerEndpointDescription.md"
+    },
+    {
+      "title": "TriggerEndpointExecuteOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointExecuteOutputBody",
+      "file": "schemas/TriggerEndpointExecuteOutputBody.md"
+    },
+    {
+      "title": "TriggerEndpointListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointListOutputBody",
+      "file": "schemas/TriggerEndpointListOutputBody.md"
+    },
+    {
+      "title": "TriggerEndpointUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointUpdateInputBody",
+      "file": "schemas/TriggerEndpointUpdateInputBody.md"
+    },
+    {
+      "title": "TriggerExecutionLogsListRequestBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerExecutionLogsListRequestBody",
+      "file": "schemas/TriggerExecutionLogsListRequestBody.md"
+    },
+    {
+      "title": "TriggerGrantOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerGrantOutput",
+      "file": "schemas/TriggerGrantOutput.md"
+    },
+    {
+      "title": "TriggerServiceCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceCreateOutputBody",
+      "file": "schemas/TriggerServiceCreateOutputBody.md"
+    },
+    {
+      "title": "TriggerServiceDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceDescription",
+      "file": "schemas/TriggerServiceDescription.md"
+    },
+    {
+      "title": "TriggerServiceEnvironmentCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceEnvironmentCreateInputBody",
+      "file": "schemas/TriggerServiceEnvironmentCreateInputBody.md"
+    },
+    {
+      "title": "TriggerServiceEnvironmentCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceEnvironmentCreateOutputBody",
+      "file": "schemas/TriggerServiceEnvironmentCreateOutputBody.md"
+    },
+    {
+      "title": "TriggerServiceEnvironmentListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceEnvironmentListOutputBody",
+      "file": "schemas/TriggerServiceEnvironmentListOutputBody.md"
+    },
+    {
+      "title": "TriggerServiceEnvironmentUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceEnvironmentUpdateInputBody",
+      "file": "schemas/TriggerServiceEnvironmentUpdateInputBody.md"
+    },
+    {
+      "title": "TriggerServiceGetOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceGetOutputBody",
+      "file": "schemas/TriggerServiceGetOutputBody.md"
+    },
+    {
+      "title": "TriggerServiceUpdateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceUpdateInputBody",
+      "file": "schemas/TriggerServiceUpdateInputBody.md"
+    },
+    {
+      "title": "UnifiedCommentDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UnifiedCommentDescription",
+      "file": "schemas/UnifiedCommentDescription.md"
+    },
+    {
+      "title": "UnqorkActionRunUpsertRequestBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UnqorkActionRunUpsertRequestBody",
+      "file": "schemas/UnqorkActionRunUpsertRequestBody.md"
+    },
+    {
+      "title": "UnqorkIdentifyThirdPartyManagerData",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UnqorkIdentifyThirdPartyManagerData",
+      "file": "schemas/UnqorkIdentifyThirdPartyManagerData.md"
+    },
+    {
+      "title": "UnqorkNotificationUpsertRequestBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UnqorkNotificationUpsertRequestBody",
+      "file": "schemas/UnqorkNotificationUpsertRequestBody.md"
+    },
+    {
+      "title": "UnqorkTaskUpsertRequestBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UnqorkTaskUpsertRequestBody",
+      "file": "schemas/UnqorkTaskUpsertRequestBody.md"
+    },
+    {
+      "title": "UpdateAgentAddressOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UpdateAgentAddressOutputBody",
+      "file": "schemas/UpdateAgentAddressOutputBody.md"
+    },
+    {
+      "title": "UpdateClientOrganisationRelationshipInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UpdateClientOrganisationRelationshipInputBody",
+      "file": "schemas/UpdateClientOrganisationRelationshipInputBody.md"
+    },
+    {
+      "title": "UpdateClientOrganisationRelationshipOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UpdateClientOrganisationRelationshipOutputBody",
+      "file": "schemas/UpdateClientOrganisationRelationshipOutputBody.md"
+    },
+    {
+      "title": "UpdateFeatureFlagBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UpdateFeatureFlagBody",
+      "file": "schemas/UpdateFeatureFlagBody.md"
+    },
+    {
+      "title": "UserDescription",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UserDescription",
+      "file": "schemas/UserDescription.md"
+    },
+    {
+      "title": "VPOCGetHouseholdMemberRecommendationsOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCGetHouseholdMemberRecommendationsOutputBody",
+      "file": "schemas/VPOCGetHouseholdMemberRecommendationsOutputBody.md"
+    },
+    {
+      "title": "VPOCHouseholdMemberRecommendation",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCHouseholdMemberRecommendation",
+      "file": "schemas/VPOCHouseholdMemberRecommendation.md"
+    },
+    {
+      "title": "VPOCHouseholdRankingListInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCHouseholdRankingListInputBody",
+      "file": "schemas/VPOCHouseholdRankingListInputBody.md"
+    },
+    {
+      "title": "VPOCHouseholdRankingListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCHouseholdRankingListOutputBody",
+      "file": "schemas/VPOCHouseholdRankingListOutputBody.md"
+    },
+    {
+      "title": "VPOCHouseholdRankingOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCHouseholdRankingOutputBody",
+      "file": "schemas/VPOCHouseholdRankingOutputBody.md"
+    },
+    {
+      "title": "VPOCOnboardingCreateInputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCOnboardingCreateInputBody",
+      "file": "schemas/VPOCOnboardingCreateInputBody.md"
+    },
+    {
+      "title": "VPOCOnboardingDeleteOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCOnboardingDeleteOutputBody",
+      "file": "schemas/VPOCOnboardingDeleteOutputBody.md"
+    },
+    {
+      "title": "VPOCOnboardingProgress",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCOnboardingProgress",
+      "file": "schemas/VPOCOnboardingProgress.md"
+    },
+    {
+      "title": "VPOCOnboardingWithProgress",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCOnboardingWithProgress",
+      "file": "schemas/VPOCOnboardingWithProgress.md"
+    },
+    {
+      "title": "WidgetBatchUpdatePositionsBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetBatchUpdatePositionsBody",
+      "file": "schemas/WidgetBatchUpdatePositionsBody.md"
+    },
+    {
+      "title": "WidgetDefinitionCreateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetDefinitionCreateOutputBody",
+      "file": "schemas/WidgetDefinitionCreateOutputBody.md"
+    },
+    {
+      "title": "WidgetDefinitionOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetDefinitionOutput",
+      "file": "schemas/WidgetDefinitionOutput.md"
+    },
+    {
+      "title": "WidgetListOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetListOutputBody",
+      "file": "schemas/WidgetListOutputBody.md"
+    },
+    {
+      "title": "WidgetOutput",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetOutput",
+      "file": "schemas/WidgetOutput.md"
+    },
+    {
+      "title": "WidgetPositionUpdate",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetPositionUpdate",
+      "file": "schemas/WidgetPositionUpdate.md"
+    },
+    {
+      "title": "WidgetUpdateBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetUpdateBody",
+      "file": "schemas/WidgetUpdateBody.md"
+    },
+    {
+      "title": "WidgetUpdateOutputBody",
+      "link": "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetUpdateOutputBody",
+      "file": "schemas/WidgetUpdateOutputBody.md"
+    }
+  ]
+}

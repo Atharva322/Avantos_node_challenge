@@ -1,0 +1,17 @@
+﻿{
+    "name":  "RoleGetOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RoleGetOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RoleGetOutputBody.json\",3  \"description\": \"Manages clients and organisations.\",4  \"role_id\": 101,5  \"role_name\": \"Admin\"6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:11:34.244Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "description",
+                        "role_id",
+                        "role_name"
+                    ]
+}

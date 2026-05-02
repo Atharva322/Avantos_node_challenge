@@ -1,0 +1,15 @@
+﻿{
+    "name":  "ClientCreateOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientCreateOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientCreateOutputBody.json\",3  \"id\": \"client_123\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:29:56.486Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

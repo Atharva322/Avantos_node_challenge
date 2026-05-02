@@ -1,0 +1,18 @@
+﻿{
+    "id":  "action-blueprint-graph-get",
+    "name":  "action-blueprint-graph-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/actions/blueprints/{action_blueprint_id}/{blueprint_version_id}/graph",
+    "group_key":  "actions",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-graph-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:52:12.794Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

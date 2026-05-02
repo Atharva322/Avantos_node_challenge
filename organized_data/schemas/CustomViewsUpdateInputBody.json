@@ -1,0 +1,24 @@
+﻿{
+    "name":  "CustomViewsUpdateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsUpdateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CustomViewsUpdateInputBody.json\",3  \"column_order\": \"string\",4  \"columns_config\": \"string\",5  \"description\": \"string\",6  \"filters\": \"string\",7  \"name\": \"string\",8  \"only_assigned\": true,9  \"promoted\": true,10  \"role_names\": [11    \"string\"12  ],13  \"scope_type\": \"string\",14  \"sorting\": \"string\"15}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:38:33.867Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "column_order",
+                        "columns_config",
+                        "description",
+                        "filters",
+                        "name",
+                        "only_assigned",
+                        "promoted",
+                        "role_names",
+                        "scope_type",
+                        "sorting"
+                    ]
+}

@@ -1,0 +1,26 @@
+﻿{
+    "name":  "ClientOrgOpportunitiesSummaryInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgOpportunitiesSummaryInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientOrgOpportunitiesSummaryInputBody.json\",3  \"filter\": {4    \"component_key\": \"string\",5    \"is_metadata\": true,6    \"output_key\": \"string\",7    \"type\": \"string\"8  },9  \"only_assigned\": true,10  \"pagination_params\": {11    \"page\": 1,12    \"page_size\": 1013  },14  \"sort_keys\": [15    {16      \"sort_column\": \"total_active_amount\",17      \"sort_order\": \"DESC\"18    }19  ]20}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:31:03.987Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "filter",
+                        "component_key",
+                        "is_metadata",
+                        "output_key",
+                        "type",
+                        "only_assigned",
+                        "pagination_params",
+                        "page",
+                        "page_size",
+                        "sort_keys",
+                        "sort_column",
+                        "sort_order"
+                    ]
+}

@@ -1,0 +1,27 @@
+﻿{
+    "id":  "trigger-endpoint-execute",
+    "name":  "trigger-endpoint-execute",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/triggers/endpoints/{trigger_endpoint_id}/execute",
+    "group_key":  "triggers",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-endpoint-execute",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/TriggerEndpointExecuteOutputBody.json\",3  \"execution_time_ms\": 100,4  \"mapped\": {5    \"age\": 30,6    \"name\": \"John\"7  },8  \"raw\": \"eyJuYW1lIjoiSm9obiJ9\",9  \"request_body\": \"{\\\"name\\\": \\\"John\\\"}\",10  \"request_route\": \"https://dev.api.example.com/something/\",11  \"response_body\": \"{\\\"success\\\": true}\",12  \"response_code\": 20013}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:22:53.810Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "execution_time_ms",
+                        "mapped",
+                        "age",
+                        "name",
+                        "raw",
+                        "request_body",
+                        "request_route",
+                        "response_body",
+                        "response_code"
+                    ]
+}

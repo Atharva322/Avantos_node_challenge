@@ -1,0 +1,31 @@
+﻿{
+    "name":  "PolicySearchInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicySearchInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PolicySearchInputBody.json\",3  \"agent_id\": \"agent_123\",4  \"agent_organisation_external_id\": \"ORG001\",5  \"agent_organisation_id\": \"ao_123\",6  \"agent_organisation_name\": \"Guardian Agency\",7  \"carrier\": \"State\",8  \"client_organisation_id\": \"co_123\",9  \"line_of_business\": \"Life\",10  \"pagination_params\": {11    \"page\": 1,12    \"page_size\": 1013  },14  \"policy_number\": \"POL-\",15  \"sort_keys\": [16    {17      \"cast_type\": \"string\",18      \"collation\": \"string\",19      \"key\": \"string\",20      \"order\": \"string\"21    }22  ],23  \"status\": \"Active\"24}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:08:49.826Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "agent_id",
+                        "agent_organisation_external_id",
+                        "agent_organisation_id",
+                        "agent_organisation_name",
+                        "carrier",
+                        "client_organisation_id",
+                        "line_of_business",
+                        "pagination_params",
+                        "page",
+                        "page_size",
+                        "policy_number",
+                        "sort_keys",
+                        "cast_type",
+                        "collation",
+                        "key",
+                        "order",
+                        "status"
+                    ]
+}

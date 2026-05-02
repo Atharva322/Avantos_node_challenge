@@ -1,0 +1,160 @@
+# client-create
+
+## Endpoint
+- Method: `post`
+- Path: `/api/v1/{tenant_id}/client-organisations/{client_organisation_id}/clients`
+
+## Request
+### Path Parameters
+- tenant_id
+  - type: string
+  - required: yes
+- client_organisation_id
+  - type: string
+  - required: yes
+  - description: The organisation ID
+
+### Query Parameters
+- None
+
+### Body
+- content-type: application/json
+- fields:
+  - requestBody (application/json)
+    - type: object
+    - required: yes
+  - requestBody (application/json).$schema
+    - type: string
+    - required: no
+    - description: A URL to the JSON Schema for this object.
+  - requestBody (application/json).additional_attributes
+    - type: object
+    - required: no
+    - description: Additional attributes of the client
+  - requestBody (application/json).assets
+    - type: string
+    - required: no
+    - description: The assets of the client
+  - requestBody (application/json).compliance_record
+    - type: string
+    - required: no
+    - description: The compliance record of the client
+  - requestBody (application/json).current_employer
+    - type: string
+    - required: no
+    - description: The current employer of the client
+  - requestBody (application/json).documentation
+    - type: string
+    - required: no
+    - description: The documentation of the client
+  - requestBody (application/json).drivers_license_number
+    - type: string
+    - required: no
+    - description: The drivers license number of the client
+  - requestBody (application/json).employment_status
+    - type: string
+    - required: no
+    - description: The employment status of the client
+  - requestBody (application/json).expected_retirement_age
+    - type: integer
+    - required: no
+    - description: The expected retirement age of the client
+  - requestBody (application/json).external_id
+    - type: string
+    - required: no
+    - description: The external ID of the client, normally coming from CRM
+  - requestBody (application/json).investment_goal
+    - type: string
+    - required: no
+    - description: The investment goal of the client
+  - requestBody (application/json).is_primary
+    - type: boolean
+    - required: no
+    - description: Whether the client is the primary client
+  - requestBody (application/json).maiden_name
+    - type: string
+    - required: no
+    - description: The maiden name of the client
+  - requestBody (application/json).marketing_salutation
+    - type: string
+    - required: no
+    - description: The marketing salutation of the client
+  - requestBody (application/json).occupation
+    - type: string
+    - required: no
+    - description: The occupation of the client
+  - requestBody (application/json).officer_or_director
+    - type: string
+    - required: no
+    - description: Whether the client is an officer or director
+  - requestBody (application/json).person
+    - type: object
+    - required: yes
+  - requestBody (application/json).person.date_of_birth
+    - type: string
+    - required: no
+  - requestBody (application/json).person.first_name
+    - type: string
+    - required: no
+  - requestBody (application/json).person.gender
+    - type: string
+    - required: no
+  - requestBody (application/json).person.last_name
+    - type: string
+    - required: no
+  - requestBody (application/json).person.marital_status
+    - type: string
+    - required: no
+  - requestBody (application/json).person.middle_name
+    - type: string
+    - required: no
+  - requestBody (application/json).person.nationality
+    - type: string
+    - required: no
+  - requestBody (application/json).person.preferred_contact_method
+    - type: string
+    - required: no
+  - requestBody (application/json).person.ssn
+    - type: string
+    - required: no
+  - requestBody (application/json).person.suffix
+    - type: string
+    - required: no
+  - requestBody (application/json).person.title
+    - type: string
+    - required: no
+  - requestBody (application/json).personal_interests
+    - type: string
+    - required: no
+    - description: The personal interests of the client
+  - requestBody (application/json).preferred_name
+    - type: string
+    - required: no
+    - description: The preferred name of the client
+  - requestBody (application/json).retired
+    - type: string
+    - required: no
+    - description: The retirement status of the client
+  - requestBody (application/json).retirement_date
+    - type: string
+    - required: no
+    - description: The retirement date of the client
+  - requestBody (application/json).role
+    - type: string
+    - required: no
+    - description: The role of the client
+  - requestBody (application/json).security_restrictions
+    - type: string
+    - required: no
+    - description: The security restrictions of the client
+  - requestBody (application/json).wedding_anniversary
+    - type: string
+    - required: no
+    - description: The wedding anniversary of the client
+
+## Responses
+- 200
+  - description: OK
+  - content-type: application/json
+  - schema: ClientCreateOutputBody
+

@@ -1,0 +1,33 @@
+﻿{
+    "id":  "page-default-widget-list",
+    "name":  "page-default-widget-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/pages/{page}/default-widgets",
+    "group_key":  "pages",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-default-widget-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PageDefaultWidgetListOutputBody.json\",3  \"defaultWidgets\": [4    {5      \"$schema\": \"https://example.com/schemas/PageDefaultWidgetOutput.json\",6      \"config\": {7        \"property1\": null,8        \"property2\": null9      },10      \"createdAt\": \"2024-01-01T00:00:00Z\",11      \"height\": 2,12      \"id\": \"pdw_123\",13      \"isVisible\": false,14      \"page\": \"dashboard\",15      \"updatedAt\": \"2024-01-01T00:00:00Z\",16      \"updatedBy\": \"agent_123\",17      \"widgetDefinitionId\": \"wdef_123\",18      \"width\": 2,19      \"x\": 0,20      \"y\": 021    }22  ]23}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:17:28.539Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "defaultWidgets",
+                        "config",
+                        "property1",
+                        "property2",
+                        "createdAt",
+                        "height",
+                        "id",
+                        "isVisible",
+                        "page",
+                        "updatedAt",
+                        "updatedBy",
+                        "widgetDefinitionId",
+                        "width",
+                        "x",
+                        "y"
+                    ]
+}

@@ -1,0 +1,15 @@
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-list
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-search
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/product-financial-create
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/product-financial-get
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-client-organisation-members-get
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-dashboard-get
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-dashboard-list
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-opportunity-create
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-opportunity-list
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/rmd-list-by-client-organisation
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/rmd-list-by-financial-account
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/role-get
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/role-groups-list
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/role-policy-create
+https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/salesforce-update

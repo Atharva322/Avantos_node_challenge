@@ -1,0 +1,33 @@
+﻿{
+    "id":  "client-list",
+    "name":  "client-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/clients",
+    "group_key":  "clients",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientListByNamePhoneOrEmailOutputBody.json\",3  \"clients\": [4    {5      \"client_organisation_external_id\": \"ext_123456\",6      \"client_organisation_id\": \"co_123456\",7      \"client_organisation_name\": \"My organisation\",8      \"client_organisation_wealth_advisor_name\": \"John Doe\",9      \"external_id\": \"ext_123456\",10      \"id\": \"cl_123456\",11      \"name\": \"John Doe\",12      \"preferred_email\": \"john.doe@example.com\",13      \"preferred_phone\": \"1234567890\"14    }15  ],16  \"pagination\": {17    \"page\": 0,18    \"page_size\": 0,19    \"total_pages\": 0,20    \"total_records\": 021  }22}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:06:10.326Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "clients",
+                        "client_organisation_external_id",
+                        "client_organisation_id",
+                        "client_organisation_name",
+                        "client_organisation_wealth_advisor_name",
+                        "external_id",
+                        "id",
+                        "name",
+                        "preferred_email",
+                        "preferred_phone",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records"
+                    ]
+}

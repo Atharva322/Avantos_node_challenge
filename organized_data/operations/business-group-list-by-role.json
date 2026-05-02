@@ -1,0 +1,18 @@
+﻿{
+    "id":  "business-group-list-by-role",
+    "name":  "business-group-list-by-role",
+    "method":  null,
+    "path":  null,
+    "group_key":  "business-group-list-by-role",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-list-by-role",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:04:45.725Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

@@ -1,0 +1,16 @@
+﻿{
+    "name":  "CDCPipelineConfigUpsertInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CDCPipelineConfigUpsertInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CDCPipelineConfigUpsertInputBody.json\",3  \"config\": null,4  \"credentials\": null5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:27:45.589Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "config",
+                        "credentials"
+                    ]
+}

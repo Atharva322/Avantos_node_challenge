@@ -1,0 +1,28 @@
+﻿{
+    "name":  "PageDefaultWidgetOutput",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PageDefaultWidgetOutput",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PageDefaultWidgetOutput.json\",3  \"config\": {4    \"property1\": null,5    \"property2\": null6  },7  \"createdAt\": \"2024-01-01T00:00:00Z\",8  \"height\": 2,9  \"id\": \"pdw_123\",10  \"isVisible\": false,11  \"page\": \"dashboard\",12  \"updatedAt\": \"2024-01-01T00:00:00Z\",13  \"updatedBy\": \"agent_123\",14  \"widgetDefinitionId\": \"wdef_123\",15  \"width\": 2,16  \"x\": 0,17  \"y\": 018}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:07:47.281Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "config",
+                        "property1",
+                        "property2",
+                        "createdAt",
+                        "height",
+                        "id",
+                        "isVisible",
+                        "page",
+                        "updatedAt",
+                        "updatedBy",
+                        "widgetDefinitionId",
+                        "width",
+                        "x",
+                        "y"
+                    ]
+}

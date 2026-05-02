@@ -1,0 +1,17 @@
+﻿{
+    "name":  "PolicyGetOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PolicyGetOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PolicyGetOutputBody.json\",3  \"description\": \"Read and write permissions for client data.\",4  \"policy_id\": 201,5  \"policy_name\": \"ClientReadPolicy\"6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:08:40.924Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "description",
+                        "policy_id",
+                        "policy_name"
+                    ]
+}

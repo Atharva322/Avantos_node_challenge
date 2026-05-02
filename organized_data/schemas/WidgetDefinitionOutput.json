@@ -1,0 +1,30 @@
+﻿{
+    "name":  "WidgetDefinitionOutput",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetDefinitionOutput",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/WidgetDefinitionOutput.json\",3  \"configSchema\": {4    \"property1\": null,5    \"property2\": null6  },7  \"createdAt\": \"2024-01-01T00:00:00Z\",8  \"defaultConfig\": {9    \"property1\": null,10    \"property2\": null11  },12  \"defaultHeight\": 2,13  \"defaultWidth\": 2,14  \"description\": \"Shows upcoming meetings\",15  \"displayName\": \"Meetings Widget\",16  \"id\": \"wdef_123\",17  \"maxHeight\": 4,18  \"maxWidth\": 4,19  \"minHeight\": 1,20  \"minWidth\": 1,21  \"name\": \"meetings\",22  \"updatedAt\": \"2024-01-01T00:00:00Z\"23}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:18:56.183Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "configSchema",
+                        "property1",
+                        "property2",
+                        "createdAt",
+                        "defaultConfig",
+                        "defaultHeight",
+                        "defaultWidth",
+                        "description",
+                        "displayName",
+                        "id",
+                        "maxHeight",
+                        "maxWidth",
+                        "minHeight",
+                        "minWidth",
+                        "name",
+                        "updatedAt"
+                    ]
+}

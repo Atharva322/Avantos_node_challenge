@@ -1,0 +1,16 @@
+﻿{
+    "name":  "MeetingSummaryInput",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingSummaryInput",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/MeetingSummaryInput.json\",3  \"is_ai_enhanced\": false,4  \"summary_content\": \"Meeting summary content\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:51:26.819Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "is_ai_enhanced",
+                        "summary_content"
+                    ]
+}

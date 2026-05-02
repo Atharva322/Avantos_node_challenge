@@ -1,0 +1,18 @@
+﻿{
+    "id":  "trigger-service-environment-update",
+    "name":  "trigger-service-environment-update",
+    "method":  "PUT",
+    "path":  "/api/v1/{tenant_id}/triggers/services/{trigger_service_id}/environments/{environment}",
+    "group_key":  "triggers",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/trigger-service-environment-update",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:23:25.073Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

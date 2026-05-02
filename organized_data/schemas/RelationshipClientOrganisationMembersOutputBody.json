@@ -1,0 +1,40 @@
+﻿{
+    "name":  "RelationshipClientOrganisationMembersOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipClientOrganisationMembersOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RelationshipClientOrganisationMembersOutputBody.json\",3  \"members\": [4    {5      \"additional_attributes\": {6        \"notes\": \"VIP client\",7        \"preferences\": {8          \"contact_method\": \"email\"9        }10      },11      \"addresses\": {12        \"BILLING\": {13          \"city\": \"Anytown\",14          \"state\": \"CA\"15        }16      },17      \"birthdate\": \"1990-01-01\",18      \"client_id\": \"cli_123abc\",19      \"client_organisation_id\": \"org_123abc\",20      \"current_employer\": \"Acme Inc.\",21      \"email\": \"john.doe@example.com\",22      \"employment_status\": \"Employed\",23      \"first_name\": \"John\",24      \"is_primary\": true,25      \"last_name\": \"Doe\",26      \"marital_status\": \"Married\",27      \"occupation\": \"Software Engineer\",28      \"phone\": \"123-456-7890\",29      \"preferred_name\": \"Johnny\",30      \"role\": \"PRIMARY\",31      \"ssn\": \"123-45-6789\",32      \"status\": \"Active\",33      \"subtype\": \"Client\"34    }35  ]36}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:10:13.954Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "members",
+                        "additional_attributes",
+                        "notes",
+                        "preferences",
+                        "contact_method",
+                        "addresses",
+                        "BILLING",
+                        "city",
+                        "state",
+                        "birthdate",
+                        "client_id",
+                        "client_organisation_id",
+                        "current_employer",
+                        "email",
+                        "employment_status",
+                        "first_name",
+                        "is_primary",
+                        "last_name",
+                        "marital_status",
+                        "occupation",
+                        "phone",
+                        "preferred_name",
+                        "role",
+                        "ssn",
+                        "status",
+                        "subtype"
+                    ]
+}

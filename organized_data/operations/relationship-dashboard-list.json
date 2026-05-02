@@ -1,0 +1,43 @@
+﻿{
+    "id":  "relationship-dashboard-list",
+    "name":  "relationship-dashboard-list",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/relationships/dashboard",
+    "group_key":  "relationships",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/relationship-dashboard-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RelationshipDashboardListOutputBody.json\",3  \"pagination\": {4    \"page\": 0,5    \"page_size\": 0,6    \"total_pages\": 0,7    \"total_records\": 08  },9  \"relationships_mapped\": [10    {11      \"primaryAdvisorFirstName\": \"Bob\"12    }13  ],14  \"relationships_raw\": [15    {16      \"addresses\": {17        \"BILLING\": {18          \"city\": \"Anytown\",19          \"state\": \"CA\"20        }21      },22      \"agent_organisation_id\": \"org_456def\",23      \"agent_organisation_name\": \"XYZ Services\",24      \"agent_organisation_role\": \"Agent\",25      \"agent_organisation_type\": \"LLC\",26      \"agents\": {27        \"PRIMARY\": {28          \"first_name\": \"John\",29          \"last_name\": \"Doe\"30        }31      },32      \"client_organisation_id\": \"org_123abc\",33      \"client_organisation_name\": \"Acme Corp\",34      \"client_organisation_role\": \"Client\",35      \"client_organisation_type\": \"Corporation\",36      \"client_relationship_status\": \"EXISTING\"37    }38  ]39}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:30:13.346Z",
+    "source_run":  "ops_retry_1",
+    "form_fields":  [
+                        "$schema",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records",
+                        "relationships_mapped",
+                        "primaryAdvisorFirstName",
+                        "relationships_raw",
+                        "addresses",
+                        "BILLING",
+                        "city",
+                        "state",
+                        "agent_organisation_id",
+                        "agent_organisation_name",
+                        "agent_organisation_role",
+                        "agent_organisation_type",
+                        "agents",
+                        "PRIMARY",
+                        "first_name",
+                        "last_name",
+                        "client_organisation_id",
+                        "client_organisation_name",
+                        "client_organisation_role",
+                        "client_organisation_type",
+                        "client_relationship_status"
+                    ]
+}

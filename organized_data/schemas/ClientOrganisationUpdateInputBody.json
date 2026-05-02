@@ -1,0 +1,26 @@
+﻿{
+    "name":  "ClientOrganisationUpdateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationUpdateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientOrganisationUpdateInputBody.json\",3  \"approx_aum\": 1200000000,4  \"client_organisation_role\": \"Primary Client\",5  \"client_organisation_type\": \"LLC\",6  \"client_segmentation\": \"Ultra High Net Worth\",7  \"description\": \"An updated leading technology company\",8  \"external_id\": \"A103143913S_V2\",9  \"extra_properties\": {10    \"aum\": \"1200000000\",11    \"employees\": \"600\",12    \"industry\": \"Technology\"13  },14  \"name\": \"Acme Corp Updated\",15  \"notes\": \"Updated client notes\"16}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:33:05.928Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "approx_aum",
+                        "client_organisation_role",
+                        "client_organisation_type",
+                        "client_segmentation",
+                        "description",
+                        "external_id",
+                        "extra_properties",
+                        "aum",
+                        "employees",
+                        "industry",
+                        "name",
+                        "notes"
+                    ]
+}

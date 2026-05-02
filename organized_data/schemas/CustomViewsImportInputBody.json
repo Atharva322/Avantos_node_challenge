@@ -1,0 +1,37 @@
+﻿{
+    "name":  "CustomViewsImportInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomViewsImportInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CustomViewsImportInputBody.json\",3  \"columnFilters\": [4    {5      \"Key\": \"string\",6      \"Type\": \"string\",7      \"Value\": null8    }9  ],10  \"columnHeaders\": [11    \"string\"12  ],13  \"created\": \"string\",14  \"id\": \"string\",15  \"isDefaultUserView\": null,16  \"modified\": \"string\",17  \"module\": \"string\",18  \"pageSize\": 0,19  \"relationshipType\": \"string\",20  \"sortKey\": \"string\",21  \"sortOrder\": \"string\",22  \"table\": \"string\",23  \"type\": \"string\",24  \"typeId\": null,25  \"userId\": \"string\",26  \"viewName\": \"string\",27  \"viewOrder\": null,28  \"visibility\": {29    \"property1\": true,30    \"property2\": true31  }32}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:38:16.083Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "columnFilters",
+                        "Key",
+                        "Type",
+                        "Value",
+                        "columnHeaders",
+                        "created",
+                        "id",
+                        "isDefaultUserView",
+                        "modified",
+                        "module",
+                        "pageSize",
+                        "relationshipType",
+                        "sortKey",
+                        "sortOrder",
+                        "table",
+                        "type",
+                        "typeId",
+                        "userId",
+                        "viewName",
+                        "viewOrder",
+                        "visibility",
+                        "property1",
+                        "property2"
+                    ]
+}

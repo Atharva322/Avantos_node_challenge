@@ -1,0 +1,30 @@
+﻿{
+    "name":  "ClientsSearchOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientsSearchOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientsSearchOutputBody.json\",3  \"clients\": [4    {5      \"additional_attributes\": {},6      \"client_external_id\": \"string\",7      \"client_id\": \"string\",8      \"client_organisation_external_id\": \"string\",9      \"client_organisation_id\": \"string\",10      \"first_name\": \"string\",11      \"last_name\": \"string\",12      \"role\": \"string\",13      \"tenant_id\": \"string\",14      \"title\": \"string\"15    }16  ],17  \"pagination\": {18    \"page\": 0,19    \"page_size\": 0,20    \"total_pages\": 0,21    \"total_records\": 022  }23}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:35:47.092Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "clients",
+                        "additional_attributes",
+                        "client_external_id",
+                        "client_id",
+                        "client_organisation_external_id",
+                        "client_organisation_id",
+                        "first_name",
+                        "last_name",
+                        "role",
+                        "tenant_id",
+                        "title",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records"
+                    ]
+}

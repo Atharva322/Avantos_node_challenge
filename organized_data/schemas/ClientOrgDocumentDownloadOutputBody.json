@@ -1,0 +1,16 @@
+﻿{
+    "name":  "ClientOrgDocumentDownloadOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentDownloadOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientOrgDocumentDownloadOutputBody.json\",3  \"download_url\": \"string\",4  \"expires_at\": \"2019-08-24T14:15:22Z\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:30:40.963Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "download_url",
+                        "expires_at"
+                    ]
+}

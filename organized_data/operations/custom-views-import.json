@@ -1,0 +1,19 @@
+﻿{
+    "id":  "custom-views-import",
+    "name":  "custom-views-import",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/views/import",
+    "group_key":  "views",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-import",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CustomViewsImportOutputBody.json\",3  \"view_id\": \"string\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:11:27.536Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "view_id"
+                    ]
+}

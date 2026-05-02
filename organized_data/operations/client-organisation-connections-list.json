@@ -1,0 +1,27 @@
+﻿{
+    "id":  "client-organisation-connections-list",
+    "name":  "client-organisation-connections-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/client-organisations/{client_organisation_id}/client-organisation-connections",
+    "group_key":  "client-organisations",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-connections-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GetClientOrgClientOrgRelationshipsOutputBody.json\",3  \"relationships\": [4    {5      \"initiating_client_organisation_external_id\": \"string\",6      \"initiating_client_organisation_id\": \"string\",7      \"initiating_client_organisation_name\": \"string\",8      \"participating_client_organisation_external_id\": \"string\",9      \"participating_client_organisation_id\": \"string\",10      \"participating_client_organisation_name\": \"string\",11      \"relationship_category\": \"string\",12      \"relationship_type\": \"string\"13    }14  ]15}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:06:32.548Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "relationships",
+                        "initiating_client_organisation_external_id",
+                        "initiating_client_organisation_id",
+                        "initiating_client_organisation_name",
+                        "participating_client_organisation_external_id",
+                        "participating_client_organisation_id",
+                        "participating_client_organisation_name",
+                        "relationship_category",
+                        "relationship_type"
+                    ]
+}

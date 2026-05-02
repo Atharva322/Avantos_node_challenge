@@ -1,0 +1,19 @@
+﻿{
+    "id":  "client-delete",
+    "name":  "client-delete",
+    "method":  "DELETE",
+    "path":  "/api/v1/{tenant_id}/clients/{client_id}",
+    "group_key":  "clients",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-delete",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DeleteClientOutputBody.json\",3  \"id\": \"c_456\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:05:52.468Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

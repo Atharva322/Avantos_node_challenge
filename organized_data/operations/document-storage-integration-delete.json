@@ -1,0 +1,18 @@
+﻿{
+    "id":  "document-storage-integration-delete",
+    "name":  "document-storage-integration-delete",
+    "method":  "DELETE",
+    "path":  "/api/v1/{tenant_id}/document-storage/integrations/{provider}",
+    "group_key":  "document-storage",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-storage-integration-delete",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:11:45.347Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

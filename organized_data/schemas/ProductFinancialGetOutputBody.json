@@ -1,0 +1,28 @@
+﻿{
+    "name":  "ProductFinancialGetOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ProductFinancialGetOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ProductFinancialGetOutputBody.json\",3  \"product\": {4    \"created_at\": \"2019-08-24T14:15:22Z\",5    \"description\": \"A traditional individual retirement account\",6    \"eligibility_criteria\": \"Age 18+, US Citizen\",7    \"external_id\": \"fp_ext_123\",8    \"id\": \"prod_01j9k2m3n4p5q6r7s8t9u0\",9    \"model\": \"Growth\",10    \"model_portfolio\": \"Aggressive Growth\",11    \"product_code\": \"IRA-TRAD\",12    \"product_name\": \"Traditional IRA\",13    \"product_type\": \"IRA\",14    \"regulatory_compliance\": \"SEC Registered\",15    \"tenant_id\": \"tenant_01j9k2m3n4p5q6r7s8t9u0\",16    \"updated_at\": \"2019-08-24T14:15:22Z\"17  }18}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:09:07.595Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "product",
+                        "created_at",
+                        "description",
+                        "eligibility_criteria",
+                        "external_id",
+                        "id",
+                        "model",
+                        "model_portfolio",
+                        "product_code",
+                        "product_name",
+                        "product_type",
+                        "regulatory_compliance",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

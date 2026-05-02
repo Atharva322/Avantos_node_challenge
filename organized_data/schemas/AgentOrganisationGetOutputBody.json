@@ -1,0 +1,30 @@
+﻿{
+    "name":  "AgentOrganisationGetOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationGetOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AgentOrganisationGetOutputBody.json\",3  \"agent_organisation\": {4    \"agent_organisation_role\": \"Advisor\",5    \"agent_organisation_type\": \"Corporation\",6    \"created_at\": \"2023-04-01T12:00:00Z\",7    \"description\": \"A leading advisory firm specializing in wealth management\",8    \"external_id\": \"ext_123456\",9    \"extra_properties\": {10      \"employees\": \"50\",11      \"licenses\": \"Series 7, Series 66\",12      \"specialty\": \"Wealth Management\"13    },14    \"id\": \"ao_123456\",15    \"name\": \"Acme Advisors\",16    \"parent_id\": \"ao_987654\",17    \"status\": \"Active\",18    \"tenant_id\": \"tenant_789\",19    \"updated_at\": \"2023-04-15T09:30:00Z\"20  }21}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:25:39.267Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "agent_organisation",
+                        "agent_organisation_role",
+                        "agent_organisation_type",
+                        "created_at",
+                        "description",
+                        "external_id",
+                        "extra_properties",
+                        "employees",
+                        "licenses",
+                        "specialty",
+                        "id",
+                        "name",
+                        "parent_id",
+                        "status",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

@@ -1,0 +1,27 @@
+﻿{
+    "name":  "GetUnqorkActionRunCommentsOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetUnqorkActionRunCommentsOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GetUnqorkActionRunCommentsOutputBody.json\",3  \"comments\": [4    {5      \"created_at\": \"2021-01-01T00:00:00Z\",6      \"created_by\": {},7      \"entity_id\": \"ar_456\",8      \"entity_type\": \"action_run\",9      \"environment\": \"staging\",10      \"external_id\": \"ext_123\",11      \"id\": \"123\",12      \"tagged_users\": [13        {14          \"first_name\": \"John\",15          \"id\": \"ag_123\",16          \"last_name\": \"Doe\"17        },18        {19          \"first_name\": \"Jane\",20          \"id\": \"ag_456\",21          \"last_name\": \"Smith\"22        }23      ],24      \"text\": \"This is a comment\",25      \"updated_at\": \"2021-01-01T00:00:00Z\"26    }27  ]28}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:45:34.490Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "comments",
+                        "created_at",
+                        "created_by",
+                        "entity_id",
+                        "entity_type",
+                        "environment",
+                        "external_id",
+                        "id",
+                        "tagged_users",
+                        "first_name",
+                        "last_name",
+                        "text",
+                        "updated_at"
+                    ]
+}

@@ -1,0 +1,16 @@
+﻿{
+    "name":  "SetEnvironmentVersionInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/SetEnvironmentVersionInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/SetEnvironmentVersionInputBody.json\",3  \"promotion_notes\": \"Tested in staging, ready for production\",4  \"version_id\": \"bpv_789\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:13:07.388Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "promotion_notes",
+                        "version_id"
+                    ]
+}

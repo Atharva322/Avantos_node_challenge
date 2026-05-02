@@ -1,0 +1,18 @@
+﻿{
+    "id":  "action-run-task-claim",
+    "name":  "action-run-task-claim",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/action-runs/{action_run_id}/tasks/{task_id}/claim",
+    "group_key":  "action-runs",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-claim",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:59:04.182Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

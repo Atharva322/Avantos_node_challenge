@@ -1,0 +1,18 @@
+﻿{
+    "id":  "meeting-summary-update",
+    "name":  "meeting-summary-update",
+    "method":  "PUT",
+    "path":  "/api/v1/{tenant_id}/meetings/{meeting_id}/summary",
+    "group_key":  "meetings",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-summary-update",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:16:54.436Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

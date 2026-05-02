@@ -1,0 +1,21 @@
+﻿{
+    "name":  "ActionComponentBranchCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionComponentBranchCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionComponentBranchCreateInputBody.json\",3  \"branch_condition\": {4    \"component_key\": \"string\",5    \"is_metadata\": true,6    \"output_key\": \"string\",7    \"type\": \"string\"8  },9  \"description\": \"string\",10  \"name\": \"string\"11}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:33:31.482Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "branch_condition",
+                        "component_key",
+                        "is_metadata",
+                        "output_key",
+                        "type",
+                        "description",
+                        "name"
+                    ]
+}

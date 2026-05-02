@@ -1,0 +1,22 @@
+﻿{
+    "name":  "DocumentStorageIntegrationResponse",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentStorageIntegrationResponse",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DocumentStorageIntegrationResponse.json\",3  \"config\": null,4  \"created_at\": \"2019-08-24T14:15:22Z\",5  \"credentials\": null,6  \"enabled\": true,7  \"id\": \"string\",8  \"provider\": \"string\",9  \"tenant_id\": \"string\",10  \"updated_at\": \"2019-08-24T14:15:22Z\"11}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:41:34.517Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "config",
+                        "created_at",
+                        "credentials",
+                        "enabled",
+                        "id",
+                        "provider",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

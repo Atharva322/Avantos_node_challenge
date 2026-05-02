@@ -1,0 +1,19 @@
+﻿{
+    "id":  "tenant-config-update",
+    "name":  "tenant-config-update",
+    "method":  "PUT",
+    "path":  "/api/v1/{tenant_id}/pages/{page_id}/config",
+    "group_key":  "pages",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tenant-config-update",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/TenantConfigUpdateOutputBody.json\",3  \"message\": \"string\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:22:49.348Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "message"
+                    ]
+}

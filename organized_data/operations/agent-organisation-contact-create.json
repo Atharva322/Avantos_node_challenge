@@ -1,0 +1,19 @@
+﻿{
+    "id":  "agent-organisation-contact-create",
+    "name":  "agent-organisation-contact-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/agent-organisations/{agent_organisation_id}/contacts",
+    "group_key":  "agent-organisations",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-organisation-contact-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CreateContactDetailsOutputBody.json\",3  \"ids\": [4    \"cd_1\",5    \"cd_2\"6  ]7}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:00:46.541Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "ids"
+                    ]
+}

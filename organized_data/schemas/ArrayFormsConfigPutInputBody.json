@@ -1,0 +1,18 @@
+﻿{
+    "name":  "ArrayFormsConfigPutInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ArrayFormsConfigPutInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ArrayFormsConfigPutInputBody.json\",3  \"configs\": [4    {5      \"array_child_form_id\": \"f_456\",6      \"array_property_name\": \"array_property_name\",7      \"parent_task_form_id\": \"f_456\"8    }9  ]10}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:26:25.044Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "configs",
+                        "array_child_form_id",
+                        "array_property_name",
+                        "parent_task_form_id"
+                    ]
+}

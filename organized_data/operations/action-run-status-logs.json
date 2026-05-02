@@ -1,0 +1,32 @@
+﻿{
+    "id":  "action-run-status-logs",
+    "name":  "action-run-status-logs",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/action-runs/{action_run_id}/status-logs",
+    "group_key":  "action-runs",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-status-logs",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunStatusLogsOutputBody.json\",3  \"logs\": [4    {5      \"changed_by\": \"string\",6      \"custom_status\": \"string\",7      \"event_type\": \"string\",8      \"id\": \"string\",9      \"metadata\": {10        \"property1\": null,11        \"property2\": null12      },13      \"old_custom_status\": \"string\",14      \"old_status\": \"string\",15      \"run_id\": \"string\",16      \"status\": \"string\",17      \"tenant_id\": \"string\",18      \"time\": \"2019-08-24T14:15:22Z\"19    }20  ]21}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:58:50.843Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "logs",
+                        "changed_by",
+                        "custom_status",
+                        "event_type",
+                        "id",
+                        "metadata",
+                        "property1",
+                        "property2",
+                        "old_custom_status",
+                        "old_status",
+                        "run_id",
+                        "status",
+                        "tenant_id",
+                        "time"
+                    ]
+}

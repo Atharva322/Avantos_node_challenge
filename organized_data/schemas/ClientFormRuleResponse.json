@@ -1,0 +1,32 @@
+﻿{
+    "name":  "ClientFormRuleResponse",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientFormRuleResponse",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientFormRuleResponse.json\",3  \"acknowledgement_config\": null,4  \"active\": true,5  \"client_form_type_id\": \"cft_123\",6  \"client_form_type_name\": \"string\",7  \"created_at\": \"2019-08-24T14:15:22Z\",8  \"endpoints\": null,9  \"esign_eligible\": true,10  \"id\": \"cfr_123\",11  \"name\": \"IRA Disclosure\",12  \"optional\": true,13  \"prerequisite_form_template_ids\": [14    \"string\"15  ],16  \"priority\": 0,17  \"requires_acknowledgement\": true,18  \"requires_signature\": true,19  \"rules\": null,20  \"scope\": \"envelope\",21  \"tenant_id\": \"1\",22  \"updated_at\": \"2019-08-24T14:15:22Z\"23}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:30:09.855Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "acknowledgement_config",
+                        "active",
+                        "client_form_type_id",
+                        "client_form_type_name",
+                        "created_at",
+                        "endpoints",
+                        "esign_eligible",
+                        "id",
+                        "name",
+                        "optional",
+                        "prerequisite_form_template_ids",
+                        "priority",
+                        "requires_acknowledgement",
+                        "requires_signature",
+                        "rules",
+                        "scope",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

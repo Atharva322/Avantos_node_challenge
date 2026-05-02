@@ -1,0 +1,19 @@
+﻿{
+    "id":  "product-financial-create",
+    "name":  "product-financial-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/financial-products",
+    "group_key":  "financial-products",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/product-financial-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ProductFinancialCreateOutputBody.json\",3  \"id\": \"string\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:29:49.668Z",
+    "source_run":  "ops_retry_1",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

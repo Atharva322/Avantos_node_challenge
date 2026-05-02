@@ -1,0 +1,27 @@
+﻿{
+    "id":  "document-storage-integration-environment-list",
+    "name":  "document-storage-integration-environment-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/document-storage/integrations/{provider}/environments",
+    "group_key":  "document-storage",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/document-storage-integration-environment-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1[2  {3    \"$schema\": \"https://example.com/schemas/DocumentStorageIntegrationEnvironmentResponse.json\",4    \"config\": null,5    \"created_at\": \"2019-08-24T14:15:22Z\",6    \"credentials\": null,7    \"enabled\": true,8    \"environment\": \"string\",9    \"id\": \"string\",10    \"integration_id\": \"string\",11    \"tenant_id\": \"string\",12    \"updated_at\": \"2019-08-24T14:15:22Z\"13  }14]"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:11:58.667Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "config",
+                        "created_at",
+                        "credentials",
+                        "enabled",
+                        "environment",
+                        "id",
+                        "integration_id",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

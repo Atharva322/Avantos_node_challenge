@@ -1,0 +1,38 @@
+﻿{
+    "id":  "business-group-coverage-lookup-summary",
+    "name":  "business-group-coverage-lookup-summary",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/business-groups/coverage-lookups/summary",
+    "group_key":  "business-groups",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-coverage-lookup-summary",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GetBusinessGroupCoverageLookupSummaryOutputBody.json\",3  \"coverage_summaries\": [4    {5      \"business_groups\": [6        {7          \"agent_count\": 12,8          \"business_group_external_id\": \"ext_ne_primary\",9          \"business_group_extra_properties\": {10            \"priority\": \"high\"11          },12          \"business_group_id\": \"bg_001\",13          \"business_group_name\": \"Northeast Primary Team\",14          \"capacity_limit\": 150,15          \"client_count\": 89,16          \"priority\": 117        }18      ],19      \"category\": \"business_group_coverage\",20      \"coverage_description\": \"Northeast Region Coverage\",21      \"coverage_value\": \"Northeast\",22      \"lookup_id\": \"lookup_northeast\",23      \"team_count\": 5,24      \"total_agents\": 45,25      \"total_clients\": 23026    }27  ],28  \"totals\": {29    \"total_agents\": 320,30    \"total_clients\": 1250,31    \"total_lookups\": 8,32    \"total_teams\": 4533  }34}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:01:47.653Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "coverage_summaries",
+                        "business_groups",
+                        "agent_count",
+                        "business_group_external_id",
+                        "business_group_extra_properties",
+                        "priority",
+                        "business_group_id",
+                        "business_group_name",
+                        "capacity_limit",
+                        "client_count",
+                        "category",
+                        "coverage_description",
+                        "coverage_value",
+                        "lookup_id",
+                        "team_count",
+                        "total_agents",
+                        "total_clients",
+                        "totals",
+                        "total_lookups",
+                        "total_teams"
+                    ]
+}

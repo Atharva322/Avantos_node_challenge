@@ -1,0 +1,15 @@
+﻿{
+    "name":  "TaxReturnTypeAggregationOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TaxReturnTypeAggregationOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/TaxReturnTypeAggregationOutputBody.json\",3  \"tax_return_types\": [4    \"string\"5  ]6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:14:06.655Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "tax_return_types"
+                    ]
+}

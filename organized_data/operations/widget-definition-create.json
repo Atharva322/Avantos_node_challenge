@@ -1,0 +1,19 @@
+﻿{
+    "id":  "widget-definition-create",
+    "name":  "widget-definition-create",
+    "method":  "POST",
+    "path":  "/api/v1/admin/widget-definitions",
+    "group_key":  "widget-definitions",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-definition-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/WidgetDefinitionCreateOutputBody.json\",3  \"id\": \"wdef_123\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:25:00.258Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

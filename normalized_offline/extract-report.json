@@ -1,0 +1,18 @@
+{
+  "generated_at": "2026-05-02T03:28:31.332Z",
+  "input_records": 499,
+  "normalized_operations": 165,
+  "markdown_enriched_operations": 165,
+  "normalized_schemas": 334,
+  "seed_files_updated": 0,
+  "seed_files_without_source_record": 709,
+  "missing_targets_summary": {
+    "expected_operations": 411,
+    "found_operations": 165,
+    "missing_operations": 246,
+    "expected_schemas": 797,
+    "found_schemas": 334,
+    "missing_schemas": 463
+  },
+  "output_dir": "C:\\Users\\athar\\Desktop\\Avantos_Node_Challenge\\normalized_offline"
+}

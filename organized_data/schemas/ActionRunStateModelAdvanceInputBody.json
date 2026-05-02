@@ -1,0 +1,18 @@
+﻿{
+    "name":  "ActionRunStateModelAdvanceInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunStateModelAdvanceInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunStateModelAdvanceInputBody.json\",3  \"input\": {4    \"property1\": null,5    \"property2\": null6  },7  \"transition_key\": \"finish\"8}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:19:05.026Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "input",
+                        "property1",
+                        "property2",
+                        "transition_key"
+                    ]
+}

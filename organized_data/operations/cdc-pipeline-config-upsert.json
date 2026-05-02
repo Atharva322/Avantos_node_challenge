@@ -1,0 +1,25 @@
+﻿{
+    "id":  "cdc-pipeline-config-upsert",
+    "name":  "cdc-pipeline-config-upsert",
+    "method":  "PUT",
+    "path":  "/api/v1/{tenant_id}/cdc/pipeline-configs/{pipeline}",
+    "group_key":  "cdc",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/cdc-pipeline-config-upsert",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CDCPipelineConfigResponse.json\",3  \"config\": null,4  \"created_at\": \"2019-08-24T14:15:22Z\",5  \"has_credentials\": true,6  \"id\": \"string\",7  \"pipeline\": \"string\",8  \"tenant_id\": \"string\",9  \"updated_at\": \"2019-08-24T14:15:22Z\"10}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:05:11.898Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "config",
+                        "created_at",
+                        "has_credentials",
+                        "id",
+                        "pipeline",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

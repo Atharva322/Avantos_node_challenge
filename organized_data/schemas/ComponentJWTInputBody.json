@@ -1,0 +1,18 @@
+﻿{
+    "name":  "ComponentJWTInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ComponentJWTInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ComponentJWTInputBody.json\",3  \"Component\": \"AdvisorDirectory\",4  \"RelationshipId\": \"rel_123\",5  \"UserId\": \"005Dn000007bfPUIAY\",6  \"UserRole\": \"Mercer-Admin\"7}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:36:05.629Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "Component",
+                        "RelationshipId",
+                        "UserId",
+                        "UserRole"
+                    ]
+}

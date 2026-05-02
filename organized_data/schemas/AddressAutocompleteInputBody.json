@@ -1,0 +1,17 @@
+﻿{
+    "name":  "AddressAutocompleteInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressAutocompleteInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AddressAutocompleteInputBody.json\",3  \"countries\": [4    \"us\"5  ],6  \"input\": \"123 Main\",7  \"session_token\": \"uuid-session-token\"8}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:21:29.277Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "countries",
+                        "input",
+                        "session_token"
+                    ]
+}

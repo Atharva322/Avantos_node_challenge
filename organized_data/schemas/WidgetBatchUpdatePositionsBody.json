@@ -1,0 +1,20 @@
+﻿{
+    "name":  "WidgetBatchUpdatePositionsBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetBatchUpdatePositionsBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/WidgetBatchUpdatePositionsBody.json\",3  \"updates\": [4    {5      \"height\": 2,6      \"widgetId\": \"wdg_123\",7      \"width\": 2,8      \"x\": 0,9      \"y\": 010    }11  ]12}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:18:47.299Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "updates",
+                        "height",
+                        "widgetId",
+                        "width",
+                        "x",
+                        "y"
+                    ]
+}

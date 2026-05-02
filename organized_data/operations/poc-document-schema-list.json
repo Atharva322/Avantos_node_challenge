@@ -1,0 +1,33 @@
+﻿{
+    "id":  "poc-document-schema-list",
+    "name":  "poc-document-schema-list",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/poc-document-schemas/list",
+    "group_key":  "poc-document-schemas",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/poc-document-schema-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DocumentSchemaListOutputBody.json\",3  \"document_schemas\": [4    {5      \"$schema\": \"https://example.com/schemas/DocumentSchemaDescription.json\",6      \"created_at\": \"2026-02-22T00:00:00Z\",7      \"created_by\": \"agent@example.com\",8      \"description\": \"Schema for extracting fields from W-2 tax forms\",9      \"fields\": [10        {11          \"field_description\": \"Name of the employer as shown on the form\",12          \"field_name\": \"employer_name\"13        }14      ],15      \"id\": \"docschema_2kzn8f0q1r3s5t7v9x\",16      \"name\": \"W-2 Tax Form\",17      \"updated_at\": \"2026-02-22T00:00:00Z\"18    }19  ],20  \"pagination\": {21    \"page\": 0,22    \"page_size\": 0,23    \"total_pages\": 0,24    \"total_records\": 025  }26}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:18:17.788Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "document_schemas",
+                        "created_at",
+                        "created_by",
+                        "description",
+                        "fields",
+                        "field_description",
+                        "field_name",
+                        "id",
+                        "name",
+                        "updated_at",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records"
+                    ]
+}

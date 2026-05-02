@@ -1,0 +1,18 @@
+﻿{
+    "id":  "business-groups-find-by-coverage",
+    "name":  "business-groups-find-by-coverage",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/business-groups/find-by-coverage",
+    "group_key":  "business-groups",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-groups-find-by-coverage",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:04:53.876Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

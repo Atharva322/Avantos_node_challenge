@@ -1,0 +1,29 @@
+﻿{
+    "id":  "action-run-blueprint-version-reassign-bulk",
+    "name":  "action-run-blueprint-version-reassign-bulk",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/action-runs/blueprint-version-reassign",
+    "group_key":  "action-runs",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-blueprint-version-reassign-bulk",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunBulkBlueprintVersionReassignResponseBody.json\",3  \"failed_runs\": {4    \"property1\": {5      \"component_errors\": [6        {7          \"component_key\": \"string\",8          \"message\": \"string\"9        }10      ],11      \"prefill_errors\": [12        {13          \"component_key\": \"string\",14          \"error_type\": \"string\",15          \"field_name\": \"string\",16          \"message\": \"string\",17          \"referenced_component_key\": \"string\"18        }19      ]20    },21    \"property2\": {22      \"component_errors\": [23        {24          \"component_key\": \"string\",25          \"message\": \"string\"26        }27      ],28      \"prefill_errors\": [29        {30          \"component_key\": \"string\",31          \"error_type\": \"string\",32          \"field_name\": \"string\",33          \"message\": \"string\",34          \"referenced_component_key\": \"string\"35        }36      ]37    }38  },39  \"reassigned_run_ids\": [40    \"ar_123\",41    \"ar_456\",42    \"ar_789\"43  ]44}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:53:10.618Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "failed_runs",
+                        "property1",
+                        "component_errors",
+                        "component_key",
+                        "message",
+                        "prefill_errors",
+                        "error_type",
+                        "field_name",
+                        "referenced_component_key",
+                        "property2",
+                        "reassigned_run_ids"
+                    ]
+}

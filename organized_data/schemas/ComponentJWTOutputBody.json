@@ -1,0 +1,16 @@
+﻿{
+    "name":  "ComponentJWTOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ComponentJWTOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ComponentJWTOutputBody.json\",3  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...\",4  \"url\": \"https://api.merceradvisors.com/api/v1/Identity/InitiateComponent?accessToken=...\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:36:10.126Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "token",
+                        "url"
+                    ]
+}

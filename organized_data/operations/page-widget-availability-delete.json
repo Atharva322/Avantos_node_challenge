@@ -1,0 +1,19 @@
+﻿{
+    "id":  "page-widget-availability-delete",
+    "name":  "page-widget-availability-delete",
+    "method":  "DELETE",
+    "path":  "/api/v1/{tenant_id}/pages/{page}/available-widgets/{availability_id}",
+    "group_key":  "pages",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-delete",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PageWidgetAvailabilityDeleteOutputBody.json\",3  \"message\": \"Page widget availability deleted successfully\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:17:37.440Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "message"
+                    ]
+}

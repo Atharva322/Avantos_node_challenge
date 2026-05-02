@@ -1,0 +1,18 @@
+﻿{
+    "id":  "agent-business-group-role-list-by-type-and-name",
+    "name":  "agent-business-group-role-list-by-type-and-name",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/agent-business-group-roles",
+    "group_key":  "agent-business-group-roles",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-business-group-role-list-by-type-and-name",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:59:53.134Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

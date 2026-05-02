@@ -1,0 +1,19 @@
+﻿{
+    "id":  "meeting-id-by-external-id",
+    "name":  "meeting-id-by-external-id",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/meetings/id-by-external-id",
+    "group_key":  "meetings",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-id-by-external-id",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GetMeetingIDByExternalIDOutputBody.json\",3  \"meeting_id\": \"m_789\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:15:43.763Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "meeting_id"
+                    ]
+}

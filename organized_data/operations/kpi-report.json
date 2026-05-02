@@ -1,0 +1,31 @@
+﻿{
+    "id":  "kpi-report",
+    "name":  "kpi-report",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/kpis/report",
+    "group_key":  "kpis",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/kpi-report",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/KPIReportOutputBody.json\",3  \"available_dimensions\": {4    \"property1\": [5      \"string\"6    ],7    \"property2\": [8      \"string\"9    ]10  },11  \"data_points\": [12    {13      \"denominator\": \"25\",14      \"numerator\": \"3\",15      \"period_end\": \"2026-01-13T00:00:00Z\",16      \"period_start\": \"2026-01-06T00:00:00Z\",17      \"value\": \"42\"18    }19  ],20  \"granularity\": \"daily\",21  \"kpi_id\": \"kpi_123\",22  \"kpi_name\": \"actions.total_count\",23  \"unit\": \"count\"24}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:14:44.276Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "available_dimensions",
+                        "property1",
+                        "property2",
+                        "data_points",
+                        "denominator",
+                        "numerator",
+                        "period_end",
+                        "period_start",
+                        "value",
+                        "granularity",
+                        "kpi_id",
+                        "kpi_name",
+                        "unit"
+                    ]
+}

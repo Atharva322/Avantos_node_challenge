@@ -1,0 +1,32 @@
+﻿{
+    "id":  "agent-client-organisation-relationship-list",
+    "name":  "agent-client-organisation-relationship-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/agents/{agent_id}/client-organisations",
+    "group_key":  "agents",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-client-organisation-relationship-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AgentClientOrganisationRelationshipListOutputBody.json\",3  \"client_organisations\": [4    {5      \"agent_id\": \"ag_123abc\",6      \"client_organisation_id\": \"org_123abc\",7      \"client_organisation_role\": \"Client\",8      \"client_organisation_type\": \"Corporation\",9      \"description\": \"A leading technology company\",10      \"extra_properties\": {11        \"annual_revenue\": \"$500M\",12        \"employees\": \"5000\",13        \"industry\": \"Technology\"14      },15      \"name\": \"Acme Corp\",16      \"parent_id\": \"org_123abc\",17      \"relationship_type\": \"Primary\",18      \"tenant_id\": \"tenant_123abc\"19    }20  ]21}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:00:02.001Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "client_organisations",
+                        "agent_id",
+                        "client_organisation_id",
+                        "client_organisation_role",
+                        "client_organisation_type",
+                        "description",
+                        "extra_properties",
+                        "annual_revenue",
+                        "employees",
+                        "industry",
+                        "name",
+                        "parent_id",
+                        "relationship_type",
+                        "tenant_id"
+                    ]
+}

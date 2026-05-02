@@ -1,0 +1,26 @@
+﻿{
+    "name":  "APITokenCreateOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/APITokenCreateOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/APITokenCreateOutputBody.json\",3  \"auth_method\": \"string\",4  \"created_at\": \"2019-08-24T14:15:22Z\",5  \"expires_at\": \"2019-08-24T14:15:22Z\",6  \"id\": \"string\",7  \"name\": \"string\",8  \"role\": \"string\",9  \"scope_type\": \"string\",10  \"token\": \"string\",11  \"token_id\": \"string\",12  \"trigger_grants\": [13    {14      \"grant_target_id\": \"string\",15      \"grant_type\": \"string\"16    }17  ]18}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:32:04.689Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "auth_method",
+                        "created_at",
+                        "expires_at",
+                        "id",
+                        "name",
+                        "role",
+                        "scope_type",
+                        "token",
+                        "token_id",
+                        "trigger_grants",
+                        "grant_target_id",
+                        "grant_type"
+                    ]
+}

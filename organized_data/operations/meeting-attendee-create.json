@@ -1,0 +1,19 @@
+﻿{
+    "id":  "meeting-attendee-create",
+    "name":  "meeting-attendee-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/meetings/{meeting_id}/attendees",
+    "group_key":  "meetings",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-attendee-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/MeetingAttendeeCreateOutputBody.json\",3  \"id\": \"string\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:15:16.989Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

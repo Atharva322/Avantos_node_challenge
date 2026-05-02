@@ -1,0 +1,21 @@
+﻿{
+    "name":  "CreateLookupBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateLookupBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CreateLookupBody.json\",3  \"category\": \"business_group_coverage\",4  \"description\": \"Northeast United States\",5  \"external_id\": \"ext_northeast\",6  \"extra_properties\": {7    \"region_code\": \"NE\"8  },9  \"is_active\": true,10  \"value\": \"northeast\"11}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:37:03.942Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "category",
+                        "description",
+                        "external_id",
+                        "extra_properties",
+                        "region_code",
+                        "is_active",
+                        "value"
+                    ]
+}

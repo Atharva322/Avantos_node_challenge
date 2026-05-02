@@ -1,0 +1,26 @@
+﻿{
+    "name":  "ABACDebugResult",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ABACDebugResult",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ABACDebugResult.json\",3  \"policy_breakdowns\": [4    {5      \"atomic_expressions\": [6        {}7      ],8      \"effect\": \"grant\",9      \"policy_name\": \"WealthAdvisor_MyClients_Grant\",10      \"total_contribution\": 311    }12  ],13  \"summary\": {14    \"deny_exclusions\": 2,15    \"grant_contributions\": 15,16    \"total_accessible\": 13,17    \"total_atomic_expressions\": 8,18    \"total_policies\": 419  },20  \"user_context\": null21}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:31:51.061Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "policy_breakdowns",
+                        "atomic_expressions",
+                        "effect",
+                        "policy_name",
+                        "total_contribution",
+                        "summary",
+                        "deny_exclusions",
+                        "grant_contributions",
+                        "total_accessible",
+                        "total_atomic_expressions",
+                        "total_policies",
+                        "user_context"
+                    ]
+}

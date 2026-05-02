@@ -1,0 +1,18 @@
+﻿{
+    "id":  "meeting-summary-unattest",
+    "name":  "meeting-summary-unattest",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/meetings/{meeting_id}/summary/unattest",
+    "group_key":  "meetings",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-summary-unattest",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:16:49.872Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

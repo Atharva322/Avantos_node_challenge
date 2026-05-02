@@ -1,0 +1,17 @@
+﻿{
+    "name":  "DocumentStorageIntegrationEnvironmentUpsertInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentStorageIntegrationEnvironmentUpsertInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DocumentStorageIntegrationEnvironmentUpsertInputBody.json\",3  \"config\": null,4  \"credentials\": null,5  \"enabled\": true6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:41:30.073Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "config",
+                        "credentials",
+                        "enabled"
+                    ]
+}

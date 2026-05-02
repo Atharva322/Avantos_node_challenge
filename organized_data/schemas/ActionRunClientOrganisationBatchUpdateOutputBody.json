@@ -1,0 +1,22 @@
+﻿{
+    "name":  "ActionRunClientOrganisationBatchUpdateOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunClientOrganisationBatchUpdateOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunClientOrganisationBatchUpdateOutputBody.json\",3  \"results\": [4    {5      \"action_run_id\": \"string\",6      \"error\": \"string\",7      \"success\": true8    }9  ],10  \"summary\": {11    \"failed\": 0,12    \"successful\": 0,13    \"total_requested\": 014  }15}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:18:01.595Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "results",
+                        "action_run_id",
+                        "error",
+                        "success",
+                        "summary",
+                        "failed",
+                        "successful",
+                        "total_requested"
+                    ]
+}

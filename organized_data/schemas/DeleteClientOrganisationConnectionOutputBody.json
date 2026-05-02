@@ -1,0 +1,14 @@
+﻿{
+    "name":  "DeleteClientOrganisationConnectionOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DeleteClientOrganisationConnectionOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DeleteClientOrganisationConnectionOutputBody.json\"3}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:38:57.032Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema"
+                    ]
+}

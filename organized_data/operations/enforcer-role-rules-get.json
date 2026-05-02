@@ -1,0 +1,19 @@
+﻿{
+    "id":  "enforcer-role-rules-get",
+    "name":  "enforcer-role-rules-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/roles/enforcer",
+    "group_key":  "roles",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/enforcer-role-rules-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/EnforcerRoleRulesGetOutputBody.json\",3  \"rules\": [4    \"rule1\",5    \"rule2\"6  ]7}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:12:20.896Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "rules"
+                    ]
+}

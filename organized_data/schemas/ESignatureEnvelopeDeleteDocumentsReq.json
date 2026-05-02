@@ -1,0 +1,15 @@
+﻿{
+    "name":  "ESignatureEnvelopeDeleteDocumentsReq",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ESignatureEnvelopeDeleteDocumentsReq",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ESignatureEnvelopeDeleteDocumentsReq.json\",3  \"document_ids\": [4    \"1\",5    \"2\"6  ]7}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:41:54.674Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "document_ids"
+                    ]
+}

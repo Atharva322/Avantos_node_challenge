@@ -1,0 +1,41 @@
+﻿{
+    "name":  "ClientOrganisationGetOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGetOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientOrganisationGetOutputBody.json\",3  \"client_organisation\": {4    \"agent_organisation_id\": \"ao_246810\",5    \"agents\": {6      \"property1\": null,7      \"property2\": null8    },9    \"approx_aum\": 1000000000,10    \"client_organisation_role\": \"Primary Client\",11    \"client_organisation_type\": \"Corporation\",12    \"client_segmentation\": \"High Net Worth\",13    \"created_at\": \"2023-04-01T12:00:00Z\",14    \"description\": \"A leading technology company specializing in innovative solutions\",15    \"external_id\": \"ext_123456\",16    \"extra_properties\": {17      \"annual_revenue\": \"$500M\",18      \"employees\": \"5000\",19      \"industry\": \"Technology\"20    },21    \"growth_opportunity_next_step_date\": \"2023-05-01\",22    \"id\": \"co_123456\",23    \"last_interaction_date\": \"2024-03-15\",24    \"name\": \"Acme Corporation\",25    \"next_meeting\": \"2023-05-01\",26    \"notes\": \"Important client notes\",27    \"parent_id\": \"co_987654\",28    \"relationship_start_date\": \"2020-01-01\",29    \"relationship_status\": \"EXISTING\",30    \"tenant_id\": \"tenant_789\",31    \"updated_at\": \"2023-04-15T09:30:00Z\"32  }33}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:32:03.567Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "client_organisation",
+                        "agent_organisation_id",
+                        "agents",
+                        "property1",
+                        "property2",
+                        "approx_aum",
+                        "client_organisation_role",
+                        "client_organisation_type",
+                        "client_segmentation",
+                        "created_at",
+                        "description",
+                        "external_id",
+                        "extra_properties",
+                        "annual_revenue",
+                        "employees",
+                        "industry",
+                        "growth_opportunity_next_step_date",
+                        "id",
+                        "last_interaction_date",
+                        "name",
+                        "next_meeting",
+                        "notes",
+                        "parent_id",
+                        "relationship_start_date",
+                        "relationship_status",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

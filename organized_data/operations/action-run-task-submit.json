@@ -1,0 +1,19 @@
+﻿{
+    "id":  "action-run-task-submit",
+    "name":  "action-run-task-submit",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/action-runs/{action_run_id}/tasks/{task_id}/submit",
+    "group_key":  "action-runs",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-task-submit",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunTaskSubmitOutputBody.json\",3  \"new_status\": \"pending_approval\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:59:35.329Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "new_status"
+                    ]
+}

@@ -1,0 +1,23 @@
+﻿{
+    "name":  "ResponseUnqorkIdentifyThirdPartyManager",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ResponseUnqorkIdentifyThirdPartyManager",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ResponseUnqorkIdentifyThirdPartyManager.json\",3  \"data\": {4    \"resolved\": {5      \"interactionType\": \"string\",6      \"thirdPartyManager\": \"string\",7      \"thirdPartyManagerAssetType\": \"string\",8      \"thirdPartyManagerDetails\": [9        {}10      ],11      \"thirdPartyManagerName\": \"string\",12      \"thirdPartyManagerType\": \"string\",13      \"tpmRecipients\": [14        null15      ]16    }17  }18}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:11:20.941Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "data",
+                        "resolved",
+                        "interactionType",
+                        "thirdPartyManager",
+                        "thirdPartyManagerAssetType",
+                        "thirdPartyManagerDetails",
+                        "thirdPartyManagerName",
+                        "thirdPartyManagerType",
+                        "tpmRecipients"
+                    ]
+}

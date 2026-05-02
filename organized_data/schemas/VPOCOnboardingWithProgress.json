@@ -1,0 +1,34 @@
+﻿{
+    "name":  "VPOCOnboardingWithProgress",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCOnboardingWithProgress",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/VPOCOnboardingWithProgress.json\",3  \"action_ids\": [4    \"string\"5  ],6  \"action_runs\": null,7  \"client_organisation_id\": \"string\",8  \"client_organisation_name\": \"string\",9  \"client_organisation_type\": \"string\",10  \"end_date\": \"2019-08-24T14:15:22Z\",11  \"id\": \"string\",12  \"primary_client_first_name\": \"string\",13  \"primary_client_id\": \"string\",14  \"primary_client_last_name\": \"string\",15  \"progress\": {16    \"completed_tasks\": 0,17    \"progress_percentage\": 0,18    \"status\": \"string\",19    \"total_tasks\": 020  },21  \"relationship_description\": \"string\",22  \"relationship_id\": \"string\",23  \"relationship_role\": \"string\",24  \"started_at\": \"2019-08-24T14:15:22Z\",25  \"tenant_id\": \"string\"26}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:18:42.853Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "action_ids",
+                        "action_runs",
+                        "client_organisation_id",
+                        "client_organisation_name",
+                        "client_organisation_type",
+                        "end_date",
+                        "id",
+                        "primary_client_first_name",
+                        "primary_client_id",
+                        "primary_client_last_name",
+                        "progress",
+                        "completed_tasks",
+                        "progress_percentage",
+                        "status",
+                        "total_tasks",
+                        "relationship_description",
+                        "relationship_id",
+                        "relationship_role",
+                        "started_at",
+                        "tenant_id"
+                    ]
+}

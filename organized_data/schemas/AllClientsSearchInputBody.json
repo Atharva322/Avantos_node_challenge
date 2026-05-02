@@ -1,0 +1,31 @@
+﻿{
+    "name":  "AllClientsSearchInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AllClientsSearchInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AllClientsSearchInputBody.json\",3  \"client_organisation_name_filter\": \"Acme Corp\",4  \"external_id_filter\": \"ext_123\",5  \"filter\": {6    \"component_key\": \"string\",7    \"is_metadata\": true,8    \"output_key\": \"string\",9    \"type\": \"string\"10  },11  \"name_filter\": \"John Smith\",12  \"pagination_params\": {13    \"page\": 1,14    \"page_size\": 1015  },16  \"preferred_email_filter\": \"john@example.com\",17  \"sort_keys\": [18    {19      \"cast_type\": \"numeric\",20      \"collation\": \"default\",21      \"sort_column\": \"first_name\",22      \"sort_order\": \"ASC\"23    }24  ]25}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:26:07.089Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "client_organisation_name_filter",
+                        "external_id_filter",
+                        "filter",
+                        "component_key",
+                        "is_metadata",
+                        "output_key",
+                        "type",
+                        "name_filter",
+                        "pagination_params",
+                        "page",
+                        "page_size",
+                        "preferred_email_filter",
+                        "sort_keys",
+                        "cast_type",
+                        "collation",
+                        "sort_column",
+                        "sort_order"
+                    ]
+}

@@ -1,0 +1,36 @@
+﻿{
+    "name":  "ActionComponentFormCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionComponentFormCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionComponentFormCreateInputBody.json\",3  \"custom_javascript\": \"string\",4  \"custom_javascript_execute_on_load\": true,5  \"custom_javascript_triggering_fields\": [6    \"string\"7  ],8  \"default_input_mapping\": {9    \"property1\": null,10    \"property2\": null11  },12  \"default_output_mapping\": {13    \"property1\": null,14    \"property2\": null15  },16  \"description\": \"string\",17  \"dynamic_field_config\": {18    \"property1\": {19      \"child_form_javascript\": {},20      \"e_signature_mappings\": {},21      \"endpoint_id\": \"string\",22      \"no_results_message\": \"string\",23      \"output_key\": \"string\",24      \"payload_fields\": {},25      \"pdf_preview_payloads\": {},26      \"selector_field\": \"string\"27    },28    \"property2\": {29      \"child_form_javascript\": {},30      \"e_signature_mappings\": {},31      \"endpoint_id\": \"string\",32      \"no_results_message\": \"string\",33      \"output_key\": \"string\",34      \"payload_fields\": {},35      \"pdf_preview_payloads\": {},36      \"selector_field\": \"string\"37    }38  },39  \"form_schema\": {40    \"property1\": null,41    \"property2\": null42  },43  \"imported_js_function_config\": [44    {45      \"property1\": null,46      \"property2\": null47    }48  ],49  \"is_reusable\": true,50  \"name\": \"string\",51  \"ui_schema\": {52    \"property1\": null,53    \"property2\": null54  }55}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:33:45.772Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "custom_javascript",
+                        "custom_javascript_execute_on_load",
+                        "custom_javascript_triggering_fields",
+                        "default_input_mapping",
+                        "property1",
+                        "property2",
+                        "default_output_mapping",
+                        "description",
+                        "dynamic_field_config",
+                        "child_form_javascript",
+                        "e_signature_mappings",
+                        "endpoint_id",
+                        "no_results_message",
+                        "output_key",
+                        "payload_fields",
+                        "pdf_preview_payloads",
+                        "selector_field",
+                        "form_schema",
+                        "imported_js_function_config",
+                        "is_reusable",
+                        "name",
+                        "ui_schema"
+                    ]
+}

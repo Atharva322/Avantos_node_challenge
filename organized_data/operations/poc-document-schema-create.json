@@ -1,0 +1,19 @@
+﻿{
+    "id":  "poc-document-schema-create",
+    "name":  "poc-document-schema-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/poc-document-schemas",
+    "group_key":  "poc-document-schemas",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/poc-document-schema-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DocumentSchemaCreateOutputBody.json\",3  \"id\": \"docschema_2kzn8f0q1r3s5t7v9x\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:18:08.761Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

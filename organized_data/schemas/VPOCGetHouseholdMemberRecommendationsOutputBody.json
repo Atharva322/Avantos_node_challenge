@@ -1,0 +1,28 @@
+﻿{
+    "name":  "VPOCGetHouseholdMemberRecommendationsOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCGetHouseholdMemberRecommendationsOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/VPOCGetHouseholdMemberRecommendationsOutputBody.json\",3  \"recommendations\": [4    {5      \"assets\": \"1500000.00\",6      \"client_id\": \"client_456\",7      \"contacts\": [8        {}9      ],10      \"date_of_birth\": \"1985-03-20T00:00:00Z\",11      \"first_name\": \"Jane\",12      \"last_name\": \"Smith\",13      \"organisation_id\": \"org_789\",14      \"person_id\": \"person_101\",15      \"role\": \"Spouse\",16      \"shared_address\": {17        \"address_data\": {}18      },19      \"tenant_id\": \"vanguard\"20    }21  ],22  \"total_count\": 023}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:17:08.959Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "recommendations",
+                        "assets",
+                        "client_id",
+                        "contacts",
+                        "date_of_birth",
+                        "first_name",
+                        "last_name",
+                        "organisation_id",
+                        "person_id",
+                        "role",
+                        "shared_address",
+                        "address_data",
+                        "tenant_id",
+                        "total_count"
+                    ]
+}

@@ -1,0 +1,23 @@
+﻿{
+    "id":  "agent-id-by-external-id",
+    "name":  "agent-id-by-external-id",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/agents/id-by-external-id",
+    "group_key":  "agents",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-id-by-external-id",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GetAgentIDByExternalIDOutputBody.json\",3  \"agent_id\": \"ag_789\",4  \"email\": \"john.doe@example.com\",5  \"first_name\": \"John\",6  \"last_name\": \"Doe\",7  \"middle_name\": \"Doe\"8}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:00:15.312Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "agent_id",
+                        "email",
+                        "first_name",
+                        "last_name",
+                        "middle_name"
+                    ]
+}

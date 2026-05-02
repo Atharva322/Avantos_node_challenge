@@ -1,0 +1,25 @@
+﻿{
+    "name":  "TriggerExecutionLogsListRequestBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerExecutionLogsListRequestBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/TriggerExecutionLogsListRequestBody.json\",3  \"endpoint_id\": \"string\",4  \"filter\": {5    \"component_key\": \"string\",6    \"is_metadata\": true,7    \"output_key\": \"string\",8    \"type\": \"string\"9  },10  \"pagination_params\": {11    \"page\": 1,12    \"page_size\": 1013  },14  \"run_component\": {15    \"action_run_id\": \"string\",16    \"component_key\": \"string\"17  }18}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:15:40.217Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "endpoint_id",
+                        "filter",
+                        "component_key",
+                        "is_metadata",
+                        "output_key",
+                        "type",
+                        "pagination_params",
+                        "page",
+                        "page_size",
+                        "run_component",
+                        "action_run_id"
+                    ]
+}

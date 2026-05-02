@@ -1,0 +1,37 @@
+﻿{
+    "name":  "AgentSearchOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentSearchOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AgentSearchOutputBody.json\",3  \"pagination\": {4    \"page\": 0,5    \"page_size\": 0,6    \"total_pages\": 0,7    \"total_records\": 08  },9  \"results\": [10    {11      \"agent_external_id\": \"ext_agent_456\",12      \"agent_id\": \"agent_123\",13      \"agent_type\": \"advisor\",14      \"all_client_organisations\": [15        {}16      ],17      \"contacts\": {18        \"primary_email\": {19          \"role\": \"primary_email\",20          \"value\": \"john@example.com\"21        }22      },23      \"created_at\": \"2024-01-01T09:00:00Z\",24      \"first_name\": \"John\",25      \"last_name\": \"Doe\",26      \"primary_client_organisation_id\": \"org_123\",27      \"primary_client_organisation_name\": \"Acme Corp\",28      \"primary_relationship_type\": \"advisor\",29      \"suffix\": \"Jr.\",30      \"title\": \"Senior Advisor\",31      \"updated_at\": \"2024-01-01T09:00:00Z\"32    }33  ]34}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:26:02.493Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records",
+                        "results",
+                        "agent_external_id",
+                        "agent_id",
+                        "agent_type",
+                        "all_client_organisations",
+                        "contacts",
+                        "primary_email",
+                        "role",
+                        "value",
+                        "created_at",
+                        "first_name",
+                        "last_name",
+                        "primary_client_organisation_id",
+                        "primary_client_organisation_name",
+                        "primary_relationship_type",
+                        "suffix",
+                        "title",
+                        "updated_at"
+                    ]
+}

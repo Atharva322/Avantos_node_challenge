@@ -1,0 +1,36 @@
+﻿{
+    "id":  "service-agreement-get",
+    "name":  "service-agreement-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/service-agreements/{service_agreement_id}",
+    "group_key":  "service-agreements",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/service-agreement-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ServiceAgreementGetOutputBody.json\",3  \"service_agreement\": {4    \"account_id\": \"string\",5    \"additional_attributes\": {6      \"property1\": null,7      \"property2\": null8    },9    \"advisor_id\": \"string\",10    \"agreement_details\": {11      \"property1\": null,12      \"property2\": null13    },14    \"allocation_details\": {15      \"property1\": null,16      \"property2\": null17    },18    \"client_id\": \"string\",19    \"created_at\": \"2019-08-24T14:15:22Z\",20    \"end_date\": \"2019-08-24T14:15:22Z\",21    \"fee_details\": {22      \"property1\": null,23      \"property2\": null24    },25    \"id\": \"string\",26    \"product_id\": \"string\",27    \"repcode_id\": \"string\",28    \"start_date\": \"2019-08-24T14:15:22Z\",29    \"tenant_id\": \"string\",30    \"updated_at\": \"2019-08-24T14:15:22Z\"31  }32}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:21:54.894Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "service_agreement",
+                        "account_id",
+                        "additional_attributes",
+                        "property1",
+                        "property2",
+                        "advisor_id",
+                        "agreement_details",
+                        "allocation_details",
+                        "client_id",
+                        "created_at",
+                        "end_date",
+                        "fee_details",
+                        "id",
+                        "product_id",
+                        "repcode_id",
+                        "start_date",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

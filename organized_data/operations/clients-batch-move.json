@@ -1,0 +1,27 @@
+﻿{
+    "id":  "clients-batch-move",
+    "name":  "clients-batch-move",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/clients/move",
+    "group_key":  "clients",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/clients-batch-move",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientBatchMoveOutputBody.json\",3  \"results\": [4    {5      \"client_id\": \"string\",6      \"error\": \"string\",7      \"new_relationship_id\": \"string\",8      \"success\": true9    }10  ],11  \"summary\": {12    \"failed\": 0,13    \"successful\": 0,14    \"total_requested\": 015  }16}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:10:30.702Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "results",
+                        "client_id",
+                        "error",
+                        "new_relationship_id",
+                        "success",
+                        "summary",
+                        "failed",
+                        "successful",
+                        "total_requested"
+                    ]
+}

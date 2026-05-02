@@ -1,0 +1,21 @@
+﻿{
+    "name":  "MeetingEmailDraftInput",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingEmailDraftInput",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/MeetingEmailDraftInput.json\",3  \"body_content\": \"Thank you for attending...\",4  \"cc_addresses\": [5    \"manager@example.com\"6  ],7  \"is_ai_enhanced\": false,8  \"is_skipped\": false,9  \"sent_flag\": false,10  \"subject\": \"Meeting Follow-up\",11  \"to_addresses\": [12    \"john@example.com\",13    \"jane@example.com\"14  ]15}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:50:37.254Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "body_content",
+                        "cc_addresses",
+                        "is_ai_enhanced",
+                        "is_skipped",
+                        "sent_flag",
+                        "subject",
+                        "to_addresses"
+                    ]
+}

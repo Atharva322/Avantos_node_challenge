@@ -1,0 +1,18 @@
+﻿{
+    "id":  "agent-oauth-token-delete",
+    "name":  "agent-oauth-token-delete",
+    "method":  "DELETE",
+    "path":  "/api/v1/{tenant_id}/agents/oauth-tokens/{token_id}/remove",
+    "group_key":  "agents",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-oauth-token-delete",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:00:24.356Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

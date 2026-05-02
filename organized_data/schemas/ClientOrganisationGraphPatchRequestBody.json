@@ -1,0 +1,30 @@
+﻿{
+    "name":  "ClientOrganisationGraphPatchRequestBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationGraphPatchRequestBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientOrganisationGraphPatchRequestBody.json\",3  \"changes\": {4    \"client_organisation\": {5      \"_modified\": [6        \"name\",7        \"description\"8      ],9      \"approx_aum\": 1500000,10      \"client_organisation_role\": \"Client\",11      \"client_organisation_type\": \"Household\",12      \"client_segmentation\": \"High Net Worth\",13      \"description\": \"Updated description\",14      \"external_id\": \"ext_123\",15      \"extra_properties\": {},16      \"growth_opportunity_next_step_date\": \"2019-08-24T14:15:22Z\",17      \"id\": \"string\",18      \"name\": \"Updated Household Name\",19      \"next_meeting\": \"2019-08-24T14:15:22Z\",20      \"relationship_status\": \"Active\"21    }22  },23  \"schema_version\": \"v1\"24}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:32:34.772Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "changes",
+                        "client_organisation",
+                        "_modified",
+                        "approx_aum",
+                        "client_organisation_role",
+                        "client_organisation_type",
+                        "client_segmentation",
+                        "description",
+                        "external_id",
+                        "extra_properties",
+                        "growth_opportunity_next_step_date",
+                        "id",
+                        "name",
+                        "next_meeting",
+                        "relationship_status",
+                        "schema_version"
+                    ]
+}

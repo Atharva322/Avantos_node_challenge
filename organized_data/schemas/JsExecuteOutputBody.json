@@ -1,0 +1,17 @@
+﻿{
+    "name":  "JsExecuteOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/JsExecuteOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/JsExecuteOutputBody.json\",3  \"response\": {4    \"property1\": null,5    \"property2\": null6  }7}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:45:56.691Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "response",
+                        "property1",
+                        "property2"
+                    ]
+}

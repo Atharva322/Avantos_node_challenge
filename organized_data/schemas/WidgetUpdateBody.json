@@ -1,0 +1,22 @@
+﻿{
+    "name":  "WidgetUpdateBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetUpdateBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/WidgetUpdateBody.json\",3  \"config\": {4    \"property1\": null,5    \"property2\": null6  },7  \"height\": 2,8  \"isVisible\": true,9  \"width\": 2,10  \"x\": 0,11  \"y\": 012}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:19:13.945Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "config",
+                        "property1",
+                        "property2",
+                        "height",
+                        "isVisible",
+                        "width",
+                        "x",
+                        "y"
+                    ]
+}

@@ -1,0 +1,18 @@
+﻿{
+    "id":  "comment-add",
+    "name":  "comment-add",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/comments/{entity}/{entity_id}",
+    "group_key":  "comments",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/comment-add",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:10:42.522Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

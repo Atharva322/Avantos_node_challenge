@@ -1,0 +1,148 @@
+# action-blueprint-graph-put
+
+## Endpoint
+- Method: `put`
+- Path: `/api/v1/{tenant_id}/actions/blueprints/{action_blueprint_id}/{blueprint_version_id}/graph`
+
+## Request
+### Path Parameters
+- tenant_id
+  - type: string
+  - required: yes
+  - description: The tenant ID
+- action_blueprint_id
+  - type: string
+  - required: yes
+  - description: The action blueprint ID to update
+- blueprint_version_id
+  - type: string
+  - required: yes
+  - description: The blueprint version ID
+
+### Query Parameters
+- If-Match
+  - type: string
+  - required: no
+  - description: ETag from GET response. Required — update is rejected with 412 if the blueprint version has been modified since this ETag was issued.
+
+### Body
+- content-type: application/json
+- fields:
+  - requestBody (application/json)
+    - type: object
+    - required: yes
+  - requestBody (application/json).$schema
+    - type: string
+    - required: no
+    - description: A URL to the JSON Schema for this object.
+  - requestBody (application/json).component_task_priorities
+    - type: object
+    - required: no
+    - description: Mapping of component keys to task priorities (low, medium, high). Only applicable to form components.
+  - requestBody (application/json).custom_javascript_function_id
+    - type: string
+    - required: no
+    - description: The ID of the custom javascript function to use for the action blueprint version
+  - requestBody (application/json).custom_status_configuration
+    - type: string
+    - required: no
+    - description: Configuration for custom action run statuses
+  - requestBody (application/json).edges
+    - type: ['array', 'null']
+    - required: yes
+    - description: The edges that represent the dependencies between the components of the action blueprint
+  - requestBody (application/json).edges[]
+    - type: object
+    - required: yes
+    - description: The edges that represent the dependencies between the components of the action blueprint
+  - requestBody (application/json).edges[].source
+    - type: string
+    - required: yes
+    - description: The source node ID
+  - requestBody (application/json).edges[].target
+    - type: string
+    - required: yes
+    - description: The target node ID
+  - requestBody (application/json).nodes
+    - type: ['array', 'null']
+    - required: yes
+    - description: The nodes that represent the components of the action blueprint
+  - requestBody (application/json).nodes[]
+    - type: object
+    - required: yes
+    - description: The nodes that represent the components of the action blueprint
+  - requestBody (application/json).nodes[].data
+    - type: object
+    - required: yes
+    - description: The component data associated with this node
+  - requestBody (application/json).nodes[].hidden
+    - type: boolean
+    - required: no
+    - description: Whether the node is hidden
+  - requestBody (application/json).nodes[].id
+    - type: string
+    - required: yes
+    - description: Unique identifier for the node in the graph
+  - requestBody (application/json).nodes[].position
+    - type: object
+    - required: yes
+    - description: The x,y coordinates of the node in the graph
+  - requestBody (application/json).nodes[].type
+    - type: string
+    - required: yes
+    - description: The type of node (form, branch, configuration, trigger, forEach, action, statusGate, calculator or dynamicTask)
+  - requestBody (application/json).promoted_data_order
+    - type: ['array', 'null']
+    - required: no
+    - description: The order of data promotion for the action blueprint
+  - requestBody (application/json).promoted_data_order[]
+    - type: string
+    - required: no
+    - description: The order of data promotion for the action blueprint
+  - requestBody (application/json).state_model_schema
+    - type: object
+    - required: no
+    - description: Optional state machine schema for tracking state throughout the action run lifecycle
+  - requestBody (application/json).state_model_schema.data_schema
+    - type: string
+    - required: no
+    - description: Optional JSON Schema for additional data fields
+  - requestBody (application/json).state_model_schema.description
+    - type: string
+    - required: no
+    - description: Description of the state model schema
+  - requestBody (application/json).state_model_schema.initial_state
+    - type: string
+    - required: yes
+    - description: The initial state for new action runs
+  - requestBody (application/json).state_model_schema.name
+    - type: string
+    - required: yes
+    - description: Name of the state model schema
+  - requestBody (application/json).state_model_schema.states
+    - type: ['array', 'null']
+    - required: yes
+    - description: Array of state definitions
+  - requestBody (application/json).state_model_schema.states[]
+    - type: object
+    - required: yes
+    - description: Array of state definitions
+  - requestBody (application/json).state_model_schema.transitions
+    - type: ['array', 'null']
+    - required: yes
+    - description: Array of transition definitions
+  - requestBody (application/json).state_model_schema.transitions[]
+    - type: object
+    - required: yes
+    - description: Array of transition definitions
+  - requestBody (application/json).version_notes
+    - type: ['string', 'null']
+    - required: yes
+    - description: Notes about this version update
+
+## Responses
+- 200
+  - description: OK
+  - content-type: application/json
+  - schema: ActionBlueprintGraphPutOutputBody
+

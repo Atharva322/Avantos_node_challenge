@@ -1,0 +1,32 @@
+﻿{
+    "name":  "TriggerEndpointUpdateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerEndpointUpdateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/TriggerEndpointUpdateInputBody.json\",3  \"custom_headers_template\": {4    \"userId\": \"{{.user_id}}\"5  },6  \"error_message_template\": [7    {8      \"message\": \"This Relationship has not been synced to Orion.\",9      \"pattern\": \"ClientId not set.*Salesforce\"10    }11  ],12  \"name\": \"Send email\",13  \"output_mapping\": {14    \"id\": \".data.value.id\"15  },16  \"path_template\": \"/api/v1/customer/{{.customer_id}}/do/something/\",17  \"payload_template\": {18    \"subject\": \"{{.subject}}\",19    \"to\": \"{{.to}}\"20  },21  \"payload_type\": \"json\",22  \"query_parameter_template\": {23    \"user_id\": \"{{.user_id}}\"24  },25  \"request_method\": \"POST\",26  \"timeout_seconds\": 120,27  \"trigger_service_id\": \"ts_213j32\"28}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:15:34.939Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "custom_headers_template",
+                        "userId",
+                        "error_message_template",
+                        "message",
+                        "pattern",
+                        "name",
+                        "output_mapping",
+                        "id",
+                        "path_template",
+                        "payload_template",
+                        "subject",
+                        "to",
+                        "payload_type",
+                        "query_parameter_template",
+                        "user_id",
+                        "request_method",
+                        "timeout_seconds",
+                        "trigger_service_id"
+                    ]
+}

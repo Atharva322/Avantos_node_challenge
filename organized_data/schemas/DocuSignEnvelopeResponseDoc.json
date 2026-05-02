@@ -1,0 +1,17 @@
+﻿{
+    "name":  "DocuSignEnvelopeResponseDoc",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocuSignEnvelopeResponseDoc",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DocuSignEnvelopeResponseDoc.json\",3  \"envelopeId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",4  \"status\": \"sent\",5  \"statusDateTime\": \"2024-01-15T10:30:00Z\"6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:39:41.605Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "envelopeId",
+                        "status",
+                        "statusDateTime"
+                    ]
+}

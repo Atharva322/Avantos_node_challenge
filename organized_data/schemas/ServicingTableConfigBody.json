@@ -1,0 +1,21 @@
+﻿{
+    "name":  "ServicingTableConfigBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ServicingTableConfigBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ServicingTableConfigBody.json\",3  \"all_view_filters\": null,4  \"columns\": null,5  \"default_column_visibility\": null,6  \"default_sorting\": null,7  \"only_assigned\": true,8  \"suggested_filters\": null,9  \"table_key\": \"string\"10}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:13:02.943Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "all_view_filters",
+                        "columns",
+                        "default_column_visibility",
+                        "default_sorting",
+                        "only_assigned",
+                        "suggested_filters",
+                        "table_key"
+                    ]
+}

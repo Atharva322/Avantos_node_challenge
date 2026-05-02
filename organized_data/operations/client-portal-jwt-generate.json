@@ -1,0 +1,20 @@
+﻿{
+    "id":  "client-portal-jwt-generate",
+    "name":  "client-portal-jwt-generate",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/client-portal/jwt",
+    "group_key":  "client-portal",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-portal-jwt-generate",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientPortalJWTOutputBody.json\",3  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...\",4  \"url\": \"https://api.merceradvisors.com/api/v1/Identity/SSOLogin/?accessToken=...\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:10:26.197Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "token",
+                        "url"
+                    ]
+}

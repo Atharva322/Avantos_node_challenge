@@ -1,0 +1,29 @@
+﻿{
+    "name":  "ActionBranchDescription",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBranchDescription",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionBranchDescription.json\",3  \"condition\": {4    \"left\": {5      \"object\": \"client\",6      \"property\": \"name\",7      \"type\": \"property\"8    },9    \"operator\": \"==\",10    \"right\": {11      \"type\": \"literal\",12      \"value\": \"John\"13    },14    \"type\": \"binary\"15  },16  \"created_at\": \"2024-10-29T11:22:33.027873-03:00\",17  \"created_by\": \"test@avantos.ai\",18  \"description\": \"Description for example branch\",19  \"id\": \"b_01jbcagb1wfy2v0g1xcq53y4rn\",20  \"name\": \"Dummy Branch\",21  \"tenant_id\": \"123\",22  \"updated_at\": \"2024-10-29T11:22:33.02018-03:00\"23}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:33:26.669Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "condition",
+                        "left",
+                        "object",
+                        "property",
+                        "type",
+                        "operator",
+                        "right",
+                        "value",
+                        "created_at",
+                        "created_by",
+                        "description",
+                        "id",
+                        "name",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

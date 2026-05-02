@@ -1,0 +1,20 @@
+﻿{
+    "name":  "ActionBlueprintCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionBlueprintCreateInputBody.json\",3  \"ai_context_description\": \"AI-optimized customer onboarding workflow\",4  \"category\": \"onboarding\",5  \"description\": \"string\",6  \"is_journey\": false,7  \"name\": \"string\",8  \"short_description\": \"short description\"9}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:32:33.823Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "ai_context_description",
+                        "category",
+                        "description",
+                        "is_journey",
+                        "name",
+                        "short_description"
+                    ]
+}

@@ -1,0 +1,19 @@
+﻿{
+    "id":  "tax-return-type-temp",
+    "name":  "tax-return-type-temp",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/tax-filings/tax-return-types",
+    "group_key":  "tax-filings",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/tax-return-type-temp",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/TaxReturnTypeAggregationOutputBody.json\",3  \"tax_return_types\": [4    \"string\"5  ]6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:22:20.267Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "tax_return_types"
+                    ]
+}

@@ -1,0 +1,17 @@
+﻿{
+    "name":  "ActionRunTaskPatchInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskPatchInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunTaskPatchInputBody.json\",3  \"data\": {4    \"property1\": null,5    \"property2\": null6  }7}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:19:41.089Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "data",
+                        "property1",
+                        "property2"
+                    ]
+}

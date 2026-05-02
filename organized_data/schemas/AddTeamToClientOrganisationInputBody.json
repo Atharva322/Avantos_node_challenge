@@ -1,0 +1,19 @@
+﻿{
+    "name":  "AddTeamToClientOrganisationInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddTeamToClientOrganisationInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AddTeamToClientOrganisationInputBody.json\",3  \"additional_properties\": {4    \"priority\": \"high\"5  },6  \"business_group_id\": \"bg_123\",7  \"description\": \"Primary advisory team for the client\",8  \"role\": \"primary_advisor\"9}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:21:20.301Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "additional_properties",
+                        "priority",
+                        "business_group_id",
+                        "description",
+                        "role"
+                    ]
+}

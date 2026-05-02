@@ -1,0 +1,17 @@
+﻿{
+    "name":  "CreateBusinessGroupCoverageInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateBusinessGroupCoverageInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CreateBusinessGroupCoverageInputBody.json\",3  \"capacity_limit\": 50,4  \"coverage_lookup_id\": \"lkp_01JGQK9X1ABCDEFGHIJKLMNOP\",5  \"priority\": 16}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:36:28.133Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "capacity_limit",
+                        "coverage_lookup_id",
+                        "priority"
+                    ]
+}

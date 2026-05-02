@@ -1,0 +1,40 @@
+﻿{
+    "name":  "BookOfBusinessInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BookOfBusinessInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/BookOfBusinessInputBody.json\",3  \"agent_organisation_external_id\": \"string\",4  \"agent_organisation_name\": \"string\",5  \"client_organisation_name\": \"string\",6  \"household_filters\": {7    \"client_organisation_name\": \"string\",8    \"filter\": {9      \"component_key\": \"string\",10      \"is_metadata\": true,11      \"output_key\": \"string\",12      \"type\": \"string\"13    },14    \"only_assigned\": true,15    \"relationship_status\": \"string\"16  },17  \"include_policy_valuations\": true,18  \"include_wealth_valuation\": true,19  \"line_of_business\": \"string\",20  \"only_assigned\": true,21  \"policy_status\": \"string\",22  \"product_filters\": {23    \"agent_organisation_external_id\": \"string\",24    \"agent_organisation_name\": \"string\",25    \"line_of_business\": \"string\",26    \"policy_status\": \"string\"27  },28  \"protection_pagination_params\": {29    \"page\": 1,30    \"page_size\": 1031  },32  \"protection_sort_keys\": [33    {34      \"cast_type\": \"string\",35      \"collation\": \"string\",36      \"key\": \"string\",37      \"order\": \"string\"38    }39  ],40  \"relationship_status\": \"string\",41  \"wealth_pagination_params\": {42    \"page\": 1,43    \"page_size\": 1044  },45  \"wealth_sort_keys\": [46    {47      \"cast_type\": \"string\",48      \"collation\": \"string\",49      \"key\": \"string\",50      \"order\": \"string\"51    }52  ]53}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:26:56.444Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "agent_organisation_external_id",
+                        "agent_organisation_name",
+                        "client_organisation_name",
+                        "household_filters",
+                        "filter",
+                        "component_key",
+                        "is_metadata",
+                        "output_key",
+                        "type",
+                        "only_assigned",
+                        "relationship_status",
+                        "include_policy_valuations",
+                        "include_wealth_valuation",
+                        "line_of_business",
+                        "policy_status",
+                        "product_filters",
+                        "protection_pagination_params",
+                        "page",
+                        "page_size",
+                        "protection_sort_keys",
+                        "cast_type",
+                        "collation",
+                        "key",
+                        "order",
+                        "wealth_pagination_params",
+                        "wealth_sort_keys"
+                    ]
+}

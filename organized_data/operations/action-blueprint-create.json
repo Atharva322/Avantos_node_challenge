@@ -1,0 +1,20 @@
+﻿{
+    "id":  "action-blueprint-create",
+    "name":  "action-blueprint-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/actions/blueprints",
+    "group_key":  "actions",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionBlueprintCreateOutputBody.json\",3  \"base_version_id\": \"string\",4  \"blueprint_id\": \"string\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:51:59.440Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "base_version_id",
+                        "blueprint_id"
+                    ]
+}

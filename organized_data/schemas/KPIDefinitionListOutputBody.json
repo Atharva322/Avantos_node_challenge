@@ -1,0 +1,22 @@
+﻿{
+    "name":  "KPIDefinitionListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/KPIDefinitionListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/KPIDefinitionListOutputBody.json\",3  \"definitions\": [4    {5      \"allowed_dimensions\": [6        null7      ],8      \"description\": \"Total number of actions created in the period\",9      \"id\": \"kpi_123\",10      \"name\": \"actions.total_count\",11      \"period_granularity\": \"day\",12      \"status\": \"active\",13      \"unit\": \"count\"14    }15  ]16}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:46:01.125Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "definitions",
+                        "allowed_dimensions",
+                        "description",
+                        "id",
+                        "name",
+                        "period_granularity",
+                        "status",
+                        "unit"
+                    ]
+}

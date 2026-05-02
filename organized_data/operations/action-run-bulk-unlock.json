@@ -1,0 +1,18 @@
+﻿{
+    "id":  "action-run-bulk-unlock",
+    "name":  "action-run-bulk-unlock",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/action-runs/unlock",
+    "group_key":  "action-runs",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-bulk-unlock",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:53:19.482Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

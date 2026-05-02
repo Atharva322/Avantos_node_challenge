@@ -1,0 +1,42 @@
+﻿{
+    "id":  "gpoc-account-openings-list",
+    "name":  "gpoc-account-openings-list",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/gpoc-account-openings/list",
+    "group_key":  "gpoc-account-openings",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/gpoc-account-openings-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GPOCAccountOpeningsListOutputBody.json\",3  \"account_openings\": [4    {5      \"account_openings\": [6        {7          \"account_configuration\": null,8          \"account_data\": null,9          \"history\": null,10          \"status\": \"string\",11          \"task_id\": \"string\"12        }13      ],14      \"action_run_id\": \"string\",15      \"action_run_slug\": \"string\",16      \"client_organisation_id\": \"string\",17      \"client_organisation_name\": \"string\",18      \"started_at\": \"string\",19      \"status_logs\": [20        {21          \"changed_by\": \"string\",22          \"custom_status\": \"string\",23          \"event_type\": \"string\",24          \"metadata\": null,25          \"old_custom_status\": \"string\",26          \"time\": \"string\"27        }28      ],29      \"updated_at\": \"string\"30    }31  ],32  \"pagination\": {33    \"page\": 0,34    \"page_size\": 0,35    \"total_pages\": 0,36    \"total_records\": 037  }38}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:14:39.826Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "account_openings",
+                        "account_configuration",
+                        "account_data",
+                        "history",
+                        "status",
+                        "task_id",
+                        "action_run_id",
+                        "action_run_slug",
+                        "client_organisation_id",
+                        "client_organisation_name",
+                        "started_at",
+                        "status_logs",
+                        "changed_by",
+                        "custom_status",
+                        "event_type",
+                        "metadata",
+                        "old_custom_status",
+                        "time",
+                        "updated_at",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records"
+                    ]
+}

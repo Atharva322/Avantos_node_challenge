@@ -1,0 +1,15 @@
+﻿{
+    "name":  "RegistrationPatchInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RegistrationPatchInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RegistrationPatchInputBody.json\",3  \"name\": \"IRA\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:10:00.605Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "name"
+                    ]
+}

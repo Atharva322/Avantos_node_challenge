@@ -1,0 +1,19 @@
+﻿{
+    "id":  "action-component-branch-create",
+    "name":  "action-component-branch-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/actions/components/branches",
+    "group_key":  "actions",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-branch-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionComponentBranchCreateOutputBody.json\",3  \"id\": \"string\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:52:30.624Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

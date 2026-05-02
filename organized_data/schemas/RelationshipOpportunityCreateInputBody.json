@@ -1,0 +1,35 @@
+﻿{
+    "name":  "RelationshipOpportunityCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RelationshipOpportunityCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RelationshipOpportunityCreateInputBody.json\",3  \"category\": \"Expand\",4  \"confidence\": \"High\",5  \"created_by_agent_id\": \"agent_123\",6  \"description\": \"Potential investment in emerging markets\",7  \"expected_close_date\": \"2024-12-31\",8  \"external_id\": \"opp_123\",9  \"extra_properties\": {10    \"platform\": \"Zoom\",11    \"recording_url\": \"https://example.com/recording\"12  },13  \"is_closed\": false,14  \"name\": \"New Investment Opportunity\",15  \"next_step\": \"Schedule follow-up meeting\",16  \"opportunity_type\": \"investment\",17  \"probability\": 75.5,18  \"record_type\": \"Historical_FSC_Advisory_Sales\",19  \"source\": \"Referral\",20  \"source_details\": \"Client referral from John\",21  \"stage\": \"Identify\",22  \"stage_changed_date\": \"2024-01-15T00:00:00Z\",23  \"status\": \"Identified\",24  \"sub_category\": \"Manage Balance Sheet\"25}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:10:36.241Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "category",
+                        "confidence",
+                        "created_by_agent_id",
+                        "description",
+                        "expected_close_date",
+                        "external_id",
+                        "extra_properties",
+                        "platform",
+                        "recording_url",
+                        "is_closed",
+                        "name",
+                        "next_step",
+                        "opportunity_type",
+                        "probability",
+                        "record_type",
+                        "source",
+                        "source_details",
+                        "stage",
+                        "stage_changed_date",
+                        "status",
+                        "sub_category"
+                    ]
+}

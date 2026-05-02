@@ -1,0 +1,21 @@
+﻿{
+    "name":  "CustomJavascriptFunctionsListInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CustomJavascriptFunctionsListInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CustomJavascriptFunctionsListInputBody.json\",3  \"pagination\": {4    \"page\": 1,5    \"page_size\": 106  },7  \"search\": \"my function\",8  \"sort_keys\": [9    {10      \"sort_column\": \"name\",11      \"sort_order\": \"ASC\"12    }13  ]14}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:37:30.563Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "search",
+                        "sort_keys",
+                        "sort_column",
+                        "sort_order"
+                    ]
+}

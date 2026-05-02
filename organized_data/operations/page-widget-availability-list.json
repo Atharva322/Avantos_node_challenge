@@ -1,0 +1,38 @@
+﻿{
+    "id":  "page-widget-availability-list",
+    "name":  "page-widget-availability-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/pages/{page}/available-widgets",
+    "group_key":  "pages",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PageWidgetAvailabilityListOutputBody.json\",3  \"availableWidgets\": [4    {5      \"$schema\": \"https://example.com/schemas/PageWidgetAvailabilityOutput.json\",6      \"createdAt\": \"2024-01-01T00:00:00Z\",7      \"id\": \"pwa_123\",8      \"page\": \"dashboard\",9      \"widgetDefinition\": {10        \"$schema\": \"https://example.com/schemas/WidgetDefinitionOutput.json\",11        \"configSchema\": {12          \"property1\": null,13          \"property2\": null14        },15        \"createdAt\": \"2024-01-01T00:00:00Z\",16        \"defaultConfig\": {17          \"property1\": null,18          \"property2\": null19        },20        \"defaultHeight\": 2,21        \"defaultWidth\": 2,22        \"description\": \"Shows upcoming meetings\",23        \"displayName\": \"Meetings Widget\",24        \"id\": \"wdef_123\",25        \"maxHeight\": 4,26        \"maxWidth\": 4,27        \"minHeight\": 1,28        \"minWidth\": 1,29        \"name\": \"meetings\",30        \"updatedAt\": \"2024-01-01T00:00:00Z\"31      },32      \"widgetDefinitionId\": \"wdef_123\"33    }34  ]35}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:17:46.350Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "availableWidgets",
+                        "createdAt",
+                        "id",
+                        "page",
+                        "widgetDefinition",
+                        "configSchema",
+                        "property1",
+                        "property2",
+                        "defaultConfig",
+                        "defaultHeight",
+                        "defaultWidth",
+                        "description",
+                        "displayName",
+                        "maxHeight",
+                        "maxWidth",
+                        "minHeight",
+                        "minWidth",
+                        "name",
+                        "updatedAt",
+                        "widgetDefinitionId"
+                    ]
+}

@@ -1,0 +1,18 @@
+﻿{
+    "name":  "RoleGroupListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RoleGroupListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RoleGroupListOutputBody.json\",3  \"role_groups\": [4    {5      \"name\": \"string\",6      \"roles\": [7        null8      ],9      \"tenant_id\": \"string\"10    }11  ]12}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:11:43.109Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "role_groups",
+                        "name",
+                        "roles",
+                        "tenant_id"
+                    ]
+}

@@ -1,0 +1,26 @@
+﻿{
+    "id":  "action-run-client-organisation-batch-update",
+    "name":  "action-run-client-organisation-batch-update",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/action-runs/client-organisation/batch-update",
+    "group_key":  "action-runs",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-client-organisation-batch-update",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunClientOrganisationBatchUpdateOutputBody.json\",3  \"results\": [4    {5      \"action_run_id\": \"string\",6      \"error\": \"string\",7      \"success\": true8    }9  ],10  \"summary\": {11    \"failed\": 0,12    \"successful\": 0,13    \"total_requested\": 014  }15}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:53:23.902Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "results",
+                        "action_run_id",
+                        "error",
+                        "success",
+                        "summary",
+                        "failed",
+                        "successful",
+                        "total_requested"
+                    ]
+}

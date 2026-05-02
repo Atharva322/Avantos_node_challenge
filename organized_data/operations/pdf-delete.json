@@ -1,0 +1,18 @@
+﻿{
+    "id":  "pdf-delete",
+    "name":  "pdf-delete",
+    "method":  "DELETE",
+    "path":  "/api/v1/{tenant_id}/pdfs/{pdf_id}",
+    "group_key":  "pdfs",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/pdf-delete",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:17:50.815Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

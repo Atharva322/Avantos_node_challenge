@@ -1,0 +1,18 @@
+﻿{
+    "id":  "client-organisation-connection-delete",
+    "name":  "client-organisation-connection-delete",
+    "method":  "DELETE",
+    "path":  "/api/v1/{tenant_id}/client-organisations/{client_organisation_id}/client-organisation-connections/{connection_id}",
+    "group_key":  "client-organisations",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-connection-delete",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DeleteClientOrganisationConnectionOutputBody.json\"3}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:06:28.099Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema"
+                    ]
+}

@@ -1,0 +1,20 @@
+﻿{
+    "name":  "EvaluateClientFormsInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/EvaluateClientFormsInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/EvaluateClientFormsInputBody.json\",3  \"custodian\": \"Fidelity\",4  \"custodian_forms\": [5    {6      \"action_run_id\": \"string\",7      \"component_id\": \"string\",8      \"data\": {},9      \"form_id\": \"string\"10    }11  ]12}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:42:48.550Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "custodian",
+                        "custodian_forms",
+                        "action_run_id",
+                        "component_id",
+                        "data",
+                        "form_id"
+                    ]
+}

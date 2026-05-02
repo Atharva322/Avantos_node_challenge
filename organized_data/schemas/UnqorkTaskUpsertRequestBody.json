@@ -1,0 +1,20 @@
+﻿{
+    "name":  "UnqorkTaskUpsertRequestBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UnqorkTaskUpsertRequestBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/UnqorkTaskUpsertRequestBody.json\",3  \"action_id\": \"string\",4  \"data\": {5    \"property1\": null,6    \"property2\": null7  },8  \"id\": \"string\",9  \"relationship_id\": \"string\"10}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:16:42.365Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "action_id",
+                        "data",
+                        "property1",
+                        "property2",
+                        "id",
+                        "relationship_id"
+                    ]
+}

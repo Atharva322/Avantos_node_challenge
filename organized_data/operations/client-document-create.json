@@ -1,0 +1,19 @@
+﻿{
+    "id":  "client-document-create",
+    "name":  "client-document-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/clients/{client_id}/document",
+    "group_key":  "clients",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-document-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CreateDocumentCatalogEntryOutputBody.json\",3  \"id\": \"string\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:05:56.980Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

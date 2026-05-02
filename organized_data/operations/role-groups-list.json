@@ -1,0 +1,22 @@
+﻿{
+    "id":  "role-groups-list",
+    "name":  "role-groups-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/role-groups",
+    "group_key":  "role-groups",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/role-groups-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RoleGroupListOutputBody.json\",3  \"role_groups\": [4    {5      \"name\": \"string\",6      \"roles\": [7        \"string\"8      ],9      \"tenant_id\": \"string\"10    }11  ]12}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:30:45.306Z",
+    "source_run":  "ops_retry_1",
+    "form_fields":  [
+                        "$schema",
+                        "role_groups",
+                        "name",
+                        "roles",
+                        "tenant_id"
+                    ]
+}

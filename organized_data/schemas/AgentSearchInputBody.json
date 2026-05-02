@@ -1,0 +1,37 @@
+﻿{
+    "name":  "AgentSearchInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentSearchInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AgentSearchInputBody.json\",3  \"agent_external_id_filter\": \"ext_agent_456\",4  \"agent_first_name_filter\": \"John\",5  \"agent_id_filter\": [6    \"agent_123\",7    \"agent_456\"8  ],9  \"agent_last_name_filter\": \"Doe\",10  \"client_org_external_id_filter\": \"ext_org_456\",11  \"client_organisation_id_filter\": \"org_123\",12  \"client_organisation_name_filter\": \"Acme Corp\",13  \"created_after\": \"2024-01-01T00:00:00Z\",14  \"created_before\": \"2024-12-31T23:59:59Z\",15  \"filter\": {16    \"component_key\": \"string\",17    \"is_metadata\": true,18    \"output_key\": \"string\",19    \"type\": \"string\"20  },21  \"pagination_params\": {22    \"page\": 1,23    \"page_size\": 1024  },25  \"relationship_type_filter\": \"advisor\",26  \"sort_keys\": [27    {28      \"cast_type\": \"numeric\",29      \"collation\": \"default\",30      \"sort_column\": \"agent_first_name\",31      \"sort_order\": \"ASC\"32    }33  ]34}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:25:58.013Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "agent_external_id_filter",
+                        "agent_first_name_filter",
+                        "agent_id_filter",
+                        "agent_last_name_filter",
+                        "client_org_external_id_filter",
+                        "client_organisation_id_filter",
+                        "client_organisation_name_filter",
+                        "created_after",
+                        "created_before",
+                        "filter",
+                        "component_key",
+                        "is_metadata",
+                        "output_key",
+                        "type",
+                        "pagination_params",
+                        "page",
+                        "page_size",
+                        "relationship_type_filter",
+                        "sort_keys",
+                        "cast_type",
+                        "collation",
+                        "sort_column",
+                        "sort_order"
+                    ]
+}

@@ -1,0 +1,18 @@
+﻿{
+    "id":  "widget-update",
+    "name":  "widget-update",
+    "method":  "PATCH",
+    "path":  "/api/v1/{tenant_id}/widgets/{widget_id}",
+    "group_key":  "widgets",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-update",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/WidgetUpdateOutputBody.json\"3}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:25:27.557Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema"
+                    ]
+}

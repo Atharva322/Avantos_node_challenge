@@ -1,0 +1,18 @@
+﻿{
+    "id":  "team-client-organisation-list",
+    "name":  "team-client-organisation-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/client-organisations/{client_organisation_id}/teams",
+    "group_key":  "client-organisations",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/team-client-organisation-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:22:29.458Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

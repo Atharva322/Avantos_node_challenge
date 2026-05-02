@@ -1,0 +1,19 @@
+﻿{
+    "name":  "ActionRunTaskUpdateWaitingInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskUpdateWaitingInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunTaskUpdateWaitingInputBody.json\",3  \"next_step_date\": \"2023-04-01T12:00:00Z\",4  \"note\": \"We\u0027re still waiting on Bob to submit the details\",5  \"waiting\": true,6  \"waiting_for\": \"Client approval\",7  \"who_waiting_on\": \"Client\"8}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:19:58.855Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "next_step_date",
+                        "note",
+                        "waiting",
+                        "waiting_for",
+                        "who_waiting_on"
+                    ]
+}

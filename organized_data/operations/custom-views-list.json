@@ -1,0 +1,36 @@
+﻿{
+    "id":  "custom-views-list",
+    "name":  "custom-views-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/pages/{page_id}/views",
+    "group_key":  "pages",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CustomViewsListOutputBody.json\",3  \"views\": [4    {5      \"agent_id\": \"string\",6      \"column_order\": \"string\",7      \"columns_config\": \"string\",8      \"created_at\": \"2019-08-24T14:15:22Z\",9      \"created_by\": \"string\",10      \"description\": \"string\",11      \"filters\": \"string\",12      \"id\": \"string\",13      \"name\": \"string\",14      \"only_assigned\": true,15      \"page_id\": \"string\",16      \"promoted\": true,17      \"role_names\": [18        \"string\"19      ],20      \"scope_type\": \"string\",21      \"sorting\": \"string\",22      \"tenant_id\": \"string\",23      \"updated_at\": \"2019-08-24T14:15:22Z\"24    }25  ]26}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:11:31.984Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "views",
+                        "agent_id",
+                        "column_order",
+                        "columns_config",
+                        "created_at",
+                        "created_by",
+                        "description",
+                        "filters",
+                        "id",
+                        "name",
+                        "only_assigned",
+                        "page_id",
+                        "promoted",
+                        "role_names",
+                        "scope_type",
+                        "sorting",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

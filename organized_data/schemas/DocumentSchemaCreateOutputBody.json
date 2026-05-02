@@ -1,0 +1,15 @@
+﻿{
+    "name":  "DocumentSchemaCreateOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaCreateOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DocumentSchemaCreateOutputBody.json\",3  \"id\": \"docschema_2kzn8f0q1r3s5t7v9x\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:40:12.678Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

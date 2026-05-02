@@ -1,0 +1,21 @@
+﻿{
+    "id":  "role-get",
+    "name":  "role-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/roles/{role_id}",
+    "group_key":  "roles",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/role-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RoleGetOutputBody.json\",3  \"description\": \"Manages clients and organisations.\",4  \"role_id\": 101,5  \"role_name\": \"Admin\"6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:30:40.050Z",
+    "source_run":  "ops_retry_1",
+    "form_fields":  [
+                        "$schema",
+                        "description",
+                        "role_id",
+                        "role_name"
+                    ]
+}

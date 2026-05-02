@@ -1,0 +1,1207 @@
+# GlobalSearchEntityResults
+
+## Schema
+- type: object
+
+## Fields
+- Overview
+  - type: string
+  - required: no
+- ENDPOINTS
+  - type: string
+  - required: no
+- widget-definitions-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- widget-definition-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- widget-definition-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- widget-definition-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- widget-definition-update
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- abac-access-explainer
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-blueprint-version-reassign-bulk
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-client-organisation-batch-update
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-list
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-bulk-lock
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-bulk-unlock
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-run-accept-recommendation
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-blueprint-version-reassign
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-run-client-organisation-update
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-run-comments-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-run-component-generator-tree
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-run-context-update
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-current-data-snapshot-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-run-name-update
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-run-pre-assignments-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-run-pre-assignment-assign
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-run-reassign
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-reject-recommendation
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-request-cancel
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-schedule-update
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-run-state-model-advance
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-state-model-transitions-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-run-status-logs
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-run-task-approve
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-task-assign
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-task-cancel-confirm
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-task-next-step-date-update
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-run-task-claim
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-task-cron-job-queued-update
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-task-reject
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-task-render
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-run-task-reopen
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-task-patch
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- action-run-task-save
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-task-schedule-update
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-run-task-start
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-task-submit
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-run-task-update-waiting
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-blueprint-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-blueprint-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-blueprint-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- action-blueprint-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-blueprint-update
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- blueprint-environment-history-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- blueprint-environment-version-set
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-blueprint-toggle-is-journey
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- action-blueprint-version-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-blueprint-version-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- action-blueprint-version-published
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- action-blueprint-graph-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-blueprint-graph-put
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-component-branch-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-component-branch-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-component-branch-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-component-branch-update
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-component-form-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-component-form-list
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-component-form-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- action-component-form-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- action-component-form-update-details
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- action-component-form-update
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- action-component-form-clone
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- action-component-form-update-custom-javascript
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- action-run-configuration-render
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- admin-api-token-roles-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- admin-api-tokens-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- admin-api-tokens-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- admin-api-tokens-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- admin-api-tokens-update
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- admin-datadog-logs-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-business-group-role-list-by-type-and-name
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-organisation-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-organisation-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-organisation-address-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-organisation-address-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-organisation-agent-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-organisation-client-organisation-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-organisation-contact-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-organisation-contact-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-organisation-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-list
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-id-by-external-id
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-oauth-token-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-oauth-token-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-oauth-token-reconnect
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-oauth-token-refresh
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-oauth-token-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- agent-search
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-address-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- agent-address-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-address-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-address-update
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- advisor-repcode-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- advisor-repcode-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-client-organisation-relationship-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-client-organisation-relationship-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-client-organisation-relationship-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- agent-contact-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-contact-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-document-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-documents-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- meeting-agent-list
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- agent-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- agent-update
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- agent-person-view-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- object-aggregate-get
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- array-forms-config-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- array-forms-config-put
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- authorization-check
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- book-of-business
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- book-of-business-summary
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- business-group-list-by-role
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- business-group-coverage-details-search
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- business-group-coverage-lookup-summary
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- business-groups-find-by-coverage
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- business-group-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- business-group-update
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- business-group-coverage-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- business-group-coverage-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- business-group-add-member
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- business-group-remove-member
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- cdc-pipeline-config-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- cdc-pipeline-config-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- cdc-pipeline-config-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- cdc-pipeline-config-upsert
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- client-component-jwt-generate
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-organisation-relationship-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- client-organisation-relationship-update
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- client-organisation-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-organisation-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-organisation-graph-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-organisation-graph-patch
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- client-organisation-access-check
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-organisation-bulk-access-check
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-organisation-id-by-external-id
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-organisation-markets
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-org-opportunities-list
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-org-opportunities-summary
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-org-opportunity-update
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- client-organisation-tax-pods
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- team-client-organisation-search
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-organisation-address-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-organisation-address-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-organisation-connections-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-organisation-connection-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-organisation-connection-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- client-organisation-client-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-organisation-contact-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-organisation-contact-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- relationship-dashboard-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- financial-accounts-by-client-organisation-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- policies-by-client-organisation-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-organisation-relationships-get-all
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- rmd-list-by-client-organisation
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- sloa-list-by-client-organisation
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- tax-filing-list-by-client-organisation
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- team-client-organisation-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- team-client-organisation-add
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- team-client-organisation-remove
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- client-organisation-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-organisation-update
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- client-portal-jwt-generate
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-organisation-agent-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- clients-batch-move
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- clients-search
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- client-address-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- client-address-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-address-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-address-update
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- client-agent-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-connections-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-connection-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-connection-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- client-organisation-relationship-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-contact-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-contact-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-contact-update
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- client-document-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- client-documents-list
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- client-update
+  - type: string
+  - required: no
+- PATCH
+  - type: string
+  - required: no
+- comments-list-all
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- comment-add
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- component-jwt-generate
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+- business-group-coverage-delete
+  - type: string
+  - required: no
+- DELETE
+  - type: string
+  - required: no
+- custodian-forms-config-get
+  - type: string
+  - required: no
+- GET
+  - type: string
+  - required: no
+- custodian-forms-config-put
+  - type: string
+  - required: no
+- PUT
+  - type: string
+  - required: no
+- custom-javascript-functions-create
+  - type: string
+  - required: no
+- POST
+  - type: string
+  - required: no
+

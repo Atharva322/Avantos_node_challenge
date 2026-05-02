@@ -1,0 +1,18 @@
+﻿{
+    "id":  "send-mutual-fund-trades-report",
+    "name":  "send-mutual-fund-trades-report",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/reports/manual-mutual-fund-trades",
+    "group_key":  "reports",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/send-mutual-fund-trades-report",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/SendMutualFundTradesReportOutputBody.json\"3}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:21:36.334Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema"
+                    ]
+}

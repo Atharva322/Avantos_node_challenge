@@ -1,0 +1,17 @@
+﻿{
+    "name":  "VPOCOnboardingCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/VPOCOnboardingCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/VPOCOnboardingCreateInputBody.json\",3  \"action_ids\": [4    \"action_1\",5    \"action_2\"6  ],7  \"primary_client_id\": \"client_123\",8  \"relationship_id\": \"rel_456\"9}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:18:29.528Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "action_ids",
+                        "primary_client_id",
+                        "relationship_id"
+                    ]
+}

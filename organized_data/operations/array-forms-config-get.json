@@ -1,0 +1,22 @@
+﻿{
+    "id":  "array-forms-config-get",
+    "name":  "array-forms-config-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/array-forms-config",
+    "group_key":  "array-forms-config",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/array-forms-config-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ArrayFormsConfigDescription.json\",3  \"configs\": [4    {5      \"array_child_form_id\": \"f_456\",6      \"array_property_name\": \"array_property_name\",7      \"parent_task_form_id\": \"f_456\"8    }9  ]10}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:00:55.403Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "configs",
+                        "array_child_form_id",
+                        "array_property_name",
+                        "parent_task_form_id"
+                    ]
+}

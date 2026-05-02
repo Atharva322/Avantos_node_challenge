@@ -1,0 +1,32 @@
+﻿{
+    "name":  "TodoResponse",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TodoResponse",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/TodoResponse.json\",3  \"assignee_first_name\": \"string\",4  \"assignee_id\": \"string\",5  \"assignee_last_name\": \"string\",6  \"client_organisation_id\": \"string\",7  \"client_organisation_name\": \"string\",8  \"complete\": true,9  \"completed_at\": \"2019-08-24T14:15:22Z\",10  \"created_at\": \"2019-08-24T14:15:22Z\",11  \"created_by\": \"string\",12  \"due_date\": \"2019-08-24T14:15:22Z\",13  \"id\": \"td_123\",14  \"is_read\": true,15  \"notes\": \"string\",16  \"role_names\": [17    \"string\"18  ],19  \"scope_type\": \"string\",20  \"tags\": [21    \"string\"22  ],23  \"tenant_id\": \"1\",24  \"title\": \"string\"25}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:14:37.740Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "assignee_first_name",
+                        "assignee_id",
+                        "assignee_last_name",
+                        "client_organisation_id",
+                        "client_organisation_name",
+                        "complete",
+                        "completed_at",
+                        "created_at",
+                        "created_by",
+                        "due_date",
+                        "id",
+                        "is_read",
+                        "notes",
+                        "role_names",
+                        "scope_type",
+                        "tags",
+                        "tenant_id",
+                        "title"
+                    ]
+}

@@ -1,0 +1,16 @@
+﻿{
+    "name":  "ActionRunTaskRejectInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskRejectInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunTaskRejectInputBody.json\",3  \"comment\": \"string\",4  \"reason\": \"string\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:19:45.540Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "comment",
+                        "reason"
+                    ]
+}

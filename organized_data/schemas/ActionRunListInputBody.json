@@ -1,0 +1,28 @@
+﻿{
+    "name":  "ActionRunListInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunListInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunListInputBody.json\",3  \"actions_only\": true,4  \"filter\": {5    \"component_key\": \"string\",6    \"is_metadata\": true,7    \"output_key\": \"string\",8    \"type\": \"string\"9  },10  \"only_assigned\": true,11  \"pagination_params\": {12    \"page\": 1,13    \"page_size\": 1014  },15  \"sort_keys\": [16    {17      \"sort_column\": \"name\",18      \"sort_order\": \"ASC\"19    }20  ],21  \"source_system_filter\": \"avantos\"22}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:18:33.796Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "actions_only",
+                        "filter",
+                        "component_key",
+                        "is_metadata",
+                        "output_key",
+                        "type",
+                        "only_assigned",
+                        "pagination_params",
+                        "page",
+                        "page_size",
+                        "sort_keys",
+                        "sort_column",
+                        "sort_order",
+                        "source_system_filter"
+                    ]
+}

@@ -1,0 +1,35 @@
+﻿{
+    "id":  "global-search",
+    "name":  "global-search",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/search",
+    "group_key":  "search",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/global-search",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GlobalSearchOutputBody.json\",3  \"results\": [4    {5      \"entity_type\": \"client\",6      \"error\": \"string\",7      \"items\": [8        {9          \"display_fields\": {10            \"property1\": null,11            \"property2\": null12          },13          \"display_text\": \"John Smith\",14          \"highlighted_text\": \"\u003cmark\u003eJohn\u003c/mark\u003e \u003cmark\u003eSmith\u003c/mark\u003e\",15          \"id\": \"client_abc123\",16          \"score\": 0.85,17          \"updated_at\": \"2024-01-15T10:30:00Z\"18        }19      ],20      \"pagination\": {21        \"page\": 0,22        \"page_size\": 0,23        \"total_pages\": 0,24        \"total_records\": 025      }26    }27  ]28}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:14:33.953Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "results",
+                        "entity_type",
+                        "error",
+                        "items",
+                        "display_fields",
+                        "property1",
+                        "property2",
+                        "display_text",
+                        "highlighted_text",
+                        "id",
+                        "score",
+                        "updated_at",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records"
+                    ]
+}

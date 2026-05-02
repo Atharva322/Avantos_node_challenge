@@ -1,0 +1,19 @@
+﻿{
+    "name":  "DocumentSchemaCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/DocumentSchemaCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DocumentSchemaCreateInputBody.json\",3  \"description\": \"Schema for extracting fields from W-2 tax forms\",4  \"fields\": [5    {6      \"field_description\": \"Name of the employer as shown on the form\",7      \"field_name\": \"employer_name\"8    }9  ],10  \"name\": \"W-2 Tax Form\"11}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:40:08.227Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "description",
+                        "fields",
+                        "field_description",
+                        "field_name",
+                        "name"
+                    ]
+}

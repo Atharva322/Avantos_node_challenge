@@ -1,0 +1,18 @@
+﻿{
+    "id":  "custom-views-delete",
+    "name":  "custom-views-delete",
+    "method":  "DELETE",
+    "path":  "/api/v1/{tenant_id}/pages/{page_id}/views/{view_id}",
+    "group_key":  "pages",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-delete",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:11:14.131Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

@@ -1,0 +1,19 @@
+﻿{
+    "id":  "custom-views-get-pinned",
+    "name":  "custom-views-get-pinned",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/pages/{page_id}/views/pinned",
+    "group_key":  "pages",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-views-get-pinned",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CustomViewsGetPinnedOutputBody.json\",3  \"view_ids\": [4    \"string\"5  ]6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:11:23.089Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "view_ids"
+                    ]
+}

@@ -1,0 +1,33 @@
+﻿{
+    "id":  "action-run-comments-get",
+    "name":  "action-run-comments-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/action-runs/{action_run_id}/comments",
+    "group_key":  "action-runs",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-comments-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GetActionRunCommentsOutputBody.json\",3  \"comments\": [4    {5      \"created_at\": \"2021-01-01T00:00:00Z\",6      \"created_by\": {7        \"email\": \"john.doe@example.com\",8        \"first_name\": \"John\",9        \"id\": \"a_12345\",10        \"last_name\": \"Doe\",11        \"middle_name\": \"string\"12      },13      \"entity_id\": \"ar_456\",14      \"entity_type\": \"action_run\",15      \"environment\": \"staging\",16      \"external_id\": \"ext_123\",17      \"id\": \"123\",18      \"tagged_users\": [19        {20          \"first_name\": \"John\",21          \"id\": \"ag_123\",22          \"last_name\": \"Doe\"23        },24        {25          \"first_name\": \"Jane\",26          \"id\": \"ag_456\",27          \"last_name\": \"Smith\"28        }29      ],30      \"text\": \"This is a comment\",31      \"updated_at\": \"2021-01-01T00:00:00Z\"32    }33  ]34}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:53:32.782Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "comments",
+                        "created_at",
+                        "created_by",
+                        "email",
+                        "first_name",
+                        "id",
+                        "last_name",
+                        "middle_name",
+                        "entity_id",
+                        "entity_type",
+                        "environment",
+                        "external_id",
+                        "tagged_users",
+                        "text",
+                        "updated_at"
+                    ]
+}

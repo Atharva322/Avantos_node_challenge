@@ -1,0 +1,15 @@
+﻿{
+    "name":  "ActionRunTaskAssignInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionRunTaskAssignInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunTaskAssignInputBody.json\",3  \"agent_id\": \"a_12345\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:19:18.366Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "agent_id"
+                    ]
+}

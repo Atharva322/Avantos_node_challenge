@@ -1,0 +1,21 @@
+﻿{
+    "name":  "TenantConfigGetOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TenantConfigGetOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/TenantConfigGetOutputBody.json\",3  \"createdAt\": \"string\",4  \"defaultPinnedViewIds\": [5    \"string\"6  ],7  \"defaultViewId\": \"string\",8  \"id\": \"string\",9  \"pageId\": \"string\",10  \"tenantId\": \"string\",11  \"updatedAt\": \"string\"12}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:14:24.439Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "createdAt",
+                        "defaultPinnedViewIds",
+                        "defaultViewId",
+                        "id",
+                        "pageId",
+                        "tenantId",
+                        "updatedAt"
+                    ]
+}

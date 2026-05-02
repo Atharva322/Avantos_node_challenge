@@ -1,0 +1,21 @@
+﻿{
+    "id":  "pdf-get-fill-mapping",
+    "name":  "pdf-get-fill-mapping",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/pdfs/{pdf_id}/fill-mapping",
+    "group_key":  "pdfs",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/pdf-get-fill-mapping",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PDFGetFillMappingOutputBody.json\",3  \"fill_field_mapping\": {4    \"property1\": null,5    \"property2\": null6  }7}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:17:59.852Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "fill_field_mapping",
+                        "property1",
+                        "property2"
+                    ]
+}

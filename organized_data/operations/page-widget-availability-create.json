@@ -1,0 +1,19 @@
+﻿{
+    "id":  "page-widget-availability-create",
+    "name":  "page-widget-availability-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/pages/{page}/available-widgets",
+    "group_key":  "pages",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PageWidgetAvailabilityCreateOutputBody.json\",3  \"id\": \"pwa_123\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:17:32.990Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

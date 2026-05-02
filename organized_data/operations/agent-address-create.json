@@ -1,0 +1,19 @@
+﻿{
+    "id":  "agent-address-create",
+    "name":  "agent-address-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/agents/{agent_id}/addresses",
+    "group_key":  "agents",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-address-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CreateAgentAddressOutputBody.json\",3  \"id\": \"addr_456\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:59:44.240Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

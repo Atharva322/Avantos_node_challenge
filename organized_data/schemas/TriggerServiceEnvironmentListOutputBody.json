@@ -1,0 +1,30 @@
+﻿{
+    "name":  "TriggerServiceEnvironmentListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/TriggerServiceEnvironmentListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/TriggerServiceEnvironmentListOutputBody.json\",3  \"environments\": [4    {5      \"$schema\": \"https://example.com/schemas/TriggerServiceEnvironmentDescription.json\",6      \"auth_body\": {7        \"audience\": \"https://api.example.com\",8        \"scope\": \"read write\"9      },10      \"auth_body_type\": \"json\",11      \"auth_config\": {12        \"header_key\": \"Authorization\",13        \"token\": \"dev-12345\"14      },15      \"auth_type\": \"avantos_auth\",16      \"base_url\": \"https://dev.api.sendgrid.com/v3\",17      \"created_at\": \"2021-01-01T00:00:00Z\",18      \"environment\": \"dev\",19      \"id\": \"tse_abc123\",20      \"is_enabled\": true,21      \"timeout_seconds\": 10,22      \"updated_at\": \"2021-01-01T00:00:00Z\"23    }24  ]25}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:16:06.849Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "environments",
+                        "auth_body",
+                        "audience",
+                        "scope",
+                        "auth_body_type",
+                        "auth_config",
+                        "header_key",
+                        "token",
+                        "auth_type",
+                        "base_url",
+                        "created_at",
+                        "environment",
+                        "id",
+                        "is_enabled",
+                        "timeout_seconds",
+                        "updated_at"
+                    ]
+}

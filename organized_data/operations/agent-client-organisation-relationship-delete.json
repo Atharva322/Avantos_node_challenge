@@ -1,0 +1,18 @@
+﻿{
+    "id":  "agent-client-organisation-relationship-delete",
+    "name":  "agent-client-organisation-relationship-delete",
+    "method":  "DELETE",
+    "path":  "/api/v1/{tenant_id}/agents/{agent_id}/client-relationships/{client_organisation_id}/{relationship_type}",
+    "group_key":  "agents",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-client-organisation-relationship-delete",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:59:57.569Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

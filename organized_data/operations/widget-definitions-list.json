@@ -1,0 +1,35 @@
+﻿{
+    "id":  "widget-definitions-list",
+    "name":  "widget-definitions-list",
+    "method":  "GET",
+    "path":  "/api/v1/admin/widget-definitions",
+    "group_key":  "widget-definitions",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-definitions-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/WidgetDefinitionListOutputBody.json\",3  \"definitions\": [4    {5      \"$schema\": \"https://example.com/schemas/WidgetDefinitionOutput.json\",6      \"configSchema\": {7        \"property1\": null,8        \"property2\": null9      },10      \"createdAt\": \"2024-01-01T00:00:00Z\",11      \"defaultConfig\": {12        \"property1\": null,13        \"property2\": null14      },15      \"defaultHeight\": 2,16      \"defaultWidth\": 2,17      \"description\": \"Shows upcoming meetings\",18      \"displayName\": \"Meetings Widget\",19      \"id\": \"wdef_123\",20      \"maxHeight\": 4,21      \"maxWidth\": 4,22      \"minHeight\": 1,23      \"minWidth\": 1,24      \"name\": \"meetings\",25      \"updatedAt\": \"2024-01-01T00:00:00Z\"26    }27  ]28}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:25:09.377Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "definitions",
+                        "configSchema",
+                        "property1",
+                        "property2",
+                        "createdAt",
+                        "defaultConfig",
+                        "defaultHeight",
+                        "defaultWidth",
+                        "description",
+                        "displayName",
+                        "id",
+                        "maxHeight",
+                        "maxWidth",
+                        "minHeight",
+                        "minWidth",
+                        "name",
+                        "updatedAt"
+                    ]
+}

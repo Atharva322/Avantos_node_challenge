@@ -1,0 +1,173 @@
+# book-of-business
+
+## Endpoint
+- Method: `post`
+- Path: `/api/v1/{tenant_id}/book-of-business`
+
+## Request
+### Path Parameters
+- tenant_id
+  - type: string
+  - required: yes
+  - description: The tenant ID
+
+### Query Parameters
+- None
+
+### Body
+- content-type: application/json
+- fields:
+  - requestBody (application/json)
+    - type: object
+    - required: yes
+  - requestBody (application/json).$schema
+    - type: string
+    - required: no
+    - description: A URL to the JSON Schema for this object.
+  - requestBody (application/json).agent_organisation_external_id
+    - type: string
+    - required: no
+    - description: Filter protection policies by agency code (exact match). Deprecated: use product_filters.agent_organisation_external_id.
+  - requestBody (application/json).agent_organisation_name
+    - type: string
+    - required: no
+    - description: Filter protection policies by agency name (partial match, case-insensitive). Deprecated: use product_filters.agent_organisation_name.
+  - requestBody (application/json).client_organisation_name
+    - type: string
+    - required: no
+    - description: Optional case-insensitive partial match filter on client organisation name. Deprecated: use household_filters.client_organisation_name.
+  - requestBody (application/json).household_filters
+    - type: object
+    - required: no
+    - description: Shared household filter contract. When provided, takes precedence over top-level household filter fields.
+  - requestBody (application/json).household_filters.client_organisation_name
+    - type: string
+    - required: no
+    - description: Optional case-insensitive client-organisation name search. This narrows the household universe, not just the current page.
+  - requestBody (application/json).household_filters.filter
+    - type: string
+    - required: no
+    - description: Optional household expression filter. Uses the same expression language as POST /relationships/dashboard. This defines the household universe before any BoB-specific product filters are applied.
+  - requestBody (application/json).household_filters.only_assigned
+    - type: boolean
+    - required: no
+    - description: If true, narrow the household universe to client organisations directly assigned to the caller. Use the same value you would send to the relationship dashboard when the two screens need to stay aligned.
+  - requestBody (application/json).household_filters.relationship_status
+    - type: string
+    - required: no
+    - description: Optional household relationship/lifecycle status filter. Use this when the summary or BoB view must match the relationship dashboard's status-scoped household set.
+  - requestBody (application/json).include_policy_valuations
+    - type: boolean
+    - required: no
+    - description: If true (default), include valuation rows for protection policies. Set to false to skip.
+  - requestBody (application/json).include_wealth_valuation
+    - type: boolean
+    - required: no
+    - description: If true (default), include wealth account balance fields. Set to false to skip.
+  - requestBody (application/json).line_of_business
+    - type: string
+    - required: no
+    - description: Optional protection-side line of business filter. Deprecated: use product_filters.line_of_business.
+  - requestBody (application/json).only_assigned
+    - type: boolean
+    - required: no
+    - description: If true, narrow client organisation scope to directly assigned relationships. Deprecated: use household_filters.only_assigned.
+  - requestBody (application/json).policy_status
+    - type: string
+    - required: no
+    - description: Optional protection-side policy status filter. Deprecated: use product_filters.policy_status.
+  - requestBody (application/json).product_filters
+    - type: object
+    - required: no
+    - description: Product-side filters. When provided, takes precedence over top-level product filter fields.
+  - requestBody (application/json).product_filters.agent_organisation_external_id
+    - type: string
+    - required: no
+    - description: Filter protection policies by agency code (exact match on agent_organisations.external_id).
+  - requestBody (application/json).product_filters.agent_organisation_name
+    - type: string
+    - required: no
+    - description: Filter protection policies by agency name (partial match, case-insensitive).
+  - requestBody (application/json).product_filters.line_of_business
+    - type: string
+    - required: no
+    - description: Optional protection-side product filter. This does not redefine the household universe; it narrows which protection products contribute to protection-side BoB rows and summary buckets.
+  - requestBody (application/json).product_filters.policy_status
+    - type: string
+    - required: no
+    - description: Optional protection-side policy status filter. This is product-side narrowing inside the already-selected household universe.
+  - requestBody (application/json).protection_pagination_params
+    - type: object
+    - required: no
+    - description: Pagination for protection policies. Defaults to page 1, page_size 25.
+  - requestBody (application/json).protection_pagination_params.page
+    - type: integer
+    - required: yes
+    - description: The page number to return
+  - requestBody (application/json).protection_pagination_params.page_size
+    - type: integer
+    - required: yes
+    - description: The number of records per page
+  - requestBody (application/json).protection_sort_keys
+    - type: ['array', 'null']
+    - required: no
+    - description: Sort criteria for protection policies. Each key has column and direction. Default: created_at DESC.
+  - requestBody (application/json).protection_sort_keys[]
+    - type: object
+    - required: no
+    - description: Sort criteria for protection policies. Each key has column and direction. Default: created_at DESC.
+  - requestBody (application/json).protection_sort_keys[].cast_type
+    - type: string
+    - required: no
+  - requestBody (application/json).protection_sort_keys[].collation
+    - type: string
+    - required: no
+  - requestBody (application/json).protection_sort_keys[].key
+    - type: string
+    - required: yes
+  - requestBody (application/json).protection_sort_keys[].order
+    - type: string
+    - required: yes
+  - requestBody (application/json).relationship_status
+    - type: string
+    - required: no
+    - description: Optional client-organisation relationship status filter. Deprecated: use household_filters.relationship_status.
+  - requestBody (application/json).wealth_pagination_params
+    - type: object
+    - required: no
+    - description: Pagination for wealth accounts. Defaults to page 1, page_size 25.
+  - requestBody (application/json).wealth_pagination_params.page
+    - type: integer
+    - required: yes
+    - description: The page number to return
+  - requestBody (application/json).wealth_pagination_params.page_size
+    - type: integer
+    - required: yes
+    - description: The number of records per page
+  - requestBody (application/json).wealth_sort_keys
+    - type: ['array', 'null']
+    - required: no
+    - description: Sort criteria for wealth accounts. Each key has column and direction. Default: account_created_at DESC.
+  - requestBody (application/json).wealth_sort_keys[]
+    - type: object
+    - required: no
+    - description: Sort criteria for wealth accounts. Each key has column and direction. Default: account_created_at DESC.
+  - requestBody (application/json).wealth_sort_keys[].cast_type
+    - type: string
+    - required: no
+  - requestBody (application/json).wealth_sort_keys[].collation
+    - type: string
+    - required: no
+  - requestBody (application/json).wealth_sort_keys[].key
+    - type: string
+    - required: yes
+  - requestBody (application/json).wealth_sort_keys[].order
+    - type: string
+    - required: yes
+
+## Responses
+- 200
+  - description: OK
+  - content-type: application/json
+  - schema: string
+

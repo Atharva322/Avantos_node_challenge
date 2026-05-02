@@ -1,0 +1,32 @@
+﻿{
+    "name":  "EnvironmentBlueprintListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/EnvironmentBlueprintListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/EnvironmentBlueprintListOutputBody.json\",3  \"blueprints\": [4    {5      \"ai_context_description\": \"string\",6      \"ai_description\": \"string\",7      \"category\": \"onboarding\",8      \"created_at\": \"2023-04-01T12:00:00Z\",9      \"description\": \"Process for onboarding new customers\",10      \"id\": \"bp_12345\",11      \"is_ai_recommendable\": false,12      \"is_journey\": false,13      \"name\": \"Customer Onboarding\",14      \"short_description\": \"Quick onboarding flow\",15      \"tenant_id\": \"t_67890\",16      \"updated_at\": \"2023-04-02T15:30:00Z\"17    }18  ],19  \"pagination\": {20    \"page\": 0,21    \"page_size\": 0,22    \"total_pages\": 0,23    \"total_records\": 024  }25}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:42:30.726Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "blueprints",
+                        "ai_context_description",
+                        "ai_description",
+                        "category",
+                        "created_at",
+                        "description",
+                        "id",
+                        "is_ai_recommendable",
+                        "is_journey",
+                        "name",
+                        "short_description",
+                        "tenant_id",
+                        "updated_at",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records"
+                    ]
+}

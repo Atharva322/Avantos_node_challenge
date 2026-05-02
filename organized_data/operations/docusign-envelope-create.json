@@ -1,0 +1,21 @@
+﻿{
+    "id":  "docusign-envelope-create",
+    "name":  "docusign-envelope-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/gpoc-docusign/envelopes",
+    "group_key":  "gpoc-docusign",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/docusign-envelope-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/DocuSignEnvelopeResponseDoc.json\",3  \"envelopeId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",4  \"status\": \"sent\",5  \"statusDateTime\": \"2024-01-15T10:30:00Z\"6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:12:11.993Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "envelopeId",
+                        "status",
+                        "statusDateTime"
+                    ]
+}

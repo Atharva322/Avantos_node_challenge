@@ -1,0 +1,20 @@
+﻿{
+    "id":  "action-run-request-cancel",
+    "name":  "action-run-request-cancel",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/action-runs/{action_run_id}/request-cancel",
+    "group_key":  "action-runs",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-run-request-cancel",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionRunRequestCancelOutputBody.json\",3  \"user_tasks_map\": {4    \"agent_1234\": [5      \"task_id_1\",6      \"task_id_2\"7    ]8  }9}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:53:46.082Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "user_tasks_map",
+                        "agent_1234"
+                    ]
+}

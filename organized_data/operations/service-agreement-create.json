@@ -1,0 +1,19 @@
+﻿{
+    "id":  "service-agreement-create",
+    "name":  "service-agreement-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/service-agreements",
+    "group_key":  "service-agreements",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/service-agreement-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ServiceAgreementCreateOutputBody.json\",3  \"id\": \"string\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:21:40.793Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

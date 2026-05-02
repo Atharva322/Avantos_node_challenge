@@ -1,0 +1,18 @@
+﻿{
+    "id":  "agent-oauth-token-create",
+    "name":  "agent-oauth-token-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/agents/oauth-tokens",
+    "group_key":  "agents",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-oauth-token-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:00:19.930Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

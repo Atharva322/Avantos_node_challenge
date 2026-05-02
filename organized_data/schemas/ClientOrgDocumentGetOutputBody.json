@@ -1,0 +1,23 @@
+﻿{
+    "name":  "ClientOrgDocumentGetOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentGetOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientOrgDocumentGetOutputBody.json\",3  \"action_run_id\": \"action_123\",4  \"client_org_id\": \"co_123\",5  \"content_type\": \"application/pdf\",6  \"created_at\": \"2024-01-15T14:00:00Z\",7  \"file_size_bytes\": 1048576,8  \"filename\": \"tax_return_2024.pdf\",9  \"id\": \"doc_123\",10  \"upload_status\": \"INITIATED\",11  \"uploaded_by\": \"agent_123\"12}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:30:45.386Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "action_run_id",
+                        "client_org_id",
+                        "content_type",
+                        "created_at",
+                        "file_size_bytes",
+                        "filename",
+                        "id",
+                        "upload_status",
+                        "uploaded_by"
+                    ]
+}

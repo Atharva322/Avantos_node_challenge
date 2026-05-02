@@ -1,0 +1,20 @@
+﻿{
+    "id":  "client-component-jwt-generate",
+    "name":  "client-component-jwt-generate",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/client-component/jwt",
+    "group_key":  "client-component",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-component-jwt-generate",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientComponentJWTOutputBody.json\",3  \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...\",4  \"url\": \"https://testapi.merceradvisors.com/api/v1/Identity/InitiateClientComponent?accessToken=...\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:05:29.923Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "token",
+                        "url"
+                    ]
+}

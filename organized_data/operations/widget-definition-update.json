@@ -1,0 +1,19 @@
+﻿{
+    "id":  "widget-definition-update",
+    "name":  "widget-definition-update",
+    "method":  "PATCH",
+    "path":  "/api/v1/admin/widget-definitions/{definition_id}",
+    "group_key":  "widget-definitions",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/widget-definition-update",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/WidgetDefinitionUpdateOutputBody.json\",3  \"message\": \"Widget definition updated successfully\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:25:04.832Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "message"
+                    ]
+}

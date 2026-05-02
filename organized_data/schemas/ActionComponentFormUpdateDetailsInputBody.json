@@ -1,0 +1,16 @@
+﻿{
+    "name":  "ActionComponentFormUpdateDetailsInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionComponentFormUpdateDetailsInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionComponentFormUpdateDetailsInputBody.json\",3  \"description\": \"This is my form\",4  \"name\": \"My Form\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:33:59.938Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "description",
+                        "name"
+                    ]
+}

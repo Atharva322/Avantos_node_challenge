@@ -1,0 +1,26 @@
+﻿{
+    "name":  "WidgetListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/WidgetListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/WidgetListOutputBody.json\",3  \"widgets\": [4    {5      \"$schema\": \"https://example.com/schemas/WidgetOutput.json\",6      \"config\": {},7      \"createdAt\": \"2024-01-01T00:00:00Z\",8      \"height\": 2,9      \"id\": \"wdg_123\",10      \"isVisible\": true,11      \"page\": \"dashboard\",12      \"updatedAt\": \"2024-01-01T00:00:00Z\",13      \"widgetDefinitionId\": \"wdef_123\",14      \"width\": 2,15      \"x\": 0,16      \"y\": 017    }18  ]19}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:19:00.620Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "widgets",
+                        "config",
+                        "createdAt",
+                        "height",
+                        "id",
+                        "isVisible",
+                        "page",
+                        "updatedAt",
+                        "widgetDefinitionId",
+                        "width",
+                        "x",
+                        "y"
+                    ]
+}

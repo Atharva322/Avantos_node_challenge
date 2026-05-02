@@ -1,0 +1,16 @@
+﻿{
+    "name":  "UpdateFeatureFlagBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/UpdateFeatureFlagBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/UpdateFeatureFlagBody.json\",3  \"agent_id\": \"agent_123\",4  \"enabled\": true5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:17:00.081Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "agent_id",
+                        "enabled"
+                    ]
+}

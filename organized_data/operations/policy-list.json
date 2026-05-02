@@ -1,0 +1,24 @@
+﻿{
+    "id":  "policy-list",
+    "name":  "policy-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/policies",
+    "group_key":  "policies",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PolicyListOutputBody.json\",3  \"policies\": [4    {5      \"description\": \"Read and write permissions for client data.\",6      \"policyName\": \"ClientReadPolicy\",7      \"rules\": [8        {9          \"actions\": [10            \"GET\",11            \"POST\"12          ],13          \"object\": \"/api/v1/clients\"14        }15      ]16    }17  ]18}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:29:39.106Z",
+    "source_run":  "ops_retry_1",
+    "form_fields":  [
+                        "$schema",
+                        "policies",
+                        "description",
+                        "policyName",
+                        "rules",
+                        "actions",
+                        "object"
+                    ]
+}

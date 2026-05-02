@@ -1,0 +1,21 @@
+﻿{
+    "name":  "GetExternalSystemIDsOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetExternalSystemIDsOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GetExternalSystemIDsOutputBody.json\",3  \"items\": [4    {5      \"id\": \"string\",6      \"key\": \"customer_code\",7      \"system\": \"envestnet\",8      \"updated_at\": \"2019-08-24T14:15:22Z\",9      \"valid_until\": \"2019-08-24T14:15:22Z\",10      \"value\": \"string\"11    }12  ]13}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:45:21.161Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "items",
+                        "id",
+                        "key",
+                        "system",
+                        "updated_at",
+                        "valid_until",
+                        "value"
+                    ]
+}

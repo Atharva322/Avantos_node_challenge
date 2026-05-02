@@ -1,0 +1,30 @@
+﻿{
+    "name":  "BusinessGroup",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BusinessGroup",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/BusinessGroup.json\",3  \"additional_attributes\": {4    \"key\": \"value\"5  },6  \"agents\": {7    \"Director\": {8      \"agent_id\": \"ag_123\",9      \"first_name\": \"John\",10      \"last_name\": \"Doe\"11    }12  },13  \"created_at\": \"2024-01-01T09:00:00Z\",14  \"description\": \"This is the first region.\",15  \"external_id\": \"bg_123\",16  \"group_type\": \"region\",17  \"id\": \"bg_123\",18  \"name\": \"Region 1\",19  \"status\": \"active\",20  \"tenant_id\": \"t_123\",21  \"updated_at\": \"2024-01-01T09:00:00Z\"22}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:27:14.517Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "additional_attributes",
+                        "key",
+                        "agents",
+                        "Director",
+                        "agent_id",
+                        "first_name",
+                        "last_name",
+                        "created_at",
+                        "description",
+                        "external_id",
+                        "group_type",
+                        "id",
+                        "name",
+                        "status",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

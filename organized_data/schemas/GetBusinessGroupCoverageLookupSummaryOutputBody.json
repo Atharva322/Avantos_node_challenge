@@ -1,0 +1,26 @@
+﻿{
+    "name":  "GetBusinessGroupCoverageLookupSummaryOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetBusinessGroupCoverageLookupSummaryOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GetBusinessGroupCoverageLookupSummaryOutputBody.json\",3  \"coverage_summaries\": [4    {5      \"business_groups\": [6        {}7      ],8      \"category\": \"business_group_coverage\",9      \"coverage_description\": \"Northeast Region Coverage\",10      \"coverage_value\": \"Northeast\",11      \"lookup_id\": \"lookup_northeast\",12      \"team_count\": 5,13      \"total_agents\": 45,14      \"total_clients\": 23015    }16  ],17  \"totals\": {18    \"total_agents\": 320,19    \"total_clients\": 1250,20    \"total_lookups\": 8,21    \"total_teams\": 4522  }23}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:44:58.777Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "coverage_summaries",
+                        "business_groups",
+                        "category",
+                        "coverage_description",
+                        "coverage_value",
+                        "lookup_id",
+                        "team_count",
+                        "total_agents",
+                        "total_clients",
+                        "totals",
+                        "total_lookups",
+                        "total_teams"
+                    ]
+}

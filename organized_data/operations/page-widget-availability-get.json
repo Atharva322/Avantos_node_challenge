@@ -1,0 +1,37 @@
+﻿{
+    "id":  "page-widget-availability-get",
+    "name":  "page-widget-availability-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/pages/{page}/available-widgets/{availability_id}",
+    "group_key":  "pages",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/page-widget-availability-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PageWidgetAvailabilityOutput.json\",3  \"createdAt\": \"2024-01-01T00:00:00Z\",4  \"id\": \"pwa_123\",5  \"page\": \"dashboard\",6  \"widgetDefinition\": {7    \"$schema\": \"https://example.com/schemas/WidgetDefinitionOutput.json\",8    \"configSchema\": {9      \"property1\": null,10      \"property2\": null11    },12    \"createdAt\": \"2024-01-01T00:00:00Z\",13    \"defaultConfig\": {14      \"property1\": null,15      \"property2\": null16    },17    \"defaultHeight\": 2,18    \"defaultWidth\": 2,19    \"description\": \"Shows upcoming meetings\",20    \"displayName\": \"Meetings Widget\",21    \"id\": \"wdef_123\",22    \"maxHeight\": 4,23    \"maxWidth\": 4,24    \"minHeight\": 1,25    \"minWidth\": 1,26    \"name\": \"meetings\",27    \"updatedAt\": \"2024-01-01T00:00:00Z\"28  },29  \"widgetDefinitionId\": \"wdef_123\"30}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:17:41.895Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "createdAt",
+                        "id",
+                        "page",
+                        "widgetDefinition",
+                        "configSchema",
+                        "property1",
+                        "property2",
+                        "defaultConfig",
+                        "defaultHeight",
+                        "defaultWidth",
+                        "description",
+                        "displayName",
+                        "maxHeight",
+                        "maxWidth",
+                        "minHeight",
+                        "minWidth",
+                        "name",
+                        "updatedAt",
+                        "widgetDefinitionId"
+                    ]
+}

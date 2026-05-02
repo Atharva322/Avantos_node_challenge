@@ -1,0 +1,29 @@
+﻿{
+    "name":  "AgentListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AgentListOutputBody.json\",3  \"agents\": [4    {5      \"active\": true,6      \"agent_id\": \"ag_123456\",7      \"email\": \"john.doe@example.com\",8      \"external_id\": \"ext_789\",9      \"firstname\": \"John\",10      \"idp_subject\": \"auth0|123456\",11      \"lastname\": \"Doe\",12      \"manager_id\": \"ag_789\",13      \"type\": \"Financial Advisor\"14    }15  ],16  \"pagination\": {17    \"page\": 0,18    \"page_size\": 0,19    \"total_pages\": 0,20    \"total_records\": 021  }22}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:23:02.886Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "agents",
+                        "active",
+                        "agent_id",
+                        "email",
+                        "external_id",
+                        "firstname",
+                        "idp_subject",
+                        "lastname",
+                        "manager_id",
+                        "type",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records"
+                    ]
+}

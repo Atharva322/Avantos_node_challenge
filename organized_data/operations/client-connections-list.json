@@ -1,0 +1,29 @@
+﻿{
+    "id":  "client-connections-list",
+    "name":  "client-connections-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/clients/{client_id}/client-connections",
+    "group_key":  "clients",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-connections-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GetClientClientRelationshipsOutputBody.json\",3  \"relationships\": [4    {5      \"initiating_client_external_id\": \"string\",6      \"initiating_client_first_name\": \"string\",7      \"initiating_client_id\": \"string\",8      \"initiating_client_last_name\": \"string\",9      \"participating_client_external_id\": \"string\",10      \"participating_client_first_name\": \"string\",11      \"participating_client_id\": \"string\",12      \"participating_client_last_name\": \"string\",13      \"relationship_category\": \"string\",14      \"relationship_type\": \"string\"15    }16  ]17}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:05:38.968Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "relationships",
+                        "initiating_client_external_id",
+                        "initiating_client_first_name",
+                        "initiating_client_id",
+                        "initiating_client_last_name",
+                        "participating_client_external_id",
+                        "participating_client_first_name",
+                        "participating_client_id",
+                        "participating_client_last_name",
+                        "relationship_category",
+                        "relationship_type"
+                    ]
+}

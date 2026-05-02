@@ -1,0 +1,24 @@
+﻿{
+    "name":  "PDFGetOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFGetOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PDFGetOutputBody.json\",3  \"created_at\": \"string\",4  \"created_by\": \"string\",5  \"description\": \"string\",6  \"file_name\": \"string\",7  \"fill_field_mapping\": {8    \"property1\": null,9    \"property2\": null10  },11  \"id\": \"string\",12  \"name\": \"string\",13  \"updated_at\": \"string\"14}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:07:15.916Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "created_at",
+                        "created_by",
+                        "description",
+                        "file_name",
+                        "fill_field_mapping",
+                        "property1",
+                        "property2",
+                        "id",
+                        "name",
+                        "updated_at"
+                    ]
+}

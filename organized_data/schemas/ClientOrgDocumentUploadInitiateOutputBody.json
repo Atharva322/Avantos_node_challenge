@@ -1,0 +1,17 @@
+﻿{
+    "name":  "ClientOrgDocumentUploadInitiateOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrgDocumentUploadInitiateOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientOrgDocumentUploadInitiateOutputBody.json\",3  \"document_id\": \"doc_xxx\",4  \"expires_at\": \"2024-01-15T15:00:00Z\",5  \"upload_url\": \"https://bucket.s3.amazonaws.com/...\"6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:30:58.759Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "document_id",
+                        "expires_at",
+                        "upload_url"
+                    ]
+}

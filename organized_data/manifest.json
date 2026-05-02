@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-05-02T13:21:47.441Z",
+  "source_runs": [
+    "ops_missing",
+    "ops_retry_1",
+    "schemas_missing"
+  ],
+  "output_root": "C:\\Users\\athar\\Desktop\\Avantos_Node_Challenge\\organized_data",
+  "files": {
+    "coverage": "coverage.json",
+    "operations_index": "indexes/operations.index.md",
+    "schemas_index": "indexes/schemas.index.md",
+    "normalized_operations": "normalized/operations.json",
+    "normalized_schemas": "normalized/schemas.jsonl"
+  }
+}

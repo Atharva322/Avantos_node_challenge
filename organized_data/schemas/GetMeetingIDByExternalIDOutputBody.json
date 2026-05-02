@@ -1,0 +1,15 @@
+﻿{
+    "name":  "GetMeetingIDByExternalIDOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/GetMeetingIDByExternalIDOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/GetMeetingIDByExternalIDOutputBody.json\",3  \"meeting_id\": \"m_789\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:45:25.626Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "meeting_id"
+                    ]
+}

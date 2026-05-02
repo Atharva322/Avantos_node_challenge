@@ -1,0 +1,19 @@
+﻿{
+    "name":  "AdvisorRepcodeGetOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AdvisorRepcodeGetOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AdvisorRepcodeGetOutputBody.json\",3  \"repcode\": {4    \"advisor_id\": \"string\",5    \"description\": \"string\",6    \"repcode_id\": \"string\",7    \"tenant_id\": \"string\"8  }9}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:22:05.083Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "repcode",
+                        "advisor_id",
+                        "description",
+                        "repcode_id",
+                        "tenant_id"
+                    ]
+}

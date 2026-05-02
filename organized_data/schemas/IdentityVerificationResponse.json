@@ -1,0 +1,32 @@
+﻿{
+    "name":  "IdentityVerificationResponse",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/IdentityVerificationResponse",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/IdentityVerificationResponse.json\",3  \"correlation_id\": \"string\",4  \"decision\": \"Approve\",5  \"details\": {6    \"address_trust\": \"string\",7    \"address_verification\": \"string\",8    \"dob_verification\": \"string\",9    \"email_trust\": \"string\",10    \"email_verification\": \"string\",11    \"identity_resolution\": \"string\",12    \"identity_risk\": \"string\",13    \"identity_trust\": \"string\",14    \"identity_verification\": \"string\",15    \"phone_trust\": \"string\",16    \"ssn_trust\": \"string\",17    \"ssn_verification\": \"string\"18  },19  \"timestamp\": \"string\",20  \"trace_id\": \"string\",21  \"transaction_id\": \"string\"22}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:45:47.816Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "correlation_id",
+                        "decision",
+                        "details",
+                        "address_trust",
+                        "address_verification",
+                        "dob_verification",
+                        "email_trust",
+                        "email_verification",
+                        "identity_resolution",
+                        "identity_risk",
+                        "identity_trust",
+                        "identity_verification",
+                        "phone_trust",
+                        "ssn_trust",
+                        "ssn_verification",
+                        "timestamp",
+                        "trace_id",
+                        "transaction_id"
+                    ]
+}

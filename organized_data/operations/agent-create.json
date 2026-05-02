@@ -1,0 +1,19 @@
+﻿{
+    "id":  "agent-create",
+    "name":  "agent-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/agents",
+    "group_key":  "agents",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/agent-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AgentCreateOutputBody.json\",3  \"id\": \"agent_123\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:00:10.875Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

@@ -1,0 +1,19 @@
+﻿{
+    "id":  "service-agreement-document-create",
+    "name":  "service-agreement-document-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/service-agreements/{service_agreement_id}/document",
+    "group_key":  "service-agreements",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/service-agreement-document-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CreateDocumentCatalogEntryOutputBody.json\",3  \"id\": \"string\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:21:45.378Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

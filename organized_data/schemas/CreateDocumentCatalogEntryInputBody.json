@@ -1,0 +1,33 @@
+﻿{
+    "name":  "CreateDocumentCatalogEntryInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateDocumentCatalogEntryInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CreateDocumentCatalogEntryInputBody.json\",3  \"access_level\": \"private\",4  \"additional_attributes\": {5    \"key\": \"value\"6  },7  \"approved_by\": \"user_123\",8  \"description\": \"Client\u0027s 2023 tax return document\",9  \"document_status\": \"approved\",10  \"document_subtype\": \"2023 Tax Return\",11  \"document_type\": \"bank_statement\",12  \"external_id\": \"DOC-2024-01\",13  \"file_name\": \"document.pdf\",14  \"file_type\": \"pdf\",15  \"rejection_reason\": \"Incorrect format\",16  \"retention_policy\": \"5 years\",17  \"storage_container\": \"my-bucket\",18  \"storage_mode\": \"PLATFORM_MANAGED\",19  \"storage_object_key\": \"path/to/document.pdf\",20  \"storage_provider\": \"S3\",21  \"upload_date\": \"2019-08-24T14:15:22Z\",22  \"upload_status\": \"PENDING\"23}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:36:59.497Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "access_level",
+                        "additional_attributes",
+                        "key",
+                        "approved_by",
+                        "description",
+                        "document_status",
+                        "document_subtype",
+                        "document_type",
+                        "external_id",
+                        "file_name",
+                        "file_type",
+                        "rejection_reason",
+                        "retention_policy",
+                        "storage_container",
+                        "storage_mode",
+                        "storage_object_key",
+                        "storage_provider",
+                        "upload_date",
+                        "upload_status"
+                    ]
+}

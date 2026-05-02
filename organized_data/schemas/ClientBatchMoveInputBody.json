@@ -1,0 +1,20 @@
+﻿{
+    "name":  "ClientBatchMoveInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientBatchMoveInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientBatchMoveInputBody.json\",3  \"moves\": [4    {5      \"client_id\": \"cl_123\",6      \"description\": \"string\",7      \"role\": \"PRIMARY, SECONDARY\",8      \"source_organisation_id\": \"co_456\",9      \"target_organisation_id\": \"co_789\"10    }11  ]12}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:29:34.099Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "moves",
+                        "client_id",
+                        "description",
+                        "role",
+                        "source_organisation_id",
+                        "target_organisation_id"
+                    ]
+}

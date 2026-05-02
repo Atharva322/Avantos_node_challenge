@@ -1,0 +1,20 @@
+﻿{
+    "id":  "team-client-organisation-remove",
+    "name":  "team-client-organisation-remove",
+    "method":  "DELETE",
+    "path":  "/api/v1/{tenant_id}/client-organisations/{client_organisation_id}/teams/{business_group_id}",
+    "group_key":  "client-organisations",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/team-client-organisation-remove",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RemoveTeamFromClientOrganisationOutputBody.json\",3  \"message\": \"Team successfully removed from client organisation\",4  \"success\": true5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:22:34.019Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "message",
+                        "success"
+                    ]
+}

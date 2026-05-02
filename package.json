@@ -1,0 +1,32 @@
+{
+  "name": "avantos-node-challenge",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "extract:seed": "python scripts/build_missing_seed_structure.py",
+    "extract:playwright": "node scripts/extract_missing_with_playwright.mjs",
+    "scrape:ops:batch": "node scripts/scrape_docs_batches.mjs --queue-file missing_targets/missing_operations.links.txt --batch-size 30 --max-batches 1 --page-delay-ms 2200 --batch-delay-ms 20000 --retries 2 --run-name ops_missing",
+    "scrape:schemas:batch": "node scripts/scrape_docs_batches.mjs --queue-file missing_targets/missing_schemas.links.txt --batch-size 30 --max-batches 1 --page-delay-ms 2200 --batch-delay-ms 20000 --retries 2 --run-name schemas_missing",
+    "scrape:merge": "node scripts/merge_scrape_run.mjs",
+    "scrape:ops:retry-queue": "node scripts/build_retry_queue.mjs --run-dir scrape_runs/ops_missing --kind operation --out-file missing_targets/ops_retry.links.txt",
+    "scrape:ops:retry": "node scripts/scrape_docs_batches.mjs --queue-file missing_targets/ops_retry.links.txt --batch-size 20 --max-batches 1 --page-delay-ms 3000 --batch-delay-ms 30000 --retries 4 --run-name ops_retry_1",
+    "scrape:organize": "node scripts/organize_extracted_data.mjs",
+    "build:final-structure": "node scripts/build_final_structure.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "playwright": "^1.54.2",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

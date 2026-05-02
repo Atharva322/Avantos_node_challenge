@@ -1,0 +1,16 @@
+﻿{
+    "name":  "AddressPlaceDetailsInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressPlaceDetailsInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AddressPlaceDetailsInputBody.json\",3  \"place_id\": \"ChIJN1t_tDeuEmsRUsoyG83frY4\",4  \"session_token\": \"uuid-session-token\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:21:42.710Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "place_id",
+                        "session_token"
+                    ]
+}

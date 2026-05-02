@@ -1,0 +1,15 @@
+﻿{
+    "name":  "CreateBusinessGroupCoverageOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/CreateBusinessGroupCoverageOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CreateBusinessGroupCoverageOutputBody.json\",3  \"id\": \"bgc_01JGQK9X1ABCDEFGHIJKLMNOP\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:36:32.641Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

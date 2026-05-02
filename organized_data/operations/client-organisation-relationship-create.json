@@ -1,0 +1,19 @@
+﻿{
+    "id":  "client-organisation-relationship-create",
+    "name":  "client-organisation-relationship-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/clients/{client_id}/client-organisation-relationships",
+    "group_key":  "clients",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/client-organisation-relationship-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientOrganisationRelationshipCreateOutputBody.json\",3  \"id\": \"string\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:06:59.393Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

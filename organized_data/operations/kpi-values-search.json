@@ -1,0 +1,42 @@
+﻿{
+    "id":  "kpi-values-search",
+    "name":  "kpi-values-search",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/kpis/values/search",
+    "group_key":  "kpis",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/kpi-values-search",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/KPIValueSearchOutputBody.json\",3  \"pagination\": {4    \"page\": 0,5    \"page_size\": 0,6    \"total_pages\": 0,7    \"total_records\": 08  },9  \"values\": [10    {11      \"client_organisation_id\": \"co_123\",12      \"computed_at\": \"2026-02-03T02:00:00Z\",13      \"created_at\": \"2026-02-03T02:00:00Z\",14      \"denominator\": \"25\",15      \"dimensions\": {16        \"property1\": \"string\",17        \"property2\": \"string\"18      },19      \"id\": \"kpival_123\",20      \"kpi_id\": \"kpi_123\",21      \"numerator\": \"3\",22      \"period_end\": \"2026-02-02T00:00:00Z\",23      \"period_granularity\": \"day\",24      \"period_start\": \"2026-02-01T00:00:00Z\",25      \"run_id\": \"kpirun_123\",26      \"status_label\": \"not_met\",27      \"tenant_id\": \"t_123\",28      \"updated_at\": \"2026-02-03T02:00:00Z\",29      \"value\": \"42\"30    }31  ]32}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:14:48.717Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records",
+                        "values",
+                        "client_organisation_id",
+                        "computed_at",
+                        "created_at",
+                        "denominator",
+                        "dimensions",
+                        "property1",
+                        "property2",
+                        "id",
+                        "kpi_id",
+                        "numerator",
+                        "period_end",
+                        "period_granularity",
+                        "period_start",
+                        "run_id",
+                        "status_label",
+                        "tenant_id",
+                        "updated_at",
+                        "value"
+                    ]
+}

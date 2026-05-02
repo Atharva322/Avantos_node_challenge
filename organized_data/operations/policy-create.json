@@ -1,0 +1,19 @@
+﻿{
+    "id":  "policy-create",
+    "name":  "policy-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/policies",
+    "group_key":  "policies",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/policy-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PolicyCreateOutputBody.json\",3  \"policy_id\": 2014}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:18:31.126Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "policy_id"
+                    ]
+}

@@ -1,0 +1,35 @@
+﻿{
+    "name":  "AccountFinancialCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AccountFinancialCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AccountFinancialCreateInputBody.json\",3  \"account_notes\": \"This account is for special savings.\",4  \"account_number\": \"1234567890\",5  \"additional_attributes\": {6    \"risk_tolerance\": 10,7    \"risk_tolerance_period\": \"annual\",8    \"risk_tolerance_unit\": \"percent\"9  },10  \"balance\": \"10000\",11  \"beneficiary_id\": \"beneficiary123\",12  \"cash_balance\": \"5000\",13  \"client_organisation_id\": \"client_organisation123\",14  \"closed_date\": \"2025-01-01\",15  \"currency_code\": \"USD\",16  \"custodian\": \"Custodian123\",17  \"external_id\": \"fa_123\",18  \"name\": \"Personal Checking\",19  \"open_date\": \"2024-01-01\",20  \"primary_owner_id\": \"client123\",21  \"product_id\": \"product123\",22  \"secondary_owner_id\": \"client456\",23  \"status\": \"active\",24  \"tax_status\": \"taxable\"25}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:32:13.853Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "account_notes",
+                        "account_number",
+                        "additional_attributes",
+                        "risk_tolerance",
+                        "risk_tolerance_period",
+                        "risk_tolerance_unit",
+                        "balance",
+                        "beneficiary_id",
+                        "cash_balance",
+                        "client_organisation_id",
+                        "closed_date",
+                        "currency_code",
+                        "custodian",
+                        "external_id",
+                        "name",
+                        "open_date",
+                        "primary_owner_id",
+                        "product_id",
+                        "secondary_owner_id",
+                        "status",
+                        "tax_status"
+                    ]
+}

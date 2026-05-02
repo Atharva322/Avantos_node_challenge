@@ -1,0 +1,37 @@
+﻿{
+    "id":  "abac-access-explainer",
+    "name":  "abac-access-explainer",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/abac/explain",
+    "group_key":  "abac",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/abac-access-explainer",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ABACExplainerOutputBody.json\",3  \"abac_disabled\": true,4  \"client_org_properties\": {5    \"property1\": null,6    \"property2\": null7  },8  \"combined_expression\": \"string\",9  \"has_access\": true,10  \"policy_evaluations\": [11    {12      \"effect\": \"string\",13      \"explanation\": \"string\",14      \"expression\": \"string\",15      \"matched\": true,16      \"policy_name\": \"string\"17    }18  ],19  \"reason\": \"string\",20  \"user_context\": {21    \"additional_attributes\": {22      \"property1\": \"string\",23      \"property2\": \"string\"24    },25    \"agent_id\": \"string\",26    \"email\": \"string\",27    \"external_id\": \"string\",28    \"role\": \"string\"29  }30}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:51:46.119Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "abac_disabled",
+                        "client_org_properties",
+                        "property1",
+                        "property2",
+                        "combined_expression",
+                        "has_access",
+                        "policy_evaluations",
+                        "effect",
+                        "explanation",
+                        "expression",
+                        "matched",
+                        "policy_name",
+                        "reason",
+                        "user_context",
+                        "additional_attributes",
+                        "agent_id",
+                        "email",
+                        "external_id",
+                        "role"
+                    ]
+}

@@ -1,0 +1,28 @@
+﻿{
+    "name":  "AgentAddressListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentAddressListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AgentAddressListOutputBody.json\",3  \"addresses\": [4    {5      \"AddressID\": \"string\",6      \"AddressLine1\": \"string\",7      \"AddressLine2\": \"string\",8      \"AddressType\": \"string\",9      \"City\": \"string\",10      \"Country\": \"string\",11      \"CreatedAt\": \"2019-08-24T14:15:22Z\",12      \"Description\": \"string\",13      \"EntityID\": \"string\",14      \"EntityType\": \"string\",15      \"State\": \"string\",16      \"UpdatedAt\": \"2019-08-24T14:15:22Z\",17      \"Zipcode\": \"string\"18    }19  ]20}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:22:14.037Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "addresses",
+                        "AddressID",
+                        "AddressLine1",
+                        "AddressLine2",
+                        "AddressType",
+                        "City",
+                        "Country",
+                        "CreatedAt",
+                        "Description",
+                        "EntityID",
+                        "EntityType",
+                        "State",
+                        "UpdatedAt",
+                        "Zipcode"
+                    ]
+}

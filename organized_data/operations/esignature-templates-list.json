@@ -1,0 +1,24 @@
+﻿{
+    "id":  "esignature-templates-list",
+    "name":  "esignature-templates-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/esignature/{token_id}/accounts/{account_id}/templates",
+    "group_key":  "esignature",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-templates-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ESignatureTemplatesListBody.json\",3  \"templates\": [4    {5      \"created\": \"2024-01-15T10:30:00.0000000Z\",6      \"description\": \"Standard contract template\",7      \"last_modified\": \"2024-06-20T14:45:00.0000000Z\",8      \"name\": \"Contract Template\",9      \"template_id\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\"10    }11  ]12}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:14:04.666Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "templates",
+                        "created",
+                        "description",
+                        "last_modified",
+                        "name",
+                        "template_id"
+                    ]
+}

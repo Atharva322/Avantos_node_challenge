@@ -1,0 +1,17 @@
+﻿{
+    "name":  "RequestUnqorkCashBreakdownBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RequestUnqorkCashBreakdownBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RequestUnqorkCashBreakdownBody.json\",3  \"data\": {4    \"financialAccountId\": \"string\",5    \"relationshipId\": \"string\"6  }7}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:11:03.196Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "data",
+                        "financialAccountId",
+                        "relationshipId"
+                    ]
+}

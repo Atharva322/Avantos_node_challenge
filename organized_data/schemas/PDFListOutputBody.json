@@ -1,0 +1,27 @@
+﻿{
+    "name":  "PDFListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/PDFListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/PDFListOutputBody.json\",3  \"pagination\": {4    \"page\": 0,5    \"page_size\": 0,6    \"total_pages\": 0,7    \"total_records\": 08  },9  \"pdfs\": [10    {11      \"created_at\": \"string\",12      \"created_by\": \"string\",13      \"description\": \"string\",14      \"file_name\": \"string\",15      \"id\": \"string\",16      \"name\": \"string\",17      \"updated_at\": \"string\"18    }19  ]20}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:07:24.862Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "pagination",
+                        "page",
+                        "page_size",
+                        "total_pages",
+                        "total_records",
+                        "pdfs",
+                        "created_at",
+                        "created_by",
+                        "description",
+                        "file_name",
+                        "id",
+                        "name",
+                        "updated_at"
+                    ]
+}

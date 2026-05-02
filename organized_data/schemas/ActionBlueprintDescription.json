@@ -1,0 +1,41 @@
+﻿{
+    "name":  "ActionBlueprintDescription",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintDescription",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionBlueprintDescription.json\",3  \"ai_context_description\": \"AI-optimized customer onboarding workflow\",4  \"ai_description\": \"AI-optimized customer onboarding workflow\",5  \"category\": \"onboarding\",6  \"created_at\": \"2023-04-01T12:00:00Z\",7  \"deleted_at\": \"2023-04-02T15:30:00Z\",8  \"description\": \"Process for onboarding new customers\",9  \"environments\": [10    {11      \"environment\": \"production\",12      \"promotion_notes\": \"Tested in staging, ready for production\",13      \"tagged_at\": \"2023-04-01T12:00:00Z\",14      \"tagged_by_agent_id\": \"a_12345\",15      \"version\": \"v1.0.0\"16    }17  ],18  \"id\": \"bp_12345\",19  \"is_ai_recommendable\": false,20  \"is_journey\": false,21  \"name\": \"Customer Onboarding\",22  \"short_description\": \"short description\",23  \"tenant_id\": \"t_67890\",24  \"updated_at\": \"2023-04-02T15:30:00Z\",25  \"versions\": [26    {27      \"blueprint_id\": \"bp_12345\",28      \"components\": [29        {}30      ],31      \"created_at\": \"2023-04-01T12:00:00Z\",32      \"custom_javascript_function_id\": \"cjsf_123\",33      \"custom_status_configuration\": null,34      \"id\": \"bpv_12345\",35      \"is_journey\": false,36      \"status\": \"draft\",37      \"tenant_id\": \"t_67890\",38      \"updated_at\": \"2023-04-02T15:30:00Z\",39      \"version_notes\": \"Initial version\",40      \"version_number\": \"v1.0.0\"41    }42  ]43}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:32:44.467Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "ai_context_description",
+                        "ai_description",
+                        "category",
+                        "created_at",
+                        "deleted_at",
+                        "description",
+                        "environments",
+                        "environment",
+                        "promotion_notes",
+                        "tagged_at",
+                        "tagged_by_agent_id",
+                        "version",
+                        "id",
+                        "is_ai_recommendable",
+                        "is_journey",
+                        "name",
+                        "short_description",
+                        "tenant_id",
+                        "updated_at",
+                        "versions",
+                        "blueprint_id",
+                        "components",
+                        "custom_javascript_function_id",
+                        "custom_status_configuration",
+                        "status",
+                        "version_notes",
+                        "version_number"
+                    ]
+}

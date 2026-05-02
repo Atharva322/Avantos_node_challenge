@@ -1,0 +1,18 @@
+﻿{
+    "id":  "action-blueprint-version-delete",
+    "name":  "action-blueprint-version-delete",
+    "method":  "DELETE",
+    "path":  "/api/v1/{tenant_id}/actions/blueprints/{action_blueprint_id}/versions/{blueprint_version_id}",
+    "group_key":  "actions",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-blueprint-version-delete",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:52:26.162Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

@@ -1,0 +1,18 @@
+﻿{
+    "id":  "esignature-envelope-status",
+    "name":  "esignature-envelope-status",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/esignature/{token_id}/accounts/{account_id}/envelopes/{envelope_id}/status",
+    "group_key":  "esignature",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/esignature-envelope-status",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:13:41.437Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

@@ -1,0 +1,18 @@
+﻿{
+    "id":  "meeting-actions-skipped-update",
+    "name":  "meeting-actions-skipped-update",
+    "method":  "PATCH",
+    "path":  "/api/v1/{tenant_id}/meetings/{id}/actions-skipped",
+    "group_key":  "meetings",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-actions-skipped-update",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:15:12.549Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

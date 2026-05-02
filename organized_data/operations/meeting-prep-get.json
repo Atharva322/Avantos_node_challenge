@@ -1,0 +1,25 @@
+﻿{
+    "id":  "meeting-prep-get",
+    "name":  "meeting-prep-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/meetings/{meeting_id}/prep",
+    "group_key":  "meetings",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-prep-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/MeetingPrepDescription.json\",3  \"body_content\": \"Meeting prep content\",4  \"created_at\": \"2024-03-10T09:00:00Z\",5  \"id\": \"mp_123\",6  \"is_ai_enhanced\": false,7  \"meeting_id\": \"mt_123\",8  \"tenant_id\": \"123\",9  \"updated_at\": \"2024-03-10T09:00:00Z\"10}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:16:32.041Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "body_content",
+                        "created_at",
+                        "id",
+                        "is_ai_enhanced",
+                        "meeting_id",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

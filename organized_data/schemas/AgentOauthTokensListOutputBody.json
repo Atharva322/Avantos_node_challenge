@@ -1,0 +1,26 @@
+﻿{
+    "name":  "AgentOauthTokensListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOauthTokensListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AgentOauthTokensListOutputBody.json\",3  \"tokens\": [4    {5      \"$schema\": \"https://example.com/schemas/AgentOauthTokenResponse.json\",6      \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...\",7      \"accounts\": [8        {}9      ],10      \"agent_id\": \"ag_123\",11      \"created_at\": \"2024-01-01T00:00:00Z\",12      \"expires_at\": \"2024-01-01T01:00:00Z\",13      \"external_id\": \"user@example.com\",14      \"id\": \"aot_01k4q8ef9zfmxsh3j80jhs8zky\",15      \"provider\": \"docusign\",16      \"refresh_token_expires_at\": \"2024-01-31T00:55:00Z\",17      \"tenant_id\": \"test-tenant\",18      \"updated_at\": \"2024-01-01T00:00:00Z\"19    }20  ]21}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:23:07.314Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "tokens",
+                        "access_token",
+                        "accounts",
+                        "agent_id",
+                        "created_at",
+                        "expires_at",
+                        "external_id",
+                        "id",
+                        "provider",
+                        "refresh_token_expires_at",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

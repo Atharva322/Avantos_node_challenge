@@ -1,0 +1,24 @@
+﻿{
+    "id":  "feature-flags-get",
+    "name":  "feature-flags-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/feature-flags/{flag_key}",
+    "group_key":  "feature-flags",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/feature-flags-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/FeatureFlag.json\",3  \"description\": \"Enables dark mode theme for the UI\",4  \"enabled\": true,5  \"enabled_agents\": [6    \"agent_123\",7    \"agent_456\"8  ],9  \"enabled_for_org\": true,10  \"key\": \"enable-dark-mode\",11  \"name\": \"Enable Dark Mode\"12}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:14:20.285Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "description",
+                        "enabled",
+                        "enabled_agents",
+                        "enabled_for_org",
+                        "key",
+                        "name"
+                    ]
+}

@@ -1,0 +1,18 @@
+﻿{
+    "id":  "action-component-form-update-custom-javascript",
+    "name":  "action-component-form-update-custom-javascript",
+    "method":  "PATCH",
+    "path":  "/api/v1/{tenant_id}/actions/components/forms/{form_id}/custom-javascript",
+    "group_key":  "actions",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/action-component-form-update-custom-javascript",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T03:53:01.754Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

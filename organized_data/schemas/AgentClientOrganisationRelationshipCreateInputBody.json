@@ -1,0 +1,22 @@
+﻿{
+    "name":  "AgentClientOrganisationRelationshipCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentClientOrganisationRelationshipCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AgentClientOrganisationRelationshipCreateInputBody.json\",3  \"client_organisation_id\": \"string\",4  \"description\": \"string\",5  \"direct_assignment\": true,6  \"extra_properties\": {7    \"annual_revenue\": \"$500M\",8    \"employees\": \"5000\",9    \"industry\": \"Technology\"10  },11  \"relationship_type\": \"string\"12}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:22:27.395Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "client_organisation_id",
+                        "description",
+                        "direct_assignment",
+                        "extra_properties",
+                        "annual_revenue",
+                        "employees",
+                        "industry",
+                        "relationship_type"
+                    ]
+}

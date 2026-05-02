@@ -1,0 +1,28 @@
+﻿{
+    "name":  "BookOfBusinessSummaryInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/BookOfBusinessSummaryInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/BookOfBusinessSummaryInputBody.json\",3  \"client_organisation_name\": \"string\",4  \"household_filters\": {5    \"client_organisation_name\": \"string\",6    \"filter\": {7      \"component_key\": \"string\",8      \"is_metadata\": true,9      \"output_key\": \"string\",10      \"type\": \"string\"11    },12    \"only_assigned\": true,13    \"relationship_status\": \"string\"14  },15  \"line_of_business\": \"string\",16  \"only_assigned\": true,17  \"policy_status\": \"string\",18  \"product_filters\": {19    \"agent_organisation_external_id\": \"string\",20    \"agent_organisation_name\": \"string\",21    \"line_of_business\": \"string\",22    \"policy_status\": \"string\"23  },24  \"relationship_status\": \"string\"25}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:27:10.078Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "client_organisation_name",
+                        "household_filters",
+                        "filter",
+                        "component_key",
+                        "is_metadata",
+                        "output_key",
+                        "type",
+                        "only_assigned",
+                        "relationship_status",
+                        "line_of_business",
+                        "policy_status",
+                        "product_filters",
+                        "agent_organisation_external_id",
+                        "agent_organisation_name"
+                    ]
+}

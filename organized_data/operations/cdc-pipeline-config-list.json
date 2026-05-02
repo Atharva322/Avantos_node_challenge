@@ -1,0 +1,25 @@
+﻿{
+    "id":  "cdc-pipeline-config-list",
+    "name":  "cdc-pipeline-config-list",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/cdc/pipeline-configs",
+    "group_key":  "cdc",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/cdc-pipeline-config-list",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1[2  {3    \"$schema\": \"https://example.com/schemas/CDCPipelineConfigResponse.json\",4    \"config\": null,5    \"created_at\": \"2019-08-24T14:15:22Z\",6    \"has_credentials\": true,7    \"id\": \"string\",8    \"pipeline\": \"string\",9    \"tenant_id\": \"string\",10    \"updated_at\": \"2019-08-24T14:15:22Z\"11  }12]"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:05:07.367Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "config",
+                        "created_at",
+                        "has_credentials",
+                        "id",
+                        "pipeline",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

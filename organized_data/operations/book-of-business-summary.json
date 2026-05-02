@@ -1,0 +1,30 @@
+﻿{
+    "id":  "book-of-business-summary",
+    "name":  "book-of-business-summary",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/book-of-business/summary",
+    "group_key":  "book-of-business",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/book-of-business-summary",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/BookOfBusinessHouseholdSummaryAPI.json\",3  \"annualized_premium_disability\": \"48000.00\",4  \"annualized_premium_life\": \"125000.00\",5  \"annualized_premium_protection_split_adjusted\": \"109500.00\",6  \"annualized_premium_protection_total\": \"173000.00\",7  \"disability_household_count\": 7,8  \"fixed_annuity_household_count\": 9,9  \"household_count\": 57,10  \"life_household_count\": 18,11  \"pending_annuity_household_count\": 4,12  \"total_aum_wealth\": \"2500000.50\",13  \"total_clients_count\": 44,14  \"wealth_household_count\": 4115}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:01:32.030Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "annualized_premium_disability",
+                        "annualized_premium_life",
+                        "annualized_premium_protection_split_adjusted",
+                        "annualized_premium_protection_total",
+                        "disability_household_count",
+                        "fixed_annuity_household_count",
+                        "household_count",
+                        "life_household_count",
+                        "pending_annuity_household_count",
+                        "total_aum_wealth",
+                        "total_clients_count",
+                        "wealth_household_count"
+                    ]
+}

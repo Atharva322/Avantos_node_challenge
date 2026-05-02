@@ -1,0 +1,28 @@
+﻿{
+    "id":  "custodian-forms-config-get",
+    "name":  "custodian-forms-config-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/custodian-forms-config",
+    "group_key":  "custodian-forms-config",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custodian-forms-config-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/CustodianFormsConfigGetOutputBody.json\",3  \"child_forms\": [4    {5      \"display_condition\": \"true\",6      \"e_signature_mapping\": \"{\\\"signer_email\\\": \\\"data.email\\\"}\",7      \"form_id\": \"f_456\",8      \"payload_template_override\": \"{\\\"name\\\": \\\"John Doe\\\"}\"9    }10  ],11  \"envelope_metadata_endpoint_id\": \"e_456\",12  \"envelope_trigger_endpoint_id\": \"e_456\",13  \"l1_config_form_id\": \"f_456\",14  \"l2_config_form_id\": \"f_789\",15  \"preview_trigger_endpoint_id\": \"e_456\"16}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:10:51.582Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "child_forms",
+                        "display_condition",
+                        "e_signature_mapping",
+                        "form_id",
+                        "payload_template_override",
+                        "envelope_metadata_endpoint_id",
+                        "envelope_trigger_endpoint_id",
+                        "l1_config_form_id",
+                        "l2_config_form_id",
+                        "preview_trigger_endpoint_id"
+                    ]
+}

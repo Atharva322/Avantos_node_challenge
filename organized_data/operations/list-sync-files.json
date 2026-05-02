@@ -1,0 +1,37 @@
+﻿{
+    "id":  "list-sync-files",
+    "name":  "list-sync-files",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/list-sync-file",
+    "group_key":  "list-sync-file",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/list-sync-files",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/SyncFileListOutputBody.json\",3  \"sync_files\": [4    {5      \"additional_metadata\": {6        \"property1\": null,7        \"property2\": null8      },9      \"duration\": 0,10      \"end_time\": \"2019-08-24T14:15:22Z\",11      \"error_count\": 0,12      \"error_rate_percent\": 0,13      \"file_size\": 0,14      \"id\": \"string\",15      \"record_count\": 0,16      \"s3_bucket\": \"string\",17      \"s3_key\": \"string\",18      \"salesforce_object\": \"string\",19      \"start_date\": \"2019-08-24T14:15:22Z\",20      \"start_time\": \"2019-08-24T14:15:22Z\",21      \"status\": \"string\",22      \"tenant_id\": \"string\",23      \"updated_at\": \"2019-08-24T14:15:22Z\"24    }25  ]26}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:14:54.776Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "sync_files",
+                        "additional_metadata",
+                        "property1",
+                        "property2",
+                        "duration",
+                        "end_time",
+                        "error_count",
+                        "error_rate_percent",
+                        "file_size",
+                        "id",
+                        "record_count",
+                        "s3_bucket",
+                        "s3_key",
+                        "salesforce_object",
+                        "start_date",
+                        "start_time",
+                        "status",
+                        "tenant_id",
+                        "updated_at"
+                    ]
+}

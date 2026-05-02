@@ -1,0 +1,17 @@
+﻿{
+    "name":  "RoleCreateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/RoleCreateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/RoleCreateInputBody.json\",3  \"created_by\": \"string\",4  \"description\": \"string\",5  \"role_name\": \"string\"6}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T13:11:29.808Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "created_by",
+                        "description",
+                        "role_name"
+                    ]
+}

@@ -1,0 +1,19 @@
+﻿{
+    "id":  "meeting-prep-create",
+    "name":  "meeting-prep-create",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/meetings/{meeting_id}/prep",
+    "group_key":  "meetings",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-prep-create",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/MeetingPrepCreateOutputBody.json\",3  \"id\": \"mp_123\"4}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:16:22.307Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "id"
+                    ]
+}

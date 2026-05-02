@@ -1,0 +1,18 @@
+﻿{
+    "id":  "business-group-add-member",
+    "name":  "business-group-add-member",
+    "method":  "POST",
+    "path":  "/api/v1/{tenant_id}/business-groups/{business_group_id}/members",
+    "group_key":  "business-groups",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/business-group-add-member",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:01:36.485Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

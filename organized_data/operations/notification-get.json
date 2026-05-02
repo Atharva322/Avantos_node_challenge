@@ -1,0 +1,31 @@
+﻿{
+    "id":  "notification-get",
+    "name":  "notification-get",
+    "method":  "GET",
+    "path":  "/api/v1/{tenant_id}/notifications/{notification_id}",
+    "group_key":  "notifications",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/notification-get",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/NotificationGetOutputBody.json\",3  \"notification\": {4    \"category\": \"string\",5    \"content\": \"string\",6    \"created_at\": \"2019-08-24T14:15:22Z\",7    \"environment\": \"string\",8    \"external_id\": \"string\",9    \"id\": \"string\",10    \"is_escalated\": true,11    \"is_read\": true,12    \"name\": \"string\",13    \"tenant_id\": \"string\",14    \"updated_at\": \"2019-08-24T14:15:22Z\",15    \"user_id\": \"string\"16  }17}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:17:08.028Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "notification",
+                        "category",
+                        "content",
+                        "created_at",
+                        "environment",
+                        "external_id",
+                        "id",
+                        "is_escalated",
+                        "is_read",
+                        "name",
+                        "tenant_id",
+                        "updated_at",
+                        "user_id"
+                    ]
+}

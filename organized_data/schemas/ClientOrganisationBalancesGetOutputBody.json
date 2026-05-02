@@ -1,0 +1,27 @@
+﻿{
+    "name":  "ClientOrganisationBalancesGetOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ClientOrganisationBalancesGetOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ClientOrganisationBalancesGetOutputBody.json\",3  \"balances\": [4    {5      \"amount\": \"2500000.50\",6      \"as_of_business_date\": \"2025-06-15\",7      \"authority\": \"source_asserted\",8      \"balance_scope\": \"CLIENT_ORGANISATION_BALANCE\",9      \"balance_type\": \"AUM\",10      \"client_organisation_id\": \"co_123\",11      \"currency\": \"USD\",12      \"source_fact_id\": \"sbv_123\",13      \"source_fact_table\": \"summary_balance_valuations\",14      \"source_kind\": \"summary_balance\",15      \"source_system\": \"SALESFORCE\",16      \"updated_at\": \"2025-06-15T14:30:00Z\"17    }18  ]19}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:31:36.912Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "balances",
+                        "amount",
+                        "as_of_business_date",
+                        "authority",
+                        "balance_scope",
+                        "balance_type",
+                        "client_organisation_id",
+                        "currency",
+                        "source_fact_id",
+                        "source_fact_table",
+                        "source_kind",
+                        "source_system",
+                        "updated_at"
+                    ]
+}

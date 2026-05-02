@@ -1,0 +1,20 @@
+﻿{
+    "name":  "ActionBlueprintUpdateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ActionBlueprintUpdateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ActionBlueprintUpdateInputBody.json\",3  \"ai_context_description\": \"AI-optimized customer onboarding workflow\",4  \"ai_description\": \"Use this action for customer onboarding flows\",5  \"category\": \"onboarding\",6  \"description\": \"string\",7  \"name\": \"string\",8  \"short_description\": \"short description\"9}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:33:11.554Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "ai_context_description",
+                        "ai_description",
+                        "category",
+                        "description",
+                        "name",
+                        "short_description"
+                    ]
+}

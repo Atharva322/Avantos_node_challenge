@@ -1,0 +1,18 @@
+﻿{
+    "id":  "custom-javascript-functions-delete",
+    "name":  "custom-javascript-functions-delete",
+    "method":  "DELETE",
+    "path":  "/api/v1/{tenant_id}/custom-javascript-functions/{id}",
+    "group_key":  "custom-javascript-functions",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/custom-javascript-functions-delete",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:11:00.629Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+
+                    ]
+}

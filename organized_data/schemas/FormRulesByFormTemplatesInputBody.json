@@ -1,0 +1,15 @@
+﻿{
+    "name":  "FormRulesByFormTemplatesInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/FormRulesByFormTemplatesInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/FormRulesByFormTemplatesInputBody.json\",3  \"form_template_ids\": [4    \"f_123\",5    \"f_456\"6  ]7}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:44:32.011Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "form_template_ids"
+                    ]
+}

@@ -1,0 +1,21 @@
+﻿{
+    "name":  "AddressPlaceDetailsOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AddressPlaceDetailsOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AddressPlaceDetailsOutputBody.json\",3  \"address_line_1\": \"123 Main St\",4  \"address_line_2\": \"Apt 4B\",5  \"city\": \"Springfield\",6  \"country\": \"US\",7  \"formatted_address\": \"123 Main St, Springfield, IL 62701, USA\",8  \"postal_code\": \"62701\",9  \"state\": \"IL\"10}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:21:47.182Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "address_line_1",
+                        "address_line_2",
+                        "city",
+                        "country",
+                        "formatted_address",
+                        "postal_code",
+                        "state"
+                    ]
+}

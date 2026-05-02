@@ -1,0 +1,23 @@
+﻿{
+    "name":  "ObjectAggregateInputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/ObjectAggregateInputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/ObjectAggregateInputBody.json\",3  \"aggregate\": \"sum\",4  \"column\": \"client_organisation_id\",5  \"filter\": {6    \"component_key\": \"string\",7    \"is_metadata\": true,8    \"output_key\": \"string\",9    \"type\": \"string\"10  },11  \"object_type\": \"relationship\",12  \"only_assigned\": true13}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:52:02.866Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "aggregate",
+                        "column",
+                        "filter",
+                        "component_key",
+                        "is_metadata",
+                        "output_key",
+                        "type",
+                        "object_type",
+                        "only_assigned"
+                    ]
+}

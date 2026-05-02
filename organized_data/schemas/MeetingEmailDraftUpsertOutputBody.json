@@ -1,0 +1,16 @@
+﻿{
+    "name":  "MeetingEmailDraftUpsertOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/MeetingEmailDraftUpsertOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/MeetingEmailDraftUpsertOutputBody.json\",3  \"created\": true,4  \"id\": \"med_123\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:50:41.772Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "created",
+                        "id"
+                    ]
+}

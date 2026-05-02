@@ -1,0 +1,20 @@
+﻿{
+    "id":  "meeting-email-draft-upsert",
+    "name":  "meeting-email-draft-upsert",
+    "method":  "PUT",
+    "path":  "/api/v1/{tenant_id}/meetings/{meeting_id}/email-draft/upsert",
+    "group_key":  "meetings",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/operations/meeting-email-draft-upsert",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/MeetingEmailDraftUpsertOutputBody.json\",3  \"created\": true,4  \"id\": \"med_123\"5}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T04:15:34.764Z",
+    "source_run":  "ops_missing",
+    "form_fields":  [
+                        "$schema",
+                        "created",
+                        "id"
+                    ]
+}

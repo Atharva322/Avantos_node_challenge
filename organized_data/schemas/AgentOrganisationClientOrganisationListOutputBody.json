@@ -1,0 +1,21 @@
+﻿{
+    "name":  "AgentOrganisationClientOrganisationListOutputBody",
+    "docs_url":  "https://admin-ui.dev-sandbox.workload.avantos-ai.net/docs#/schemas/AgentOrganisationClientOrganisationListOutputBody",
+    "page_title":  "Avantos Core API Reference",
+    "json_blocks":  [
+                        "1{2  \"$schema\": \"https://example.com/schemas/AgentOrganisationClientOrganisationListOutputBody.json\",3  \"organisations\": [4    {5      \"client_organisation_role\": \"string\",6      \"client_organisation_type\": \"string\",7      \"description\": \"string\",8      \"id\": \"string\",9      \"name\": \"string\",10      \"relationship_status\": \"string\"11    }12  ]13}"
+                    ],
+    "body_text":  "",
+    "scraped_at":  "2026-05-02T12:23:16.184Z",
+    "source_run":  "schemas_missing",
+    "form_fields":  [
+                        "$schema",
+                        "organisations",
+                        "client_organisation_role",
+                        "client_organisation_type",
+                        "description",
+                        "id",
+                        "name",
+                        "relationship_status"
+                    ]
+}
