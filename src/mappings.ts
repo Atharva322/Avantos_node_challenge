@@ -79,7 +79,6 @@ export function clearMapping(graph: ActionBlueprintGraph, formId: string, target
 export type PersistedUiField = {
   key: string;
   required: boolean;
-  prefillEnabled: boolean;
 };
 
 export function getPersistedUiFields(graph: ActionBlueprintGraph, formId: string): PersistedUiField[] {
@@ -91,8 +90,7 @@ export function getPersistedUiFields(graph: ActionBlueprintGraph, formId: string
     .filter((field) => field?.key)
     .map((field) => ({
       key: String(field.key),
-      required: Boolean(field.required),
-      prefillEnabled: Boolean(field.prefill_enabled)
+      required: Boolean(field.required)
     }));
 }
 
@@ -113,9 +111,40 @@ export function setPersistedUiFields(
             ui_form_config: {
               fields: fields.map((field) => ({
                 key: field.key,
-                required: field.required,
-                prefill_enabled: field.prefillEnabled
+                required: field.required
               }))
+            }
+          }
+        }
+      : node
+  );
+  return { ...graph, nodes };
+}
+
+export function getPersistedFormPrefillEnabled(graph: ActionBlueprintGraph, formId: string): boolean {
+  const ctx = buildGraphContext(graph);
+  const nodeId = ctx.nodeIdByFormId[formId];
+  const node = nodeId ? ctx.nodeById[nodeId] : undefined;
+  return Boolean(node?.data.ui_form_config?.form_prefill_enabled);
+}
+
+export function setPersistedFormPrefillEnabled(
+  graph: ActionBlueprintGraph,
+  formId: string,
+  enabled: boolean
+): ActionBlueprintGraph {
+  const ctx = buildGraphContext(graph);
+  const nodeId = ctx.nodeIdByFormId[formId];
+  if (!nodeId) return graph;
+  const nodes = graph.nodes.map((node) =>
+    node.id === nodeId
+      ? {
+          ...node,
+          data: {
+            ...node.data,
+            ui_form_config: {
+              ...(node.data.ui_form_config ?? {}),
+              form_prefill_enabled: enabled
             }
           }
         }

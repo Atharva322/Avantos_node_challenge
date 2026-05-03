@@ -22,10 +22,10 @@ export type NodeData = {
   component_type?: string;
   dl_input_mapping?: Record<string, DlInputEntry>;
   ui_form_config?: {
+    form_prefill_enabled?: boolean;
     fields?: Array<{
       key: string;
       required?: boolean;
-      prefill_enabled?: boolean;
     }>;
   };
 };

@@ -1,29 +1,53 @@
 import { useEffect, useMemo, useState } from "react";
-import { ActionBlueprintGraph, DlInputEntry, FormField, PrefillCandidate } from "./types";
+import { ActionBlueprintGraph, FormField } from "./types";
 import { getGraph, putGraph } from "./api";
-import { extractFormFields } from "./graph";
-import { clearMapping, getEffectiveMappings, getPersistedUiFields, setMapping, setPersistedUiFields } from "./mappings";
-import { providers } from "./providers";
+import { buildGraphContext, extractFormFields, getDirectUpstreamNodeIds, getTransitiveUpstreamNodeIds } from "./graph";
+import {
+  clearMapping,
+  getEffectiveMappings,
+  getPersistedFormPrefillEnabled,
+  getPersistedUiFields,
+  setPersistedFormPrefillEnabled,
+  setPersistedUiFields
+} from "./mappings";
 import { SOURCE_MODE, SOURCE_TABS } from "./sourceCatalog";
 
 type ConfiguredField = FormField & {
   required: boolean;
-  prefillEnabled: boolean;
 };
+
+type WorkflowDesign = {
+  id: string;
+  name: string;
+  createdAt: string;
+  updatedAt?: string;
+  graph: ActionBlueprintGraph;
+  fieldConfig: Record<string, ConfiguredField[]>;
+  formPrefillEnabled: Record<string, boolean>;
+};
+
+const WORKFLOW_STORAGE_KEY = "jb_saved_workflows_v1";
 
 export function App() {
   const [graph, setGraph] = useState<ActionBlueprintGraph | null>(null);
   const [etag, setEtag] = useState<string | undefined>();
   const [mockMode, setMockMode] = useState(false);
   const [selectedFormId, setSelectedFormId] = useState<string | null>(null);
-  const [editingField, setEditingField] = useState<string | null>(null);
   const [saving, setSaving] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [saveWarning, setSaveWarning] = useState<string | null>(null);
-  const [includeGlobalSource, setIncludeGlobalSource] = useState(false);
+  const [patternStatus, setPatternStatus] = useState<"draft" | "saved">("draft");
   const [dragFieldKey, setDragFieldKey] = useState<string | null>(null);
   const [formFieldConfigByFormId, setFormFieldConfigByFormId] = useState<Record<string, ConfiguredField[]>>({});
+  const [formPrefillEnabledByFormId, setFormPrefillEnabledByFormId] = useState<Record<string, boolean>>({});
+  const [formValuesByFormId, setFormValuesByFormId] = useState<Record<string, Record<string, string>>>({});
+  const [formValidationByFormId, setFormValidationByFormId] = useState<Record<string, string[]>>({});
+  const [submittedFormIds, setSubmittedFormIds] = useState<Record<string, boolean>>({});
+  const [selectedFormEditName, setSelectedFormEditName] = useState("");
   const [newFormName, setNewFormName] = useState("");
+  const [workflowName, setWorkflowName] = useState("Untitled Workflow");
+  const [savedWorkflows, setSavedWorkflows] = useState<WorkflowDesign[]>([]);
+  const [activeWorkflowId, setActiveWorkflowId] = useState<string | null>(null);
   const [objectSearch, setObjectSearch] = useState("");
   const [selectedObjectId, setSelectedObjectId] = useState<string>(SOURCE_TABS[0]?.id ?? "");
   const [selectedObjectFieldKeys, setSelectedObjectFieldKeys] = useState<string[]>([]);
@@ -44,6 +68,17 @@ export function App() {
   }, []);
 
   useEffect(() => {
+    try {
+      const raw = localStorage.getItem(WORKFLOW_STORAGE_KEY);
+      if (!raw) return;
+      const parsed = JSON.parse(raw) as WorkflowDesign[];
+      if (Array.isArray(parsed)) setSavedWorkflows(parsed);
+    } catch {
+      // Ignore malformed saved state
+    }
+  }, []);
+
+  useEffect(() => {
     if (!graph) return;
     setFormFieldConfigByFormId((prev) => {
       const next = { ...prev };
@@ -53,12 +88,10 @@ export function App() {
         const persisted = getPersistedUiFields(graph, form.id);
         const persistedByKey = new Map(persisted.map((field) => [field.key, field]));
         const persistedOrder = persisted.map((field) => field.key);
-        const mappedKeys = new Set(Object.keys(form.default_input_mapping ?? {}));
         if (!existing) {
           const merged = baseFields.map((field) => ({
             ...field,
-            required: persistedByKey.get(field.key)?.required ?? false,
-            prefillEnabled: persistedByKey.get(field.key)?.prefillEnabled ?? mappedKeys.has(field.key)
+            required: persistedByKey.get(field.key)?.required ?? false
           }));
           next[form.id] = applyPersistedOrder(merged, persistedOrder);
           return;
@@ -69,8 +102,7 @@ export function App() {
           if (!found) {
             return {
               ...field,
-              required: persistedByKey.get(field.key)?.required ?? false,
-              prefillEnabled: persistedByKey.get(field.key)?.prefillEnabled ?? mappedKeys.has(field.key)
+              required: persistedByKey.get(field.key)?.required ?? false
             };
           }
           const persistedField = persistedByKey.get(field.key);
@@ -78,8 +110,7 @@ export function App() {
             ...found,
             label: field.label,
             type: field.type,
-            required: persistedField?.required ?? found.required,
-            prefillEnabled: persistedField?.prefillEnabled ?? found.prefillEnabled
+            required: persistedField?.required ?? found.required
           };
         });
         next[form.id] = applyPersistedOrder(merged, persistedOrder);
@@ -99,6 +130,18 @@ export function App() {
     }
   }, [graph, selectedFormId]);
 
+  useEffect(() => {
+    if (!graph) return;
+    setFormPrefillEnabledByFormId((prev) => {
+      const next = { ...prev };
+      graph.forms.forEach((form) => {
+        if (typeof next[form.id] === "boolean") return;
+        next[form.id] = getPersistedFormPrefillEnabled(graph, form.id);
+      });
+      return next;
+    });
+  }, [graph]);
+
   const selectedForm = useMemo(() => graph?.forms.find((f) => f.id === selectedFormId) ?? null, [graph, selectedFormId]);
   const filteredTabs = useMemo(() => {
     const term = objectSearch.trim().toLowerCase();
@@ -109,16 +152,16 @@ export function App() {
   const mappings = useMemo(() => (graph && selectedFormId ? getEffectiveMappings(graph, selectedFormId) : []), [graph, selectedFormId]);
   const configuredFields = useMemo(() => {
     if (!selectedForm) return [];
-    return formFieldConfigByFormId[selectedForm.id] ?? extractFormFields(selectedForm).map((field) => ({ ...field, required: false, prefillEnabled: false }));
+    return formFieldConfigByFormId[selectedForm.id] ?? extractFormFields(selectedForm).map((field) => ({ ...field, required: false }));
   }, [selectedForm, formFieldConfigByFormId]);
-  const candidates = useMemo(() => {
-    if (!graph || !selectedFormId || !editingField) return [];
-    const targetField = configuredFields.find((field) => field.key === editingField);
-    const activeProviders = includeGlobalSource ? providers : providers.filter((provider) => provider.id !== "global-account-financial");
-    return activeProviders
-      .flatMap((p) => p.listCandidates(graph, selectedFormId))
-      .filter((candidate) => !targetField || isCandidateCompatible(targetField.type, candidate));
-  }, [graph, selectedFormId, editingField, configuredFields, includeGlobalSource]);
+  const ancestorCandidates = useMemo(() => {
+    if (!graph || !selectedFormId) return [];
+    return getAncestorForms(graph, selectedFormId);
+  }, [graph, selectedFormId]);
+
+  useEffect(() => {
+    setSelectedFormEditName(selectedForm?.name ?? "");
+  }, [selectedForm?.id, selectedForm?.name]);
 
   if (!graph) return <main className="container">{error ? `Error: ${error}` : "Loading graph..."}</main>;
 
@@ -135,14 +178,17 @@ export function App() {
     }
   }
 
-  function applyCandidate(candidate: PrefillCandidate) {
-    if (!graph || !selectedFormId || !editingField) return;
-    const entry: DlInputEntry = {
-      source: candidate.sourceRef,
-      type: "dl_object_enum_v1"
-    };
-    void onSave(setMapping(graph, selectedFormId, editingField, entry));
-    setEditingField(null);
+  function savePattern() {
+    setPatternStatus("saved");
+    setFormValidationByFormId({});
+    persistWorkflowDesign({ asNew: false });
+  }
+
+  function unlockPattern() {
+    setPatternStatus("draft");
+    setFormValuesByFormId({});
+    setFormValidationByFormId({});
+    setSubmittedFormIds({});
   }
 
   function updateFieldConfig(formId: string, fieldKey: string, updater: (current: ConfiguredField) => ConfiguredField) {
@@ -153,6 +199,20 @@ export function App() {
       }
       return { ...prev, [formId]: updated };
     });
+  }
+
+  function setFormPrefillEnabled(formId: string, enabled: boolean) {
+    setFormPrefillEnabledByFormId((prev) => ({ ...prev, [formId]: enabled }));
+    if (graph) void onSave(setPersistedFormPrefillEnabled(graph, formId, enabled));
+    if (enabled) {
+      autoPrefillFromAncestors(formId);
+    }
+  }
+
+  function updateSelectedFormDefinition(updater: (form: NonNullable<typeof selectedForm>) => NonNullable<typeof selectedForm>) {
+    if (!graph || !selectedForm) return;
+    const nextForms = graph.forms.map((f) => (f.id === selectedForm.id ? updater(selectedForm) : f));
+    void onSave({ ...graph, forms: nextForms });
   }
 
   function reorderConfiguredFields(formId: string, sourceKey: string, targetKey: string) {
@@ -280,6 +340,123 @@ export function App() {
     void onSave(next);
   }
 
+  function updateSelectedFormName() {
+    if (!selectedForm) return;
+    const name = selectedFormEditName.trim();
+    if (!name) {
+      setError("Form name cannot be empty.");
+      return;
+    }
+    updateSelectedFormDefinition((form) => ({ ...form, name }));
+    setError(null);
+  }
+
+  function addDraftFieldsToSelectedForm() {
+    if (!selectedForm || !draftFields.length) return;
+    updateSelectedFormDefinition((form) => {
+      const current = form.field_schema?.properties ?? {};
+      const nextProps = { ...current };
+      draftFields.forEach((f) => {
+        nextProps[f.key] = { title: f.label, type: f.type };
+      });
+      return { ...form, field_schema: { properties: nextProps } };
+    });
+    setDraftFields([]);
+    setSelectedObjectFieldKeys([]);
+  }
+
+  function removeFieldFromSelectedForm(fieldKey: string) {
+    if (!selectedForm || !graph) return;
+    const nextConfigured = (formFieldConfigByFormId[selectedForm.id] ?? []).filter((f) => f.key !== fieldKey);
+    const nextForms = graph.forms.map((f) => {
+      if (f.id !== selectedForm.id) return f;
+      const current = { ...(f.field_schema?.properties ?? {}) };
+      delete current[fieldKey];
+      return { ...f, field_schema: { properties: current } };
+    });
+    let nextGraph = { ...graph, forms: nextForms };
+    nextGraph = clearMapping(nextGraph, selectedForm.id, fieldKey);
+    nextGraph = setPersistedUiFields(nextGraph, selectedForm.id, nextConfigured.map(toPersistedUiField));
+    setFormFieldConfigByFormId((prev) => ({ ...prev, [selectedForm.id]: nextConfigured }));
+    setFormValuesByFormId((prev) => {
+      const values = { ...(prev[selectedForm.id] ?? {}) };
+      delete values[fieldKey];
+      return { ...prev, [selectedForm.id]: values };
+    });
+    setFormValidationByFormId((prev) => ({ ...prev, [selectedForm.id]: [] }));
+    void onSave(nextGraph);
+  }
+
+  function removeLink(sourceFormId: string, targetFormId: string) {
+    if (!graph) return;
+    const sourceNodeId = getNodeIdByFormId(sourceFormId);
+    const targetNodeId = getNodeIdByFormId(targetFormId);
+    if (!sourceNodeId || !targetNodeId) return;
+    const nextEdges = graph.edges.filter((e) => !(e.source === sourceNodeId && e.target === targetNodeId));
+    void onSave({ ...graph, edges: nextEdges });
+  }
+
+  function autoPrefillFromAncestors(formId: string) {
+    if (!graph) return;
+    const ancestors = getAncestorForms(graph, formId).filter((ancestor) => submittedFormIds[ancestor.form.id]);
+    if (ancestors.length === 0) return;
+    const targetForm = graph.forms.find((f) => f.id === formId);
+    if (!targetForm) return;
+    const targets = formFieldConfigByFormId[formId] ?? extractFormFields(targetForm).map((field) => ({ ...field, required: false }));
+    const targetTypes = new Map(targets.map((f) => [f.key, f.type]));
+
+    setFormValuesByFormId((prev) => {
+      const current = { ...(prev[formId] ?? {}) };
+      for (const ancestor of ancestors) {
+        const sourceFields = extractFormFields(ancestor.form);
+        const sourceTypes = new Map(sourceFields.map((f) => [f.key, f.type]));
+        const sourceValues = prev[ancestor.form.id] ?? {};
+        for (const [fieldKey, targetType] of targetTypes.entries()) {
+          if (String(current[fieldKey] ?? "").trim() !== "") continue;
+          const sourceType = sourceTypes.get(fieldKey);
+          if (!sourceType || !isTypeCompatible(targetType, sourceType)) continue;
+          const sourceVal = sourceValues[fieldKey];
+          if (typeof sourceVal === "string" && sourceVal.trim() !== "") {
+            current[fieldKey] = sourceVal;
+          }
+        }
+      }
+      return { ...prev, [formId]: current };
+    });
+    setFormValidationByFormId((prev) => ({ ...prev, [formId]: [] }));
+  }
+
+  function submitCurrentFormData() {
+    if (!selectedFormId) return;
+    const values = formValuesByFormId[selectedFormId] ?? {};
+    const missing = configuredFields
+      .filter((f) => f.required)
+      .filter((f) => !String(values[f.key] ?? "").trim())
+      .map((f) => `${f.label} is required`);
+    if (missing.length) {
+      setFormValidationByFormId((prev) => ({ ...prev, [selectedFormId]: missing }));
+      return;
+    }
+    setFormValidationByFormId((prev) => ({ ...prev, [selectedFormId]: [] }));
+    setSubmittedFormIds((prev) => ({ ...prev, [selectedFormId]: true }));
+  }
+
+  function updateCurrentFormValue(fieldKey: string, value: string) {
+    if (!selectedFormId) return;
+    setFormValuesByFormId((prev) => ({
+      ...prev,
+      [selectedFormId]: {
+        ...(prev[selectedFormId] ?? {}),
+        [fieldKey]: value
+      }
+    }));
+  }
+
+  function currentFormErrors() {
+    if (!selectedFormId) return [];
+    return formValidationByFormId[selectedFormId] ?? [];
+  }
+
   function deleteSelectedForm() {
     if (!graph || !selectedFormId) return;
     const nodeId = getNodeIdByFormId(selectedFormId);
@@ -309,11 +486,96 @@ export function App() {
     void onSave(nextGraph);
   }
 
+  function persistWorkflowDesign(options?: { asNew?: boolean }) {
+    if (!graph) return;
+    const asNew = Boolean(options?.asNew);
+    const now = new Date().toISOString();
+    const currentName = workflowName.trim() || "Untitled Workflow";
+    const nextId = asNew || !activeWorkflowId ? `wf_${Date.now().toString(36)}` : activeWorkflowId;
+    const design: WorkflowDesign = {
+      id: nextId,
+      name: currentName,
+      createdAt: now,
+      updatedAt: now,
+      graph,
+      fieldConfig: formFieldConfigByFormId,
+      formPrefillEnabled: formPrefillEnabledByFormId
+    };
+    setSavedWorkflows((prev) => {
+      const existing = prev.find((item) => item.id === design.id);
+      const next = existing
+        ? prev.map((item) => (item.id === design.id ? { ...design, createdAt: item.createdAt } : item))
+        : [design, ...prev];
+      localStorage.setItem(WORKFLOW_STORAGE_KEY, JSON.stringify(next));
+      return next;
+    });
+    setActiveWorkflowId(nextId);
+  }
+
+  function loadWorkflowDesign(designId: string) {
+    const found = savedWorkflows.find((d) => d.id === designId);
+    if (!found) return;
+    setGraph(found.graph);
+    setFormFieldConfigByFormId(found.fieldConfig ?? {});
+    setFormPrefillEnabledByFormId(found.formPrefillEnabled ?? {});
+    setSelectedFormId(found.graph.forms[0]?.id ?? null);
+    setWorkflowName(found.name);
+    setActiveWorkflowId(found.id);
+    setPatternStatus("draft");
+    setFormValuesByFormId({});
+    setFormValidationByFormId({});
+    setSubmittedFormIds({});
+  }
+
+  function deleteWorkflowDesign(designId: string) {
+    setSavedWorkflows((prev) => {
+      const next = prev.filter((d) => d.id !== designId);
+      localStorage.setItem(WORKFLOW_STORAGE_KEY, JSON.stringify(next));
+      return next;
+    });
+    if (activeWorkflowId === designId) {
+      setActiveWorkflowId(null);
+      setWorkflowName("Untitled Workflow");
+    }
+  }
+
+  function startNewWorkflowDesign() {
+    if (!graph) return;
+    setActiveWorkflowId(null);
+    setWorkflowName("Untitled Workflow");
+    setPatternStatus("draft");
+    setFormValuesByFormId({});
+    setFormValidationByFormId({});
+    setSubmittedFormIds({});
+    const empty = toEmptyWorkspaceGraph(graph);
+    setGraph(empty);
+    setFormFieldConfigByFormId({});
+    setFormPrefillEnabledByFormId({});
+    setSelectedFormId(null);
+    setLinkSourceFormId("");
+    setLinkTargetFormId("");
+    setDraftFields([]);
+    setSelectedObjectFieldKeys([]);
+    setError(null);
+  }
+
   return (
     <main className="container">
       <header className="header">
         <h1>Journey Builder Prefill Mapper</h1>
         <p>{graph.blueprint_name}</p>
+        <p className="sourceModeLine">Pattern Status: {patternStatus === "draft" ? "Draft (Design Mode)" : "Saved (Run Mode)"}</p>
+        <div className="toolbar">
+          {patternStatus === "draft" ? (
+            <button className="closeBtn" onClick={savePattern}>
+              Save Pattern
+            </button>
+          ) : (
+            <button className="clearBtn" onClick={unlockPattern}>
+              Unlock Pattern
+            </button>
+          )}
+        </div>
         {mockMode ? <small>Running in local mock mode (no API env configured).</small> : null}
         {saveWarning ? <p className="warnLine">{saveWarning}</p> : null}
         {error ? <p className="errorLine">{error}</p> : null}
@@ -321,6 +583,38 @@ export function App() {
 
       <section className="layout">
         <aside className="panel">
+          <h2>Form Workflow Designs</h2>
+          <label className="formRow">
+            <span>Workflow Name</span>
+            <input value={workflowName} onChange={(e) => setWorkflowName(e.target.value)} placeholder="My Workflow Pattern" />
+          </label>
+          <button className="closeBtn" onClick={() => persistWorkflowDesign()}>
+            Save Workflow Design
+          </button>
+          <button className="clearBtn" onClick={() => persistWorkflowDesign({ asNew: true })}>
+            Save As New
+          </button>
+          <button className="clearBtn" onClick={startNewWorkflowDesign}>
+            New Workflow Design
+          </button>
+          <p className="sourceModeLine">{activeWorkflowId ? `Active Design ID: ${activeWorkflowId}` : "No active saved design loaded."}</p>
+          <div className="mappingValue">
+            {savedWorkflows.length === 0 ? "No saved workflow designs yet." : ""}
+            {savedWorkflows.map((wf) => (
+              <div key={wf.id} className="toolbar">
+                <span>
+                  {wf.name} ({new Date(wf.updatedAt ?? wf.createdAt).toLocaleString()})
+                </span>
+                <button className="closeBtn" onClick={() => loadWorkflowDesign(wf.id)}>
+                  Load
+                </button>
+                <button className="clearBtn" onClick={() => deleteWorkflowDesign(wf.id)}>
+                  Delete
+                </button>
+              </div>
+            ))}
+          </div>
+
           <h2>Forms</h2>
           {graph.forms.map((form) => (
             <button
@@ -331,8 +625,17 @@ export function App() {
               {form.name}
             </button>
           ))}
-          <button className="clearBtn" onClick={deleteSelectedForm} disabled={!selectedFormId}>
+          <button className="clearBtn" onClick={deleteSelectedForm} disabled={!selectedFormId || patternStatus === "saved"}>
             Delete Selected Form
+          </button>
+
+          <h3>Edit Selected Form</h3>
+          <label className="formRow">
+            <span>Form Name</span>
+            <input value={selectedFormEditName} onChange={(e) => setSelectedFormEditName(e.target.value)} placeholder="Edit selected form name" />
+          </label>
+          <button className="closeBtn" onClick={updateSelectedFormName} disabled={!selectedFormId || patternStatus === "saved"}>
+            Update Form Name
           </button>
 
           <h3>Create Form</h3>
@@ -388,7 +691,7 @@ export function App() {
               </label>
             ))}
           </div>
-          <button className="closeBtn" onClick={addSelectedObjectFieldsToDraft}>
+          <button className="closeBtn" onClick={addSelectedObjectFieldsToDraft} disabled={patternStatus === "saved"}>
             Add Selected Fields
           </button>
           <div className="mappingValue">
@@ -397,11 +700,14 @@ export function App() {
               : draftFields.map((field) => `${field.key}:${field.type}`).join("\n")}
           </div>
           {draftFields.map((field) => (
-            <button key={field.key} className="clearBtn" onClick={() => removeDraftField(field.key)}>
+            <button key={field.key} className="clearBtn" onClick={() => removeDraftField(field.key)} disabled={patternStatus === "saved"}>
               Remove {field.key}
             </button>
           ))}
-          <button className="closeBtn" onClick={createForm}>
+          <button className="closeBtn" onClick={addDraftFieldsToSelectedForm} disabled={!selectedFormId || draftFields.length === 0 || patternStatus === "saved"}>
+            Add Draft Fields To Selected Form
+          </button>
+          <button className="closeBtn" onClick={createForm} disabled={patternStatus === "saved"}>
             Add Form
           </button>
 
@@ -428,8 +734,11 @@ export function App() {
               ))}
             </select>
           </label>
-          <button className="closeBtn" onClick={createLink}>
+          <button className="closeBtn" onClick={createLink} disabled={patternStatus === "saved"}>
             Add Link
+          </button>
+          <button className="clearBtn" onClick={() => removeLink(linkSourceFormId, linkTargetFormId)} disabled={patternStatus === "saved" || !linkSourceFormId || !linkTargetFormId}>
+            Delete Selected Link
           </button>
         </aside>
 
@@ -455,18 +764,32 @@ export function App() {
           <div className="mappingValue">
             {graph.edges.length === 0
               ? "No links yet."
-              : graph.edges
-                  .map((edge) => `${resolveFormNameByNodeId(graph, edge.source)} -> ${resolveFormNameByNodeId(graph, edge.target)}`)
-                  .join("\n")}
+              : graph.edges.map((edge) => {
+                  const sourceName = resolveFormNameByNodeId(graph, edge.source);
+                  const targetName = resolveFormNameByNodeId(graph, edge.target);
+                  const sourceFormId = getFormIdByNodeId(graph, edge.source);
+                  const targetFormId = getFormIdByNodeId(graph, edge.target);
+                  return (
+                    <div key={`${edge.source}:${edge.target}`} className="toolbar">
+                      <span>
+                        {sourceName} {"->"} {targetName}
+                      </span>
+                      <button
+                        className="clearBtn"
+                        onClick={() => sourceFormId && targetFormId && removeLink(sourceFormId, targetFormId)}
+                        disabled={patternStatus === "saved"}
+                      >
+                        Delete Link
+                      </button>
+                    </div>
+                  );
+                })}
           </div>
 
           <h2>Prefill Mapping</h2>
-          <label className="checkRow">
-            <input type="checkbox" checked={includeGlobalSource} onChange={(e) => setIncludeGlobalSource(e.target.checked)} />
-            Include Global Source Options
-          </label>
           {selectedForm ? (
             <>
+              {ancestorCandidates.length === 0 ? <p>No parent/ancestor form found, so prefill is unavailable.</p> : null}
               {configuredFields.map((field) => {
                 const mapped = mappings.find((m) => m.targetField === field.key);
                 const active = mapped?.nodeMapping ?? (mapped?.formMapping ? { source: mapped.formMapping, type: "fallback" } : undefined);
@@ -495,36 +818,64 @@ export function App() {
                             onChange={(e) =>
                               updateFieldConfig(selectedForm.id, field.key, (current) => ({ ...current, required: e.target.checked }))
                             }
+                            disabled={patternStatus === "saved"}
                           />
                           Required
-                        </label>
-                        <label>
-                          <input
-                            type="checkbox"
-                            checked={field.prefillEnabled}
-                            onChange={(e) => {
-                              const enabled = e.target.checked;
-                              updateFieldConfig(selectedForm.id, field.key, (current) => ({ ...current, prefillEnabled: enabled }));
-                              if (!enabled && graph) {
-                                void onSave(clearMapping(graph, selectedForm.id, field.key));
-                              }
-                            }}
-                          />
-                          Prefill
                         </label>
                       </div>
                     </div>
                     <div className="mappingValue">{active ? JSON.stringify(active.source) : "Not configured"}</div>
-                    <button className="closeBtn" onClick={() => field.prefillEnabled && setEditingField(field.key)} disabled={!field.prefillEnabled}>
-                      Map
-                    </button>
-                    <button className="clearBtn" onClick={() => void onSave(clearMapping(graph, selectedForm.id, field.key))} disabled={!active}>
+                    <button className="clearBtn" onClick={() => void onSave(clearMapping(graph, selectedForm.id, field.key))} disabled={!active || patternStatus === "saved"}>
                       X
+                    </button>
+                    <button className="clearBtn" onClick={() => removeFieldFromSelectedForm(field.key)} disabled={patternStatus === "saved"}>
+                      Remove Field
                     </button>
                   </div>
                 );
               })}
 
+              {patternStatus === "saved" ? (
+                <section className="prefillPanel">
+                  <h3>Run Form Data</h3>
+                  {ancestorCandidates.length > 0 ? (
+                    <label className="checkRow">
+                      <input
+                        type="checkbox"
+                        checked={Boolean(formPrefillEnabledByFormId[selectedForm.id])}
+                        onChange={(e) => setFormPrefillEnabled(selectedForm.id, e.target.checked)}
+                      />
+                      Enable Prefill Suggestions For This Form
+                    </label>
+                  ) : null}
+                  {configuredFields.map((field) => (
+                    <label key={`runtime-${field.key}`} className="formRow">
+                      <span>
+                        {field.label} {field.required ? "*" : ""}
+                      </span>
+                      <input
+                        value={formValuesByFormId[selectedForm.id]?.[field.key] ?? ""}
+                        onChange={(e) => updateCurrentFormValue(field.key, e.target.value)}
+                      />
+                    </label>
+                  ))}
+                  <button className="closeBtn" onClick={submitCurrentFormData}>
+                    Submit Form Data
+                  </button>
+                  {submittedFormIds[selectedForm.id] ? <p>Submitted for this form.</p> : null}
+                  {currentFormErrors().length > 0 ? (
+                    <div>
+                      {currentFormErrors().map((err) => (
+                        <div key={err} className="errorLine">
+                          {err}
+                        </div>
+                      ))}
+                    </div>
+                  ) : null}
+                </section>
+              ) : (
+                <p>Save Pattern to start collecting actual user data.</p>
+              )}
             </>
           ) : (
             <p>Select a form to continue.</p>
@@ -532,55 +883,15 @@ export function App() {
         </section>
       </section>
 
-      {editingField ? (
-        <section className="modal">
-          <div className="modalCard">
-            <h3>Select Prefill Source for `{editingField}`</h3>
-            {candidates.length === 0 ? <p>No eligible prefill source yet. Add links first, or enable global source.</p> : null}
-            {groupCandidates(candidates).map(([group, items]) => (
-              <div key={group} className="group">
-                <h4>{group}</h4>
-                {items.map((c) => (
-                  <button key={c.id} className="candidate" onClick={() => applyCandidate(c)}>
-                    {c.label}
-                  </button>
-                ))}
-              </div>
-            ))}
-            <button className="closeBtn" onClick={() => setEditingField(null)}>
-              Close
-            </button>
-          </div>
-        </section>
-      ) : null}
-
       {saving ? <footer className="footer">Saving...</footer> : null}
     </main>
   );
 }
 
-function groupCandidates(candidates: PrefillCandidate[]): [string, PrefillCandidate[]][] {
-  const grouped = new Map<string, PrefillCandidate[]>();
-  candidates.forEach((c) => {
-    const current = grouped.get(c.groupLabel) ?? [];
-    current.push(c);
-    grouped.set(c.groupLabel, current);
-  });
-  return Array.from(grouped.entries());
-}
-
-function isCandidateCompatible(fieldType: string, candidate: PrefillCandidate): boolean {
-  const sourceType = String(candidate.sourceRef?.type ?? "");
-  if (!sourceType) return true;
-  if (fieldType === "number" && (sourceType === "number" || sourceType === "integer")) return true;
-  return fieldType === sourceType;
-}
-
 function toPersistedUiField(field: ConfiguredField) {
   return {
     key: field.key,
-    required: field.required,
-    prefillEnabled: field.prefillEnabled
+    required: field.required
   };
 }
 
@@ -620,4 +931,31 @@ function resolveFormNameByNodeId(graph: ActionBlueprintGraph, nodeId: string): s
   const formId = node?.data.component_id;
   const form = graph.forms.find((item) => item.id === formId);
   return form?.name ?? nodeId;
+}
+
+function getFormIdByNodeId(graph: ActionBlueprintGraph, nodeId: string): string | null {
+  const node = graph.nodes.find((item) => item.id === nodeId);
+  return node?.data.component_id ?? null;
+}
+
+function getAncestorForms(graph: ActionBlueprintGraph, formId: string): Array<{ form: { id: string; name: string; field_schema?: { properties?: Record<string, { title?: string; type?: string }> } }; nodeId: string }> {
+  const ctx = buildGraphContext(graph);
+  const nodeId = ctx.nodeIdByFormId[formId];
+  if (!nodeId) return [];
+  const direct = getDirectUpstreamNodeIds(nodeId, ctx);
+  const transitive = getTransitiveUpstreamNodeIds(nodeId, ctx).filter((n) => !direct.includes(n));
+  const orderedNodeIds = [...direct, ...transitive];
+  return orderedNodeIds
+    .map((n) => {
+      const fId = ctx.formIdByNodeId[n];
+      const form = fId ? ctx.formById[fId] : undefined;
+      if (!form) return null;
+      return { form, nodeId: n };
+    })
+    .filter((x): x is { form: { id: string; name: string; field_schema?: { properties?: Record<string, { title?: string; type?: string }> } }; nodeId: string } => Boolean(x));
+}
+
+function isTypeCompatible(targetType: string, sourceType: string): boolean {
+  if (targetType === sourceType) return true;
+  return targetType === "number" && sourceType === "integer";
 }
