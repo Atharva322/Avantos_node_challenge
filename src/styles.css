@@ -191,6 +191,32 @@ body {
   border-radius: 10px;
 }
 
+.runtimeTableWrap {
+  overflow: auto;
+  border: 1px solid #d8deea;
+  border-radius: 8px;
+  background: #fff;
+}
+
+.runtimeTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.runtimeTable th,
+.runtimeTable td {
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+  padding: 8px 10px;
+  vertical-align: top;
+}
+
+.runtimeTable th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+
 .errorLine {
   color: #b91c1c;
   font-size: 13px;

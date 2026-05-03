@@ -876,6 +876,47 @@ export function App() {
               ) : (
                 <p>Save Pattern to start collecting actual user data.</p>
               )}
+
+              <section className="prefillPanel">
+                <h3>Temporary Stored Data</h3>
+                {Object.keys(formValuesByFormId).filter((formId) => submittedFormIds[formId]).length === 0 ? (
+                  <p>No runtime form data captured yet.</p>
+                ) : (
+                  <div className="runtimeTableWrap">
+                    <table className="runtimeTable">
+                      <thead>
+                        <tr>
+                          <th>Form</th>
+                          <th>Field</th>
+                          <th>Value</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {Object.entries(formValuesByFormId)
+                          .filter(([formId]) => submittedFormIds[formId])
+                          .flatMap(([formId, values]) => {
+                          const rows = Object.entries(values);
+                          if (rows.length === 0) {
+                            return (
+                              <tr key={`${formId}__empty`}>
+                                <td>{resolveFormNameByFormId(graph, formId)}</td>
+                                <td colSpan={2}>No values captured yet.</td>
+                              </tr>
+                            );
+                          }
+                          return rows.map(([fieldKey, value], idx) => (
+                            <tr key={`${formId}__${fieldKey}`}>
+                              {idx === 0 ? <td rowSpan={rows.length}>{resolveFormNameByFormId(graph, formId)}</td> : null}
+                              <td>{fieldKey}</td>
+                              <td>{value || "-"}</td>
+                            </tr>
+                          ));
+                        })}
+                      </tbody>
+                    </table>
+                  </div>
+                )}
+              </section>
             </>
           ) : (
             <p>Select a form to continue.</p>
@@ -936,6 +977,10 @@ function resolveFormNameByNodeId(graph: ActionBlueprintGraph, nodeId: string): s
 function getFormIdByNodeId(graph: ActionBlueprintGraph, nodeId: string): string | null {
   const node = graph.nodes.find((item) => item.id === nodeId);
   return node?.data.component_id ?? null;
+}
+
+function resolveFormNameByFormId(graph: ActionBlueprintGraph, formId: string): string {
+  return graph.forms.find((item) => item.id === formId)?.name ?? formId;
 }
 
 function getAncestorForms(graph: ActionBlueprintGraph, formId: string): Array<{ form: { id: string; name: string; field_schema?: { properties?: Record<string, { title?: string; type?: string }> } }; nodeId: string }> {
