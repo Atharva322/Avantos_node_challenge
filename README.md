@@ -1,127 +1,81 @@
-# Avantos Node Challenge - Current Implementation
+# Avantos Node Challenge
 
-## What This App Does
-This project is a React + Vite implementation of a Journey Builder style form workflow designer.
+## Overview
+This project is a React + Vite implementation of a Journey Builder-style form workflow designer with prefill mapping.
 
-You can:
+Core capabilities:
 - Create forms from source objects (operations/schemas field catalogs)
 - Link forms into parent-child workflow graphs
-- Configure required fields per form
-- Save multiple workflow designs, load them later, and delete them
-- Run data-entry mode on saved patterns
-- Auto-prefill child forms from submitted parent/ancestor form data
+- Configure required fields
+- Save, load, and delete multiple workflow designs
+- Save pattern (`draft -> saved`) and run runtime data entry
+- Auto-prefill from submitted parent/ancestor forms
+- Show submitted runtime data in a table
 
-## Core UX Flow
-1. Design Mode (`Pattern Status: Draft`)
-- Create/edit/delete forms
-- Add/remove fields
-- Create/delete links between forms
-- Mark fields as required
-- Save workflow designs (supports multiple)
+## Local Setup
+1. Install dependencies
+- `npm install`
 
-2. Save Pattern
-- Locks structure for runtime (`Pattern Status: Saved`)
-- Enables run-time user data entry
+2. Run app
+- `npm run dev`
 
-3. Run Form Data
-- Submit values per form
-- Required fields are validated
-- `Enable Prefill Suggestions For This Form` appears only when the selected form has upstream linked forms
-- Prefill pulls from submitted ancestor/parent forms using key + compatible type matching
+3. Build
+- `npm run build`
+
+4. Preview build
+- `npm run preview`
+
+## Test Commands
+- `npm run test`
+- `npm run test:run`
+
+Note: This repository contains very large data folders. In some environments, Vitest may hit memory limits due process constraints.
 
 ## Data Layers
-### 1) Raw Organized Data
+1. Raw normalized extraction:
 - `organized_data/operations/*.json`
 - `organized_data/schemas/*.json`
 
-### 2) Merged Export-Oriented Data
+2. Merged export-oriented layer:
 - `organized_data_merged/operations/*.json`
 - `organized_data_merged/schemas/*.json`
 
-These merge suffix variants into stem-level entities and preserve provenance.
-
-### 3) Linked Operation-Schema Layer
+3. Linked operation-schema layer:
 - `organized_data_linked/operation_schema_links.json`
 - `organized_data_linked/schema_operation_links.json`
 - `organized_data_linked/component_groups.json`
-- `organized_data_linked/linking_manifest.json`
-- `organized_data_linked/linking_warnings.json`
 
-This layer provides confidence-scored links between operation stems and schema stems.
-
-## Source Object Behavior in UI
-`src/sourceCatalog.ts` chooses source mode automatically:
-- `linked` mode (default when `organized_data_linked/component_groups.json` exists)
+## Source Object Mode
+`src/sourceCatalog.ts` auto-selects source mode:
+- `linked` mode when linked data exists
 - fallback `merged` mode otherwise
 
-In linked mode, only operation components with `high` or `medium` schema confidence are shown as selectable source objects.
+In linked mode, UI source objects are filtered to high/medium confidence links.
 
-## Project Structure (Important Paths)
-- App UI/runtime logic: `src/App.tsx`
-- Source object catalog logic: `src/sourceCatalog.ts`
-- Mapping helpers: `src/mappings.ts`
-- Graph utilities: `src/graph.ts`
-- Types: `src/types.ts`
-- Merge scripts:
-  - `scripts/merge_operations_for_export.mjs`
-  - `scripts/merge_schemas_for_export.mjs`
-- Linking script:
-  - `scripts/build_operation_schema_links.mjs`
+## Main Scripts
+App:
+- `npm run dev`
+- `npm run build`
+- `npm run preview`
+- `npm run test`
+- `npm run test:run`
 
-## NPM Scripts
-### App
-- `npm run dev` - start Vite dev server
-- `npm run build` - TypeScript + production build
-- `npm run preview` - preview production build
-
-### Extraction / Organization Pipeline
-- `npm run extract:seed`
-- `npm run extract:playwright`
-- `npm run scrape:ops:batch`
-- `npm run scrape:schemas:batch`
-- `npm run scrape:merge`
-- `npm run scrape:ops:retry-queue`
-- `npm run scrape:ops:retry`
-- `npm run scrape:organize`
-- `npm run build:final-structure`
-
-### Merge + Link Normalization
+Data pipeline:
 - `npm run merge:operations`
 - `npm run merge:schemas`
 - `npm run link:ops-schemas`
+- plus scrape/extract scripts in `package.json`
 
-## Local Run
-1. Install dependencies:
-- `npm install`
+## Key Features Implemented
+- Componentized UI panels and sections
+- Business logic extracted into hooks:
+  - `useWorkflowDesigns`
+  - `useFormRuntime`
+  - `useGraphEditing`
+- Form-level prefill toggle in runtime mode
+- Required-field validation blocking submission
+- Submitted-only temporary stored data table
 
-2. Start app:
-- `npm run dev`
-
-If API env vars are unavailable, app can run in local/mock behavior depending on current API setup.
-
-## Optional API Environment Variables
-Create `.env`:
-
-```bash
-VITE_API_BASE_URL=https://your-host
-VITE_TENANT_ID=123
-VITE_BLUEPRINT_ID=bp_456
-VITE_BLUEPRINT_VERSION_ID=bpv_123
-VITE_API_TOKEN=token_here
-```
-
-## Mapping and Save Notes
-- Mapping precedence:
-1. `nodes[].data.dl_input_mapping` (primary)
-2. `forms[].default_input_mapping` (fallback)
-
-- PUT graph updates use partial-safe payload strategy to avoid full-object destructive overwrite.
-
-## Current Status
-Implemented and working in repo:
-- Multiple workflow design save/load/delete
-- Form link delete support
-- Remove-field behavior fixed
-- Form-level runtime prefill from ancestors
-- Required-field runtime validation
-- Linked data source filtering by confidence (high/medium)
+## Where To Read More
+- Architecture: `ARCHITECTURE.md`
+- Testing details: `TEST.md`

@@ -34,6 +34,8 @@ body {
   border: 1px solid #d8deea;
   border-radius: 10px;
   padding: 12px;
+  min-width: 0;
+  overflow: hidden;
 }
 
 .row {
@@ -69,6 +71,8 @@ body {
   border-radius: 8px;
   cursor: pointer;
   padding: 8px 10px;
+  max-width: 100%;
+  overflow-wrap: anywhere;
 }
 
 .fieldBtn {
@@ -100,8 +104,21 @@ body {
   border: 1px dashed #cbd5e1;
   border-radius: 8px;
   overflow: auto;
+  max-width: 100%;
   font-family: Consolas, monospace;
   font-size: 12px;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.sourceFieldList {
+  max-height: 220px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  white-space: normal;
+}
+
+.draftFieldList {
+  max-height: 110px;
 }
 
 .modal {
@@ -142,6 +159,7 @@ body {
   align-items: center;
   flex-wrap: wrap;
   margin: 8px 0;
+  min-width: 0;
 }
 
 .toolbar select {
@@ -157,6 +175,16 @@ body {
 }
 
 .formRow input {
+  padding: 8px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  width: 100%;
+  min-width: 0;
+}
+
+.formRow select {
+  width: 100%;
+  min-width: 0;
   padding: 8px;
   border: 1px solid #cbd5e1;
   border-radius: 8px;

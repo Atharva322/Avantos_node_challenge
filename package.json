@@ -18,18 +18,23 @@
     "build:final-structure": "node scripts/build_final_structure.mjs",
     "merge:operations": "node scripts/merge_operations_for_export.mjs",
     "merge:schemas": "node scripts/merge_schemas_for_export.mjs",
-    "link:ops-schemas": "node scripts/build_operation_schema_links.mjs"
+    "link:ops-schemas": "node scripts/build_operation_schema_links.mjs",
+    "test": "vitest",
+    "test:run": "vitest run"
   },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@testing-library/react": "^16.3.0",
     "@types/react": "^18.3.12",
     "@types/react-dom": "^18.3.1",
     "@vitejs/plugin-react": "^4.3.3",
+    "jsdom": "^26.1.0",
     "playwright": "^1.54.2",
     "typescript": "^5.6.3",
-    "vite": "^5.4.10"
+    "vite": "^5.4.10",
+    "vitest": "^2.1.9"
   }
 }
